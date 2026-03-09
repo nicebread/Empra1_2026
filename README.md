@@ -1,7 +1,7 @@
 # Course material for "Forschungsorientiertes Praktikum I – Grundlagen der Forschung" in BSc Psychology of LMU Munich (2nd semester)
 
 ![](https://img.shields.io/badge/Semester-Summer%20term%202026-informational?logo=&style=flat&logoColor=333333&color=ff9300&labelColor=999999)
-![Static Badge](https://img.shields.io/badge/%F0%9F%8C%90%20%20Visit%20Website-blue?style=flat&color=blue&link=https%3A%2F%2Fnicebread.github.io%2FEmpra1_2026%2F)
+![Static Badge](https://img.shields.io/badge/%F0%9F%8C%90%20Visit%20Website-informational?link=https%3A%2F%2Fnicebread.github.io%2FEmpra1_2026%2F)
 
 > 📣 This repository currently has the state of the course from summer term 2024, and has still many PDF slides. This will be (a) updated to Quarto slides during the summer term 2026, and (b) made more generic, with less content for the specific study done.
 
