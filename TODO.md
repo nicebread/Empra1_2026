@@ -1,0 +1,2 @@
+- Run OS knowledge test at beginning and end of semester.
+- Breuer email: Attention Check

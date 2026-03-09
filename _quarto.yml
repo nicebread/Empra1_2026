@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: doc
+  render:
+    - "*.{qmd,R}"
+    - "!FEEDBACK.md"
+
+website:
+  title: "Forschungsorientiertes Praktikum I – Grundlagen der Forschung"
+  navbar:
+    search: true
+    left:
+      - text: Sessions
+        file: sessions/sessions_overview.qmd  
+      - text: Slides
+        file: slides/slides_overview.qmd
+      - about.qmd
+    right:
+      - icon: github
+        href: https://github.com/nicebread/Empra1
+        aria-label: GitHub
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    mermaid: 
+      version: "10.9.1"
+
+editor: source
+
+execute:
+  freeze: auto

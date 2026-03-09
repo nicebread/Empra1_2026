@@ -1,0 +1,365 @@
+---
+title: "Research Data Management & Open Data"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: 2024-04-27
+footer: "Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format: 
+  nicetheme-revealjs: 
+    output-ext: slide.html
+    transition: slide    
+  html: default
+revealjs-plugins:
+  - attribution 
+---
+
+<!-- Dauer: 25 min. -->
+
+## Open Science in the research process
+
+<!-- Insert blank lines -->
+<br>
+
+<div style="text-align: center;">
+![](img/Open_Science_in_research_process.jpg){width=750px}
+</div>
+
+
+
+::: footer
+get all material here: [https://osf.io/zjrhu/](https://osf.io/zjrhu/)
+:::
+
+# Why open data?
+
+## Why open data?
+### 1. Nullius in verba
+
+::: columns
+::: {.column width="70%"}
+
+- take nobody's word for it
+- Motto of the oldest scientific
+  society (Royal Society, founded 1660)
+- Science is not built upon blind
+  trust, but on verifiability.
+- "Organized skepticism"
+  (Merton, 1947)
+:::
+::: {.column width="30%"}
+![](img/Nullius_in_verba.jpg){width=300px}
+:::
+:::
+
+::: {.callout-important style="font-size: 32px;"}
+Only when raw data (and other research material) are shared organized skepticism can be enacted, and science can really be self-correcting. Open data is one part of good scientific practice.
+:::
+
+
+
+## Why open data?
+### 2. Efficiency and Inclusiveness
+
+- Speedy responses in outbreaks; share rare and hard-to-collect data
+
+<div style="text-align: center;">
+![](img/Efficiency_and_Inclusiveness.jpg){height=260px}
+</div>
+
+::: {.callout-important style="font-size: 32px;"}
+The covid-19 pandemic has shown how fast scientific progress can be when we share our data and knowledge freely, and that free knowledge is a moral imperative.
+:::
+
+
+
+## Why open data?
+### 3. Public money = public good
+
+<div style="text-align: center;">
+![](img/Public_money.jpg){ width=600px}
+</div>
+
+::: footer
+[https://publiccode.eu/en/](https://publiccode.eu/en/)
+::: 
+
+::: {.callout-important style="font-size: 32px;"}
+Publicly funded research data does not belong to the researcher who collected it. S/he has the right of primary usage, but after that the data should be considered a public good (of course respecting privacy rights and applicable copyrights).
+:::
+
+
+
+## Why open data?
+### 4. Data persistence
+
+::: columns
+::: {.column width="60%"}
+- never lose data due to a crashed hard disk drive
+:::
+::: {.column width="40%"}
+<div style="text-align: center;">
+![](img/Data_persistence.jpg){width=200px}
+</div>
+:::
+:::
+
+
+::: {.callout-important style="font-size: 32px;"}
+A publicly funded repository is the right place for long term storage of research data – not your private USB stick, your personal university website (that vanishes after you change affiliation), or the journal’s online supplemental material that hides the data behind a paywall.
+:::
+
+
+
+## Why open data?
+### 5. More and more funders and journals demand it.
+
+<div style="text-align: center;">
+![](img/Top_Guidelines.jpg){width=750px}
+</div>
+
+
+
+# What is open data?
+
+## What is Data?
+
+<!-- Insert blank lines -->
+<br>
+<br>
+<br>
+
+> "The recorded factual material commonly retained by and
+accepted in the scientific community as necessary to validate
+research findings." (EPSRC, 2018)
+
+
+<div style="text-align: center;">
+![](img/What_Is_Data_1.jpg)
+</div>
+
+::: footer
+Icon from [flaticon.com](https://www.flaticon.com/) by freepic
+::: 
+
+
+
+## What is Data?
+
+<!-- Insert blank lines -->
+<br>
+
+<div style="text-align: center; margin-top: -40px;">
+![](img/What_Is_Data_2.jpg){width=750px}
+</div>
+
+::: {.smaller}
+<div style="text-align: center;" "margin-top: -40px;">
+➙ we need field-specific definitions: What constitutes "research data"?
+</div>
+:::
+
+::: footer
+::: {.smallest}
+Pictures from [en.wikipedia.org/w/index.php?curid=36808161](en.wikipedia.org/w/index.php?curid=36808161); [pixabay.com](pixabay.com); [pxhere.com/en/photo/1192476](pxhere.com/en/photo/1192476); [pxhere.com/en/photo/914805](pxhere.com/en/photo/914805); [pxhere.com/en/photo/595225](pxhere.com/en/photo/595225);
+[commons.wikimedia.org/wiki/File:Gdp_real_growth_rate_2007_CIA_Factbook.PNG](commons.wikimedia.org/wiki/File:Gdp_real_growth_rate_2007_CIA_Factbook.PNG)
+:::
+::: 
+
+
+
+## Example: Psychology
+
+<!-- Insert blank lines -->
+<br>
+<div style="text-align: center;">
+![](img/Example_Psychology.jpg){width=750px}
+</div>
+
+<div style="text-align: center;">
+::: {.smaller}
+Recommendations of the German Psychological Association, [https://psyarxiv.com/24ncs/](https://psyarxiv.com/24ncs/)
+:::
+</div>
+
+::: {.attribution style="font-size: 12px;"}
+[https://osf.io/preprints/psyarxiv/vhx89](https://osf.io/preprints/psyarxiv/vhx89)
+:::
+
+
+
+
+## Not only open, but FAIR
+
+<!-- Insert blank lines -->
+<br>
+<div style="text-align: center;">
+![](img/The_FAIR_Principles.jpg){width=650px}
+</div>
+
+::: footer
+Icon from [flaticon.com](https://www.flaticon.com/) by freepic, mynamepong, monkik <br>       FORCE11(2011)
+:::
+
+
+
+# Balancing values: <br> Three fields of tension with <br> (human subject) data
+
+## Balancing values
+<!-- Insert blank lines -->
+<br>
+<br>
+<br>
+
+<div style="text-align: center;">
+
+```{mermaid}
+
+flowchart LR
+    A["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'>Open Data, public interest <br> entitlement to publicly funded data</div>"] <--> B["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'>Privacy rights of <br> research subjects</div>"]
+    C["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'>Right of first usage, <br> incentives to collect data in the first place</div>"] <--> D["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'>Optimal and efficient gain of <br> knowledge by data reuse</div>"]
+    E["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'>Reproducibility and verifiability of <br> published analyses</div>"] <--> F["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'>Protect original authors against <br> inadequate burden and potential attacks</div>"]
+
+    
+```
+</div>
+
+
+## Balancing values 1
+
+<div style="text-align: center;">
+
+```{mermaid}
+
+flowchart LR
+
+    A["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'>Open Data, public interest <br> entitlement to publicly funded data</div>"] <--> B["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'>Privacy rights of <br> research subjects</div>"]
+    
+```
+</div>
+
+
+- Privacy rights > openness; but also: "legitimate interest" of
+  research
+- Ask participants for a broad consent of open reuse
+- Restrict access with "scientific use files"; publish aggregated data (e.g., ratings of videos)   without the primary data (videos)
+- Sharing something > sharing nothing
+- As open as possible, as restricted as necessary
+
+
+
+## Balancing values 2
+
+<div style="text-align: center;">
+```{mermaid}
+
+flowchart LR
+
+C["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'>Right of first usage, <br> incentives to collect data in the first place</div>"] <--> D["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'>Optimal and efficient gain of <br> knowledge by data reuse</div>"]
+``` 
+</div>
+
+- Right of first usage, possibility of embargo
+- At the end of the day (resp., the embargo), all data are as open as possible
+- Incentivize data sharing
+
+
+
+## 
+
+<div style="text-align: center;">
+![](img/Story_1.jpg){width=750px}
+
+</div>
+
+## 
+
+<div style="text-align: center;">
+![](img/Story_2.jpg){width=750px}
+
+</div>
+
+## Balancing values 3
+
+<div style="text-align: center;">
+```{mermaid}
+
+flowchart LR
+
+E["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'>Reproducibility and verifiability of <br> published analyses</div>"] <--> F["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'>Protect original authors against <br> inadequate burden and potential attacks</div>"]
+``` 
+
+</div>
+
+- Primary focus: openness and transparency. Correcting
+  errors is painful, but a necessary condition for doing
+  science
+- Data providers should be informed if their data are
+  going to be reused or reanalyzed ➙ allows to prepare a
+  reaction
+
+
+
+## Balancing values 3
+
+<div style="text-align: center;">
+```{mermaid}
+
+flowchart LR
+
+E["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'>Reproducibility and verifiability of <br> published analyses</div>"] <--> F["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'>Protect original authors against <br> inadequate burden and potential attacks</div>"]
+``` 
+
+</div>
+
+- Problematic asymmetry:
+  - Data provided ➙ often errors get detected
+  - No data provided ➙ no errors are detected (because not
+    possible). Default assumption: "Everything is OK. Perfect paper,
+    because no errors are spotted!"
+- Making oneself vulnerable is good for science, and should also be
+  good for reputation!
+- Change default assumption?
+  "No data ➙ Probably erroneous analysis."
+
+
+
+## Success stories
+
+<!-- Insert blank lines -->
+<br>
+
+<div style="text-align: center; margin-top: -40px;">
+![](img/Success_stories.jpg){width=750px}
+
+</div>
+
+::: footer
+[https://www.cell.com/action/showPdf?pii=S0969-2126%2812%2900018-4](https://www.cell.com/action/showPdf?pii=S0969-2126%2812%2900018-4)
+:::
+
+
+
+## Resources
+
+<!-- Insert blank lines -->
+<br>
+
+<div style="text-align: center; margin-top: -40px;">
+![](img/Resources.jpg){width=700px}
+</div>
+
+::: footer
+[https://www.osc.uni-muenchen.de/toolbox/index.html](https://www.osc.uni-muenchen.de/toolbox/index.html)
+:::
+
+<div style="position: absolute; top: 0; right: 0; z-index: 10;">
+![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
+    
+</div>
+
+<!-- Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```

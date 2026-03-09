@@ -1,0 +1,109 @@
+---
+title: "How (not) to report a power analysis"
+subtitle: ""
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: 2024-04-19
+footer: "Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format: 
+  nicetheme-revealjs: 
+    output-ext: slide.html
+    transition: slide    
+  html: default
+revealjs-plugins:
+  - attribution 
+---
+
+
+## Reproducibility & Justification
+### A well reported power analysis means:
+
+::: {.smaller}
+-  Minimum: Anybody can reproduce the computations (without
+ambiguities and guessing), and get to the same result.
+-  Optimal: Key choices are justified. Most importantly: the assumed effect
+size. But also: Why α=5% Why power = 80%?
+:::
+
+### What information do you need to compute a power analysis?
+
+::: {.smallest}
+- Type of power analysis:
+  - A priori: compute N, given alpha, power, ES
+  - Post-hoc: compute power, given alpha, N, ES
+  - Criterion: compute alpha, given power, ES, N
+  - Sensitivity: compute ES, given alpha, power, N
+  - Design: Correlations? t-test? Two-group or paired? Linear model?
+- α = .05? .005?
+- Power = 80%?
+- One-sided or two-sided test?
+- Expected / Minimally interesting effect size
+-The metric of the effect size (*d*? *r*? $f^2$?)
+:::
+
+## Write-Up
+![](img/writing-power-analysis.png)
+
+:::{.footer}
+[https://twitter.com/GuyProchilo/status/1292780240977223681](https://twitter.com/GuyProchilo/status/1292780240977223681)
+:::
+
+## Let's check an issue from a journal ...
+### How are power analyses reported in practice?
+![](img/research-articles.png)
+
+## Example 1
+![](img/example1.png)
+
+```{r, eval=FALSE,echo=TRUE}
+# 10.1002/ejsp.2710: f2 = 0.07
+# u: Number of predictors in the model (without intercept). Here presumably 3.
+# n = v + u + 1; v = n- u - 1
+pwr.f2.test(u = 3, v = 152-3-1, sig.level = 0.05, power = 0.8)
+# -> f2 = 0.07366273
+```
+
+## Example 2
+![](img/example2.png)
+
+## Example 3
+![](img/example3.png)
+
+## Example 4
+![](img/example4.png)
+
+```{r, eval=FALSE,echo=TRUE}
+# 10.1002/ejsp.2713
+# guessing the ES and alpha
+pwr.f2.test(u=3, f2=0.0435, sig.level = 0.05, power = 0.8)
+# n -> 255
+```
+
+
+## Example 5
+![](img/example5.png)
+
+```{r, eval=FALSE,echo=TRUE}
+# 10.1002/ejsp.2715
+pwr.f2.test(u=1, f2=0.05, sig.level = 0.05, power = 0.8)
+# n = 158
+```
+
+
+
+
+## Example 6
+![](img/example6.png)
+
+
+::: footer
+Siehe [https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html](https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html)
+:::
+
+
+<!--Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```
