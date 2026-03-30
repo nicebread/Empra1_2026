@@ -28,6 +28,12 @@ quarto add quarto-ext/fontawesome
 quarto install extension nicebread/quarto-FS
 ```
 
+To update the theme to the current version, run:
+
+```sh
+quarto update nicebread/quarto-FS
+```
+
 ## Notes to self:
 
 - The default presentation size is 1050 x 700.

@@ -1,27 +1,34 @@
 ---
-title: "Forschungsorientierte Praktikum I – Grundlagen der Forschung"
-subtitle: "BSc Psychologie, LMU"
+title: "Forschungsorientierte Praktikum I – Grundlagen der Forschung (BSc Psychologie, LMU)"
+subtitle: "Robust Evidence: A Workflow for Reproducible, Collaborative, and Transparent Research"
 toc: false
 ---
 
+# Robust Evidence: A Workflow for Reproducible, Collaborative, and Transparent Research
+
 *Note: This project is a mixture of English and German text. Sorry for that.*
 
-# Sessions Overview
+This course is held in the 2nd semester of the BSc. Psychology at the [Department Psychology, Ludwig-Maximilians-Universität München](https://lmu.de/psy). See the [Sessions](sessions/sessions_overview.qmd) section for a description of each session. In these sessions, sometimes [lecture slides](slides/slides_overview.qmd) are linked.
 
-| #   | Date       | Topic                                                                           | Notes                                         | Homework                                                            |
-| --- | ---------- | ------------------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------- |
-| 1   | 2024-04-19 | [S1 - Formalitäten, Open Science, p-hack](sessions/S1-Introduction.qmd)         |                                               | create OSF account; practice p-hacking                              |
-| 2   | 2024-04-26 | [S2 - Einführung Intimitätsmotiv](sessions/S2-Intimacy.qmd)                     |                                               | Develop interventions                                               |
-| 3   | 2024-05-03 | [S3 - Motive 2; Kausalität](sessions/S3-Motives_Causality.qmd)                  |                                               | Read Ch. 1 of Experimentology                                       |
-| 4   | 2024-05-10 | [S4 - Studie planen](sessions/S4-DesignPlanning.qmd)                            | Fragebögen überarbeiten; Ziel: Hyp aufstellen | HA: Vp-Akquise in Gruppen planen (Material, Kanäle, etc.);          |
-| 5   | 2024-05-17 | [S5 - Poweranalyse; Literaturrecherche](sessions/S5-LitSearch_Power.qmd)        |                                               | Literaturrecherche in Gruppe machen; Read Preregistration Challenge |
-| 6   | 2024-05-24 | [S6 - Prereg intro](sessions/S6-Prereg1.qmd)                                    |                                               |                                                                     |
-| 7   | 2024-05-31 | [S7 - Finalize design](sessions/S7-Finalize_interventions.qmd)                  |                                               | Studie testen                                                       |
-| 8   | 2024-06-07 | [S8 Letzter Feinschliff Studie](sessions/S8_9-Finalize_study.qmd)               |                                               | Open data lesen; Studienstart ganz fertig machen                    |
-| 9   | 2024-06-14 | S9 Letzter Feinschliff Studie - continued                                       |                                               | Studie vorbereiten                                                  |
-| 10  | 2024-06-21 | [S10 - Open Data](sessions/S10-Open_Data.qmd)                                   |                                               | Codebuch erstellen                                                  |
-| 11  | 2024-06-28 | [S11 - Good coding practices; Quarto 1](sessions/S11-Good_coding_practices.qmd) |                                               | Quarto / Rmarkdown self-paced tutorial                              |
-| 12  | 2024-07-05 | [S12 - How to Hausarbeit](sessions/S12-How_to_Hausarbeit.qmd)                   | Studienstart!                                 | VP-Akquise; Deskriptive Statistiken vorbereiten                     |
-| 13  | 2024-07-12 | [S13 - Data Analysis](sessions/S13-Data_Analysis.qmd)                           |                                               |                                                                     |
-| 14  | 2024-07-19 | [S14 - Finalization](sessions/S14-Finalization.qmd)                             | Studienende                                   |                                                                     |
 
+## Course Announcement
+
+The focus of this empirical psychology research practicum is less on a specific subject area but more on acquiring solid research methodology, both conceptually and practically. The aim is to develop professional and efficient working practices that will support you throughout your studies and beyond.
+
+You will learn key tools and standards of scientific work, including:
+
+* File versioning and collaborative work with Git
+* Reproducible notebooks and manuscripts using Quarto
+* Best practices in data analysis (folder structure, code commenting, reflective use and integration of AI)
+* Strategies for systematic error prevention
+
+In the area of research methods, you will gain knowledge in:
+
+* Preregistration of hypotheses and analysis plans
+* Preparing data for scientific publication (“Open Data”; anonymization, documentation using a codebook)
+* Reproducible statistical analysis in R, ensuring results are fully traceable for others
+* Sample size planning to ensure sufficiently strong evidence for or against a hypothesis
+
+In terms of content, we will join a global replication project (CREP; [https://www.crep-psych.org](https://www.crep-psych.org)) and participate in a “ManyLabs” study. As one of several sites, we will replicate an existing experiment; our data will then be incorporated into a cross-site meta-analysis. Data collection will take place as a joint online study conducted by the entire group.
+
+This research practicum places higher demands on mathematical and formal thinking as well as on your programming skills. At minimum, knowledge of R as taught in Statistics I and II is required. In addition, a willingness is expected to independently work through more advanced programming content using the provided materials.

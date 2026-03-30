@@ -6,15 +6,15 @@ description: Open Science
 
 # Overview
 
-| Topic                               | Duration | Notes                                                                                                                                        |
-| :---------------------------------- | :------: | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Begrüßung                           |    5     | Ankündigung: Zeitslot: 10:00-13:00, aber bis 14:00 freihalten                                                                                |
-| Empra Formalia                      |    25    | [Folien](../slides/Empra-Orga/Empra-Orga.qmd). Kerncurriculum: Präregistrierung, Open data + Codebook, Poweranalyse, Reproduzierbare Skripte |
-| Vorstellungsrunde                   |    15    |                                                                                                                                              |
-| p-hack your way to scientific glory |    60    | [Folien](../slides/pdfs/Schoenbrodt_2024-p-hack_like_a_pro.pdf)                                                                                                                               |
-| Pause                               |    15    |                                                                                                                                              |
-| Einführung Open Science             |    60    | [Folien](../slides/pdfs/Schoenbrodt-2022-04_Open_Science_Primer.pdf)                                                                                                                               |
-| Hausaufgabe: p-hacking üben         |    5     |                                                                                                                                              |
+| Topic                               | Duration | Notes                                                                 |
+| :---------------------------------- | :------: | --------------------------------------------------------------------- |
+| Introduction                        |    5     | Ankündigung: Zeitslot: 10:00 (s.t.) -13:00, aber bis 14:00 freihalten |
+| Empra Formalia                      |    25    | [Slides](../slides/Empra-Orga/Empra-Orga.qmd).                        |
+| Students' introduction              |    15    |                                                                       |
+| p-hack your way to scientific glory |    60    | [Slides](../slides/pdfs/Schoenbrodt_2024-p-hack_like_a_pro.pdf)       |
+| Break                               |    15    |                                                                       |
+| Introduction Open Science           |    60    | [Slides](../slides/pdfs/Schoenbrodt-2022-04_Open_Science_Primer.pdf)  |
+| Homework: Practice p-hacking        |    5     |                                                                       |
 
 : {.striped}
 
