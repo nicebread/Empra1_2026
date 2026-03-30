@@ -2,15 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felix Schönbrodt">
-<meta name="dcterms.date" content="2024-04-19">
+<meta name="dcterms.date" content="2026-04-17">
 
 <title>Forschungsorientierte Praktikum I – Grundlagen der Forschung – Forschungsorientiertes Praktikum I – Grundlagen der Forschung</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -69,15 +72,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="../../">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f93c2b1f3f0577f377aefa4848a86a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-baf333abd407eb98d8b56c64a19f8930.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -253,7 +255,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 19, 2024</p>
+      <p class="date">April 17, 2026</p>
     </div>
   </div>
   
@@ -285,7 +287,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li><strong>Stichprobenplanung</strong>, in der Regel eine a-priori Poweranalyse</li>
 <li><strong>Präregistrierung</strong> der Hypothesen, Operationalisierungen, Stichprobenplanung und der statistischen Analysemethode</li>
-<li><strong>Open Data</strong> (mit Codebuch): Offene Daten werden von immer mehr Zeitschriften verlangt und werden generell zum Standard für vertrauenswürdiges Forschen</li>
+<li><strong>Open Data</strong> (mit Codebuch): Offene Daten als Standard für vertrauenswürdiges Forschen</li>
 <li><strong>Reproduzierbare Analyseskripte</strong></li>
 </ul>
 </section>
@@ -310,7 +312,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>Studiendesign entwickeln:
 <ul>
-<li>Methode vorgegeben: Experience Sampling</li>
 <li>Operationalisierung von Konstrukten</li>
 <li>Stichprobe planen (Population, Stichprobengröße -&gt; Poweranalyse)</li>
 <li>Experimentelles Design: Wie kann man kausale Effekte messen? Evtl. Kontrolle von Störvariablen</li>
@@ -322,7 +323,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Experimentalsoftware programmieren</li>
 </ul></li>
 <li>Präregistrierung: Hypothesen, Design, Operationalisierung, Analysen</li>
-<li>Durchführung: Rekrutierung, Erhebung, Betreuung</li>
+<li>Durchführung der Datenerhebung: Rekrutierung, Erhebung, Betreuung</li>
 </ul>
 </div>
 </section>
@@ -335,7 +336,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Wir arbeiten mit R</li>
 <li>Datenkodierung und –aufbereitung
 <ul>
-<li>Analysen durch Codebuch und offene Daten nachvollziehbar und reproduzierbar machen</li>
+<li>das Preprocessing reproduzierbar machen</li>
 <li>Anonymität berücksichtigen</li>
 </ul></li>
 <li>Statistische Auswertung
@@ -353,7 +354,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="einen-wissenschaftlichen-bericht-verfassen">(4) Einen wissenschaftlichen Bericht verfassen</h3>
 <ul>
 <li>Kommunikation der Forschung in die Fachöffentlichkeit</li>
-<li>Den Prozess nachvollziehbar machen: Rmarkdown/Quarto als reproduzierbare Art, einen Bericht zu schreiben</li>
+<li>Den Prozess nachvollziehbar machen: Quarto als reproduzierbare Art, einen Bericht zu schreiben</li>
 <li>Aufbau eines wissenschaftlichen Artikels:
 <ul>
 <li>Einleitung</li>
@@ -372,12 +373,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Unterricht in Kleingruppen (UK) mit 9 ECTS-Punkten</li>
 <li>≙ 3 Vorlesungen mit Klausur bzw. 3 Seminare mit Referat &amp; schriftlicher Ausarbeitung</li>
 <li>≙ 12h Zeitinvestition pro Woche (Präsenz + Vor- und Nachbereitung)</li>
-<li>(in Empra 1: Anwesenheitspflicht laut PStO 2020; max. 2 unentschuldigte Fehlstunden)
-<ul>
-<li>Siehe hierzu § 9 Absatz (3) Sätze 4 bis einschließlich 6 Informationen zur „regelmäßigen Teilnahme“ in der Prüfungs- und Studienordnung 2020: “Eine regelmäßige Teilnahme im Sinne der Anlage 2 ist dann nicht mehr gegeben, wenn Studierende aus selbst zu vertretenden Gründen an mehr als zwei der stattfindenden Veranstaltungstermine einer Lehrveranstaltung nicht teilnehmen.”</li>
-</ul></li>
+<li>Anwesenheitspflicht: max. 2 Fehlstunden ohne Attest</li>
 <li>Lektüre der für den jeweiligen Termin angegeben Literatur bzw. gründliche Erledigung der zugeteilten Aufgaben</li>
-<li>Aktive Mitarbeit beim Entwickeln der formalen Modelle und der Programmierung</li>
+<li>Aktive Mitarbeit bei der Datenerhebung</li>
 <li>Anforderungen für Hausarbeit (siehe nächste Folie)</li>
 </ul>
 </div>
@@ -393,10 +391,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Schriftgröße 12pt, Zeilenabstand 1.5x</li>
 <li>15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)</li>
 <li>Deckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung</li>
-<li>Wenn Sie in <code>papaja</code>/<code>Rmarkdown</code>/<code>apaquarto</code> schreiben:
+<li>Wenn Sie in <code>apaquarto</code> schreiben:
 <ul>
-<li>das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).</li>
-<li>Schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.</li>
+<li>das exportierte PDF ist von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).</li>
+<li>Schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die <em>Author Notes</em>.</li>
 </ul></li>
 <li>Kein Inhaltsverzeichnis</li>
 <li>Mindestens 5 Publikationen zitieren</li>
@@ -426,14 +424,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">author-note</span><span class="kw">:</span></span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">  correspondence-note</span><span class="kw">: </span><span class="ch">|</span></span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    Matrikelnr.: 123456789. This is the final report for the course</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    'Forschungsorientiertes Praktikum I', submitted on 2024-09-22.</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    'Forschungsorientiertes Praktikum I', submitted on 2026-08-22.</span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span></span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">apaquarto-pdf</span><span class="kw">:</span></span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">documentmode</span><span class="kw">:</span><span class="at"> man</span></span>
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">a4paper</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">pdf-engine</span><span class="kw">:</span><span class="at"> lualatex</span></span>
 <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">keep-tex</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">bibliography</span><span class="kw">:</span><span class="at"> Empra2024.bib</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">bibliography</span><span class="kw">:</span><span class="at"> Empra2026.bib</span></span>
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 </section>
@@ -446,12 +444,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Abgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)</li>
 <li>Zwei Versionen einreichen:
 <ul>
-<li>Vollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2024.pdf“</li>
+<li>Vollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2026.pdf“</li>
 <li>Anonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)
 <ul>
 <li>Diese Version wird benotet.</li>
-<li>Dateiname z.B.:„98234034_Empra_2024.pdf“</li>
-<li>Sie können in <code>papaja</code> einfach eine anonyme Version erzeugen, indem Sie im YAML-Header <code>mask: yes</code> angeben (siehe <a href="https://frederikaust.com/papaja_man/r-markdown-components.html">Anleitung</a>)</li>
+<li>Dateiname z.B.: “98234034_Empra_2026.pdf”</li>
 <li>Sie können in <code>apaquarto</code> einfach eine anonyme Version erzeugen, indem Sie im YAML-Header <code>mask: true</code> angeben (siehe <a href="https://wjschne.github.io/apaquarto/writing.html?q=anonym#masked-citations-for-anonymous-peer-review">Anleitung</a>)</li>
 </ul></li>
 </ul></li>
@@ -462,7 +459,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="hausarbeit-4">Hausarbeit</h2>
 <section id="bewertungsschema" class="level3">
 <h3 class="anchored" data-anchor-id="bewertungsschema">Bewertungsschema</h3>
-<p>Die Leistung wird standardisiert nach einem <a href="img/Orientierungshilfe_Notenvergabe_Empra_0.3.pdf">Bewertungsschema</a> bewertet.</p>
+<p>Seit der PStO 2025 gibt es keine Note mehr, sondern nur noch <em>bestanden/nicht bestanden</em>.</p>
+<div class="callout callout-style-default callout-warning no-icon callout-titled" title="❓ Hinweis">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>❓ Hinweis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Sind Studierende mit einer früheren PStO hier, die eine Note brauchen?</p>
+</div>
+</div>
+<p>Die Leistung wird standardisiert nach einem <a href="img/Orientierungshilfe_Notenvergabe_Empra_0.3.pdf">Bewertungsschema</a> bewertet. Das ist auch eine Checkliste, was am Ende alles in den Bericht rein muss.</p>
 <p><img src="img/Bewertungsschema.png" class="img-fluid"></p>
 </section>
 </section>
@@ -475,12 +486,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Es muss jedoch klar sein, was die Eigenleistung des/der Studierenden ist, und dass die Verantwortung für den Inhalt der Arbeit beim Autor bzw. der Autorin liegt.</li>
 <li>Am Ende der Hausarbeit müssen Sie entsprechend zwei Erklärungen anhängen:
 <ul>
-<li><ol type="a">
 <li>eine Eigenständigkeitserklärung (siehe nächste Folie)</li>
-</ol></li>
-<li><ol start="2" type="a">
 <li>eine ergänzende Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess anhängen (siehe übernächste Folie).</li>
-</ol></li>
 </ul></li>
 </ul>
 </section>
@@ -684,7 +691,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/nicebread\.github\.io\/Empra1_2026\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
