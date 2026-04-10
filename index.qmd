@@ -1,10 +1,8 @@
 ---
-title: "Forschungsorientierte Praktikum I – Grundlagen der Forschung (BSc Psychologie, LMU)"
-subtitle: "Robust Evidence: A Workflow for Reproducible, Collaborative, and Transparent Research"
+title: "Robust Evidence: A Workflow for Reproducible, Collaborative, and Transparent Research"
+subtitle: "Forschungsorientierte Praktikum I – Grundlagen der Forschung<br>(BSc Psychologie, LMU, Summer term 2026)"
 toc: false
 ---
-
-# Robust Evidence: A Workflow for Reproducible, Collaborative, and Transparent Research
 
 *Note: This project is a mixture of English and German text. Sorry for that.*
 

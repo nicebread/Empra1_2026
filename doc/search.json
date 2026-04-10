@@ -1131,7 +1131,7 @@
     "href": "slides/Empra-Orga/Empra-Orga.html#ziele-1",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "Ziele",
-    "text": "Ziele\n\nKerncurriculum “Gute wissenschaftliche Praxis”\n\nStichprobenplanung, in der Regel eine a-priori Poweranalyse\nPräregistrierung der Hypothesen, Operationalisierungen, Stichprobenplanung und der statistischen Analysemethode\nOpen Data (mit Codebuch): Offene Daten werden von immer mehr Zeitschriften verlangt und werden generell zum Standard für vertrauenswürdiges Forschen\nReproduzierbare Analyseskripte"
+    "text": "Ziele\n\nKerncurriculum “Gute wissenschaftliche Praxis”\n\nStichprobenplanung, in der Regel eine a-priori Poweranalyse\nPräregistrierung der Hypothesen, Operationalisierungen, Stichprobenplanung und der statistischen Analysemethode\nOpen Data (mit Codebuch): Offene Daten als Standard für vertrauenswürdiges Forschen\nReproduzierbare Analyseskripte"
   },
   {
     "objectID": "slides/Empra-Orga/Empra-Orga.html#ziele-2",
@@ -1145,63 +1145,63 @@
     "href": "slides/Empra-Orga/Empra-Orga.html#ziele-3",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "Ziele",
-    "text": "Ziele\n\n(2) Eine Studie planen und durchführen\n\n\nStudiendesign entwickeln:\n\nMethode vorgegeben: Experience Sampling\nOperationalisierung von Konstrukten\nStichprobe planen (Population, Stichprobengröße -&gt; Poweranalyse)\nExperimentelles Design: Wie kann man kausale Effekte messen? Evtl. Kontrolle von Störvariablen\n\nPraktische Versuchsplanung\n\nAkquise Vpn\nMaterial entwickeln\nExperimentalsoftware programmieren\n\nPräregistrierung: Hypothesen, Design, Operationalisierung, Analysen\nDurchführung: Rekrutierung, Erhebung, Betreuung"
+    "text": "Ziele\n\n(2) Eine Studie planen und durchführen\n\n\nStudiendesign entwickeln:\n\nOperationalisierung von Konstrukten\nStichprobe planen (Population, Stichprobengröße -&gt; Poweranalyse)\nExperimentelles Design: Wie kann man kausale Effekte messen? Evtl. Kontrolle von Störvariablen\n\nPraktische Versuchsplanung\n\nAkquise Vpn\nMaterial entwickeln\nExperimentalsoftware programmieren\n\nPräregistrierung: Hypothesen, Design, Operationalisierung, Analysen\nDurchführung der Datenerhebung: Rekrutierung, Erhebung, Betreuung"
   },
   {
     "objectID": "slides/Empra-Orga/Empra-Orga.html#ziele-4",
     "href": "slides/Empra-Orga/Empra-Orga.html#ziele-4",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "Ziele",
-    "text": "Ziele\n\n(3) Die Daten auswerten\n\nWir arbeiten mit R\nDatenkodierung und –aufbereitung\n\nAnalysen durch Codebuch und offene Daten nachvollziehbar und reproduzierbar machen\nAnonymität berücksichtigen\n\nStatistische Auswertung\n\nDeskriptivstatistik\nZu den Hypothesen passende Analysen rechnen\nAnalysen durch reproduzierbare Skripte nachvollziehbar machen"
+    "text": "Ziele\n\n(3) Die Daten auswerten\n\nWir arbeiten mit R\nDatenkodierung und –aufbereitung\n\ndas Preprocessing reproduzierbar machen\nAnonymität berücksichtigen\n\nStatistische Auswertung\n\nDeskriptivstatistik\nZu den Hypothesen passende Analysen rechnen\nAnalysen durch reproduzierbare Skripte nachvollziehbar machen"
   },
   {
     "objectID": "slides/Empra-Orga/Empra-Orga.html#ziele-5",
     "href": "slides/Empra-Orga/Empra-Orga.html#ziele-5",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "Ziele",
-    "text": "Ziele\n\n(4) Einen wissenschaftlichen Bericht verfassen\n\nKommunikation der Forschung in die Fachöffentlichkeit\nDen Prozess nachvollziehbar machen: Rmarkdown/Quarto als reproduzierbare Art, einen Bericht zu schreiben\nAufbau eines wissenschaftlichen Artikels:\n\nEinleitung\nMethode\nErgebnisse\nDiskussion\n\nBericht = Hausarbeit als Prüfungsleistung"
+    "text": "Ziele\n\n(4) Einen wissenschaftlichen Bericht verfassen\n\nKommunikation der Forschung in die Fachöffentlichkeit\nDen Prozess nachvollziehbar machen: Quarto als reproduzierbare Art, einen Bericht zu schreiben\nAufbau eines wissenschaftlichen Artikels:\n\nEinleitung\nMethode\nErgebnisse\nDiskussion\n\nBericht = Hausarbeit als Prüfungsleistung"
   },
   {
     "objectID": "slides/Empra-Orga/Empra-Orga.html#formalia-des-empras",
     "href": "slides/Empra-Orga/Empra-Orga.html#formalia-des-empras",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "Formalia des Empras",
-    "text": "Formalia des Empras\n\n\nUnterricht in Kleingruppen (UK) mit 9 ECTS-Punkten\n≙ 3 Vorlesungen mit Klausur bzw. 3 Seminare mit Referat & schriftlicher Ausarbeitung\n≙ 12h Zeitinvestition pro Woche (Präsenz + Vor- und Nachbereitung)\n(in Empra 1: Anwesenheitspflicht laut PStO 2020; max. 2 unentschuldigte Fehlstunden)\n\nSiehe hierzu § 9 Absatz (3) Sätze 4 bis einschließlich 6 Informationen zur „regelmäßigen Teilnahme“ in der Prüfungs- und Studienordnung 2020: “Eine regelmäßige Teilnahme im Sinne der Anlage 2 ist dann nicht mehr gegeben, wenn Studierende aus selbst zu vertretenden Gründen an mehr als zwei der stattfindenden Veranstaltungstermine einer Lehrveranstaltung nicht teilnehmen.”\n\nLektüre der für den jeweiligen Termin angegeben Literatur bzw. gründliche Erledigung der zugeteilten Aufgaben\nAktive Mitarbeit beim Entwickeln der formalen Modelle und der Programmierung\nAnforderungen für Hausarbeit (siehe nächste Folie)"
+    "text": "Formalia des Empras\n\n\nUnterricht in Kleingruppen (UK) mit 9 ECTS-Punkten\n≙ 3 Vorlesungen mit Klausur bzw. 3 Seminare mit Referat & schriftlicher Ausarbeitung\n≙ 12h Zeitinvestition pro Woche (Präsenz + Vor- und Nachbereitung)\nAnwesenheitspflicht: max. 2 Fehlstunden ohne Attest\nLektüre der für den jeweiligen Termin angegeben Literatur bzw. gründliche Erledigung der zugeteilten Aufgaben\nAktive Mitarbeit bei der Datenerhebung\nAnforderungen für Hausarbeit (siehe nächste Folie)"
   },
   {
     "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-1",
     "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-1",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nWenn Sie in papaja/Rmarkdown/apaquarto schreiben:\n\ndas exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nSchreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\n\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)\nDie Links zu Präregistrierung, Repositorium mit Open Data, Open Code, etc. kommen an den Anfang des Methodenteils"
+    "text": "Hausarbeit\n\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nWenn Sie in apaquarto schreiben:\n\ndas exportierte PDF ist von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nSchreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\n\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)\nDie Links zu Präregistrierung, Repositorium mit Open Data, Open Code, etc. kommen an den Anfang des Methodenteils"
   },
   {
     "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-2",
     "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-2",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nFormalia: Titelseite in apaquarto erstellen\n---\ntitle: \"Mein Emprabericht\"\nauthor:\n  - name: Felix Schönbrodt\n    corresponding: true\n    orcid: \"0000-0002-8282-3910\"\n    email: \"felix.schoenbrodt@psy.lmu.de\"\n    affiliations:\n      - id: \"lmu\"\n        name: \"Ludwig-Maximilians-Universität München, Munich, Germany\"\n        department: \"Department of Psychology\"\n        ror: \"https://ror.org/05591te55\"\n        url: \"https://www.lmu.de/\"\nauthor-note:\n  correspondence-note: |\n    Matrikelnr.: 123456789. This is the final report for the course\n    'Forschungsorientiertes Praktikum I', submitted on 2024-09-22.\nformat:\n  apaquarto-pdf:\n    documentmode: man\n    a4paper: true\n    pdf-engine: lualatex\n    keep-tex: false\nbibliography: Empra2024.bib\n---"
+    "text": "Hausarbeit\n\nFormalia: Titelseite in apaquarto erstellen\n---\ntitle: \"Mein Emprabericht\"\nauthor:\n  - name: Felix Schönbrodt\n    corresponding: true\n    orcid: \"0000-0002-8282-3910\"\n    email: \"felix.schoenbrodt@psy.lmu.de\"\n    affiliations:\n      - id: \"lmu\"\n        name: \"Ludwig-Maximilians-Universität München, Munich, Germany\"\n        department: \"Department of Psychology\"\n        ror: \"https://ror.org/05591te55\"\n        url: \"https://www.lmu.de/\"\nauthor-note:\n  correspondence-note: |\n    Matrikelnr.: 123456789. This is the final report for the course\n    'Forschungsorientiertes Praktikum I', submitted on 2026-08-22.\nformat:\n  apaquarto-pdf:\n    documentmode: man\n    a4paper: true\n    pdf-engine: lualatex\n    keep-tex: false\nbibliography: Empra2026.bib\n---"
   },
   {
     "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-3",
     "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-3",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\nZwei Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2024.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2024.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: yes angeben (siehe Anleitung)\nSie können in apaquarto einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: true angeben (siehe Anleitung)"
+    "text": "Hausarbeit\n\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\nZwei Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2026.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.: “98234034_Empra_2026.pdf”\nSie können in apaquarto einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: true angeben (siehe Anleitung)"
   },
   {
     "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-4",
     "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-4",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nBewertungsschema\nDie Leistung wird standardisiert nach einem Bewertungsschema bewertet."
+    "text": "Hausarbeit\n\nBewertungsschema\nSeit der PStO 2025 gibt es keine Note mehr, sondern nur noch bestanden/nicht bestanden.\n\n\n\n\n\n\nWarning❓ Hinweis\n\n\n\nSind Studierende mit einer früheren PStO hier, die eine Note brauchen?\n\n\nDie Leistung wird standardisiert nach einem Bewertungsschema bewertet. Das ist auch eine Checkliste, was am Ende alles in den Bericht rein muss."
   },
   {
     "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-5",
     "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-5",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nNutzung von KI-Tools (ChatGPT etc.)\n\nKI-Tools sind Realität und können in der wissenschaftlichen Arbeit unterstützend eingesetzt werden. Niels Van Quaquebeke hat eine schöne Übersicht.\nEs muss jedoch klar sein, was die Eigenleistung des/der Studierenden ist, und dass die Verantwortung für den Inhalt der Arbeit beim Autor bzw. der Autorin liegt.\nAm Ende der Hausarbeit müssen Sie entsprechend zwei Erklärungen anhängen:\n\n\neine Eigenständigkeitserklärung (siehe nächste Folie)\n\n\neine ergänzende Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess anhängen (siehe übernächste Folie)."
+    "text": "Hausarbeit\n\nNutzung von KI-Tools (ChatGPT etc.)\n\nKI-Tools sind Realität und können in der wissenschaftlichen Arbeit unterstützend eingesetzt werden. Niels Van Quaquebeke hat eine schöne Übersicht.\nEs muss jedoch klar sein, was die Eigenleistung des/der Studierenden ist, und dass die Verantwortung für den Inhalt der Arbeit beim Autor bzw. der Autorin liegt.\nAm Ende der Hausarbeit müssen Sie entsprechend zwei Erklärungen anhängen:\n\neine Eigenständigkeitserklärung (siehe nächste Folie)\neine ergänzende Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess anhängen (siehe übernächste Folie)."
   },
   {
     "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-6",
@@ -1346,16 +1346,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung (BSc Psychologie, LMU)",
+    "title": "Robust Evidence: A Workflow for Reproducible, Collaborative, and Transparent Research",
     "section": "",
-    "text": "Note: This project is a mixture of English and German text. Sorry for that.\nThis course is held in the 2nd semester of the BSc. Psychology at the Department Psychology, Ludwig-Maximilians-Universität München. See the Sessions section for a description of each session. In these sessions, sometimes lecture slides are linked.\n\n\nThe focus of this empirical psychology research practicum is less on a specific subject area but more on acquiring solid research methodology, both conceptually and practically. The aim is to develop professional and efficient working practices that will support you throughout your studies and beyond.\nYou will learn key tools and standards of scientific work, including:\n\nFile versioning and collaborative work with Git\nReproducible notebooks and manuscripts using Quarto\nBest practices in data analysis (folder structure, code commenting, reflective use and integration of AI)\nStrategies for systematic error prevention\n\nIn the area of research methods, you will gain knowledge in:\n\nPreregistration of hypotheses and analysis plans\nPreparing data for scientific publication (“Open Data”; anonymization, documentation using a codebook)\nReproducible statistical analysis in R, ensuring results are fully traceable for others\nSample size planning to ensure sufficiently strong evidence for or against a hypothesis\n\nIn terms of content, we will join a global replication project (CREP; https://www.crep-psych.org) and participate in a “ManyLabs” study. As one of several sites, we will replicate an existing experiment; our data will then be incorporated into a cross-site meta-analysis. Data collection will take place as a joint online study conducted by the entire group.\nThis research practicum places higher demands on mathematical and formal thinking as well as on your programming skills. At minimum, knowledge of R as taught in Statistics I and II is required. In addition, a willingness is expected to independently work through more advanced programming content using the provided materials."
+    "text": "Note: This project is a mixture of English and German text. Sorry for that.\nThis course is held in the 2nd semester of the BSc. Psychology at the Department Psychology, Ludwig-Maximilians-Universität München. See the Sessions section for a description of each session. In these sessions, sometimes lecture slides are linked."
   },
   {
     "objectID": "index.html#course-announcement",
     "href": "index.html#course-announcement",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung (BSc Psychologie, LMU)",
-    "section": "",
-    "text": "The focus of this empirical psychology research practicum is less on a specific subject area but more on acquiring solid research methodology, both conceptually and practically. The aim is to develop professional and efficient working practices that will support you throughout your studies and beyond.\nYou will learn key tools and standards of scientific work, including:\n\nFile versioning and collaborative work with Git\nReproducible notebooks and manuscripts using Quarto\nBest practices in data analysis (folder structure, code commenting, reflective use and integration of AI)\nStrategies for systematic error prevention\n\nIn the area of research methods, you will gain knowledge in:\n\nPreregistration of hypotheses and analysis plans\nPreparing data for scientific publication (“Open Data”; anonymization, documentation using a codebook)\nReproducible statistical analysis in R, ensuring results are fully traceable for others\nSample size planning to ensure sufficiently strong evidence for or against a hypothesis\n\nIn terms of content, we will join a global replication project (CREP; https://www.crep-psych.org) and participate in a “ManyLabs” study. As one of several sites, we will replicate an existing experiment; our data will then be incorporated into a cross-site meta-analysis. Data collection will take place as a joint online study conducted by the entire group.\nThis research practicum places higher demands on mathematical and formal thinking as well as on your programming skills. At minimum, knowledge of R as taught in Statistics I and II is required. In addition, a willingness is expected to independently work through more advanced programming content using the provided materials."
+    "title": "Robust Evidence: A Workflow for Reproducible, Collaborative, and Transparent Research",
+    "section": "Course Announcement",
+    "text": "Course Announcement\nThe focus of this empirical psychology research practicum is less on a specific subject area but more on acquiring solid research methodology, both conceptually and practically. The aim is to develop professional and efficient working practices that will support you throughout your studies and beyond.\nYou will learn key tools and standards of scientific work, including:\n\nFile versioning and collaborative work with Git\nReproducible notebooks and manuscripts using Quarto\nBest practices in data analysis (folder structure, code commenting, reflective use and integration of AI)\nStrategies for systematic error prevention\n\nIn the area of research methods, you will gain knowledge in:\n\nPreregistration of hypotheses and analysis plans\nPreparing data for scientific publication (“Open Data”; anonymization, documentation using a codebook)\nReproducible statistical analysis in R, ensuring results are fully traceable for others\nSample size planning to ensure sufficiently strong evidence for or against a hypothesis\n\nIn terms of content, we will join a global replication project (CREP; https://www.crep-psych.org) and participate in a “ManyLabs” study. As one of several sites, we will replicate an existing experiment; our data will then be incorporated into a cross-site meta-analysis. Data collection will take place as a joint online study conducted by the entire group.\nThis research practicum places higher demands on mathematical and formal thinking as well as on your programming skills. At minimum, knowledge of R as taught in Statistics I and II is required. In addition, a willingness is expected to independently work through more advanced programming content using the provided materials."
   },
   {
     "objectID": "about.html",
@@ -1383,7 +1383,7 @@
     "href": "sessions/S1-Introduction.html",
     "title": "Session 01 - Introduction",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nBegrüßung\n5\nAnkündigung: Zeitslot: 10:00-13:00, aber bis 14:00 freihalten\n\n\nEmpra Formalia\n25\nFolien. Kerncurriculum: Präregistrierung, Open data + Codebook, Poweranalyse, Reproduzierbare Skripte\n\n\nVorstellungsrunde\n15\n\n\n\np-hack your way to scientific glory\n60\nFolien\n\n\nPause\n15\n\n\n\nEinführung Open Science\n60\nFolien\n\n\nHausaufgabe: p-hacking üben\n5"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nAnkündigung: Zeitslot: 10:00 (s.t.) -13:00, aber bis 14:00 freihalten\n\n\nEmpra Formalia\n25\nSlides.\n\n\nStudents’ introduction\n15\n\n\n\np-hack your way to scientific glory\n60\nSlides\n\n\nBreak\n15\n\n\n\nIntroduction Open Science\n60\nSlides\n\n\nHomework: Practice p-hacking\n5"
   },
   {
     "objectID": "sessions/S1-Introduction.html#homework-1-individual",

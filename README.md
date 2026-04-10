@@ -40,9 +40,5 @@ quarto update nicebread/quarto-FS
 - To publish online, run `quarto publish gh-pages` locally.
 - Right arrow (→): `&rarr;`
 - Double headed arrow (↔): `&harr;`
-- Full processing:
 
-```
-quarto render
-quarto publish gh-pages
-```
+The repository contains a Github workflow that automatically renders the website when you push to main.

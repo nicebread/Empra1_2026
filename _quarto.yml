@@ -6,7 +6,7 @@ project:
     - "!FEEDBACK.md"
 
 website:
-  title: "Forschungsorientiertes Praktikum I – Grundlagen der Forschung"
+  title: "Robust Evidence<br>(Forschungsorientiertes Praktikum I)"
   navbar:
     search: true
     left:

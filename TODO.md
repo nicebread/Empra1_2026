@@ -1,3 +1,5 @@
+- Intro: Mask link functionality in apaquarto?
+
 - Run OS knowledge test (Barthelmäs)
 - Achtung Empra 1: Quarto läuft nicht auf Snapdragon ARM Prozessor --> Dell Laptop (R-Studio funktioniert schon)
 - Breuer email: Attention Check
