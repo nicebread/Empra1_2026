@@ -1,37 +1,48 @@
 ---
 title: Session 01 - Introduction
-number-sections: true
-description: Open Science
+number-sections: false
+description: Open Science; p-hacking
 ---
 
-# Overview
+::: {.callout-note collapse="true" title="Instructor notes"}
+- Bring empty name tags and board markers.
+- At the end, collect the name tags (and bring them along next time)
+- Add the Moodle task where students submit their p-hacking results.
+:::
 
-| Topic                               | Duration | Notes                                                                 |
-| :---------------------------------- | :------: | --------------------------------------------------------------------- |
-| Introduction                        |    5     | Ankündigung: Zeitslot: 10:00 (s.t.) -13:00, aber bis 14:00 freihalten |
-| Empra Formalia                      |    25    | [Slides](../slides/Empra-Orga/Empra-Orga.qmd).                        |
-| Students' introduction              |    15    |                                                                       |
-| p-hack your way to scientific glory |    60    | [Slides](../slides/pdfs/Schoenbrodt_2024-p-hack_like_a_pro.pdf)       |
-| Break                               |    15    |                                                                       |
-| Introduction Open Science           |    60    | [Slides](../slides/pdfs/Schoenbrodt-2022-04_Open_Science_Primer.pdf)  |
-| Homework: Practice p-hacking        |    5     |                                                                       |
+## Overview
+
+| Topic                               | Duration | Notes                                                                                                 |
+| :---------------------------------- | :------: | ----------------------------------------------------------------------------------------------------- |
+| Introduction                        |    5     | Ankündigung: Zeitslot: 10:00 (s.t.) -13:00, aber bis 14:00 freihalten. Alle in Moodle eingeschrieben? |
+| Empra Formalia                      |    25    | [Slides](../slides/Empra-Orga/Empra-Orga.qmd).                                                        |
+| Students' introduction              |    15    |                                                                                                       |
+| p-hack your way to scientific glory |    60    | [Slides](../slides/pdfs/Schoenbrodt_2024-p-hack_like_a_pro.pdf)                                       |
+| Break                               |    15    |                                                                                                       |
+| Introduction Open Science           |    60    | [Slides](../slides/pdfs/Schoenbrodt-2022-04_Open_Science_Primer.pdf)                                  |
+| Homework: Practice p-hacking        |    5     |                                                                                                       |
 
 : {.striped}
 
 
-# Personal Introduction
+## Personal Introduction
 
 - Your name
 - Where do you originally come from, and where do you live now?
 - Why did you choose psychology?
 
+## Threats to credible research lecture
 
-# Homework
+Join the live survey: <https://partici.fi/33173261>
+
+![](img/Particify_Empra_1.png){width=300}
+
+## Homework
 
 - "individual" means: Everybody does the task on their own and uploads an individual report/result.
 - "group" means: The working group submits a joint document.
 
-## Homework 1 (individual)
+### Homework 1 (individual)
 
 **Practice *p*-hacking**: [https://www.shinyapps.org/apps/p-hacker/](https://www.shinyapps.org/apps/p-hacker/)
 
@@ -45,7 +56,8 @@ Next, try the same for $\alpha = .005$ (if it takes too long, there's no need to
 Copy both sets of significant studies (one for $\alpha = .05$, one for $\alpha = .005$) and your log into the textfield in the Moodle task.
 
 
-## Homework 2 (individual)
+### Homework 2 (individual)
 
-- Create an [ORCID ID](https://orcid.org). You can use "LMU" as affiliation.
+- Create an [ORCID ID](https://orcid.org). You can use "Ludwig-Maximilians-Universität München" as affiliation.
 - Create an [OSF](https://osf.io) account (use your real name; link your ORCID ID).
+

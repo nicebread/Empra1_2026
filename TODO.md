@@ -1,7 +1,9 @@
 - Intro: Mask link functionality in apaquarto?
 
 - Run OS knowledge test (Barthelmäs)
+
 - Achtung Empra 1: Quarto läuft nicht auf Snapdragon ARM Prozessor --> Dell Laptop (R-Studio funktioniert schon)
+  
 - Breuer email: Attention Check
 Zu Deiner Frage: Einen kompletten Überblick über die Survey-Data-Quality(-Check)-Literatur habe ich leider auch nicht.
 Generell würde ich sagen Attention Checks machen prinzipiell schon Sinn und auch Fragen wie „Haben Sie aufmerksam und ehrlich geantwortet und können wir Ihre Daten für die Analyse nutzen?“ können eine (zusätzliche Option sein).

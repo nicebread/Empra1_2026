@@ -4,6 +4,7 @@ project:
   render:
     - "*.{qmd,R}"
     - "!FEEDBACK.md"
+    - "!**/quizzes/**"
 
 website:
   title: "Robust Evidence<br>(Forschungsorientiertes Praktikum I)"
@@ -17,7 +18,7 @@ website:
       - about.qmd
     right:
       - icon: github
-        href: https://github.com/nicebread/Empra1
+        href: https://github.com/nicebread/Empra1_2026
         aria-label: GitHub
 
 format:

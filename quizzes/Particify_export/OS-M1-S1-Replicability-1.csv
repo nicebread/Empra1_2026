@@ -1,0 +1,20 @@
+format,body,additionalText,options,correctOptions,multiple,abstentionsAllowed
+CHOICE,"
+Based on your experience so far, how would you currently rate your trust in published scientific findings in psychology?
+
+I have trust in ...
+",,"1 = virtually none of the findings
+2 = only some findings
+3 = about half of the findings
+4 = the majority of the findings
+5 = virtually all findings",false,FALSE,TRUE
+WORDCLOUD,"
+Based on your experience so far, which challenges to research trustworthiness do you see? Name a few keywords.
+",,5,false,false,TRUE
+CHOICE,"
+What is your level of familiarity with Open Research practices in general (e.g., basic concepts, terminology, or tools)?
+
+",,"What are Open Research practices?! 🤷
+I have heard of them but I would not know how they apply to my work.
+I have basic understanding and experience with Open Research practices in my own work/research/studies.
+I am familiar with Open Research practices and routinely apply them in my daily work/research/studies.",false,FALSE,TRUE

@@ -1,0 +1,32 @@
+Question
+========
+
+What is your level of familiarity with Open Research practices in general (e.g., basic concepts, terminology, or tools)?
+
+
+Answerlist
+----------
+
+* What are Open Research practices?! 🤷
+* I have heard of them but I would not know how they apply to my work.
+* I have basic understanding and experience with Open Research practices in my own work/research/studies. 
+* I am familiar with Open Research practices and routinely apply them in my daily work/research/studies.
+
+
+Solution
+========
+This is a feedback question, there is **no correct answer**.
+--> add `exextra[noCorrect,logical]: TRUE` to the Meta-information.
+
+The `exsolution` below is only a technical requirement for R/exams and is 
+ignored when exporting to Particify.
+Make sure that the count in `exsolution` equals the number of answers.
+
+
+Meta-information
+================
+exname: OS-M1-S1-Replicability_Q3
+extype: schoice
+exsolution: 1000
+expoints: 0
+exextra[noCorrect,logical]: TRUE

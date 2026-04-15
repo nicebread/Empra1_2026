@@ -42,3 +42,55 @@ quarto update nicebread/quarto-FS
 - Double headed arrow (↔): `&harr;`
 
 The repository contains a Github workflow that automatically renders the website when you push to main.
+
+
+
+## Quizzes
+
+Quiz questions are stored as R/exams `.Rmd` files.
+From this source, two output formats can be generated:
+
+1. Export as **Particify** .csv file, which can be imported into Particify for live quizzes during the lecture (participants scan a QR code and do it on their smartphones).
+2. Directly include in a qmd website via the [exams2forms](https://www.r-exams.org/tutorials/exams2forms/) package.
+
+In this repository, the `.Rmd` files for the quiz questions reside in a `/quizzes` subfolder under each presentation (i.e., the quizzes are nested in the folder they belong to). Only "uncategorized" quiz questions are in the general `./quizzes` folder.)
+
+### How to export Particify quizzes
+
+- In R-exams, every `schoice` question needs a solution in the metadata. If you want to assess attitudes or anything else without a correct solution, you can use the `exextra[noCorrect,logical]: TRUE` flag in the exercise file. Then, in the postprocessing step, the (fake) correct solution is removed in the Particify export file.
+- Wordclouds can be created with the setting: 
+
+```
+extype: string
+exsolution: ""
+expoints: 0
+exextra[wordcloud,numeric]: 3
+```
+
+(3 is the number of entry fields)
+
+- Import the `.csv` file into Particify:
+  - Log into your Particify account
+  - "+ Fragenserie erstellen" --> Add a name --> "Gemischt"
+  -  Three vertical dots --> "Inhalte importieren"
+
+### How to setup R/exams webquizzes
+
+- copy https://www.r-exams.org/assets/posts/2024-11-07-exams2forms//webex.css and https://www.r-exams.org/assets/posts/2024-11-07-exams2forms//webex.js to the project folder (in this case, to the `/common` folder)
+- link them in `_quarto.yml`:
+
+```yaml
+format:
+  html:
+    css: common/webex.css
+    include-after-body: common/webex.js
+```
+
+- include in R chunks, e.g.:
+
+````
+```{r, echo = FALSE, message = FALSE, results = "asis"}
+library(exams2forms)
+exams2forms("quizzes/swisscapital.Rmd", title = 'test quiz', solution=FALSE)
+```
+````

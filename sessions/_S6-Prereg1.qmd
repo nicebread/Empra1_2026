@@ -1,0 +1,18 @@
+---
+title: Session 06 - Preregistration 1
+number-sections: false
+description: We learn how to preregister a study
+---
+
+# Overview
+
+| Topic                                 | Duration | Notes                                                                                                  |
+| :------------------------------------ | :------: | ------------------------------------------------------------------------------------------------------ |
+| Wrap up homework 1: Literature search |    30    |                                                                                                        |
+| Do a power analysis in practice       |    50    |                                                                                                        |
+| How (not) to report a power analysis  |    15    | [Slides](../slides/Power-Analysis Reporting/How-to-report-a-power-analysis.qmd)                           |
+| Wrap up homework 2: Read Prereg       |    25    |                                                                                                        |
+| Game: Prereg advocatus Diaboli        |    20    | [Slides](../slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.qmd) |
+| Homework: Start filling in the Prereg |    5     |                                                                                                        |
+
+: {.striped}

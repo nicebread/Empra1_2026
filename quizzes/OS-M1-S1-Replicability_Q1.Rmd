@@ -1,0 +1,34 @@
+Question
+========
+
+Based on your experience so far, how would you currently rate your trust in published scientific findings in psychology?
+
+I have trust in ...
+
+Answerlist
+----------
+
+* 1 = virtually none of the findings
+* 2 = only some findings
+* 3 = about half of the findings
+* 4 = the majority of the findings
+* 5 = virtually all findings
+
+
+Solution
+========
+This is a feedback question, there is **no correct answer**.
+--> add `exextra[noCorrect,logical]: TRUE` to the Meta-information.
+
+The `exsolution` below is only a technical requirement for R/exams and is 
+ignored when exporting to Particify.
+Make sure that the count in `exsolution` equals the number of answers.
+
+
+Meta-information
+================
+exname: OS-M1-S1-Replicability_Q1
+extype: schoice
+exsolution: 10000
+expoints: 0
+exextra[noCorrect,logical]: TRUE
