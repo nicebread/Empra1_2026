@@ -12,15 +12,15 @@ description: Open Science; p-hacking
 
 ## Overview
 
-| Topic                               | Duration | Notes                                                                                                 |
-| :---------------------------------- | :------: | ----------------------------------------------------------------------------------------------------- |
-| Introduction                        |    5     | Ankündigung: Zeitslot: 10:00 (s.t.) -13:00, aber bis 14:00 freihalten. Alle in Moodle eingeschrieben? |
-| Empra Formalia                      |    25    | [Slides](../slides/Empra-Orga/Empra-Orga.qmd).                                                        |
-| Students' introduction              |    15    |                                                                                                       |
-| p-hack your way to scientific glory |    60    | [Slides](../slides/pdfs/Schoenbrodt_2024-p-hack_like_a_pro.pdf)                                       |
-| Break                               |    15    |                                                                                                       |
-| Introduction Open Science           |    60    | [Slides](../slides/pdfs/Schoenbrodt-2022-04_Open_Science_Primer.pdf)                                  |
-| Homework: Practice p-hacking        |    5     |                                                                                                       |
+| Topic                                | Duration | Notes                                                                                                 |
+| :----------------------------------- | :------: | ----------------------------------------------------------------------------------------------------- |
+| Introduction                         |    5     | Ankündigung: Zeitslot: 10:00 (s.t.) -13:00, aber bis 14:00 freihalten. Alle in Moodle eingeschrieben? |
+| Empra Formalia                       |    25    | [Slides](../slides/Empra-Orga/Empra-Orga.qmd).                                                        |
+| Students' introduction               |    15    |                                                                                                       |
+| Threats to credible research lecture |    60    | [Slides](../slides/pdfs/Schoenbrodt_2024-p-hack_like_a_pro.pdf)                                       |
+| Break                                |    15    |                                                                                                       |
+| Check the study proposals            |    60    |                                                                                                       |
+| Homework: Practice p-hacking         |    5     |                                                                                                       |
 
 : {.striped}
 
@@ -35,7 +35,7 @@ description: Open Science; p-hacking
 
 Join the live survey: <https://partici.fi/33173261>
 
-![](img/Particify_Empra_1.png){width=300}
+![](img/Particify_Empra_1.png){width=200}
 
 ## Homework
 

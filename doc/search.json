@@ -1236,7 +1236,7 @@
     "href": "sessions/sessions_overview.html",
     "title": "Overview of sessions",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nOpen Science\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nOpen Science; p-hacking\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "orga_material/instructions_before_course.html",
@@ -1292,7 +1292,7 @@
     "href": "sessions/S1-Introduction.html#overview",
     "title": "Session 01 - Introduction",
     "section": "Overview",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nAnkündigung: Zeitslot: 10:00 (s.t.) -13:00, aber bis 14:00 freihalten. Alle in Moodle eingeschrieben?\n\n\nEmpra Formalia\n25\nSlides.\n\n\nStudents’ introduction\n15\n\n\n\np-hack your way to scientific glory\n60\nSlides\n\n\nBreak\n15\n\n\n\nIntroduction Open Science\n60\nSlides\n\n\nHomework: Practice p-hacking\n5"
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nAnkündigung: Zeitslot: 10:00 (s.t.) -13:00, aber bis 14:00 freihalten. Alle in Moodle eingeschrieben?\n\n\nEmpra Formalia\n25\nSlides.\n\n\nStudents’ introduction\n15\n\n\n\nThreats to credible research lecture\n60\nSlides\n\n\nBreak\n15\n\n\n\nCheck the study proposals\n60\n\n\n\nHomework: Practice p-hacking\n5"
   },
   {
     "objectID": "sessions/S1-Introduction.html#personal-introduction",
@@ -1300,6 +1300,13 @@
     "title": "Session 01 - Introduction",
     "section": "Personal Introduction",
     "text": "Personal Introduction\n\nYour name\nWhere do you originally come from, and where do you live now?\nWhy did you choose psychology?"
+  },
+  {
+    "objectID": "sessions/S1-Introduction.html#threats-to-credible-research-lecture",
+    "href": "sessions/S1-Introduction.html#threats-to-credible-research-lecture",
+    "title": "Session 01 - Introduction",
+    "section": "Threats to credible research lecture",
+    "text": "Threats to credible research lecture\nJoin the live survey: https://partici.fi/33173261"
   },
   {
     "objectID": "sessions/S1-Introduction.html#homework",
@@ -2245,12 +2252,5 @@
     "title": "Preregistration",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
-  },
-  {
-    "objectID": "sessions/S1-Introduction.html#threats-to-credible-research-lecture",
-    "href": "sessions/S1-Introduction.html#threats-to-credible-research-lecture",
-    "title": "Session 01 - Introduction",
-    "section": "Threats to credible research lecture",
-    "text": "Threats to credible research lecture\nJoin the live survey: https://partici.fi/33173261"
   }
 ]
