@@ -28,3 +28,72 @@ When exporting, please select "Export as JSON" and in "Include datasets" select 
 Upload all versions of the codebooks to Moodle.
 
 ## Homework 2 (individually): Test the interventions in the app.
+
+**1. Ein Autor veröffentlicht vollständig Mittelwerte und SDs aller Variablen in einer Tabelle im Ergebnisteil. Sind damit die Primärdaten publiziert und der Dokumentationspflicht entsprochen worden? Wenn nein, warum nicht?**
+
+::: {.callout-note collapse="true"}
+## Antwort anzeigen
+Nein - das sind nicht die Primärdaten. Hinter einem Mittelwert und SD können sich verschiedenste Rohdaten verbergen, mit Ausreißern, umplausiblen Werten, etc. Manche Reanalysen sind nur mit den Rohdaten möglich.
+:::
+
+**2. Nennen Sie drei Beispiele für Metadaten eines Datensatzes.**
+
+::: {.callout-note collapse="true"}
+## Antwort anzeigen
+* Erhebungsdatum/-zeitraum der Daten 
+* Ort der Erhebung 
+* Lizenz zur Nachnutzung 
+* Kontaktdaten der Ansprechperson, die Auskunft über die Daten(erhebung) geben kann 
+* Zitationsinformationen: Wie soll man diesen Datensatz korrekt zitieren? 
+* Codebook / Beschreibung der Variablen 
+* Geldgeber
+:::
+
+**3. Was sind "personenbezogene Daten"? Ist das Geschlecht und Alter einer Person ein personenbezogenes Datum?**
+
+::: {.callout-note collapse="true"}
+## Antwort anzeigen
+Personenbezogene Daten sind „alle Informationen, die sich 
+auf eine identifizierte oder identifizierbare natürliche Person 
+beziehen“ (Art 4 Zif. 1 DSGVO) 
+
+Ob das Geschlecht und Alter einer Person ein personenbezogenes Datum ist, kommt darauf an: Wenn in dem Datensatz noch hinreichend viele andere (z.B. k >= 5) Personen dieses Geschlecht und Alter haben, dann sind diese Daten nicht auf eine konkrete Person rückführbar. Kann man mit dieser Kombination an Daten jedoch eine konkrete Person identifizieren („der einzige 42-jährige Mann, der gerade Psychologie an der LMU studiert“), dann sind sie personenbeziehbar.
+:::
+
+**4. Welche dieser Orte sind geeignet als Repositorium für die langfristige Archivierung und Bereitstellung von Daten? Wenn "Nein", warum nicht?**
+
+::: {.callout-note collapse="true"}
+## Antwort anzeigen
+* Die persönliche Webseite der Forscherin an ihrer Universität: **Nein**, da nicht persistent; kein doi.
+* Das "Online Supplemental Material (OSM)" einer wissenschaftlichen 
+Zeitschrift des Elsevier Verlags: **Nein**, da hinter paywall; Verlag kann jederzeit den Service einstellen.
+* In einem öffentlichen Projekt des Open Science Frameworks (https://osf.io): **Ja** (non-profit; hat eine „long-term preservation strategy“). Aber besser einen europäischen/deutschen Service nutzen.
+* Bei Figshare (https://figshare.com): **Jein -> eher Nein**: Die Nutzungsbedingung sind zwar aktuell kompatibel mit „open-science-Anforderungen“, das Repositorium ist jedoch kommerziell; Nutzungsbedingungen können sich jederzeit ändern.
+* Bei Zenodo (https://zenodo.org): **Ja** (wird bei CERN betrieben, öffentlich finanziert ohne Gewinnerzielungsabsicht). 
+* **Aktuell optimal**: psychArchives beim ZPID.
+:::
+
+**5. Beschreiben Sie in jeweils einem Satz die "Datenbereitstellung Typ 1" und die "Datenbereitstellung Typ 2".**
+
+::: {.callout-note collapse="true"}
+## Antwort anzeigen
+* Datenbereitstellung Typ 1: „Mit Erscheinen einer Publikation sollen alle Primärdaten sowie die dazugehörigen Metadaten bereitgestellt werden, die zur Reproduktion der publizierten Ergebnisse notwendig sind (unabhängig davon, in welchem Kontext (bspw. drittmittelfinanziertes Forschungsprojekt oder studentische Abschlussarbeit) diese entstanden sind).
+* Datenbereitstellung Typ 2: „Gemäß den Empfehlungen der DFG soll der Gesamtdatensatz eines Projekts „unmittelbar nach Abschluss der Forschungen oder nach wenigen Monaten der Öffentlichkeit frei zur Verfügung gestellt werden“. Das beinhaltet auch alle relevanten Daten des Projekts, die zu diesem Zeitpunkt noch nicht Bestandteil einer Publikation sind, einschließlich der entsprechenden Metadaten.
+:::
+
+**6. Was bedeutet ein "Nutzungsembargo"? Wie lange sollte es maximal sein?**
+
+::: {.callout-note collapse="true"}
+## Antwort anzeigen
+* Die Daten liegen bereits dokumentiert in einem Repositorium, können aber noch nicht von anderen Forschenden (für alle Zwecke) nachgenutzt werden. D.h., die Datenbereitstellenden haben noch eine zeitlang das exklusive Nachnutzungsrecht. 
+* Die Freischaltung hängt nicht am Gutdünken der Datenbereitstellenden, sondern wird automatisch vom Repositorium nach Ablauf des Embargos vorgenommen. 
+* Das Embargo soll nicht länger als 5 Jahre nach Projektabschluss gelten (und es muss immer begründet werden).
+:::
+
+**7. Welche Zugriffsklassen gelten als "open data“?**
+
+::: {.callout-note collapse="true"}
+## Antwort anzeigen
+ZK 0 und ZK 1. Alle restriktiveren Zugriffsklassen sind 
+nicht mehr „open data“.
+:::
