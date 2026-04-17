@@ -47,7 +47,7 @@ Accessible: :thumbsdown:
 
 **csv file:**  
 Human-readable: <span style="color: orange;">~ (raw)</span> :white_check_mark: (after import)  
-Machine-readable: :white_check_mark:
+Machine-readable: :white_check_mark: <br>
 Accessible: :white_check_mark:
 
 ![](img/CSV-file.png)
@@ -106,3 +106,8 @@ repository
 * Resources:
 * Video (51 min.): ["PTOS 9: Einführung in das Forschungsdatenmanagement mit D-Psy_FAIR“](https://zpid.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a8a6b29f-959e-44b2-b829-af5500be5bc7)  
 [– siehe v.a.: „Schritt 2: Ein Codebuch erstellen“ ab 29:27]{.smaller}
+
+
+<!-- Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```
