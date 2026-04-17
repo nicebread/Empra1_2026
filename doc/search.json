@@ -1285,14 +1285,14 @@
     "href": "sessions/S1-Introduction.html",
     "title": "Session 01 - Introduction",
     "section": "",
-    "text": "NoteInstructor notes\n\n\n\n\n\n\nBring empty name tags and board markers.\nAt the end, collect the name tags (and bring them along next time)\nAdd the Moodle task where students submit their p-hacking results."
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nBring empty name tags and board markers.\nAt the end, collect the name tags (and bring them along next time)\nAdd the Moodle task where students submit their p-hacking results.\nSubmit the CREP application"
   },
   {
     "objectID": "sessions/S1-Introduction.html#overview",
     "href": "sessions/S1-Introduction.html#overview",
     "title": "Session 01 - Introduction",
     "section": "Overview",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nAnkündigung: Zeitslot: 10:00 (s.t.) -13:00, aber bis 14:00 freihalten. Alle in Moodle eingeschrieben?\n\n\nEmpra Formalia\n25\nSlides.\n\n\nStudents’ introduction\n15\n\n\n\nThreats to credible research lecture\n60\nSlides\n\n\nBreak\n15\n\n\n\nCheck the study proposals\n60\n\n\n\nHomework: Practice p-hacking\n5"
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nAnkündigung: Zeitslot: 10:00 (s.t.) -13:00, aber bis 14:00 freihalten. Alle in Moodle eingeschrieben?\n\n\nEmpra Formalia\n25\nSlides.\n\n\nStudents’ introduction\n15\n\n\n\nThreats to credible research lecture, part 1\n100\n\n\n\nBreak\n15\n\n\n\nIntroduce the replication target study proposals\n15\n\n\n\nExplain Homework\n5"
   },
   {
     "objectID": "sessions/S1-Introduction.html#personal-introduction",
@@ -1313,7 +1313,7 @@
     "href": "sessions/S1-Introduction.html#homework",
     "title": "Session 01 - Introduction",
     "section": "Homework",
-    "text": "Homework\n\n“individual” means: Everybody does the task on their own and uploads an individual report/result.\n“group” means: The working group submits a joint document.\n\n\nHomework 1 (individual)\nPractice p-hacking: https://www.shinyapps.org/apps/p-hacker/\nTask: Hack at least 5 studies towards significance with \\(\\alpha = .05\\) (keep the true effect at 0). Whenever you achieved a significant result, click on “Save” in the results table to store your result in the study stack on the right side. Once you achieved 5 significant studies, copy and paste the study stack into a text document. Keep a short log of the steps that were necessary to achieve significance (e.g., “increase sample size 2 times by 10 participants, controlled for SES”).\nNext, try the same for \\(\\alpha = .005\\) (if it takes too long, there’s no need to achieve 5 significant studies).\nDeliverable: Copy both sets of significant studies (one for \\(\\alpha = .05\\), one for \\(\\alpha = .005\\)) and your log into the textfield in the Moodle task.\n\n\nHomework 2 (individual)\n\nCreate an ORCID ID. You can use “Ludwig-Maximilians-Universität München” as affiliation.\nCreate an OSF account (use your real name; link your ORCID ID)."
+    "text": "Homework\n\n“individual” means: Everybody does the task on their own and uploads an individual report/result.\n“group” means: The working group submits a joint document.\n“collaborative” means: Everybody contributes to a single joint online document, or the group makes a joint decision.\n\n\nHomework 1 (collaborative; 5 min each)\nCan I trust the quality of product (when I do not have access to all information)?\nTake the strategies from both buyers and sellers from the “Used Car Exercise” and transfer them to scientific publications as the product of which the quality should be checked. Maybe not all strategies can be transferred, and probably not all possible strategies do exist yet. Be creative!\nExample:\n\n\n\n\n\n\n\nUsed Cars\nScientific publications\n\n\n\n\nDo a test drive to check whether the claim of the seller (“no noise”) is correct\nDo a reproduction to check whether the claim of the authors is correct\n\n\n\nDo this in the collaborative Etherpad in Moodle.\n\n\nHomework 2 (individual)\n\nCreate an ORCID ID. You can use “Ludwig-Maximilians-Universität München” as affiliation.\nCreate an OSF account (use your real name; link your ORCID ID).\n\n\n\nHomework 3 (collaborative)\nDecide which study we want to replicate."
   },
   {
     "objectID": "slides/Causality/Causality.html#from-correlation-to-causality",

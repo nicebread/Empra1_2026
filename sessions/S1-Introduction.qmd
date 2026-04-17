@@ -1,26 +1,27 @@
 ---
 title: Session 01 - Introduction
 number-sections: false
-description: Open Science; p-hacking
+description: Threats to credible research; choice of replication target
 ---
 
 ::: {.callout-note collapse="true" title="Instructor notes"}
 - Bring empty name tags and board markers.
 - At the end, collect the name tags (and bring them along next time)
 - Add the Moodle task where students submit their p-hacking results.
+- Submit the CREP application
 :::
 
 ## Overview
 
-| Topic                                | Duration | Notes                                                                                                 |
-| :----------------------------------- | :------: | ----------------------------------------------------------------------------------------------------- |
-| Introduction                         |    5     | Ankündigung: Zeitslot: 10:00 (s.t.) -13:00, aber bis 14:00 freihalten. Alle in Moodle eingeschrieben? |
-| Empra Formalia                       |    25    | [Slides](../slides/Empra-Orga/Empra-Orga.qmd).                                                        |
-| Students' introduction               |    15    |                                                                                                       |
-| Threats to credible research lecture |    60    | [Slides](../slides/pdfs/Schoenbrodt_2024-p-hack_like_a_pro.pdf)                                       |
-| Break                                |    15    |                                                                                                       |
-| Check the study proposals            |    60    |                                                                                                       |
-| Homework: Practice p-hacking         |    5     |                                                                                                       |
+| Topic                                            | Duration | Notes                                                                                                 |
+| :----------------------------------------------- | :------: | ----------------------------------------------------------------------------------------------------- |
+| Introduction                                     |    5     | Ankündigung: Zeitslot: 10:00 (s.t.) -13:00, aber bis 14:00 freihalten. Alle in Moodle eingeschrieben? |
+| Empra Formalia                                   |    25    | [Slides](../slides/Empra-Orga/Empra-Orga.qmd).                                                        |
+| Students' introduction                           |    15    |                                                                                                       |
+| Threats to credible research lecture, part 1     |   100    |                                                                                                       |
+| Break                                            |    15    |                                                                                                       |
+| Introduce the replication target study proposals |    15    |                                                                                                       |
+| Explain Homework                                 |    5     |                                                                                                       |
 
 : {.striped}
 
@@ -41,23 +42,29 @@ Join the live survey: <https://partici.fi/33173261>
 
 - "individual" means: Everybody does the task on their own and uploads an individual report/result.
 - "group" means: The working group submits a joint document.
+- "collaborative" means: Everybody contributes to a single joint online document, or the group makes a joint decision.
 
-### Homework 1 (individual)
 
-**Practice *p*-hacking**: [https://www.shinyapps.org/apps/p-hacker/](https://www.shinyapps.org/apps/p-hacker/)
+### Homework 1 (collaborative; 5 min each)
 
-**Task:**
-Hack at least 5 studies towards significance with $\alpha = .05$ (keep the true effect at 0).
-Whenever you achieved a significant result, click on "Save" in the results table to store your result in the study stack on the right side. Once you achieved 5 significant studies, copy and paste the study stack into a text document. Keep a short log of the steps that were necessary to achieve significance (e.g., "increase sample size 2 times by 10 participants, controlled for SES").
+**Can I trust the quality of product (when I do not have access to all information)?**
 
-Next, try the same for $\alpha = .005$ (if it takes too long, there's no need to achieve 5 significant studies).
+Take the strategies from both buyers and sellers from the "Used Car Exercise" and transfer them to scientific publications as the product of which the quality should be checked. Maybe not all strategies can be transferred, and probably not all possible strategies do exist yet. Be creative!
 
-**Deliverable**:
-Copy both sets of significant studies (one for $\alpha = .05$, one for $\alpha = .005$) and your log into the textfield in the Moodle task.
+Example:
 
+| Used Cars                                                                        | Scientific publications                                                |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| Do a test drive to check whether the claim of the seller ("no noise") is correct | Do a reproduction to check whether the claim of the authors is correct |
+
+Do this in the collaborative Etherpad in Moodle.
 
 ### Homework 2 (individual)
 
 - Create an [ORCID ID](https://orcid.org). You can use "Ludwig-Maximilians-Universität München" as affiliation.
 - Create an [OSF](https://osf.io) account (use your real name; link your ORCID ID).
+
+### Homework 3 (collaborative)
+
+Decide which study we want to replicate.
 
