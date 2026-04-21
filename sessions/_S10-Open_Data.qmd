@@ -29,6 +29,9 @@ Upload all versions of the codebooks to Moodle.
 
 ## Homework 2 (individually): Test the interventions in the app.
 
+*Bitte lesen Sie die DGPs-Empfehlungen "Management und Bereitstellung von Forschungsdaten in der 
+Psychologie" (https://psyarxiv.com/hcxtm) und beantworten Sie die folgenden Leitfragen kurz und präzise.*
+
 **1. Ein Autor veröffentlicht vollständig Mittelwerte und SDs aller Variablen in einer Tabelle im Ergebnisteil. Sind damit die Primärdaten publiziert und der Dokumentationspflicht entsprochen worden? Wenn nein, warum nicht?**
 
 ::: {.callout-note collapse="true"}
@@ -62,11 +65,17 @@ Ob das Geschlecht und Alter einer Person ein personenbezogenes Datum ist, kommt 
 
 **4. Welche dieser Orte sind geeignet als Repositorium für die langfristige Archivierung und Bereitstellung von Daten? Wenn "Nein", warum nicht?**
 
+* Die persönliche Webseite der Forscherin an ihrer Universität
+* Das "Online Supplemental Material (OSM)" einer wissenschaftlichen Zeitschrift des Elsevier Verlags
+* In einem öffentlichen Projekt des Open Science Frameworks (https://osf.io)
+* Bei Figshare (https://figshare.com)
+* Bei Zenodo (https://zenodo.org)
+* psychArchives beim ZPID
+
 ::: {.callout-note collapse="true"}
 ## Antwort anzeigen
 * Die persönliche Webseite der Forscherin an ihrer Universität: **Nein**, da nicht persistent; kein doi.
-* Das "Online Supplemental Material (OSM)" einer wissenschaftlichen 
-Zeitschrift des Elsevier Verlags: **Nein**, da hinter paywall; Verlag kann jederzeit den Service einstellen.
+* Das "Online Supplemental Material (OSM)" einer wissenschaftlichen Zeitschrift des Elsevier Verlags: **Nein**, da hinter paywall; Verlag kann jederzeit den Service einstellen.
 * In einem öffentlichen Projekt des Open Science Frameworks (https://osf.io): **Ja** (non-profit; hat eine „long-term preservation strategy“). Aber besser einen europäischen/deutschen Service nutzen.
 * Bei Figshare (https://figshare.com): **Jein -> eher Nein**: Die Nutzungsbedingung sind zwar aktuell kompatibel mit „open-science-Anforderungen“, das Repositorium ist jedoch kommerziell; Nutzungsbedingungen können sich jederzeit ändern.
 * Bei Zenodo (https://zenodo.org): **Ja** (wird bei CERN betrieben, öffentlich finanziert ohne Gewinnerzielungsabsicht). 
