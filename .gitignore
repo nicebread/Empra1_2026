@@ -1,2 +1,12 @@
 /.quarto/
 **/*.quarto_ipynb
+
+# Computation cache
+/_freeze/
+
+# Output directory
+/doc/
+
+# Operating system files
+.DS_Store
+Thumbs.db
