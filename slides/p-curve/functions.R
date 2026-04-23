@@ -92,6 +92,7 @@ dpvalue <- function(p,
   }
 }
 
+
 #' Plot the expected p-value distribution under the null hypothesis (H0)
 #'
 #' This function generates a ggplot showing a uniform density distribution
@@ -118,13 +119,23 @@ plot_h0 <- function(stage = 1) {
 
   # Stage 3: Dark red significance box, text labels, and dart symbols
   if (stage >= 3) {
+    dart_data <- data.frame(
+      x = c(0.09, 0.29, 0.50, 0.58, 0.74, 0.89),
+      y = c(1.05, 1.05, 1.05, 1.05, 1.05, 1.05),
+      image = "img/dart.png"
+    )
+
     p <- p + 
       annotate("rect", xmin = 0, xmax = 0.05, ymin = 0, ymax = 1, fill = "firebrick") +
       annotate("text", x = 0.025, y = 0.5, label = "5%", color = "white", 
                fontface = "bold", angle = 90, size = 6) +
-      annotate("text", 
-               x = c(0.05, 0.25, 0.46, 0.54, 0.70, 0.85), y = 1, label = "\u27B4", size = 30, 
-               angle = -80, hjust = 0, vjust = 0)
+      ggimage::geom_image(
+        data = dart_data,
+        mapping = aes(x = x, y = y, image = image),
+        inherit.aes = FALSE,
+        asp = 1,
+        size = 0.12
+      )
   }
 
   # Stage 1: Base lines (always present, layer on top)

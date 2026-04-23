@@ -27,28 +27,30 @@ source("functions.R")
 
 ::: {style="line-height: 1.2;"}
 ![](img/p-curve_1.png){fig-align="center" height=150px}
+:::
 
 ::: {.smaller style="margin-top: -40px"}
 Simonsohn, U., Nelson, L. D., & Simmons, J. P. (2014). P-curve: A key to the file-drawer. *Journal of Experimental Psychology: General, 143*, 534-547.
+:::
 
 ::: {style="margin-top: -10px"}
 ![](img/p-curve_2.png){fig-align="center" height=150px}
+::: 
 
 ::: {.smaller style="margin-top: -40px"}
 Simonsohn, U., Nelson, L. D., & Simmons, J. P. (2014). p-Curve and Effect Size: Correcting for Publication Bias Using Only Significant Results. *Perspectives on Psychological Science, 9*, 666–681.
+:::
 
 ::: {style="margin-top: -10px"}
 ![](img/p-curve_3.png){fig-align="center" height=150px}
+:::
 
 ::: {.smaller style="margin-top: -40px"}
 Simonsohn, U., Simmons, J. P., & Nelson, L. D. (2015). Better P-curves: Making P-curve analysis more robust to errors, fraud, and ambitious P-hacking, a Reply to Ulrich and Miller (2015). *Journal of Experimental Psychology: General, 144*, 1146–1152. doi:10.1037/xge0000104
+:::
 
-:::
-:::
-:::
-:::
-:::
-:::
+
+
 
 ## The ***p*** distribution
 
@@ -62,7 +64,8 @@ Simonsohn, U., Simmons, J. P., & Nelson, L. D. (2015). Better P-curves: Making P
 print(plot_h0(stage = 1))
 ```
 
-## The ***p*** distribution - null effect
+## The ***p*** distribution  {transition="fade"}
+### Null effect
 
 * Running a study without a real effect is like drawing a random ***p***-value from this distribution
 
