@@ -37,7 +37,7 @@ description: Threats to credible research; choice of replication target
 ![](img/OpenResearchCycle_v2.png)
 *([Figure](https://zenodo.org/records/17661040) by Malika Ihle, CC-BY 4.0)*
 
-## Threats to credible research lecture
+## Threats to credible research lecture - part 1
 
 Join the live survey: <https://partici.fi/33173261>
 
