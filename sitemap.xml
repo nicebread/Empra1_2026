@@ -2,86 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nicebread.github.io/Empra1_2026/slides/slides_overview.html</loc>
-    <lastmod>2026-04-17T14:02:32.564Z</lastmod>
+    <lastmod>2026-04-24T07:55:24.412Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1_2026/slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html</loc>
-    <lastmod>2026-04-17T14:03:08.449Z</lastmod>
+    <lastmod>2026-04-24T07:58:40.153Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1_2026/slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html</loc>
-    <lastmod>2026-04-17T14:02:32.418Z</lastmod>
+    <lastmod>2026-04-24T07:55:24.297Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1_2026/slides/Open_Data_Primer/Open_Data_Primer.slide.html</loc>
-    <lastmod>2026-04-17T14:03:01.531Z</lastmod>
+    <lastmod>2026-04-24T07:58:32.197Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1_2026/slides/Open_Data_Primer/Open_Data_Primer.html</loc>
-    <lastmod>2026-04-17T14:02:32.391Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1_2026/slides/Empra-Orga/Empra-Orga.slide.html</loc>
-    <lastmod>2026-04-17T14:02:55.358Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1_2026/slides/Empra-Orga/Empra-Orga.html</loc>
-    <lastmod>2026-04-17T14:02:32.384Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1_2026/sessions/sessions_overview.html</loc>
-    <lastmod>2026-04-17T14:02:32.370Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1_2026/orga_material/instructions_before_course.html</loc>
-    <lastmod>2026-04-17T14:02:32.368Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1_2026/common/lastslide.html</loc>
-    <lastmod>2026-04-17T14:02:32.047Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1_2026/about.html</loc>
-    <lastmod>2026-04-17T14:02:32.046Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1_2026/index.html</loc>
-    <lastmod>2026-04-17T14:02:32.368Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1_2026/sessions/S1-Introduction.html</loc>
-    <lastmod>2026-04-17T14:02:32.369Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1_2026/slides/Causality/Causality.html</loc>
-    <lastmod>2026-04-17T14:02:32.371Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1_2026/slides/Causality/Causality.slide.html</loc>
-    <lastmod>2026-04-17T14:02:52.446Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1_2026/slides/Good_coding_practices/Good_coding_practices.html</loc>
-    <lastmod>2026-04-17T14:02:32.388Z</lastmod>
+    <lastmod>2026-04-24T07:55:24.276Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1_2026/slides/Good_coding_practices/Good_coding_practices.slide.html</loc>
-    <lastmod>2026-04-17T14:02:58.646Z</lastmod>
+    <lastmod>2026-04-24T07:58:24.843Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1_2026/slides/Good_coding_practices/Good_coding_practices.html</loc>
+    <lastmod>2026-04-24T07:55:24.265Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1_2026/slides/Causality/Causality.slide.html</loc>
+    <lastmod>2026-04-24T07:58:17.010Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1_2026/slides/Causality/Causality.html</loc>
+    <lastmod>2026-04-24T07:55:24.250Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1_2026/sessions/S2-Git.html</loc>
+    <lastmod>2026-04-24T07:55:24.245Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1_2026/orga_material/instructions_before_course.html</loc>
+    <lastmod>2026-04-24T07:55:24.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1_2026/common/lastslide.html</loc>
+    <lastmod>2026-04-24T07:55:23.933Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1_2026/about.html</loc>
+    <lastmod>2026-04-24T07:55:23.933Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1_2026/index.html</loc>
+    <lastmod>2026-04-24T07:55:24.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1_2026/sessions/S1-Introduction.html</loc>
+    <lastmod>2026-04-24T07:55:24.245Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1_2026/sessions/sessions_overview.html</loc>
+    <lastmod>2026-04-24T07:55:24.249Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1_2026/slides/Empra-Orga/Empra-Orga.html</loc>
+    <lastmod>2026-04-24T07:55:24.260Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1_2026/slides/Empra-Orga/Empra-Orga.slide.html</loc>
+    <lastmod>2026-04-24T07:58:21.084Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1_2026/slides/Open_Data-Codebook/Open_Data-Codebook.html</loc>
+    <lastmod>2026-04-24T07:55:24.268Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1_2026/slides/Open_Data-Codebook/Open_Data-Codebook.slide.html</loc>
+    <lastmod>2026-04-24T07:58:28.743Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1_2026/slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html</loc>
-    <lastmod>2026-04-17T14:02:32.399Z</lastmod>
+    <lastmod>2026-04-24T07:55:24.282Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1_2026/slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html</loc>
-    <lastmod>2026-04-17T14:03:04.513Z</lastmod>
+    <lastmod>2026-04-24T07:58:35.744Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1_2026/slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html</loc>
-    <lastmod>2026-04-17T14:02:32.462Z</lastmod>
+    <lastmod>2026-04-24T07:55:24.332Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1_2026/slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html</loc>
-    <lastmod>2026-04-17T14:03:11.122Z</lastmod>
+    <lastmod>2026-04-24T07:58:43.583Z</lastmod>
   </url>
 </urlset>
