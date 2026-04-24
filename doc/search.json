@@ -2252,5 +2252,110 @@
     "title": "Preregistration",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+  },
+  {
+    "objectID": "sessions/S1-Introduction.html#what-will-we-cover-in-the-course-the-research-cycle",
+    "href": "sessions/S1-Introduction.html#what-will-we-cover-in-the-course-the-research-cycle",
+    "title": "Session 01 - Introduction",
+    "section": "What will we cover in the course? The research cycle",
+    "text": "What will we cover in the course? The research cycle\n (Figure by Malika Ihle, CC-BY 4.0)"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#was-gehört-alles-dazu-der-forschungszyklus",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#was-gehört-alles-dazu-der-forschungszyklus",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Was gehört alles dazu? Der Forschungszyklus",
+    "text": "Was gehört alles dazu? Der Forschungszyklus\n\n\n(Figure by Malika Ihle, CC-BY 4.0)"
+  },
+  {
+    "objectID": "slides/p-curve/p-curve.slide.html#the-p-distribution",
+    "href": "slides/p-curve/p-curve.slide.html#the-p-distribution",
+    "title": "p-curve",
+    "section": "The p distribution",
+    "text": "The p distribution\n\nGiven a certain statistical power (or, effect size + sample size), the distribution of p-values has a certain shape.\nUnder the H₀, the p-curve is uniformly distributed. That means, each p-value is equally likely."
+  },
+  {
+    "objectID": "slides/p-curve/p-curve.slide.html#the-p-distribution---null-effect",
+    "href": "slides/p-curve/p-curve.slide.html#the-p-distribution---null-effect",
+    "title": "p-curve",
+    "section": "The p distribution - null effect",
+    "text": "The p distribution - null effect\n\nRunning a study without a real effect is like drawing a random p-value from this distribution\n5% of all p-values are &lt;5%."
+  },
+  {
+    "objectID": "slides/p-curve/p-curve.slide.html#the-p-distribution---null-effect-1",
+    "href": "slides/p-curve/p-curve.slide.html#the-p-distribution---null-effect-1",
+    "title": "p-curve",
+    "section": "The p distribution - null effect",
+    "text": "The p distribution - null effect\n\nRunning a study without a real effect is like drawing a random p-value from this distribution\n5% of all p-values are &lt;5%."
+  },
+  {
+    "objectID": "slides/p-curve/p-curve.slide.html#p-curve-effect-size-0",
+    "href": "slides/p-curve/p-curve.slide.html#p-curve-effect-size-0",
+    "title": "p-curve",
+    "section": "p-curve: Effect size > 0",
+    "text": "p-curve: Effect size &gt; 0\n\nWith increasing power, the p-curve gets more positively skewed"
+  },
+  {
+    "objectID": "slides/p-curve/p-curve.slide.html#p-curve-effect-size-0-1",
+    "href": "slides/p-curve/p-curve.slide.html#p-curve-effect-size-0-1",
+    "title": "p-curve",
+    "section": "p-curve: Effect size > 0",
+    "text": "p-curve: Effect size &gt; 0\n\nWith increasing power, the p-curve gets more positively skewed"
+  },
+  {
+    "objectID": "slides/p-curve/p-curve.slide.html#p-curve-effect-size-0-2",
+    "href": "slides/p-curve/p-curve.slide.html#p-curve-effect-size-0-2",
+    "title": "p-curve",
+    "section": "p-curve: Effect size > 0",
+    "text": "p-curve: Effect size &gt; 0\n\nWith increasing power, the p-curve gets more positively skewed"
+  },
+  {
+    "objectID": "slides/p-curve/p-curve.slide.html#the-p-distribution-1",
+    "href": "slides/p-curve/p-curve.slide.html#the-p-distribution-1",
+    "title": "p-curve",
+    "section": "The p distribution",
+    "text": "The p distribution\nNull effect\n\nRunning a study without a real effect is like drawing a random p-value from this distribution"
+  },
+  {
+    "objectID": "slides/p-curve/p-curve.html#the-p-distribution",
+    "href": "slides/p-curve/p-curve.html#the-p-distribution",
+    "title": "p-curve",
+    "section": "The p distribution",
+    "text": "The p distribution\n\nGiven a certain statistical power (or, effect size + sample size), the distribution of p-values has a certain shape.\nUnder the H₀, the p-curve is uniformly distributed. That means, each p-value is equally likely."
+  },
+  {
+    "objectID": "slides/p-curve/p-curve.html#the-p-distribution-1",
+    "href": "slides/p-curve/p-curve.html#the-p-distribution-1",
+    "title": "p-curve",
+    "section": "The p distribution",
+    "text": "The p distribution\n\nNull effect\n\nRunning a study without a real effect is like drawing a random p-value from this distribution"
+  },
+  {
+    "objectID": "slides/p-curve/p-curve.html#the-p-distribution---null-effect",
+    "href": "slides/p-curve/p-curve.html#the-p-distribution---null-effect",
+    "title": "p-curve",
+    "section": "The p distribution - null effect",
+    "text": "The p distribution - null effect\n\nRunning a study without a real effect is like drawing a random p-value from this distribution\n5% of all p-values are &lt;5%."
+  },
+  {
+    "objectID": "slides/p-curve/p-curve.html#p-curve-effect-size-0",
+    "href": "slides/p-curve/p-curve.html#p-curve-effect-size-0",
+    "title": "p-curve",
+    "section": "p-curve: Effect size > 0",
+    "text": "p-curve: Effect size &gt; 0\n\nWith increasing power, the p-curve gets more positively skewed"
+  },
+  {
+    "objectID": "slides/p-curve/p-curve.html#p-curve-effect-size-0-1",
+    "href": "slides/p-curve/p-curve.html#p-curve-effect-size-0-1",
+    "title": "p-curve",
+    "section": "p-curve: Effect size > 0",
+    "text": "p-curve: Effect size &gt; 0\n\nWith increasing power, the p-curve gets more positively skewed"
+  },
+  {
+    "objectID": "slides/p-curve/p-curve.html#p-curve-effect-size-0-2",
+    "href": "slides/p-curve/p-curve.html#p-curve-effect-size-0-2",
+    "title": "p-curve",
+    "section": "p-curve: Effect size > 0",
+    "text": "p-curve: Effect size &gt; 0\n\nWith increasing power, the p-curve gets more positively skewed\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhttp://rpsychologist.com/d3/pdist"
   }
 ]

@@ -1,0 +1,17 @@
+format,body,additionalText,options,correctOptions,multiple,abstentionsAllowed
+CHOICE,"
+Which of the following concepts or skills do you *now* feel more confident about in relation to version control? (Select all that apply)
+
+",,"Git
+GitHub
+Repositories
+RStudio Project
+I am not sure about any of these concepts.",false,TRUE,TRUE
+CHOICE,"
+How comfortable are you with using Git for version control?
+
+",,"1 = Not comfortable at all
+2
+3
+4
+5 = Very comfortable",false,FALSE,TRUE

@@ -27,13 +27,21 @@ revealjs-plugins:
 - Die Daten auswerten
 - Einen wissenschaftlichen Bericht verfassen
 
-## Ziele
-### Kerncurriculum "Gute wissenschaftliche Praxis" 
+## Was gehört alles dazu? Der Forschungszyklus
+
+![](img/OpenResearchCycle_v2.png)
+
+::: footer
+*([Figure](https://zenodo.org/records/17661040) by Malika Ihle, CC-BY 4.0)*
+:::
+
+## Kerncurriculum "Gute wissenschaftliche Praxis" 
 
 - **Stichprobenplanung**, in der Regel eine a-priori Poweranalyse
 - **Präregistrierung** der Hypothesen, Operationalisierungen, Stichprobenplanung und der statistischen Analysemethode
 - **Open Data** (mit Codebuch): Offene Daten als Standard für vertrauenswürdiges Forschen
 - **Reproduzierbare Analyseskripte**
+
 
 ## Ziele
 ### (1) Eine empirische Fragestellung entwickeln

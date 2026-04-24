@@ -1,3 +1,7 @@
+## TODOs:
+# - Add a check: No markdown in response options
+# - Add a check: No " in response options (rather use ')
+
 library(exams)
 library(rio)
 

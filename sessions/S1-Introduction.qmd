@@ -32,6 +32,11 @@ description: Threats to credible research; choice of replication target
 - Where do you originally come from, and where do you live now?
 - Why did you choose psychology?
 
+## What will we cover in the course? The research cycle
+
+![](img/OpenResearchCycle_v2.png)
+*([Figure](https://zenodo.org/records/17661040) by Malika Ihle, CC-BY 4.0)*
+
 ## Threats to credible research lecture
 
 Join the live survey: <https://partici.fi/33173261>
@@ -53,9 +58,10 @@ Take the strategies from both buyers and sellers from the "Used Car Exercise" an
 
 Example:
 
-| Used Cars                                                                        | Scientific publications                                                |
-| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| Do a test drive to check whether the claim of the seller ("no noise") is correct | Do a reproduction to check whether the claim of the authors is correct |
+| Used Cars                                                                        | Scientific publications                                                              |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Do a test drive to check whether the claim of the seller ("no noise") is correct | Do a reproduction to check whether the claim of the authors is (numerically) correct |
+|                                                                                  |                                                                                      |
 
 Do this in the collaborative Etherpad in Moodle.
 

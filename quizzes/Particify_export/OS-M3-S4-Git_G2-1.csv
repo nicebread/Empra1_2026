@@ -1,0 +1,24 @@
+format,body,additionalText,options,correctOptions,multiple,abstentionsAllowed
+CHOICE,"
+What is your level of familiarity with **version control**?
+
+",,"I have never heard of it before.
+I have heard of it but have never worked with it.
+I have a basic understanding and some experience with it.
+I am very familiar and have worked with it extensively.",false,FALSE,TRUE
+CHOICE,"
+Which of the following concepts or skills do you feel confident in? (Select all that apply.)
+
+",,"Git
+GitHub
+Repositories
+RStudio Project
+I am not sure about any of these concepts.",false,TRUE,TRUE
+CHOICE,"
+How comfortable are you with using Git for version control?
+
+",,"1 = Not comfortable at all
+2
+3
+4
+5 = Very comfortable",false,FALSE,TRUE
