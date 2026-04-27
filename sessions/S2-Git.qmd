@@ -49,11 +49,47 @@ Read the target paper: Stellar, J. E., Gordon, A., Anderson, C. L., Piff, P. K.,
 
 You can find the PDF in Moodle.
 
-Focus on the introduction, our target study, and the discussion. Skim the other studies.
-
+Focus on the introduction, our target Study 3, and the discussion. Skim the other studies.
 Then write short replies to these guiding questions:
 
-- TODO: Add questions
+1. In the literature are several definitions of "Humility", and they assign it to different classes of psychological constructs (e.g., a trait, a state). List at least 4 different classes.
+
+<!-- trait, a subjective feeling state, a cognitive tendency, an epistemic recognition of the limits of one’s knowledge, and a behavior -->
+
+2. How do the authors treat humility comceptually?
+
+<!-- treating humility as a dynamic state and capturing multiple forms of measurement to triangulate on this fluctuating and multifaceted construct.
+
+A dynamic state of WHAT? Emotion? Cognition?
+ -->
+
+3. What is the definition of "awe"?
+
+<!-- Awe is the feeling of wonder and amazement at being in the presence of something vast that transcends one’s current understanding -->
+
+4. Compute the effect size (i.e., the standardized mean difference) between the control and the experimental group concerning strength of elicited awe.
+
+<!--
+
+Scale: 1 - 7
+n = 86 (erroneous in paper: They write n=85)
+
+We do not know n1 and n2 (they did not report how many participants were in each group).
+Given that they had 18 drop-outs, it is not clear how they were distributed.
+Here, we assume equal group sizes (n1 = n2 = 43)
+
+s_pooled = sqrt(((43-1)*1.18^2 + (43-1)*1.49^2) / (86-2)) = 1.344
+d = (5.82 - 2.29) / 1.344 = 2.62
+
+ -->
+
+5. Which limitations / contraints on generality (see [definition CoG](https://forrt.org/glossary/english/constraints_on_generality_cog_/)) do the authors discuss in the General Discussion?
+
+<!-- None. -->
+
+6. Bonus question: There is an objective error concerning the sample size in Study 3. Can you spot it?
+
+<!-- The authors report n=85, but the total number of participants is 86. They collected 104, 18 dropped out = 86, which is consistent with the degrees of freedom in the t-test (df=84 = 86-2) -->
 
 **Deliverable**: 
 
@@ -68,6 +104,6 @@ See link in Moodle.
 
 ### Homework 4 (individual): Complete the Git tutorial.
 
-Complete and/or re-do the Git Tutorial. You should be able to `init` a local repository and `commit` to it, connect it to a remote repository on Github, and `push`, `pull` to it. All of these actions are covered in the tutorial.
+Complete and/or re-do the Git Tutorial. You should be able to initialize a local repository and `commit` to it, connect it to a remote repository on Github, and `push`, `pull` to it. All of these actions are covered in the tutorial.
 
 **Deliverables**: Create a Github repository (you can call it whatever you like), push at least least two local commits to it and copy the link to the repo to the Moodle task.
