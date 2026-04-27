@@ -14,7 +14,8 @@ description: Continuing the discussion on threats to credible research; introduc
 | :------------------------------------------- | :------: | -------------------------------------------------------------------------- |
 | Threats to credible research lecture, part 2 |   100    | [Slides](../slides/Replicability_Crisis/OS-M1-S1-Replicability-slides.qmd) |
 | Break                                        |    15    |                                                                            |
-| Git introduction                             |    60    |                                                                            |
+| Git introduction                             |    60    | [Slides](../slides/Git/OS-M3-S4-Git-slides.qmd)                            |
+|                                              |          |                                                                            |
 
 
 : {.striped}
