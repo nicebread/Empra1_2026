@@ -764,7 +764,7 @@ Open Science Collaboration. (2015). Estimating the reproducibility of psychologi
 
 ```{r, echo = F}
 library(ggplot2)
-library(tidyverse)
+library(ggplot2)
 
 # Note Felix: Changed Exp. Phil. back to 78/22% as this is the p-value metric (consistent to the other projects).
 # Prinz et al (2011; PHarmaceutical Research): Computed replication rate as: (3+5+14)/(22+43) (excluding "not applicable")

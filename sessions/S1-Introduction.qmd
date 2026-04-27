@@ -18,7 +18,7 @@ description: Threats to credible research; choice of replication target
 | Introduction                                     |    5     | Ankündigung: Zeitslot: 10:00 (s.t.) -13:00, aber bis 14:00 freihalten. Alle in Moodle eingeschrieben? |
 | Empra Formalia                                   |    25    | [Slides](../slides/Empra-Orga/Empra-Orga.qmd).                                                        |
 | Students' introduction                           |    15    |                                                                                                       |
-| Threats to credible research lecture, part 1     |   100    |                                                                                                       |
+| Threats to credible research lecture, part 1     |   100    | [Slides](../slides/Replicability_Crisis/OS-M1-S1-Replicability-slides.qmd)                            |
 | Break                                            |    15    |                                                                                                       |
 | Introduce the replication target study proposals |    15    |                                                                                                       |
 | Explain Homework                                 |    5     |                                                                                                       |
