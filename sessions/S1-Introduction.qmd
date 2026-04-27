@@ -67,8 +67,9 @@ Do this in the collaborative Etherpad in Moodle.
 
 ### Homework 2 (individual)
 
-- Create an [ORCID ID](https://orcid.org). You can use "Ludwig-Maximilians-Universität München" as affiliation.
-- Create an [OSF](https://osf.io) account (use your real name; link your ORCID ID).
+- Create an [ORCID ID](https://orcid.org). Use your real name. You can use "Ludwig-Maximilians-Universität München" as affiliation.
+- Create an [OSF](https://osf.io) account. Use your real name; link your ORCID ID.
+- Create a [GitHub](https://github.com) account. You can use your real name or any pseudonym.
 
 ### Homework 3 (collaborative)
 
