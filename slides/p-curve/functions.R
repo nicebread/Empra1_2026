@@ -101,7 +101,9 @@ dpvalue <- function(p,
 #' @param stage Integer (1, 2, or 3) indicating the plot depth:
 #'   1: Base H0 line and dotted borders.
 #'   2: Adds the light red background area.
-#'   3: Adds the 5% significance region and text labels.
+#'   3: Adds the 5% significance region, text labels, and dart images. 
+#'      Note: Dart images are searched relative to the path of the Quarto 
+#'      file calling this function.
 #'
 #' @return A ggplot object representing the H0 distribution.
 #' @export
@@ -117,28 +119,15 @@ plot_h0 <- function(stage = 1) {
     p <- p + annotate("rect", xmin = 0, xmax = 1, ymin = 0, ymax = 1, fill = "#FCD9D9")
   }
 
-  # Stage 3: Dark red significance box, text labels, and dart symbols
+  # Stage 3: Dark red significance box and text labels
   if (stage >= 3) {
-    dart_data <- data.frame(
-      x = c(0.09, 0.29, 0.50, 0.58, 0.74, 0.89),
-      y = c(1.05, 1.05, 1.05, 1.05, 1.05, 1.05),
-      image = "img/dart.png"
-    )
-
     p <- p + 
       annotate("rect", xmin = 0, xmax = 0.05, ymin = 0, ymax = 1, fill = "firebrick") +
       annotate("text", x = 0.025, y = 0.5, label = "5%", color = "white", 
-               fontface = "bold", angle = 90, size = 6) +
-      ggimage::geom_image(
-        data = dart_data,
-        mapping = aes(x = x, y = y, image = image),
-        inherit.aes = FALSE,
-        asp = 1,
-        size = 0.12
-      )
+               fontface = "bold", angle = 90, size = 6)
   }
 
-  # Stage 1: Base lines (always present, layer on top)
+  # Stage 1: Base lines (always present)
   p <- p +
     geom_segment(aes(x = 0, xend = 0, y = 0, yend = 1), linetype = "dotted") +
     geom_segment(aes(x = 1, xend = 1, y = 0, yend = 1), linetype = "dotted") +
@@ -150,6 +139,24 @@ plot_h0 <- function(stage = 1) {
     labs(x = "p value", y = "Density") +
     guides(x = guide_axis(cap = "both"), y = guide_axis(cap = "both")) +
     theme_classic(base_size = 14)
+
+  # Stage 3: Dart symbols (On top of Stage 1 lines)
+  if (stage >= 3) {
+    dart_data <- data.frame(
+      x = c(0.09, 0.29, 0.50, 0.58, 0.74, 0.89),
+      y = c(1.05, 1.05, 1.05, 1.05, 1.05, 1.05),
+      image = "img/dart.png"
+    )
+
+    p <- p + 
+      ggimage::geom_image(
+        data = dart_data,
+        mapping = aes(x = x, y = y, image = image),
+        inherit.aes = FALSE,
+        asp = 1,
+        size = 0.25
+      )
+  }
 
   return(p)
 }
