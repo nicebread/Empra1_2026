@@ -240,11 +240,13 @@ pcurve_plot <- function(power = .10, p.max = .9999, ymax = 5, sig.region = FALSE
 #' (e.g., up to 0.20), specifically highlighting the regions 0 to 0.025 and
 #' 0.025 to 0.05 with distinct colors. Optional example elements (darts, 
 #' callouts, k-values) can be activated and are true for a power of 60%.
+#' Optional publication bias annotations can also be activated.
 #'
 #' @param power Numeric. The true statistical power. Default is 0.60.
 #' @param p.max Numeric. The maximum p-value to plot. Default is 0.2.
 #' @param ymax Numeric. The maximum density on the y-axis. Default is 50.
 #' @param example Logical. If TRUE, adds dart images, k-labels, and callout bubbles.
+#' @param publication_bias Logical. If TRUE, adds vertical red line at 0.05 and arrows indicating published vs. file-drawer bins.
 #'
 #' @return A ggplot object showing binned significance regions.
 #' @export
@@ -252,7 +254,7 @@ pcurve_plot <- function(power = .10, p.max = .9999, ymax = 5, sig.region = FALSE
 #' @examples
 #' plot_special_2()
 #' plot_special_2(example = TRUE)
-plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, example = FALSE) {
+plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, example = FALSE, publication_bias = FALSE) {
     df <- data.frame(p = seq(.001, p.max, length.out = 1000))
     df$density <- dpvalue(df$p, power = power)
 
@@ -292,7 +294,7 @@ plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, example = FALSE)
       annotate("text", x = 0.0125, y = 0, label = "k=5", size = 5, vjust = 4) +
       annotate("text", x = 0.0375, y = 0, label = "k=13", size = 5, vjust = 4)
 
-    # 3. 3. Callout bubbles and pointers
+    # 3. Callout bubbles and pointers
     p <- p +
       # Pointer to the green area
       annotate("segment", 
@@ -319,6 +321,32 @@ plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, example = FALSE)
                fill = "royalblue", color = "white", 
                fontface = "bold", size = 6, hjust = 0, vjust = 0, 
                label.padding = unit(0.8, "lines"), label.size = NA)
+  }
+
+  # Conditional inclusion of publication bias annotations
+  if (publication_bias) {
+      p <- p +
+          # Thick vertical red line at p = 0.05
+          annotate("segment", x = 0.05, xend = 0.05, y = ymax * 0.02, yend = ymax, 
+                   color = "#cc2200", linewidth = 2.5) +
+          
+          # Curved arrow left (published)
+          annotate("curve", x = 0.035, y = ymax * 0.05, xend = 0.015, yend = -ymax * 0.15, 
+                   curvature = 0.2, arrow = arrow(length = unit(0.4, "cm"), type = "closed"), 
+                   color = "grey60", linewidth = 2) +
+                   
+          # Text 'published'
+          annotate("text", x = 0.015, y = -ymax * 0.22, label = "published", 
+                   size = 7, hjust = 0.5) +
+                   
+          # Curved arrow right (file-drawer) - Symmetrical to the left arrow
+          annotate("curve", x = 0.065, y = ymax * 0.05, xend = 0.085, yend = -ymax * 0.15, 
+                   curvature = -0.2, arrow = arrow(length = unit(0.4, "cm"), type = "closed"), 
+                   color = "grey60", linewidth = 2) +
+                   
+          # Text 'file-drawer' - Symmetrical to the left label
+          annotate("text", x = 0.085, y = -ymax * 0.22, label = "file-drawer", 
+                   size = 7, hjust = 0.5)
   }
 
   return(p)

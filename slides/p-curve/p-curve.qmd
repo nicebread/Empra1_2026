@@ -150,3 +150,43 @@ print(pcurve_plot(.80, ymax = 30, sig.region = TRUE))
 #| message: false
 print(plot_special_2(example = TRUE))
 ```
+
+## Publication bias
+
+* Only results with ***p*** < .05 pass the journals' "**significance filter**”
+* Journals' selection, or pre-emptive self-selection: "This won't get published, I don't even try."
+* Result: Selective & biased picture in the literature
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+print(plot_special_2(publication_bias = TRUE))
+```
+
+## Elderly priming ***p***-values
+### <http://p-curve.com/>
+
+::: {.column width="27%"}
+![](img/elderly_priming_p-values_1.png)
+:::
+
+::: {.column width="55%"}
+![](img/elderly_priming_p-values_2.png)
+:::
+
+---
+
+::: {style="line-height: 1.2;"}
+![](img/p-curving_1.png){fig-align="center" width="70%"}
+:::
+
+::: {.smallest style="margin-top: -40px"}
+"<mark>*It may seem that the existence of 33 supportive published studies is enough to conclude that there is an effect of expansive versus contractive posture on psychological outcomes.*</mark>"
+:::
+
+![](img/p-curving_2.png){fig-align="center" width=45%}
+
+::: {.smallest style="margin-top: -40px; text-align: center;"}
+***p***-curve analysis of 24 significant studies
+:::
