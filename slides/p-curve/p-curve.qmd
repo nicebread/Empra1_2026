@@ -6,6 +6,10 @@ author:
     orcid: 0000-0002-8282-3910
     email: felix.schoenbrodt@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München
+  - name: David Rieger
+    orcid: 0009-0004-3701-3101
+    email: david.rieger@campus.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München   
 date: 2026-04-22
 footer: "Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 from: markdown+emoji
