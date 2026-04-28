@@ -238,18 +238,21 @@ pcurve_plot <- function(power = .10, p.max = .9999, ymax = 5, sig.region = FALSE
 #'
 #' This function creates a detailed view of the p-curve for small p-values
 #' (e.g., up to 0.20), specifically highlighting the regions 0 to 0.025 and
-#' 0.025 to 0.05 with distinct colors.
+#' 0.025 to 0.05 with distinct colors. Optional example elements (darts, 
+#' callouts, k-values) can be activated and are true for a power of 60%.
 #'
 #' @param power Numeric. The true statistical power. Default is 0.60.
 #' @param p.max Numeric. The maximum p-value to plot. Default is 0.2.
 #' @param ymax Numeric. The maximum density on the y-axis. Default is 50.
+#' @param example Logical. If TRUE, adds dart images, k-labels, and callout bubbles.
 #'
 #' @return A ggplot object showing binned significance regions.
 #' @export
 #'
 #' @examples
 #' plot_special_2()
-plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50) {
+#' plot_special_2(example = TRUE)
+plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, example = FALSE) {
     df <- data.frame(p = seq(.001, p.max, length.out = 1000))
     df$density <- dpvalue(df$p, power = power)
 
@@ -262,9 +265,61 @@ plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50) {
         geom_area(data = df_sig2, fill = "#83F41F") +
         geom_line(color = "grey20", linewidth = 0.8) +
         scale_x_continuous(limits = c(0, round(p.max, 1)), breaks = seq(0, p.max, by = 0.05), labels = function(x) sprintf("%.2f", x)) +
-        scale_y_continuous(limits = c(0, ymax)) +
+        scale_y_continuous() +
         labs(x = "p value", y = "Density") +
         guides(x = guide_axis(cap = "both"), y = guide_axis(cap = "both")) +
-        theme_classic(base_size = 14)
-    return(p)
+        theme_classic(base_size = 14) +
+        coord_cartesian(ylim = c(0, ymax), clip = "off") +
+        theme(plot.margin = margin(t = 10, r = 10, b = 40, l = 10))
+    
+    # Conditional inclusion of example elements
+  if (example) {
+    
+    # 1. Dart images: Coordinate clusters for k=5 (green) and k=13 (yellow)
+    dart_df <- data.frame(
+      x = c(0.008, 0.010, 0.015, 0.010, 0.020, 
+            0.030, 0.032, 0.035, 0.038, 0.040, 0.042, 0.045, 0.048, 0.031, 0.033, 0.037, 0.041, 0.044),
+      y = c(20, 15, 10, 12, 8, 
+            5, 5, 4, 3, 4, 5, 3, 4, 6, 5, 5, 4, 4),
+      image = "img/dart.png"
+    )
+
+    p <- p +
+      ggimage::geom_image(data = dart_df, mapping = aes(x = x, y = y, image = image), inherit.aes = FALSE, size = 0.12)
+
+    # 2. Text labels below the areas (k=5, k=13) with extended margin
+    p <- p +
+      annotate("text", x = 0.0125, y = 0, label = "k=5", size = 5, vjust = 4) +
+      annotate("text", x = 0.0375, y = 0, label = "k=13", size = 5, vjust = 4)
+
+    # 3. 3. Callout bubbles and pointers
+    p <- p +
+      # Pointer to the green area
+      annotate("segment", 
+               x = 0.04, y = ymax * 0.9, 
+               xend = 0.01, yend = 22, 
+               color = "royalblue", linewidth = 2.5) +
+      # Label for the green area
+      annotate("label", 
+               x = 0.04, y = ymax * 0.9, 
+               label = "49% of all p-values are <.025", 
+               fill = "royalblue", color = "white", 
+               fontface = "bold", size = 6, hjust = 0, vjust = 0, 
+               label.padding = unit(0.8, "lines"), label.size = NA) +
+
+      # Pointer to the yellow area
+      annotate("segment", 
+               x = 0.06, y = ymax * 0.7, 
+               xend = 0.035, yend = 10, 
+               color = "royalblue", linewidth = 2.5) +
+      # Label for the yellow area
+      annotate("label", 
+               x = 0.06, y = ymax * 0.7, 
+               label = "11% of all p-values are between .025 and .05", 
+               fill = "royalblue", color = "white", 
+               fontface = "bold", size = 6, hjust = 0, vjust = 0, 
+               label.padding = unit(0.8, "lines"), label.size = NA)
+  }
+
+  return(p)
 }

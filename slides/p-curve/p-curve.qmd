@@ -140,3 +140,13 @@ print(pcurve_plot(.80, ymax = 30, sig.region = TRUE))
 ::: {style="margin-top: -50px; text-align: center;"}
 <http://rpsychologist.com/d3/pdist>
 :::
+
+## Elderly priming p-values
+### 60% power
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+print(plot_special_2(example = TRUE))
+```
