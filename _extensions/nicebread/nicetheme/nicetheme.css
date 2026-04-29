@@ -24,3 +24,13 @@
   --mermaid-node-fg-color: #ff0000;
   --mermaid-label-fg-color: #ff0000;
 } */
+
+.reflection {
+    display: inline-block;
+    transform-origin: left center;
+    transform: perspective(1200px) rotateY(12deg);
+    filter: drop-shadow(-15px 15px 45px rgba(0, 0, 0, 0.95));
+    -webkit-box-reflect: below 0px linear-gradient(transparent 55%, rgba(255, 255, 255, 0.5));
+    margin-bottom: 120px;
+    max-width: 85%;
+}
