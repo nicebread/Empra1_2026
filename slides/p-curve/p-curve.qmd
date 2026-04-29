@@ -315,3 +315,144 @@ But meta-analyses reveal the truth! (Do they?)
 :::{style="margin-top: -50px"}
 ![](img/meta-analysis_3.png){fig-align="center" width=60%}
 :::
+
+---
+
+![](img/meta-analysis_4.png){fig-align="center"}
+
+## True H₁ samples: 
+### d = 0.5
+
+![](img/meta-analysis_5.png)
+
+## True H₁ samples:
+### d = 0.5
+
+![](img/meta-analysis_6.png){fig-align="center"}
+
+## True H₀ samples
+
+![](img/meta-analysis_7.png){fig-align="center"}
+
+## True H₀ + publication bias
+
+![](img/meta-analysis_8.png){fig-align="center"}
+
+## True H₀ + publication bias
+
+![](img/meta-analysis_9.png){fig-align="center"}
+
+## Begg & Mazumdar test
+
+* Begg & Mazumdar’s test for publication bias:Rank correlation between effect and its precision (i.e., standard error of effect size)
+  * Alternatively: Rank correlation between effect size and sample size
+* Significant negative correlation = sign of publication bias
+* Good Type I error control (i.e., false alarms at nominal, say, 5% level)
+* Low power (i.e., no significant correlation is not necessarily a good sign for no publication bias)
+
+:::: aside
+::: {.smaller}
+Begg, C. B., & Mazumdar, M. (1994). Operating characteristics of a rank correlation test for publication bias. Biometrics, 50(4), 1088. <http://doi.org/10.2307/2533446>
+:::
+::::
+
+## JPSP vs. JASP: ***R-index & TIVA***
+
+![](img/JASP_vs_JPSP_1.png){fig-align="center"}
+
+![](img/JASP_vs_JPSP_2.png){fig-align="center" height="130px"}
+
+## Egger's regression test
+
+:::: {.columns}
+
+::: {.column width="50%"}
+* If slope of regression line ≠ zero (with ***p*** < .10): indication of publication bias
+* Same idea like Begg & Mazumdar, but "probably more powerful" in detection of bias
+:::
+
+::: {.column width="50%"}
+![](img/eggers_regression_test_1.png){style="margin-top: -1.5em;"}
+:::
+
+::::
+
+## Extending Egger's test: PET
+
+:::: {.columns}
+
+::: {.column width="50%"}
+* Use Egger's regression line, but do not focus on slope, but on the ***intercept***!
+* What is the expected ES at maximum precision (i.e., zero SE)?
+* Intercept = estimate for true underlying effect correct for small-study effects
+* PET = precision effect test
+:::
+
+::: {.column width="50%"}
+![](img/eggers_regression_test_2.png){style="margin-top: -1.5em;"}
+:::
+
+::::
+
+:::: aside
+::: {.smaller}
+Stanley, T. D., & Doucouliagos, H. (2013). Meta-regression approximations to reduce publication selection bias. Research Synthesis Methods, 5(1), 60–78. 
+<http://doi.org/10.1002/jrsm.1095>
+:::
+::::
+
+## PET-PEESE
+### (Stanley & Doucou)
+
+::: {.smallest}
+* PEESE = precision-effect estimate with standard error ➙ effect size is regressed on the variance rather than standard error
+* As in PET: Intercept is interpreted as estimate of true effect
+* Simulation studies show: PET underestimates if true effect is non-zero, PEESE overestimates if true effect is zero.
+* ➙ Suggestion: If PET intercept is not significant with p > .05, (i.e.: corrected ES does not differ from zero), use the PET intercept as estimate. If PET intercept significantly differs from zero, use PEESE intercept as estimate.
+* No real theoretical foundation - just the ad-hoc solution that worked best.
+:::
+
+![](img/pet-peese.png){fig-align="center" height="130px"}
+
+:::: aside
+
+::: {.smallest}
+Appendix of Carter, E. C., & McCullough, M. E. (2014). Publication bias and the limited strength model of self-control: has the evidence for ego depletion been overestimated? Personality and Social Psychology, 5, 823.
+:::
+
+::: {.smallest}
+Stanley, T. D., & Doucouliagos, H. (2013). Meta-regression approximations to reduce publication selection bias. Research Synthesis Methods, 5(1), 60–78. 
+<http://doi.org/10.1002/jrsm.1095>
+:::
+
+::::
+
+---
+
+:::{style="margin-top: -40px"}
+![](img/romance_risk_and_replication_1.png){fig-align="center" height="250px"}
+:::
+
+:::{style="margin-top: -50px"}
+![](img/romance_risk_and_replication_2.png){fig-align="center" height="450px"}
+:::
+
+## {transition="slide-in fade-out"}
+
+:::{style="margin-top: -40px"}
+![](img/romance_risk_and_replication_1.png){fig-align="center" height="250px"}
+:::
+
+:::{style="margin-top: -50px"}
+![](img/romance_risk_and_replication_3.png){fig-align="center" height="450px"}
+:::
+
+## {transition="fade-in slide-out"}
+
+:::{style="margin-top: -40px"}
+![](img/romance_risk_and_replication_1.png){fig-align="center" height="250px"}
+:::
+
+:::{style="margin-top: -50px"}
+![](img/romance_risk_and_replication_4.png){fig-align="center" height="450px"}
+:::
