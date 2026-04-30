@@ -412,15 +412,19 @@ Stanley, T. D., & Doucouliagos, H. (2013). Meta-regression approximations to red
 * No real theoretical foundation - just the ad-hoc solution that worked best.
 :::
 
-![](img/pet-peese.png){fig-align="center" height="130px"}
+```{r}
+#| eval: false
+#| echo: true
+# R Code
+PET = lm(d~se, weights = 1/v)
+PEESE = lm(d~se^2, weights = 1/v)
+```
 
 :::: aside
 
 ::: {.smallest}
 Appendix of Carter, E. C., & McCullough, M. E. (2014). Publication bias and the limited strength model of self-control: has the evidence for ego depletion been overestimated? Personality and Social Psychology, 5, 823.
-:::
 
-::: {.smallest}
 Stanley, T. D., & Doucouliagos, H. (2013). Meta-regression approximations to reduce publication selection bias. Research Synthesis Methods, 5(1), 60–78. 
 <http://doi.org/10.1002/jrsm.1095>
 :::
@@ -443,8 +447,8 @@ Stanley, T. D., & Doucouliagos, H. (2013). Meta-regression approximations to red
 ![](img/romance_risk_and_replication_1.png){fig-align="center" height="250px"}
 :::
 
-:::{style="margin-top: -50px"}
-![](img/romance_risk_and_replication_3.png){fig-align="center" height="450px"}
+:::{style="margin-top: -60px"}
+![](img/romance_risk_and_replication_3.png){fig-align="center" height="400px"}
 :::
 
 ## {transition="fade-in slide-out"}
@@ -453,6 +457,216 @@ Stanley, T. D., & Doucouliagos, H. (2013). Meta-regression approximations to red
 ![](img/romance_risk_and_replication_1.png){fig-align="center" height="250px"}
 :::
 
-:::{style="margin-top: -50px"}
-![](img/romance_risk_and_replication_4.png){fig-align="center" height="450px"}
+:::{style="margin-top: -60px"}
+![](img/romance_risk_and_replication_4.png){fig-align="center" height="400px"}
 :::
+
+---
+
+:::{style="margin-top: -40px"}
+![](img/ego_depletion_1.png){fig-align="center"}
+:::
+
+:::{style="margin-top: -70px"}
+![](img/ego_depletion_2.png){fig-align="center"}
+:::
+
+---
+
+:::{style="margin-top: -40px"}
+![](img/ego_depletion_3.png){fig-align="center" height="250px"}
+:::
+
+::: {.smallest style="margin-top: -40px"}
+"Instead, we believe our results are best interpreted as demonstrating that the current <mark>*evidence for the depletion effect is not convincing, despite the hundreds of experiments that have examined it.*</mark>"
+:::
+
+![](img/ego_depletion_4.png){fig-align="center" height="350px"}
+
+---
+
+:::{style="margin-top: -40px"}
+![](img/ego_depletion_5.png){fig-align="center" height="400px"}
+:::
+
+:::{style="margin-top: -50px"}
+![](img/ego_depletion_6.png){fig-align="center" height="200px"}
+:::
+
+:::: aside
+::: {.smaller}
+Hagger, M. S., & Chatzisarantis, N. L. D. (2016). A Multilab Preregistered Replication of the Ego-Depletion Effect. 
+Perspectives on Psychological Science, 11(4), 546–573. 
+<http://doi.org/10.1177/1745691616652873>
+:::
+::::
+
+## {transition="slide-in fade-out"}
+
+:::{style="margin-top: 150px"}
+![](img/ego_depletion_7.png){fig-align="center"}
+:::
+
+:::: aside
+::: {.smaller style="overflow-wrap: anywhere;"}
+<http://www.slate.com/articles/health_and_science/cover_story/2016/03/ego_depletion_an_influential_theory_in_psychology_may_have_just_been_debunked.single.html>
+:::
+::::
+
+## {transition="fade-in slide-out"}
+
+:::{style="margin-top: 150px"}
+![](img/ego_depletion_8.png){fig-align="center"}
+:::
+
+:::: aside
+::: {.smaller style="overflow-wrap: anywhere;"}
+<http://www.slate.com/articles/health_and_science/cover_story/2016/03/ego_depletion_an_influential_theory_in_psychology_may_have_just_been_debunked.single.html>
+:::
+::::
+
+---
+
+:::{style="margin-top: -40px"}
+![](img/everything_is_fucked_1.png){fig-align="center" height="250px"}
+:::
+
+:::{style="margin-top: -60px"}
+![](img/everything_is_fucked_2.png){fig-align="center" height="400px"}
+:::
+
+:::: aside
+::: {.smaller}
+<https://hardsci.wordpress.com/2016/08/11/everything-is-fucked-the-syllabus/>
+:::
+::::
+
+## Practice with p-checker
+
+<http://shinyapps.org/apps/p-checker/>
+
+![](img/p-checker_1.png){fig-align="center"}
+
+---
+
+![](img/p-checker_2.png){fig-align="center"}
+
+## "A tale of two papers"
+### by Michael Inzlicht
+
+![](img/tale_of_two_papers_1.png){fig-align="center"}
+
+:::: aside
+::: {.smaller}
+<http://sometimesimwrong.typepad.com/wrong/2015/11/guest-post-a-tale-of-two-papers.html>
+:::
+::::
+
+## "A tale of two papers"
+### by Michael Inzlicht
+
+::: {style="margin-top: -40px;"}
+:::: {.columns}
+
+::: {.column width="25%"}
+![](img/tale_of_two_papers_2.png)
+:::
+
+::: {.column width="25%"}
+![](img/tale_of_two_papers_3.png)
+:::
+
+::: {.column width="25%"}
+![](img/tale_of_two_papers_4.png)
+:::
+
+::::
+:::
+
+:::: aside
+::: {.smaller}
+<http://sometimesimwrong.typepad.com/wrong/2015/11/guest-post-a-tale-of-two-papers.html>
+
+Tuk, M. A., Zhang, K., & Sweldens, S. (2015). The Propagation of Self-Control: Self-Control in One Domain Simultaneously Improves Self-Control in Other 
+Domains. Journal of Experimental Psychology: General, 144, 639–654. <http://doi.org/10.1037/xge0000065>
+:::
+::::
+
+---
+
+![](img/tale_of_two_papers_5.png)
+
+## Informed skepticism
+### (“detection of Don’ts”)
+
+* We have indicators which allow to evaluate the credibility and evidential value of a line of research
+* ***p***-curve, R-index/ excess significance, TIVA, meta-regression techniques
+* None of these techniques is perfect - but look out for (converging) **red flags** 
+* Use these flags for informed skepticism (not for a "witch hunt" or "replication police")
+
+## Red flags
+
+::: {style="margin-top: -40px;"}
+![](img/flag_red.png){height="100px"}
+:::
+
+::: {style="margin-top: -20px;"}
+* Sweeping claims, counterintuitive, and shocking results
+* Most ***p*** values are in the range of .03 – .05
+  * ***p***-curve is not right-skewed
+  * TIVA: Smaller variance of ***p***-values than expected
+* A highly cited result, but no direct replications have been published so far
+* Too good to be true
+  * R-index < 40% / “Excess significance”
+  * Biased meta-analysis: Asymmetric funnel plot
+:::
+
+:::: aside
+::: {.smaller}
+<http://www.nicebread.de/in-the-era-of-repligate-what-are-valid-cues-for-the-trustworthiness-of-a-study/>
+:::
+::::
+
+## (Possibly) Invalid flags
+
+::: {style="margin-top: -40px;"}
+![](img/flag_white.png){height="100px"}
+:::
+
+::: {style="margin-top: -20px;"}
+* Impact factor of journal
+* The author’s h-index
+* Meta-analyses
+  * Garbage-in, garbage-out: Meta-analyses of a biased literature produce biased results. 
+  * Typical correction methods do not work well. Jury is still out for new developments such as PET-PEESE.
+  * When looking at meta-analyses, at least one has to check whether and how it was corrected for publication bias. Trim-&-Fill does ***not*** work well.
+:::
+
+:::: aside
+::: {.smaller}
+<http://www.nicebread.de/in-the-era-of-repligate-what-are-valid-cues-for-the-trustworthiness-of-a-study/>
+:::
+::::
+
+## Green flags
+
+::: {style="margin-top: -40px;"}
+![](img/flag_green.png){height="100px"}
+:::
+
+::: {.smaller style="margin-top: -20px;"}
+* Pre-registration
+* High Power
+  * Larger samples, within-designs
+* Independent high-power replications
+* Open Data and Open Material
+  * Willingness to share research data is related to the strength of the evidence and the quality of reporting of statistical results (Wicherts, Bakker, & Molenaar, 2011)
+  * Quarterly Journal of Political Science:  54% of papers “had results in the paper that differed from those generated by the author’s own code” ➙ a well prepared data set and analysis code should be a validity indicator
+* Using the "[21 Word Solution](http://c.ymcdn.com/sites/www.spsp.org/resource/resmgr/dialogue/dialogue_26%282%29.pdf)" of Simmons, Nelson, & Simonsohn (2012)
+:::
+
+:::: aside
+::: {.smaller}
+<http://www.nicebread.de/in-the-era-of-repligate-what-are-valid-cues-for-the-trustworthiness-of-a-study/>
+:::
+::::
