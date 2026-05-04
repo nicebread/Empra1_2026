@@ -1,0 +1,25 @@
+Question
+========
+
+What is the main purpose of using Git in a project?
+
+
+Answerlist
+----------
+
+* To edit code directly on GitHub
+* To automatically test and debug programs
+* To track changes and collaborate on code with version control
+* To back up files to the cloud without version history
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: OS-M3-S4-Git_G3_Q1
+extype: schoice
+exsolution: 0010
+expoints: 0

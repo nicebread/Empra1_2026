@@ -1,0 +1,10 @@
+format,body,additionalText,options,correctOptions,multiple,abstentionsAllowed
+CHOICE,"
+Who is familiar with these problems? (Select all that apply.)
+
+",,"Inconsistent data and file management aka 'I cannot find my files'
+Hardware failures (coffee spill, laptop dropped, lost laptop, broken USB) aka 'my work is lost'
+Extended periods of time between project actions aka 'I forgot what I was working on'
+Experimentation with new features aka 'I tried something and then everything was broken'
+All of the above 🤯
+None of the above 😇 (are you sure?)",false,TRUE,TRUE

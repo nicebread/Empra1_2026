@@ -1,0 +1,25 @@
+Question
+========
+
+Why do we add an SSH key to our GitHub account when setting up Git?
+
+
+Answerlist
+----------
+
+* To store our Git username and password on the computer
+* To allow our computer to connect securely to GitHub without entering a password each time
+* To make Git automatically commit our changes
+* To enable GitHub to edit our files directly on our computer
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: OS-M3-S4-Git_G3_Q2
+extype: schoice
+exsolution: 0100
+expoints: 0

@@ -24,3 +24,109 @@
   --mermaid-node-fg-color: #ff0000;
   --mermaid-label-fg-color: #ff0000;
 } */
+
+
+
+/* ------------------------------------------------------------ */
+/* Timer styling: Small timers. (Base width = 300px)
+
+Apply to the entire slide:
+## Title {.small-timer}
+*/
+.reveal .slides section.small-timer .base-timer {
+  width: 200px;
+  height: 200px;
+}
+.reveal .slides section.small-timer .base-timer__label {
+  font-size: 2rem;
+}
+
+.reveal .slides section.smallest-timer .base-timer {
+  width: 100px;
+  height: 100px;
+}
+.reveal .slides section.small-timer .base-timer__label {
+  font-size: 1.2rem;
+}
+
+/* Center the base timer horizontally within its container */
+.reveal .base-timer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ------------------------------------------------------------ */
+
+
+
+
+/* Grey text for notes  */
+.reveal .slides section:not(:first-of-type) .note {
+  color: #AAA;
+}
+
+/* Grey text for small notes */
+.reveal .slides section:not(:first-of-type) .smallnote {
+  font-size: 0.55em; 
+  color: #AAA;
+}
+
+/* Poster-like analogy box for emphasis slides */
+.reveal .callout-box {
+  background-color: #f7f7f7;
+  border: 3px solid #093;
+  border-radius: 14px;
+  padding: 0.5em 1.4em;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0.2em auto;
+  max-width: 80%;
+}
+
+
+
+/* Single full-size centered image that stays within the slide content area */
+.reveal .img-full {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: 58vh;  /* 100vh minus approx. header (~12vh), subtitle (~6vh), footer (~5vh), padding */
+  object-fit: contain;
+}
+
+/* Vertically center content (especially images) inside a column
+Use as an inner wrapper inside a column: ::: {.img-vcenter}
+*/
+.reveal .img-vcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.reveal .img-vcenter > p,
+.reveal .img-vcenter > figure,
+.reveal .img-vcenter > .quarto-figure {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.reveal .img-vcenter img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 56vh;
+  height: auto;
+  object-fit: contain;
+}
+
+/* smaller blockquote text */
+.reveal blockquote {
+  font-size: 75%;
+}

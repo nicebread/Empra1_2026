@@ -1,0 +1,15 @@
+format,body,additionalText,options,correctOptions,multiple,abstentionsAllowed
+CHOICE,"
+What is the main purpose of using Git in a project?
+
+",,"To edit code directly on GitHub
+To automatically test and debug programs
+To track changes and collaborate on code with version control
+To back up files to the cloud without version history",To track changes and collaborate on code with version control,FALSE,TRUE
+CHOICE,"
+Why do we add an SSH key to our GitHub account when setting up Git?
+
+",,"To store our Git username and password on the computer
+To allow our computer to connect securely to GitHub without entering a password each time
+To make Git automatically commit our changes
+To enable GitHub to edit our files directly on our computer",To allow our computer to connect securely to GitHub without entering a password each time,FALSE,TRUE

@@ -1,0 +1,34 @@
+Question
+========
+
+Who is familiar with these problems? (Select all that apply.)
+
+
+Answerlist
+----------
+
+* Inconsistent data and file management aka 'I cannot find my files'
+* Hardware failures (coffee spill, laptop dropped, lost laptop, broken USB) aka 'my work is lost'
+* Extended periods of time between project actions aka 'I forgot what I was working on'
+* Experimentation with new features aka 'I tried something and then everything was broken'
+* All of the above 🤯
+* None of the above 😇 (are you sure?)
+
+
+Solution
+========
+This is a feedback question, there is **no correct answer**.
+--> add `exextra[noCorrect,logical]: TRUE` to the Meta-information.
+
+The `exsolution` below is only a technical requirement for R/exams and is 
+ignored when exporting to Particify.
+Make sure that the count in `exsolution` equals the number of answers.
+
+
+Meta-information
+================
+exname: OS-M3-S4-Git_Q1
+extype: mchoice
+exsolution: 100000
+expoints: 0
+exextra[noCorrect,logical]: TRUE

@@ -1,0 +1,32 @@
+Question
+========
+
+What is your level of familiarity with **version control**?
+
+
+Answerlist
+----------
+
+* I have never heard of it before.
+* I have heard of it but have never worked with it.
+* I have a basic understanding and some experience with it.
+* I am very familiar and have worked with it extensively.
+
+
+Solution
+========
+This is a feedback question, there is **no correct answer**.
+--> add `exextra[noCorrect,logical]: TRUE` to the Meta-information.
+
+The `exsolution` below is only a technical requirement for R/exams and is 
+ignored when exporting to Particify.
+Make sure that the count in `exsolution` equals the number of answers.
+
+
+Meta-information
+================
+exname: OS-M3-S4-Git_G2_Q1
+extype: schoice
+exsolution: 1000
+expoints: 0
+exextra[noCorrect,logical]: TRUE

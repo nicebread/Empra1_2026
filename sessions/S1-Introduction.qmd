@@ -18,7 +18,7 @@ description: Threats to credible research; choice of replication target
 | Introduction                                     |    5     | Ankündigung: Zeitslot: 10:00 (s.t.) -13:00, aber bis 14:00 freihalten. Alle in Moodle eingeschrieben? |
 | Empra Formalia                                   |    25    | [Slides](../slides/Empra-Orga/Empra-Orga.qmd).                                                        |
 | Students' introduction                           |    15    |                                                                                                       |
-| Threats to credible research lecture, part 1     |   100    |                                                                                                       |
+| Threats to credible research lecture, part 1     |   100    | [Slides](../slides/Replicability_Crisis/OS-M1-S1-Replicability-slides.qmd)                            |
 | Break                                            |    15    |                                                                                                       |
 | Introduce the replication target study proposals |    15    |                                                                                                       |
 | Explain Homework                                 |    5     |                                                                                                       |
@@ -32,7 +32,12 @@ description: Threats to credible research; choice of replication target
 - Where do you originally come from, and where do you live now?
 - Why did you choose psychology?
 
-## Threats to credible research lecture
+## What will we cover in the course? The research cycle
+
+![](img/OpenResearchCycle_v2.png)
+*([Figure](https://zenodo.org/records/17661040) by Malika Ihle, CC-BY 4.0)*
+
+## Threats to credible research lecture - part 1
 
 Join the live survey: <https://partici.fi/33173261>
 
@@ -53,16 +58,18 @@ Take the strategies from both buyers and sellers from the "Used Car Exercise" an
 
 Example:
 
-| Used Cars                                                                        | Scientific publications                                                |
-| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| Do a test drive to check whether the claim of the seller ("no noise") is correct | Do a reproduction to check whether the claim of the authors is correct |
+| Used Cars                                                                        | Scientific publications                                                              |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Do a test drive to check whether the claim of the seller ("no noise") is correct | Do a reproduction to check whether the claim of the authors is (numerically) correct |
+|                                                                                  |                                                                                      |
 
 Do this in the collaborative Etherpad in Moodle.
 
 ### Homework 2 (individual)
 
-- Create an [ORCID ID](https://orcid.org). You can use "Ludwig-Maximilians-Universität München" as affiliation.
-- Create an [OSF](https://osf.io) account (use your real name; link your ORCID ID).
+- Create an [ORCID ID](https://orcid.org). Use your real name. You can use "Ludwig-Maximilians-Universität München" as affiliation.
+- Create an [OSF](https://osf.io) account. Use your real name; link your ORCID ID.
+- Create a [GitHub](https://github.com) account. You can use your real name or any pseudonym.
 
 ### Homework 3 (collaborative)
 

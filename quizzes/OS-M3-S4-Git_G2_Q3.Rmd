@@ -1,0 +1,33 @@
+Question
+========
+
+How comfortable are you with using Git for version control?
+
+
+Answerlist
+----------
+
+* 1 = Not comfortable at all
+* 2
+* 3
+* 4
+* 5 = Very comfortable
+
+
+Solution
+========
+This is a feedback question, there is **no correct answer**.
+--> add `exextra[noCorrect,logical]: TRUE` to the Meta-information.
+
+The `exsolution` below is only a technical requirement for R/exams and is 
+ignored when exporting to Particify.
+Make sure that the count in `exsolution` equals the number of answers.
+
+
+Meta-information
+================
+exname: OS-M3-S4-Git_G2_Q3
+extype: schoice
+exsolution: 10000
+expoints: 0
+exextra[noCorrect,logical]: TRUE
