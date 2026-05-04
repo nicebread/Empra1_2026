@@ -315,3 +315,358 @@ But meta-analyses reveal the truth! (Do they?)
 :::{style="margin-top: -50px"}
 ![](img/meta-analysis_3.png){fig-align="center" width=60%}
 :::
+
+---
+
+![](img/meta-analysis_4.png){fig-align="center"}
+
+## True H₁ samples: 
+### d = 0.5
+
+![](img/meta-analysis_5.png)
+
+## True H₁ samples:
+### d = 0.5
+
+![](img/meta-analysis_6.png){fig-align="center"}
+
+## True H₀ samples
+
+![](img/meta-analysis_7.png){fig-align="center"}
+
+## True H₀ + publication bias
+
+![](img/meta-analysis_8.png){fig-align="center"}
+
+## True H₀ + publication bias
+
+![](img/meta-analysis_9.png){fig-align="center"}
+
+## Begg & Mazumdar test
+
+* Begg & Mazumdar’s test for publication bias:Rank correlation between effect and its precision (i.e., standard error of effect size)
+  * Alternatively: Rank correlation between effect size and sample size
+* Significant negative correlation = sign of publication bias
+* Good Type I error control (i.e., false alarms at nominal, say, 5% level)
+* Low power (i.e., no significant correlation is not necessarily a good sign for no publication bias)
+
+:::: aside
+::: {.smaller}
+Begg, C. B., & Mazumdar, M. (1994). Operating characteristics of a rank correlation test for publication bias. Biometrics, 50(4), 1088. <http://doi.org/10.2307/2533446>
+:::
+::::
+
+## JPSP vs. JASP: ***R-index & TIVA***
+
+![](img/JASP_vs_JPSP_1.png){fig-align="center"}
+
+![](img/JASP_vs_JPSP_2.png){fig-align="center" height="130px"}
+
+## Egger's regression test
+
+:::: {.columns}
+
+::: {.column width="50%"}
+* If slope of regression line ≠ zero (with ***p*** < .10): indication of publication bias
+* Same idea like Begg & Mazumdar, but "probably more powerful" in detection of bias
+:::
+
+::: {.column width="50%"}
+![](img/eggers_regression_test_1.png){style="margin-top: -1.5em;"}
+:::
+
+::::
+
+## Extending Egger's test: PET
+
+:::: {.columns}
+
+::: {.column width="50%"}
+* Use Egger's regression line, but do not focus on slope, but on the ***intercept***!
+* What is the expected ES at maximum precision (i.e., zero SE)?
+* Intercept = estimate for true underlying effect correct for small-study effects
+* PET = precision effect test
+:::
+
+::: {.column width="50%"}
+![](img/eggers_regression_test_2.png){style="margin-top: -1.5em;"}
+:::
+
+::::
+
+:::: aside
+::: {.smaller}
+Stanley, T. D., & Doucouliagos, H. (2013). Meta-regression approximations to reduce publication selection bias. Research Synthesis Methods, 5(1), 60–78. 
+<http://doi.org/10.1002/jrsm.1095>
+:::
+::::
+
+## PET-PEESE
+### (Stanley & Doucou)
+
+::: {.smallest}
+* PEESE = precision-effect estimate with standard error ➙ effect size is regressed on the variance rather than standard error
+* As in PET: Intercept is interpreted as estimate of true effect
+* Simulation studies show: PET underestimates if true effect is non-zero, PEESE overestimates if true effect is zero.
+* ➙ Suggestion: If PET intercept is not significant with p > .05, (i.e.: corrected ES does not differ from zero), use the PET intercept as estimate. If PET intercept significantly differs from zero, use PEESE intercept as estimate.
+* No real theoretical foundation - just the ad-hoc solution that worked best.
+:::
+
+```{r}
+#| eval: false
+#| echo: true
+# R Code
+PET = lm(d~se, weights = 1/v)
+PEESE = lm(d~se^2, weights = 1/v)
+```
+
+:::: aside
+
+::: {.smallest}
+Appendix of Carter, E. C., & McCullough, M. E. (2014). Publication bias and the limited strength model of self-control: has the evidence for ego depletion been overestimated? Personality and Social Psychology, 5, 823.
+
+Stanley, T. D., & Doucouliagos, H. (2013). Meta-regression approximations to reduce publication selection bias. Research Synthesis Methods, 5(1), 60–78. 
+<http://doi.org/10.1002/jrsm.1095>
+:::
+
+::::
+
+---
+
+:::{style="margin-top: -40px"}
+![](img/romance_risk_and_replication_1.png){fig-align="center" height="250px"}
+:::
+
+:::{style="margin-top: -50px"}
+![](img/romance_risk_and_replication_2.png){fig-align="center" height="450px"}
+:::
+
+## {transition="slide-in fade-out"}
+
+:::{style="margin-top: -40px"}
+![](img/romance_risk_and_replication_1.png){fig-align="center" height="250px"}
+:::
+
+:::{style="margin-top: -60px"}
+![](img/romance_risk_and_replication_3.png){fig-align="center" height="400px"}
+:::
+
+## {transition="fade-in slide-out"}
+
+:::{style="margin-top: -40px"}
+![](img/romance_risk_and_replication_1.png){fig-align="center" height="250px"}
+:::
+
+:::{style="margin-top: -60px"}
+![](img/romance_risk_and_replication_4.png){fig-align="center" height="400px"}
+:::
+
+---
+
+:::{style="margin-top: -40px"}
+![](img/ego_depletion_1.png){fig-align="center"}
+:::
+
+:::{style="margin-top: -70px"}
+![](img/ego_depletion_2.png){fig-align="center"}
+:::
+
+---
+
+:::{style="margin-top: -40px"}
+![](img/ego_depletion_3.png){fig-align="center" height="250px"}
+:::
+
+::: {.smallest style="margin-top: -40px"}
+"Instead, we believe our results are best interpreted as demonstrating that the current <mark>*evidence for the depletion effect is not convincing, despite the hundreds of experiments that have examined it.*</mark>"
+:::
+
+![](img/ego_depletion_4.png){fig-align="center" height="350px"}
+
+---
+
+:::{style="margin-top: -40px"}
+![](img/ego_depletion_5.png){fig-align="center" height="400px"}
+:::
+
+:::{style="margin-top: -50px"}
+![](img/ego_depletion_6.png){fig-align="center" height="200px"}
+:::
+
+:::: aside
+::: {.smaller}
+Hagger, M. S., & Chatzisarantis, N. L. D. (2016). A Multilab Preregistered Replication of the Ego-Depletion Effect. 
+Perspectives on Psychological Science, 11(4), 546–573. 
+<http://doi.org/10.1177/1745691616652873>
+:::
+::::
+
+## {transition="slide-in fade-out"}
+
+:::{style="margin-top: 150px"}
+![](img/ego_depletion_7.png){fig-align="center"}
+:::
+
+:::: aside
+::: {.smaller style="overflow-wrap: anywhere;"}
+<http://www.slate.com/articles/health_and_science/cover_story/2016/03/ego_depletion_an_influential_theory_in_psychology_may_have_just_been_debunked.single.html>
+:::
+::::
+
+## {transition="fade-in slide-out"}
+
+:::{style="margin-top: 150px"}
+![](img/ego_depletion_8.png){fig-align="center"}
+:::
+
+:::: aside
+::: {.smaller style="overflow-wrap: anywhere;"}
+<http://www.slate.com/articles/health_and_science/cover_story/2016/03/ego_depletion_an_influential_theory_in_psychology_may_have_just_been_debunked.single.html>
+:::
+::::
+
+---
+
+:::{style="margin-top: -40px"}
+![](img/everything_is_fucked_1.png){fig-align="center" height="250px"}
+:::
+
+:::{style="margin-top: -60px"}
+![](img/everything_is_fucked_2.png){fig-align="center" height="400px"}
+:::
+
+:::: aside
+::: {.smaller}
+<https://hardsci.wordpress.com/2016/08/11/everything-is-fucked-the-syllabus/>
+:::
+::::
+
+## Practice with p-checker
+
+<http://shinyapps.org/apps/p-checker/>
+
+![](img/p-checker_1.png){fig-align="center"}
+
+---
+
+![](img/p-checker_2.png){fig-align="center"}
+
+## "A tale of two papers"
+### by Michael Inzlicht
+
+![](img/tale_of_two_papers_1.png){fig-align="center"}
+
+:::: aside
+::: {.smaller}
+<http://sometimesimwrong.typepad.com/wrong/2015/11/guest-post-a-tale-of-two-papers.html>
+:::
+::::
+
+## "A tale of two papers"
+### by Michael Inzlicht
+
+::: {style="margin-top: -40px;"}
+:::: {.columns}
+
+::: {.column width="25%"}
+![](img/tale_of_two_papers_2.png)
+:::
+
+::: {.column width="25%"}
+![](img/tale_of_two_papers_3.png)
+:::
+
+::: {.column width="25%"}
+![](img/tale_of_two_papers_4.png)
+:::
+
+::::
+:::
+
+:::: aside
+::: {.smaller}
+<http://sometimesimwrong.typepad.com/wrong/2015/11/guest-post-a-tale-of-two-papers.html>
+
+Tuk, M. A., Zhang, K., & Sweldens, S. (2015). The Propagation of Self-Control: Self-Control in One Domain Simultaneously Improves Self-Control in Other 
+Domains. Journal of Experimental Psychology: General, 144, 639–654. <http://doi.org/10.1037/xge0000065>
+:::
+::::
+
+---
+
+![](img/tale_of_two_papers_5.png)
+
+## Informed skepticism
+### (“detection of Don’ts”)
+
+* We have indicators which allow to evaluate the credibility and evidential value of a line of research
+* ***p***-curve, R-index/ excess significance, TIVA, meta-regression techniques
+* None of these techniques is perfect - but look out for (converging) **red flags** 
+* Use these flags for informed skepticism (not for a "witch hunt" or "replication police")
+
+## Red flags
+
+::: {style="margin-top: -40px;"}
+![](img/flag_red.png){height="100px"}
+:::
+
+::: {style="margin-top: -20px;"}
+* Sweeping claims, counterintuitive, and shocking results
+* Most ***p*** values are in the range of .03 – .05
+  * ***p***-curve is not right-skewed
+  * TIVA: Smaller variance of ***p***-values than expected
+* A highly cited result, but no direct replications have been published so far
+* Too good to be true
+  * R-index < 40% / “Excess significance”
+  * Biased meta-analysis: Asymmetric funnel plot
+:::
+
+:::: aside
+::: {.smaller}
+<http://www.nicebread.de/in-the-era-of-repligate-what-are-valid-cues-for-the-trustworthiness-of-a-study/>
+:::
+::::
+
+## (Possibly) Invalid flags
+
+::: {style="margin-top: -40px;"}
+![](img/flag_white.png){height="100px"}
+:::
+
+::: {style="margin-top: -20px;"}
+* Impact factor of journal
+* The author’s h-index
+* Meta-analyses
+  * Garbage-in, garbage-out: Meta-analyses of a biased literature produce biased results. 
+  * Typical correction methods do not work well. Jury is still out for new developments such as PET-PEESE.
+  * When looking at meta-analyses, at least one has to check whether and how it was corrected for publication bias. Trim-&-Fill does ***not*** work well.
+:::
+
+:::: aside
+::: {.smaller}
+<http://www.nicebread.de/in-the-era-of-repligate-what-are-valid-cues-for-the-trustworthiness-of-a-study/>
+:::
+::::
+
+## Green flags
+
+::: {style="margin-top: -40px;"}
+![](img/flag_green.png){height="100px"}
+:::
+
+::: {.smaller style="margin-top: -20px;"}
+* Pre-registration
+* High Power
+  * Larger samples, within-designs
+* Independent high-power replications
+* Open Data and Open Material
+  * Willingness to share research data is related to the strength of the evidence and the quality of reporting of statistical results (Wicherts, Bakker, & Molenaar, 2011)
+  * Quarterly Journal of Political Science:  54% of papers “had results in the paper that differed from those generated by the author’s own code” ➙ a well prepared data set and analysis code should be a validity indicator
+* Using the "[21 Word Solution](http://c.ymcdn.com/sites/www.spsp.org/resource/resmgr/dialogue/dialogue_26%282%29.pdf)" of Simmons, Nelson, & Simonsohn (2012)
+:::
+
+:::: aside
+::: {.smaller}
+<http://www.nicebread.de/in-the-era-of-repligate-what-are-valid-cues-for-the-trustworthiness-of-a-study/>
+:::
+::::
