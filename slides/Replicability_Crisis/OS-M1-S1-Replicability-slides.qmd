@@ -526,7 +526,7 @@ Likewise, when scientists read published research, they trust that the study was
   - *Dealers*: What would convince buyers that you are not one of the bad apples and your car has *really* good quality?
 - Discuss in groups; present your strategies
 
-:::{.timer #cardealer seconds=600 starton=interaction size=33% sound=true}
+:::{.timer #cardealer seconds=600 starton=interaction size=30% sound=true}
 ::: 
 :::
 
@@ -2261,6 +2261,7 @@ Decide whether each scenario in the following slides is an example of **reproduc
 ::: footer
 **FORRT Replication Database** ([https://forrt-replications.shinyapps.io/fred_explorer/](https://forrt-replications.shinyapps.io/fred_explorer/))
 :::
+
 
 
 
