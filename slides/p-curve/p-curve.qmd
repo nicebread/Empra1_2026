@@ -1,0 +1,317 @@
+---
+title: "p-curve"
+subtitle: "(Simonsohn, Nelson, & Simmons, 2014)"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+  - name: David Rieger
+    orcid: 0009-0004-3701-3101
+    email: david.rieger@campus.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München   
+date: 2026-04-22
+footer: "Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+from: markdown+emoji
+format: 
+  nicetheme-revealjs: 
+    output-ext: slide.html
+    transition: slide    
+  html: default
+revealjs-plugins:
+  - attribution 
+---
+
+```{r}
+#| include: false
+library(ggplot2)
+library(ggimage)
+library(pwr)
+source("functions.R")
+```
+
+::: {style="line-height: 1.2;"}
+![](img/p-curve_1.png){fig-align="center" height=150px}
+:::
+
+::: {.smallest style="margin-top: -40px"}
+Simonsohn, U., Nelson, L. D., & Simmons, J. P. (2014). P-curve: A key to the file-drawer. *Journal of Experimental Psychology: General, 143*, 534-547.
+:::
+
+::: {style="margin-top: -10px"}
+![](img/p-curve_2.png){fig-align="center" height=150px}
+::: 
+
+::: {.smallest style="margin-top: -40px"}
+Simonsohn, U., Nelson, L. D., & Simmons, J. P. (2014). p-Curve and Effect Size: Correcting for Publication Bias Using Only Significant Results. *Perspectives on Psychological Science, 9*, 666–681.
+:::
+
+::: {style="margin-top: -10px"}
+![](img/p-curve_3.png){fig-align="center" height=150px}
+:::
+
+::: {.smallest style="margin-top: -40px"}
+Simonsohn, U., Simmons, J. P., & Nelson, L. D. (2015). Better P-curves: Making P-curve analysis more robust to errors, fraud, and ambitious P-hacking, a Reply to Ulrich and Miller (2015). *Journal of Experimental Psychology: General, 144*, 1146–1152. doi:10.1037/xge0000104
+:::
+
+## The ***p*** distribution {transition="slide-in fade-out"}
+
+* Given a certain statistical power (or, effect size + sample size), the distribution of ***p***-values has a certain shape.
+* Under the H₀, the ***p***-curve is uniformly distributed. That means, each ***p***-value is equally likely.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+print(plot_h0(stage = 1))
+```
+
+## The ***p*** distribution {transition="fade-in fade-out"}
+### Null effect
+
+* Running a study without a real effect is like drawing a random ***p***-value from this distribution
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+print(plot_h0(stage = 2))
+```
+
+## The ***p*** distribution {transition="fade-in slide-out"}
+### Null effect
+
+* Running a study without a real effect is like drawing a random p-value from this distribution
+* 5% of all p-values are <5%.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+print(plot_h0(stage = 3))
+```
+
+## ***p***-curve {transition="slide-in fade-out"}
+### Effect size > 0
+
+* With increasing power, the ***p***-curve gets more positively skewed
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+print(pcurve_plot(.10, ymax = 8, sig.region = TRUE))
+```
+
+## ***p***-curve {transition="fade-in fade-out"}
+### Effect size > 0
+
+* With increasing power, the ***p***-curve gets more positively skewed
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+print(pcurve_plot(.35, ymax = 12, sig.region = TRUE, label = "35 % power\n(average in psychology)"))
+```
+
+## ***p***-curve {transition="fade-in slide-out"}
+### Effect size > 0
+
+* With increasing power, the ***p***-curve gets more positively skewed
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+print(pcurve_plot(.80, ymax = 30, sig.region = TRUE))
+```
+
+---
+
+::: {style="line-height: 1.2;"}
+![](img/rpsychologist_1.png){fig-align="center" height="200px"}
+:::
+
+::: {style="margin-top: -50px; text-align: center;"}
+![](img/rpsychologist_2.png){fig-align="center" height="450px"}
+:::
+
+::: {style="margin-top: -50px; text-align: center;"}
+<http://rpsychologist.com/d3/pdist>
+:::
+
+## Elderly priming p-values
+### 60% power
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+print(plot_special_2(example = TRUE))
+```
+
+## Publication bias
+
+* Only results with ***p*** < .05 pass the journals' "**significance filter**”
+* Journals' selection, or pre-emptive self-selection: "This won't get published, I don't even try."
+* Result: Selective & biased picture in the literature
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+print(plot_special_2(publication_bias = TRUE))
+```
+
+## Elderly priming ***p***-values
+### <http://p-curve.com/>
+
+::: {.column width="27%"}
+![](img/elderly_priming_p-values_1.png)
+:::
+
+::: {.column width="55%"}
+![](img/elderly_priming_p-values_2.png)
+:::
+
+---
+
+::: {style="line-height: 1.2;"}
+![](img/p-curving_1.png){fig-align="center" width="70%"}
+:::
+
+::: {.smallest style="margin-top: -40px"}
+"<mark>*It may seem that the existence of 33 supportive published studies is enough to conclude that there is an effect of expansive versus contractive posture on psychological outcomes.*</mark>"
+:::
+
+![](img/p-curving_2.png){fig-align="center" width=45%}
+
+::: {.smallest style="margin-top: -40px; text-align: center;"}
+***p***-curve analysis of 24 significant studies
+:::
+
+## Evidential value of what?
+
+* The evidential value of the **set** of studies is examined
+  * All conclusion from ***p***-curve are about the analyzed set of studies - no inference on single study possible.
+  * E.g., one can say that a set is probably ***p***-hacked - but not which of these studies has been hacked!
+* "A right-skewed ***p***-curve does not imply all studies have evidential value, just as a significant difference across conditions does not imply that all observations were influenced by the manipulation."
+
+## Unit of analysis
+
+* Multiple studies on one **effect** (ideally, direct replications): What is the evidential value of this effect?
+* Multiple studies from one first **author**: Does person X publish in general studies with evidential value? Or is pure publication bias and/or p-hacking an explanation for this set of studies?
+* Compare studies from specific **journals**, or between **research fields**: Which journal/ research field publishes a stronger evidential value?
+
+## Steps of a ***p***-curve
+
+1. Identify researchers’ stated hypothesis and study design 
+2. Identify the statistical result testing the stated hypothesis 
+3. Report the statistical results of interest
+4. (Recompute the precise ***p***-value(s) based on reported test statistics) ➙ done by the app
+5. Report robustness results
+
+## Which ***p***-values are selected?
+
+* Included p values must meet three criteria: 
+  1. test the hypothesis of interest,
+    * not a manipulation check, etc.
+  2. have a uniform distribution under the null
+    * this usually has to be assumed
+  3. be statistically independent of other ***p***-values in ***p***-curve.
+    * Several, correlated DVs: Only take one
+    * Rule of thumb: Only take one ***p***-value per sample
+
+## Disclosure table
+
+* Hacking a p-curve? Easy: only include results that look fishy to you, or drop strong studies
+* Goal: Minimize subjectivity
+* Define an a-priori inclusion rule
+* Do a robustness analysis: Compute ***p***-curve with alternative selection ➙ same results?
+* Report all selected test statistics in a disclosure table:
+
+![](img/disclosure_table.png){fig-align="center"}
+
+## Inclusion rule
+
+* The rule should be set in advanced, before statistical results are analyzed, and disclosed in the paper.
+* Examples (from p-curve.com)
+  * The yearly top-5 most cited articles in the Quarterly Research Journal 1984-1989.
+  * All studies published in 2009 with wine as a manipulation and simulated driving behavior as a dependent variable. 
+  * The most recent 10 articles published by proctologist Giordano Armani. 
+  * Clinicaltrials.gov registered studies examining antidepressants among teenagers.
+* More examples:
+  * If multiple DVs are reported, always take the first.
+  * We analyzed the last 20 publications from this research group.
+  * We analyzed the first hundred papers with more than two studies from the 2008 volume of journal XYZ.
+
+## Practical issues
+
+* How many ***p***-values minimum?
+  * No clear guidelines; tentative suggestion: at least 5; more is better
+  * Power of ***p***-curve's statistical tests depends on # of entered ***p***-values
+* Beware of strange patterns: Maybe not captured by statistical tests of slope. Visual inspection of ***p***-curve!
+
+![](img/practical_issues.png){fig-align="center"}
+
+## Interactions: 
+### Which ***p***-values to include?
+
+* Attenuation predicted: include only interaction term
+  * "Always sweat more in summer, but less so when indoors."
+* Reversal of direction predicted: include both simple slopes (but not interaction term)
+  * "Sweat more in summer than winter when outdoors, but more in winter than in summer when indoors"
+
+<http://p-curve.com/guide.pdf>
+
+## Application:
+### Compare two journals
+
+* Journal of Personality and Social Psychology JPSP (impact factor: 4.736)
+* Journal of Applied Social Psychology JASP (impact factor: 1.006)
+
+![](img/journal_comparison_1.png){fig-align="center"}
+
+* Bachelor thesis by Anna Bittner
+* 112 resp. 113 hand-coded focal effects from the 2013 issues of both journals (starting in January)
+
+## JPSP vs. JASP:
+### ***p***-curve
+
+![](img/journal_comparison_2.png){fig-align="center"}
+
+::: {.smaller style="text-align: center;"}
+**JPSP**: estimated average power: **30%**  
+**JASP**: estimated average power: **91%**
+:::
+
+---
+
+:::: {.columns style="display: flex; align-items: center;"}
+
+::: {.column width="35%"}
+![](img/meta-analysis.png)
+:::
+
+::: {.column width="65%"}
+<div style=" font-size: 60px;">
+But meta-analyses reveal the truth! (Do they?)
+</div>
+:::
+
+::::
+
+---
+
+:::{style="margin-top: -40px"}
+![](img/meta-analysis_1.png){fig-align="center" width=60%}
+:::
+
+:::{style="margin-top: -50px"}
+![](img/meta-analysis_2.png){fig-align="center" width=60%}
+:::
+
+:::{style="margin-top: -50px"}
+![](img/meta-analysis_3.png){fig-align="center" width=60%}
+:::
