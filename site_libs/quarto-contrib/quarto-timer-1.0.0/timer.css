@@ -39,3 +39,30 @@ div.base-timer svg circle, div.base-timer svg path {
 .base-timer__path-remaining.lvl1 {
   color: red;
 }
+
+.timer-reset {
+  cursor: pointer;
+}
+
+.timer-reset-bg {
+  fill: transparent;
+  pointer-events: all;
+  transition: fill 0.2s ease-in-out;
+}
+
+.timer-reset:hover .timer-reset-bg {
+  fill: rgba(0, 0, 0, 0.1);
+}
+
+.timer-reset-icon {
+  stroke: grey;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  transition: stroke 0.2s ease-in-out;
+}
+
+.timer-reset:hover .timer-reset-icon {
+  stroke: black;
+}
