@@ -14,6 +14,22 @@ function initializeTimer(containerId, timeLimit, startOn, size = "100%", soundSt
   let timerId = null;
   const playSound = (soundStr === "true");
 
+  let audioObj = null;
+  if (playSound) {
+    let soundUrl = window.quartoTimerSound;
+    if (!soundUrl) {
+      soundUrl = "bing.wav";
+      const scripts = document.getElementsByTagName("script");
+      for (let i = 0; i < scripts.length; i++) {
+        if (scripts[i].src && scripts[i].src.includes("timer.js")) {
+          soundUrl = scripts[i].src.replace("timer.js", "bing.wav");
+          break;
+        }
+      }
+    }
+    audioObj = new Audio(soundUrl);
+  }
+
   // Berechne die Größe basierend auf dem size-Parameter.
   // Standardgröße des Timers ist 300px (entspricht 100%).
   let timerSize = "300px";
@@ -80,20 +96,9 @@ function initializeTimer(containerId, timeLimit, startOn, size = "100%", soundSt
       setRemainingPathColor(timeLeft);
 
       // Sound abspielen, wenn der Timer genau jetzt abgelaufen ist
-      if (timeLeft === 0 && playSound) {
-        let soundUrl = window.quartoTimerSound;
-        if (!soundUrl) {
-          soundUrl = "bing.wav";
-          const scripts = document.getElementsByTagName("script");
-          for (let i = 0; i < scripts.length; i++) {
-            if (scripts[i].src && scripts[i].src.includes("timer.js")) {
-              soundUrl = scripts[i].src.replace("timer.js", "bing.wav");
-              break;
-            }
-          }
-        }
-        const audio = new Audio(soundUrl);
-        audio.play().catch(e => console.warn("Sound konnte nicht abgespielt werden:", e));
+      if (timeLeft === 0 && playSound && audioObj) {
+        audioObj.currentTime = 0;
+        audioObj.play().catch(e => console.warn("Sound konnte nicht abgespielt werden:", e));
       }
 
     }
@@ -118,6 +123,21 @@ function initializeTimer(containerId, timeLimit, startOn, size = "100%", soundSt
   }
 
   function toggleTimer() {
+    if (!active && audioObj) {
+      // Audio-Element entsperren (für iOS/Chrome Autoplay Policies bei langen Timern)
+      audioObj.muted = true;
+      let playPromise = audioObj.play();
+      if (playPromise !== undefined) {
+        playPromise.then(() => {
+          audioObj.pause();
+          audioObj.currentTime = 0;
+          audioObj.muted = false;
+        }).catch(e => {
+          audioObj.muted = false;
+        });
+      }
+    }
+
     if (active) {
       document.getElementById(`${containerId}-circle`).style.fill = '#fcb';
     } else {
