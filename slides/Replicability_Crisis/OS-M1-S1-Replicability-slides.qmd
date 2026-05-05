@@ -182,7 +182,7 @@ NOTE Felix: Unnecessary filler slide.
 
  -->
 
-## {{< fa people-group size=1x >}} Your current understanding of key terms (6 min) {.small-timer}
+## {{< fa people-group size=1x >}} Your current understanding of key terms (6 min)
 ### Think - Pair - Share
 
 - **Think** (2 min): For yourself: Write down a definition for those key terms: *Replicability*, *Replication*, *Reproduction*, *p-hacking*<br>[(without internet search - your current understanding)]{.smallnote}
@@ -191,15 +191,15 @@ NOTE Felix: Unnecessary filler slide.
 
 ::::: {.columns}
 :::: {.column width="33%"}
-:::{.timer #think1 seconds=120 starton=interaction}
+:::{.timer #think1 seconds=120 starton=interaction size=67% sound=true}
 ::: 
 ::::
 :::: {.column width="33%"}
-:::{.timer #pair1 seconds=120 starton=interaction}
+:::{.timer #pair1 seconds=120 starton=interaction size=67% sound=true}
 :::
 ::::
 :::: {.column width="33%"}
-:::{.timer #share1 seconds=120 starton=interaction}
+:::{.timer #share1 seconds=120 starton=interaction size=67% sound=true}
 :::
 ::::
 :::::
@@ -515,7 +515,7 @@ Likewise, when scientists read published research, they trust that the study was
 
 
 
-## {{< fa people-group size=1x >}} The used car dealer (10 min) {.smallest-timer}
+## {{< fa people-group size=1x >}} The used car dealer (10 min)
 ### aka. "Trust in a situation with asymmetric information"
 
 :::: {.columns}
@@ -526,7 +526,7 @@ Likewise, when scientists read published research, they trust that the study was
   - *Dealers*: What would convince buyers that you are not one of the bad apples and your car has *really* good quality?
 - Discuss in groups; present your strategies
 
-:::{.timer #cardealer seconds=600 starton=interaction}
+:::{.timer #cardealer seconds=600 starton=interaction size=33% sound=true}
 ::: 
 :::
 
@@ -772,57 +772,78 @@ library(stringr)
 # Added "Social Sciences"
 
 # Sample data
-df <- data.frame(Category = rep(c("Psychology (n = 97)", 
-                                  "Social Sciences (n = 139)",
-                                  "Cancer Research (n = 53)", 
-                                  "Pharmaceutical Research (n = 67)",
-                                  "Experimental Economics (n = 16)",
-                                  "Experimental Philosophy (n = 40)"), 
-                                each = 2),
-                 Result = rep(c("successfully replicated",
-                                "unsuccessfully replicated"), 
-                              times = 6),
-  Value = c(36, 64, 42, 58, 11, 89, 34, 66, 61, 39, 78, 22)
+df <- data.frame(
+    Category = rep(
+        c(
+            "Psychology (n = 97)",
+            "Social Sciences (n = 139)",
+            "Cancer Research (n = 53)",
+            "Pharmaceutical Research (n = 67)",
+            "Experimental Economics (n = 16)",
+            "Experimental Philosophy (n = 40)"
+        ),
+        each = 2
+    ),
+    Result = rep(
+        c(
+            "successfully replicated",
+            "unsuccessfully replicated"
+        ),
+        times = 6
+    ),
+    Value = c(36, 64, 42, 58, 11, 89, 34, 66, 61, 39, 78, 22)
 )
 
 # Preserve order of bars on x-axis
 df$Category <- factor(
-  df$Category,
-  levels = c("Psychology (n = 97)", 
-             "Social Sciences (n = 139)",
-             "Cancer Research (n = 53)", 
-             "Pharmaceutical Research (n = 67)",
-             "Experimental Economics (n = 16)",
-             "Experimental Philosophy (n = 40)")
+    df$Category,
+    levels = c(
+        "Psychology (n = 97)",
+        "Social Sciences (n = 139)",
+        "Cancer Research (n = 53)",
+        "Pharmaceutical Research (n = 67)",
+        "Experimental Economics (n = 16)",
+        "Experimental Philosophy (n = 40)"
+    )
 )
 
 # Make stacking order explicit: unsuccessfully replicated on top, successfully on bottom.
-df$Result <- factor(df$Result, 
-                    levels = c("unsuccessfully replicated",
-                               "successfully replicated"))
+df$Result <- factor(df$Result,
+    levels = c(
+        "unsuccessfully replicated",
+        "successfully replicated"
+    )
+)
 
 # Plot
 ggplot(df, aes(x = Category, y = Value, fill = Result)) +
-  geom_bar(stat = "identity") +
-  geom_text(aes(label = paste0(Value, "%")), # use position_stack(vjust = 0.5) to center a label inside each segment
-            position = position_stack(vjust = 0.5),
-            color = "white",
-            size = 5) +
-  labs(title = "",
-       x = "",
-       y = "Percentage (%)") +
-  scale_fill_manual(values = c("successfully replicated" = "darkgreen",
-                               "unsuccessfully replicated" = "darkred"),
-                    labels = function(x) str_wrap(x, width = 12)) + # wrap legend names
-  theme_minimal() +
-  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) + # to wrap text
-  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 14),
+    geom_bar(stat = "identity") +
+    geom_text(aes(label = paste0(Value, "%")), # use position_stack(vjust = 0.5) to center a label inside each segment
+        position = position_stack(vjust = 0.5),
+        color = "white",
+        size = 5
+    ) +
+    labs(
+        title = "",
+        x = "",
+        y = "Percentage (%)"
+    ) +
+    scale_fill_manual(
+        values = c(
+            "successfully replicated" = "darkgreen",
+            "unsuccessfully replicated" = "darkred"
+        ),
+        labels = function(x) str_wrap(x, width = 12)
+    ) + # wrap legend names
+    theme_minimal() +
+    scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) + # to wrap text
+    theme(
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 14),
         axis.text.y = element_text(size = 14),
         axis.title.x = element_text(size = 14),
         axis.title.y = element_text(size = 14),
-        legend.text = element_text(size = 14))
-
-
+        legend.text = element_text(size = 14)
+    )
 ```
 
 
