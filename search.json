@@ -2762,7 +2762,77 @@
     "href": "sessions/sessions_overview.html",
     "title": "Overview of sessions",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nThreats to credible research; choice of replication target\n\n\n\n\n\n\nSession 02 - Threats part 2, ethics approval, Git\n\n\nContinuing the discussion on threats to credible research; introducing ethics approval; intro to Git.\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nThreats to credible research; choice of replication target\n\n\n\n\n\n\nSession 02 - Threats part 2, ethics approval, Git\n\n\nContinuing the discussion on threats to credible research; introducing ethics approval; intro to Git.\n\n\n\n\n\n\nSession 03 - Preparing the study material\n\n\nWe follow the steps of CREP and prepare our study material\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "sessions/S2-Git.html",
+    "href": "sessions/S2-Git.html",
+    "title": "Session 02 - Threats part 2, ethics approval, Git",
+    "section": "",
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nAdd the Moodle task where students submit their p-hacking results."
+  },
+  {
+    "objectID": "sessions/S2-Git.html#overview",
+    "href": "sessions/S2-Git.html#overview",
+    "title": "Session 02 - Threats part 2, ethics approval, Git",
+    "section": "Overview",
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nThreats to credible research lecture, part 2\n100\nSlides\n\n\nBreak\n15\n\n\n\nGit introduction\n60\nSlides"
+  },
+  {
+    "objectID": "sessions/S2-Git.html#threats-to-credible-research-lecture---part-2",
+    "href": "sessions/S2-Git.html#threats-to-credible-research-lecture---part-2",
+    "title": "Session 02 - Threats part 2, ethics approval, Git",
+    "section": "Threats to credible research lecture - part 2",
+    "text": "Threats to credible research lecture - part 2\nJoin the live survey: https://partici.fi/33173261"
+  },
+  {
+    "objectID": "sessions/S2-Git.html#homework-for-the-next-two-weeks",
+    "href": "sessions/S2-Git.html#homework-for-the-next-two-weeks",
+    "title": "Session 02 - Threats part 2, ethics approval, Git",
+    "section": "Homework for the next two weeks",
+    "text": "Homework for the next two weeks\n\nHomework 1 (individual): Practice p-hacking\n🔗 P-Hacker App\nTask: Hack at least 5 studies towards significance with \\(\\alpha = .05\\) (keep the true effect at 0). Whenever you achieved a significant result, click on “Save” in the results table to store your result in the study stack on the right side. Once you achieved 5 significant studies, copy and paste the study stack into a text document.\nNext, try the same for \\(\\alpha = .005\\) (if it takes too long, there’s no need to achieve 5 significant studies).\nDeliverable: Copy both sets of significant studies (one for \\(\\alpha = .05\\), one for \\(\\alpha = .005\\)) into the textfield in the Moodle task.\n\n\nHomework 2 (individual): Read our target paper\nRead the target paper: Stellar, J. E., Gordon, A., Anderson, C. L., Piff, P. K., McNeil, G. D., & Keltner, D. (2018). Awe and humility. Journal of Personality and Social Psychology, 114(2), 258–269. https://doi.org/10.1037/pspi0000109\nYou can find the PDF in Moodle.\nFocus on the introduction, our target Study 3, and the discussion. Skim the other studies. Then write short replies to these guiding questions:\n\nIn the literature are several definitions of “Humility”, and they assign it to different classes of psychological constructs (e.g., a trait, a state). List at least 4 different classes.\n\n\n\nHow do the authors treat humility comceptually?\n\n\n\nWhat is the definition of “awe”?\n\n\n\nCompute the effect size (i.e., the standardized mean difference) between the control and the experimental group concerning strength of elicited awe.\n\n\n\nWhich limitations / contraints on generality (see definition CoG) do the authors discuss in the General Discussion?\n\n\n\nBonus question: There is an objective error concerning the sample size in Study 3. Can you spot it?\n\n\nDeliverable:\n\nPlease write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here).\nYou can answer in English or in German.\nMost questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper.\nIf you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\n\n\n\nHomework 3 (individual): Fill out the CREP survey (3 min)\nSee link in Moodle.\n\n\nHomework 4 (individual): Complete the Git tutorial.\nComplete and/or re-do the Git Tutorial. You should be able to initialize a local repository and commit to it, connect it to a remote repository on Github, and push, pull to it. All of these actions are covered in the tutorial.\nDeliverables: Create a Github repository (you can call it whatever you like), push at least least two local commits to it and copy the link to the repo to the Moodle task."
+  },
+  {
+    "objectID": "orga_material/instructions_before_course.html",
+    "href": "orga_material/instructions_before_course.html",
+    "title": "Instructions before course",
+    "section": "",
+    "text": "Betreff: Instruktionen Empra\nLiebe Studierende,\nich freue mich schon auf unser Empra. Hier kommen einige Hinweise für den Start am Freitag:\n\nIch würde gerne den Start von 10:15 auf 10:00 verlegen. Die Sitzung geht dann in der Regel bis 13:00, so dass man noch sinnvoll in die Mensa gehen kann. Wir starten also am Freitag gleich um 10:00!\nWir werden in fast jeder Sitzung am Computer arbeiten - z.B. Code schreiben, Diagramme zeichnen, oder Dateien in git einchecken. Daher wäre es gut, wenn Sie, wenn möglich, immer ihren Laptop mitbringen. Wenn Sie keinen Laptop haben, können Sie auch bei Kommilitonen reinschauen und im “pair programming” Modus arbeiten.\nSie haben ja im Seminar von Statistik 1 schon einige Kenntnisse in R erworben. Ich gehe davon aus, dass Sie diese Kenntnisse mitbringen, wir werden sie hier nicht noch einmal wiederholen. Falls Sie Ihre R-Kenntnisse auffrischen möchten, finden Sie hier einige Ressourcen. Das bedeutet nicht, dass Sie all diese Ressourcen durcharbeiten müssen. Wenn Sie auf dem Stand der beiden R-Tutorials (siehe 3.1) sind, sind Sie hinreichend vorbereitet:\n\nDie R-Tutorials aus Statistik 1: Teil 1 - Grundlagen und Teil 2 - Workflows bei der Arbeit mit Datensätzen\nMoodle Kurs “R Tutorials”: Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR\nYouTube-Video: “Want to learn R (#rstats) in 4 hours with NO programming experience?”\nhttps://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf (12 page PDF document)\nhttps://github.com/jobreu/r-intro-gesis-2021 (5 day course: slides & exercises)\n\nDie Kommunikation wird ab jetzt über den Moodle-Kurs laufen. Der Einschreibeschlüssel lautet: “replikation”. Bitte schreiben Sie sich zeitnah ein; ich verschicke ab jetzt die Emails über den Moodle-Kurs.\nDas Kursmaterial wird sich alles auf Github finden: https://nicebread.github.io/Empra1_2026/.\n\nDann sehen wir uns am Freitag, 17.04.26, um 10:00 in Raum 2301 zur ersten Sitzung! Bei Fragen können Sie sich gerne auch vorab schon bei mir melden.\nViele Grüße, Felix Schönbrodt"
+  },
+  {
+    "objectID": "common/lastslide.html",
+    "href": "common/lastslide.html",
+    "title": "End",
+    "section": "",
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+  },
+  {
+    "objectID": "common/lastslide.html#contact",
+    "href": "common/lastslide.html#contact",
+    "title": "End",
+    "section": "",
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Das ist das Kursmaterial für das “Forschungsorientierte Praktikum I – Grundlagen der Forschung” im BSc Psychologie der Ludwig-Maximilians-Universität München. Der Kurs wurde im Sommersemester 2024 von Prof. Dr. Felix Schönbrodt gegeben.\nAlles Material ist - soweit nicht anders gekennzeichnet - unter CC-BY4.0 Lizenz."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Robust Evidence: A Workflow for Reproducible, Collaborative, and Transparent Research",
+    "section": "",
+    "text": "Note: This project is a mixture of English and German text. Sorry for that.\nThis course is held in the 2nd semester of the BSc. Psychology at the Department Psychology, Ludwig-Maximilians-Universität München. See the Sessions section for a description of each session. In these sessions, sometimes lecture slides are linked."
+  },
+  {
+    "objectID": "index.html#course-announcement",
+    "href": "index.html#course-announcement",
+    "title": "Robust Evidence: A Workflow for Reproducible, Collaborative, and Transparent Research",
+    "section": "Course Announcement",
+    "text": "Course Announcement\nThe focus of this empirical psychology research practicum is less on a specific subject area but more on acquiring solid research methodology, both conceptually and practically. The aim is to develop professional and efficient working practices that will support you throughout your studies and beyond.\nYou will learn key tools and standards of scientific work, including:\n\nFile versioning and collaborative work with Git\nReproducible notebooks and manuscripts using Quarto\nBest practices in data analysis (folder structure, code commenting, reflective use and integration of AI)\nStrategies for systematic error prevention\n\nIn the area of research methods, you will gain knowledge in:\n\nPreregistration of hypotheses and analysis plans\nPreparing data for scientific publication (“Open Data”; anonymization, documentation using a codebook)\nReproducible statistical analysis in R, ensuring results are fully traceable for others\nSample size planning to ensure sufficiently strong evidence for or against a hypothesis\n\nIn terms of content, we will join a global replication project (CREP; https://www.crep-psych.org) and participate in a “ManyLabs” study. As one of several sites, we will replicate an existing experiment; our data will then be incorporated into a cross-site meta-analysis. Data collection will take place as a joint online study conducted by the entire group.\nThis research practicum places higher demands on mathematical and formal thinking as well as on your programming skills. At minimum, knowledge of R as taught in Statistics I and II is required. In addition, a willingness is expected to independently work through more advanced programming content using the provided materials."
   },
   {
     "objectID": "sessions/S1-Introduction.html",
@@ -2807,74 +2877,32 @@
     "text": "Homework\n\n“individual” means: Everybody does the task on their own and uploads an individual report/result.\n“group” means: The working group submits a joint document.\n“collaborative” means: Everybody contributes to a single joint online document, or the group makes a joint decision.\n\n\nHomework 1 (collaborative; 5 min each)\nCan I trust the quality of product (when I do not have access to all information)?\nTake the strategies from both buyers and sellers from the “Used Car Exercise” and transfer them to scientific publications as the product of which the quality should be checked. Maybe not all strategies can be transferred, and probably not all possible strategies do exist yet. Be creative!\nExample:\n\n\n\n\n\n\n\nUsed Cars\nScientific publications\n\n\n\n\nDo a test drive to check whether the claim of the seller (“no noise”) is correct\nDo a reproduction to check whether the claim of the authors is (numerically) correct\n\n\n\n\n\n\n\nDo this in the collaborative Etherpad in Moodle.\n\n\nHomework 2 (individual)\n\nCreate an ORCID ID. Use your real name. You can use “Ludwig-Maximilians-Universität München” as affiliation.\nCreate an OSF account. Use your real name; link your ORCID ID.\nCreate a GitHub account. You can use your real name or any pseudonym.\n\n\n\nHomework 3 (collaborative)\nDecide which study we want to replicate."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Robust Evidence: A Workflow for Reproducible, Collaborative, and Transparent Research",
+    "objectID": "sessions/S3.html",
+    "href": "sessions/S3.html",
+    "title": "Session 03 - Preparing the study material",
     "section": "",
-    "text": "Note: This project is a mixture of English and German text. Sorry for that.\nThis course is held in the 2nd semester of the BSc. Psychology at the Department Psychology, Ludwig-Maximilians-Universität München. See the Sessions section for a description of each session. In these sessions, sometimes lecture slides are linked."
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up Homework: p-hack, target paper\n30\n\n\n\nGit Troubleshooting\n30\n\n\n\nGroup work: Preparing the study\n45\n\n\n\nIntroduction to formr\n30\n\n\n\nGroup work 2: Implement the survey\n45\n\n\n\nCausality\n60\nSlides\n\n\nHomework: Create the video (or rather in class?)"
   },
   {
-    "objectID": "index.html#course-announcement",
-    "href": "index.html#course-announcement",
-    "title": "Robust Evidence: A Workflow for Reproducible, Collaborative, and Transparent Research",
-    "section": "Course Announcement",
-    "text": "Course Announcement\nThe focus of this empirical psychology research practicum is less on a specific subject area but more on acquiring solid research methodology, both conceptually and practically. The aim is to develop professional and efficient working practices that will support you throughout your studies and beyond.\nYou will learn key tools and standards of scientific work, including:\n\nFile versioning and collaborative work with Git\nReproducible notebooks and manuscripts using Quarto\nBest practices in data analysis (folder structure, code commenting, reflective use and integration of AI)\nStrategies for systematic error prevention\n\nIn the area of research methods, you will gain knowledge in:\n\nPreregistration of hypotheses and analysis plans\nPreparing data for scientific publication (“Open Data”; anonymization, documentation using a codebook)\nReproducible statistical analysis in R, ensuring results are fully traceable for others\nSample size planning to ensure sufficiently strong evidence for or against a hypothesis\n\nIn terms of content, we will join a global replication project (CREP; https://www.crep-psych.org) and participate in a “ManyLabs” study. As one of several sites, we will replicate an existing experiment; our data will then be incorporated into a cross-site meta-analysis. Data collection will take place as a joint online study conducted by the entire group.\nThis research practicum places higher demands on mathematical and formal thinking as well as on your programming skills. At minimum, knowledge of R as taught in Statistics I and II is required. In addition, a willingness is expected to independently work through more advanced programming content using the provided materials."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "sessions/S3.html#overview",
+    "href": "sessions/S3.html#overview",
+    "title": "Session 03 - Preparing the study material",
     "section": "",
-    "text": "Das ist das Kursmaterial für das “Forschungsorientierte Praktikum I – Grundlagen der Forschung” im BSc Psychologie der Ludwig-Maximilians-Universität München. Der Kurs wurde im Sommersemester 2024 von Prof. Dr. Felix Schönbrodt gegeben.\nAlles Material ist - soweit nicht anders gekennzeichnet - unter CC-BY4.0 Lizenz."
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up Homework: p-hack, target paper\n30\n\n\n\nGit Troubleshooting\n30\n\n\n\nGroup work: Preparing the study\n45\n\n\n\nIntroduction to formr\n30\n\n\n\nGroup work 2: Implement the survey\n45\n\n\n\nCausality\n60\nSlides\n\n\nHomework: Create the video (or rather in class?)"
   },
   {
-    "objectID": "common/lastslide.html",
-    "href": "common/lastslide.html",
-    "title": "End",
-    "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+    "objectID": "sessions/S3.html#group-work-preparing-the-study",
+    "href": "sessions/S3.html#group-work-preparing-the-study",
+    "title": "Session 03 - Preparing the study material",
+    "section": "Group work: Preparing the study",
+    "text": "Group work: Preparing the study\nGroup tasks:\n\nPrepare our OSF project (steps 5-8 of the CREP Guide)\nTranslate the study material\nSearch for an alternative awe-inducing video and neutral control video.\nThink about possible extensions, add them to this document\n\n\n\n\n\n\n\nTipPower analysis\n\n\n\nWe will do a detailed power analysis later - for the IRB approval, we do this (one-sided testing, 80% power, taking the originally found effect size at face value):\n\nlibrary(pwr)\npwr.t.test(d=0.51, power=.80, type=\"two.sample\", alternative=\"greater\")\n\n\n     Two-sample t test power calculation \n\n              n = 48.23074\n              d = 0.51\n      sig.level = 0.05\n          power = 0.8\n    alternative = greater\n\nNOTE: n is number in *each* group"
   },
   {
-    "objectID": "common/lastslide.html#contact",
-    "href": "common/lastslide.html#contact",
-    "title": "End",
-    "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
-  },
-  {
-    "objectID": "orga_material/instructions_before_course.html",
-    "href": "orga_material/instructions_before_course.html",
-    "title": "Instructions before course",
-    "section": "",
-    "text": "Betreff: Instruktionen Empra\nLiebe Studierende,\nich freue mich schon auf unser Empra. Hier kommen einige Hinweise für den Start am Freitag:\n\nIch würde gerne den Start von 10:15 auf 10:00 verlegen. Die Sitzung geht dann in der Regel bis 13:00, so dass man noch sinnvoll in die Mensa gehen kann. Wir starten also am Freitag gleich um 10:00!\nWir werden in fast jeder Sitzung am Computer arbeiten - z.B. Code schreiben, Diagramme zeichnen, oder Dateien in git einchecken. Daher wäre es gut, wenn Sie, wenn möglich, immer ihren Laptop mitbringen. Wenn Sie keinen Laptop haben, können Sie auch bei Kommilitonen reinschauen und im “pair programming” Modus arbeiten.\nSie haben ja im Seminar von Statistik 1 schon einige Kenntnisse in R erworben. Ich gehe davon aus, dass Sie diese Kenntnisse mitbringen, wir werden sie hier nicht noch einmal wiederholen. Falls Sie Ihre R-Kenntnisse auffrischen möchten, finden Sie hier einige Ressourcen. Das bedeutet nicht, dass Sie all diese Ressourcen durcharbeiten müssen. Wenn Sie auf dem Stand der beiden R-Tutorials (siehe 3.1) sind, sind Sie hinreichend vorbereitet:\n\nDie R-Tutorials aus Statistik 1: Teil 1 - Grundlagen und Teil 2 - Workflows bei der Arbeit mit Datensätzen\nMoodle Kurs “R Tutorials”: Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR\nYouTube-Video: “Want to learn R (#rstats) in 4 hours with NO programming experience?”\nhttps://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf (12 page PDF document)\nhttps://github.com/jobreu/r-intro-gesis-2021 (5 day course: slides & exercises)\n\nDie Kommunikation wird ab jetzt über den Moodle-Kurs laufen. Der Einschreibeschlüssel lautet: “replikation”. Bitte schreiben Sie sich zeitnah ein; ich verschicke ab jetzt die Emails über den Moodle-Kurs.\nDas Kursmaterial wird sich alles auf Github finden: https://nicebread.github.io/Empra1_2026/.\n\nDann sehen wir uns am Freitag, 17.04.26, um 10:00 in Raum 2301 zur ersten Sitzung! Bei Fragen können Sie sich gerne auch vorab schon bei mir melden.\nViele Grüße, Felix Schönbrodt"
-  },
-  {
-    "objectID": "sessions/S2-Git.html",
-    "href": "sessions/S2-Git.html",
-    "title": "Session 02 - Threats part 2, ethics approval, Git",
-    "section": "",
-    "text": "NoteInstructor notes\n\n\n\n\n\n\nAdd the Moodle task where students submit their p-hacking results."
-  },
-  {
-    "objectID": "sessions/S2-Git.html#overview",
-    "href": "sessions/S2-Git.html#overview",
-    "title": "Session 02 - Threats part 2, ethics approval, Git",
-    "section": "Overview",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nThreats to credible research lecture, part 2\n100\nSlides\n\n\nBreak\n15\n\n\n\nGit introduction\n60\nSlides"
-  },
-  {
-    "objectID": "sessions/S2-Git.html#threats-to-credible-research-lecture---part-2",
-    "href": "sessions/S2-Git.html#threats-to-credible-research-lecture---part-2",
-    "title": "Session 02 - Threats part 2, ethics approval, Git",
-    "section": "Threats to credible research lecture - part 2",
-    "text": "Threats to credible research lecture - part 2\nJoin the live survey: https://partici.fi/33173261"
-  },
-  {
-    "objectID": "sessions/S2-Git.html#homework-for-the-next-two-weeks",
-    "href": "sessions/S2-Git.html#homework-for-the-next-two-weeks",
-    "title": "Session 02 - Threats part 2, ethics approval, Git",
-    "section": "Homework for the next two weeks",
-    "text": "Homework for the next two weeks\n\nHomework 1 (individual): Practice p-hacking\n🔗 P-Hacker App\nTask: Hack at least 5 studies towards significance with \\(\\alpha = .05\\) (keep the true effect at 0). Whenever you achieved a significant result, click on “Save” in the results table to store your result in the study stack on the right side. Once you achieved 5 significant studies, copy and paste the study stack into a text document.\nNext, try the same for \\(\\alpha = .005\\) (if it takes too long, there’s no need to achieve 5 significant studies).\nDeliverable: Copy both sets of significant studies (one for \\(\\alpha = .05\\), one for \\(\\alpha = .005\\)) into the textfield in the Moodle task.\n\n\nHomework 2 (individual): Read our target paper\nRead the target paper: Stellar, J. E., Gordon, A., Anderson, C. L., Piff, P. K., McNeil, G. D., & Keltner, D. (2018). Awe and humility. Journal of Personality and Social Psychology, 114(2), 258–269. https://doi.org/10.1037/pspi0000109\nYou can find the PDF in Moodle.\nFocus on the introduction, our target Study 3, and the discussion. Skim the other studies. Then write short replies to these guiding questions:\n\nIn the literature are several definitions of “Humility”, and they assign it to different classes of psychological constructs (e.g., a trait, a state). List at least 4 different classes.\n\n\n\nHow do the authors treat humility comceptually?\n\n\n\nWhat is the definition of “awe”?\n\n\n\nCompute the effect size (i.e., the standardized mean difference) between the control and the experimental group concerning strength of elicited awe.\n\n\n\nWhich limitations / contraints on generality (see definition CoG) do the authors discuss in the General Discussion?\n\n\n\nBonus question: There is an objective error concerning the sample size in Study 3. Can you spot it?\n\n\nDeliverable:\n\nPlease write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here).\nYou can answer in English or in German.\nMost questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper.\nIf you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\n\n\n\nHomework 3 (individual): Fill out the CREP survey (3 min)\nSee link in Moodle.\n\n\nHomework 4 (individual): Complete the Git tutorial.\nComplete and/or re-do the Git Tutorial. You should be able to initialize a local repository and commit to it, connect it to a remote repository on Github, and push, pull to it. All of these actions are covered in the tutorial.\nDeliverables: Create a Github repository (you can call it whatever you like), push at least least two local commits to it and copy the link to the repo to the Moodle task."
+    "objectID": "sessions/S3.html#homework-1-individually",
+    "href": "sessions/S3.html#homework-1-individually",
+    "title": "Session 03 - Preparing the study material",
+    "section": "Homework 1 (individually)",
+    "text": "Homework 1 (individually)\nPlease read Ch. 1 of the online book “Experimentology” and answer the following questions. You can answer in English or in German. Please write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references additionally, just refer to the chapter.\n\nQ1: Summarize the logic of randomization.\nQ2: Imagine that you run a survey and find that people who spend more time playing violent video games tend to be more aggressive (i.e., that there is a positive correlation between violent video games and aggression). Following Figure 1.2, list three reasons why these variables may be correlated.\nQ3: Suppose you wanted to run an experiment testing whether playing violent video games causes increases in aggression. What would be your manipulation and what would be your measure? How would you deal with potential confounding by variables like age?\nQ4: Consider an experiment designed to test people’s food preferences. The experimenter randomly assigns 30 U.S. preschoolers to be served either asparagus or chicken tenders and then asks them how much they enjoyed their meal. Overall, children enjoyed the meat more; the experimenter writes a paper claiming that humans prefer meat over vegetables. List some constraints on the generalizability of this study. In light of these constraints, is this study (or some modification) worth doing at all?"
   },
   {
     "objectID": "slides/Causality/Causality.html#from-correlation-to-causality",
