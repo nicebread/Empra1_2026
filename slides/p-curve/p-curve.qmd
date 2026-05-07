@@ -402,7 +402,7 @@ Stanley, T. D., & Doucouliagos, H. (2013). Meta-regression approximations to red
 ::::
 
 ## PET-PEESE
-### (Stanley & Doucou)
+### (Stanley & Doucouliagos)
 
 ::: {.smallest}
 * PEESE = precision-effect estimate with standard error ➙ effect size is regressed on the variance rather than standard error

@@ -4,7 +4,7 @@
     "href": "slides/slides_overview.html",
     "title": "Lectures Overview",
     "section": "",
-    "text": "These are all slides used for the “lecture” part of the course:\n\n\n\n\n\n\n\n\n\n\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\nCausality\nlink\nlink\n\n\nForschungsorientierte Praktikum I – Grundlagen der Forschung\nlink\nlink\n\n\nIntroduction to version control with Git in RStudio\nlink\nlink\n\n\nHow to minimize mistakes\nlink\nlink\n\n\nResearch Data Management & Open Data\nlink\nlink\n\n\nHow to Codebook\nlink\nlink\n\n\nHow (not) to report a power analysis\nlink\nlink\n\n\nPower Analysis: Introduction\nlink\nlink\n\n\nPreregistration\nlink\nlink\n\n\nThreats to credible research: Where are we at?\nlink\nlink"
+    "text": "These are all slides used for the “lecture” part of the course:\n\n\n\n\n\n\n\n\n\n\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\nCausality\nlink\nlink\n\n\nForschungsorientierte Praktikum I – Grundlagen der Forschung\nlink\nlink\n\n\nIntroduction to version control with Git in RStudio\nlink\nlink\n\n\nHow to minimize mistakes\nlink\nlink\n\n\nResearch Data Management & Open Data\nlink\nlink\n\n\nHow to Codebook\nlink\nlink\n\n\np-curve\nlink\nlink\n\n\nHow (not) to report a power analysis\nlink\nlink\n\n\nPower Analysis: Introduction\nlink\nlink\n\n\nPreregistration\nlink\nlink\n\n\nThreats to credible research: Where are we at?\nlink\nlink"
   },
   {
     "objectID": "slides/Replicability_Crisis/OS-M1-S1-Replicability-slides.slide.html#licence",
@@ -60,7 +60,7 @@
     "href": "slides/Replicability_Crisis/OS-M1-S1-Replicability-slides.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-your-current-understanding-of-key-terms-6-min",
     "title": "Threats to credible research: Where are we at?",
     "section": " Your current understanding of key terms (6 min)",
-    "text": "Your current understanding of key terms (6 min)\nThink - Pair - Share\n\nThink (2 min): For yourself: Write down a definition for those key terms: Replicability, Replication, Reproduction, p-hacking(without internet search - your current understanding)\nPair (2 min): Discuss your definitions with your neighbour\nShare (2 min): Share your definitions with the larger group\n\n\n\n                    \n                    \n                \n\n                    \n                    \n                \n\n                    \n                    \n                \n\n\n\n\n\n\n\n\nNote - this is not a test!\n\n\nThese terms probably have not been covered in your courses yet. We just want to see what your current understanding of these terms is."
+    "text": "Your current understanding of key terms (6 min)\nThink - Pair - Share\n\nThink (2 min): For yourself: Write down a definition for those key terms: Replicability, Replication, Reproduction, p-hacking(without internet search - your current understanding)\nPair (2 min): Discuss your definitions with your neighbour\nShare (2 min): Share your definitions with the larger group\n\n\n\n\n\n                    \n                    \n                \n\n                    \n                    \n                \n\n                    \n                    \n                \n\n\n\n\n\n\n\n\nNote - this is not a test!\n\n\nThese terms probably have not been covered in your courses yet. We just want to see what your current understanding of these terms is."
   },
   {
     "objectID": "slides/Replicability_Crisis/OS-M1-S1-Replicability-slides.slide.html#covered-in-this-session",
@@ -683,7 +683,7 @@
     "href": "slides/Replicability_Crisis/OS-M1-S1-Replicability-slides.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-your-current-understanding-of-key-terms-6-min",
     "title": "Threats to credible research: Where are we at?",
     "section": " Your current understanding of key terms (6 min)",
-    "text": "Your current understanding of key terms (6 min)\n\nThink - Pair - Share\n\nThink (2 min): For yourself: Write down a definition for those key terms: Replicability, Replication, Reproduction, p-hacking(without internet search - your current understanding)\nPair (2 min): Discuss your definitions with your neighbour\nShare (2 min): Share your definitions with the larger group\n\n\n\n                    \n                    \n                \n\n                    \n                    \n                \n\n                    \n                    \n                \n\n\n\n\n\n\n\n\nNoteNote - this is not a test!\n\n\n\nThese terms probably have not been covered in your courses yet. We just want to see what your current understanding of these terms is."
+    "text": "Your current understanding of key terms (6 min)\n\nThink - Pair - Share\n\nThink (2 min): For yourself: Write down a definition for those key terms: Replicability, Replication, Reproduction, p-hacking(without internet search - your current understanding)\nPair (2 min): Discuss your definitions with your neighbour\nShare (2 min): Share your definitions with the larger group\n\n\n\n\n\n                    \n                    \n                \n\n                    \n                    \n                \n\n                    \n                    \n                \n\n\n\n\n\n\n\n\nNoteNote - this is not a test!\n\n\n\nThese terms probably have not been covered in your courses yet. We just want to see what your current understanding of these terms is."
   },
   {
     "objectID": "slides/Replicability_Crisis/OS-M1-S1-Replicability-slides.html#covered-in-this-session",
@@ -5668,5 +5668,33 @@
     "title": "p-curve",
     "section": "Green flags",
     "text": "Green flags\n\n\n\n\n\nPre-registration\nHigh Power\n\nLarger samples, within-designs\n\nIndependent high-power replications\nOpen Data and Open Material\n\nWillingness to share research data is related to the strength of the evidence and the quality of reporting of statistical results (Wicherts, Bakker, & Molenaar, 2011)\nQuarterly Journal of Political Science: 54% of papers “had results in the paper that differed from those generated by the author’s own code” ➙ a well prepared data set and analysis code should be a validity indicator\n\nUsing the “21 Word Solution” of Simmons, Nelson, & Simonsohn (2012)\n\n\n\n\n\n\n\nhttp://www.nicebread.de/in-the-era-of-repligate-what-are-valid-cues-for-the-trustworthiness-of-a-study/"
+  },
+  {
+    "objectID": "sessions/S3-Study_preparation.html",
+    "href": "sessions/S3-Study_preparation.html",
+    "title": "Session 03 - Preparing the study material",
+    "section": "",
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate a shared login for the survey system"
+  },
+  {
+    "objectID": "sessions/S3-Study_preparation.html#overview",
+    "href": "sessions/S3-Study_preparation.html#overview",
+    "title": "Session 03 - Preparing the study material",
+    "section": "Overview",
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWrap-up Homework: p-hack, target paper\n30\n\n\n\nGit Troubleshooting\n30\n\n\n\nGroup work: Preparing the study\n45\n\n\n\nIntroduction to formr\n30\n\n\n\nGroup work 2: Implement the survey\n45\n\n\n\nCausality\n60\nSlides\n\n\nHomework: Create the video (or rather in class?)"
+  },
+  {
+    "objectID": "sessions/S3-Study_preparation.html#group-work-preparing-the-study",
+    "href": "sessions/S3-Study_preparation.html#group-work-preparing-the-study",
+    "title": "Session 03 - Preparing the study material",
+    "section": "Group work: Preparing the study",
+    "text": "Group work: Preparing the study\nGroup tasks:\n\nPrepare our OSF project (steps 5-8 of the CREP Guide)\nTranslate the study material\nSearch for an alternative awe-inducing video and neutral control video.\nThink about possible extensions, add them to this document\nConsider:\n\n\n“make sure participants can’t skip past the writing question before the time is up, and then also so that can’t skip past the videos. I also think that the size of the embedded video on the screen could be an important factor in successfully engendering awe, so something to consider.”\n\n\n\n\n\n\n\nTipPower analysis\n\n\n\nWe will do a detailed power analysis later - for the IRB approval, we do this (one-sided testing, 80% power, taking the originally found effect size at face value):\n\nlibrary(pwr)\npwr.t.test(d=0.51, power=.80, type=\"two.sample\", alternative=\"greater\")\n\n\n     Two-sample t test power calculation \n\n              n = 48.23074\n              d = 0.51\n      sig.level = 0.05\n          power = 0.8\n    alternative = greater\n\nNOTE: n is number in *each* group"
+  },
+  {
+    "objectID": "sessions/S3-Study_preparation.html#homework-1-individually",
+    "href": "sessions/S3-Study_preparation.html#homework-1-individually",
+    "title": "Session 03 - Preparing the study material",
+    "section": "Homework 1 (individually)",
+    "text": "Homework 1 (individually)\nPlease read Ch. 1 of the online book “Experimentology” and answer the following questions. You can answer in English or in German. Please write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references additionally, just refer to the chapter.\n\nQ1: Summarize the logic of randomization.\nQ2: Imagine that you run a survey and find that people who spend more time playing violent video games tend to be more aggressive (i.e., that there is a positive correlation between violent video games and aggression). Following Figure 1.2, list three reasons why these variables may be correlated.\nQ3: Suppose you wanted to run an experiment testing whether playing violent video games causes increases in aggression. What would be your manipulation and what would be your measure? How would you deal with potential confounding by variables like age?\nQ4: Consider an experiment designed to test people’s food preferences. The experimenter randomly assigns 30 U.S. preschoolers to be served either asparagus or chicken tenders and then asks them how much they enjoyed their meal. Overall, children enjoyed the meat more; the experimenter writes a paper claiming that humans prefer meat over vegetables. List some constraints on the generalizability of this study. In light of these constraints, is this study (or some modification) worth doing at all?"
   }
 ]

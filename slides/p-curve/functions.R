@@ -304,7 +304,7 @@ plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, example = FALSE,
       # Label for the green area
       annotate("label", 
                x = 0.04, y = ymax * 0.9, 
-               label = "49% of all p-values are <.025", 
+               label = "49% of all p-values should be <.025", 
                fill = "royalblue", color = "white", 
                fontface = "bold", size = 6, hjust = 0, vjust = 0, 
                label.padding = unit(0.8, "lines"), label.size = NA) +
@@ -317,7 +317,7 @@ plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, example = FALSE,
       # Label for the yellow area
       annotate("label", 
                x = 0.06, y = ymax * 0.7, 
-               label = "11% of all p-values are between .025 and .05", 
+               label = "11% of all p-values should be between .025 and .05", 
                fill = "royalblue", color = "white", 
                fontface = "bold", size = 6, hjust = 0, vjust = 0, 
                label.padding = unit(0.8, "lines"), label.size = NA)
