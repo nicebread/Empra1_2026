@@ -2790,7 +2790,7 @@
     "href": "sessions/S2-Git.html#homework-for-the-next-two-weeks",
     "title": "Session 02 - Threats part 2, ethics approval, Git",
     "section": "Homework for the next two weeks",
-    "text": "Homework for the next two weeks\n\nHomework 1 (individual): Practice p-hacking\n🔗 P-Hacker App\nTask: Hack at least 5 studies towards significance with \\(\\alpha = .05\\) (keep the true effect at 0). Whenever you achieved a significant result, click on “Save” in the results table to store your result in the study stack on the right side. Once you achieved 5 significant studies, copy and paste the study stack into a text document.\nNext, try the same for \\(\\alpha = .005\\) (if it takes too long, there’s no need to achieve 5 significant studies).\nDeliverable: Copy both sets of significant studies (one for \\(\\alpha = .05\\), one for \\(\\alpha = .005\\)) into the textfield in the Moodle task.\n\n\nHomework 2 (individual): Read our target paper\nRead the target paper: Stellar, J. E., Gordon, A., Anderson, C. L., Piff, P. K., McNeil, G. D., & Keltner, D. (2018). Awe and humility. Journal of Personality and Social Psychology, 114(2), 258–269. https://doi.org/10.1037/pspi0000109\nYou can find the PDF in Moodle.\nFocus on the introduction, our target Study 3, and the discussion. Skim the other studies. Then write short replies to these guiding questions:\n\nIn the literature are several definitions of “Humility”, and they assign it to different classes of psychological constructs (e.g., a trait, a state). List at least 4 different classes.\n\n\n\nHow do the authors treat humility comceptually?\n\n\n\nWhat is the definition of “awe”?\n\n\n\nCompute the effect size (i.e., the standardized mean difference) between the control and the experimental group concerning strength of elicited awe.\n\n\n\nWhich limitations / contraints on generality (see definition CoG) do the authors discuss in the General Discussion?\n\n\n\nBonus question: There is an objective error concerning the sample size in Study 3. Can you spot it?\n\n\nDeliverable:\n\nPlease write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here).\nYou can answer in English or in German.\nMost questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper.\nIf you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\n\n\n\nHomework 3 (individual): Fill out the CREP survey (3 min)\nSee link in Moodle.\n\n\nHomework 4 (individual): Complete the Git tutorial.\nComplete and/or re-do the Git Tutorial. You should be able to initialize a local repository and commit to it, connect it to a remote repository on Github, and push, pull to it. All of these actions are covered in the tutorial.\nDeliverables: Create a Github repository (you can call it whatever you like), push at least least two local commits to it and copy the link to the repo to the Moodle task."
+    "text": "Homework for the next two weeks\n\nHomework 1 (individual): Practice p-hacking\n🔗 P-Hacker App\nTask: Hack at least 5 studies towards significance with \\(\\alpha = .05\\) (keep the true effect at 0). Whenever you achieved a significant result, click on “Save” in the results table to store your result in the study stack on the right side. Once you achieved 5 significant studies, copy and paste the study stack into a text document.\nNext, try the same for \\(\\alpha = .005\\) (if it takes too long, there’s no need to achieve 5 significant studies).\nDeliverable: Copy both sets of significant studies (one for \\(\\alpha = .05\\), one for \\(\\alpha = .005\\)) into the textfield in the Moodle task.\n\n\nHomework 2 (individual): Read our target paper\nRead the target paper: Stellar, J. E., Gordon, A., Anderson, C. L., Piff, P. K., McNeil, G. D., & Keltner, D. (2018). Awe and humility. Journal of Personality and Social Psychology, 114(2), 258–269. https://doi.org/10.1037/pspi0000109\nYou can find the PDF in Moodle.\nFocus on the introduction, our target Study 3, and the discussion. Skim the other studies. Then write short replies to these guiding questions:\n\nIn the literature are several definitions of “Humility”, and they assign it to different classes of psychological constructs (e.g., a trait, a state). List at least 4 different classes.\n\n\n\nHow do the authors treat humility conceptually?\n\n\n\nWhat is the definition of “awe”?\n\n\n\nIn Study 3: Compute the effect size (i.e., the standardized mean difference) between the control and the experimental group concerning strength of elicited awe.\n\n\n\nWhich limitations / contraints on generality (see definition CoG) do the authors discuss in the General Discussion?\n\n\n\nBonus question: There is an objective error concerning the sample size in Study 3. Can you spot it?\n\n\nDeliverable:\n\nPlease write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here).\nYou can answer in English or in German.\nMost questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper.\nIf you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\n\n\n\nHomework 3 (individual): Fill out the CREP survey (3 min)\nSee link in Moodle.\n\n\nHomework 4 (individual): Complete the Git tutorial.\nComplete and/or re-do the Git Tutorial. You should be able to initialize a local repository and commit to it, connect it to a remote repository on Github, and push, pull to it. All of these actions are covered in the tutorial.\nDeliverables: Create a Github repository (you can call it whatever you like), push at least least two local commits to it and copy the link to the repo to the Moodle task."
   },
   {
     "objectID": "orga_material/instructions_before_course.html",
@@ -2881,28 +2881,28 @@
     "href": "sessions/S3-Study_preparation.html",
     "title": "Session 03 - Preparing the study material",
     "section": "",
-    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate a shared login for the survey system"
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate a shared login for the online survey system"
   },
   {
     "objectID": "sessions/S3-Study_preparation.html#overview",
     "href": "sessions/S3-Study_preparation.html#overview",
     "title": "Session 03 - Preparing the study material",
     "section": "Overview",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWrap-up Homework: p-hack, target paper\n30\n\n\n\nGit Troubleshooting\n30\n\n\n\nGroup work: Preparing the study\n45\n\n\n\nIntroduction to formr\n30\n\n\n\nGroup work 2: Implement the survey\n45\n\n\n\nCausality\n60\nSlides\n\n\nHomework: Create the video (or rather in class?)"
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nGit Troubleshooting\n30\n\n\n\nWrap-up Homework: p-hack, target paper\n30\n\n\n\nGroup work: Preparing the study\n45\n\n\n\nHomework: formr\n5"
   },
   {
-    "objectID": "sessions/S3-Study_preparation.html#group-work-preparing-the-study",
-    "href": "sessions/S3-Study_preparation.html#group-work-preparing-the-study",
+    "objectID": "sessions/S3-Study_preparation.html#group-work-prepare-the-study",
+    "href": "sessions/S3-Study_preparation.html#group-work-prepare-the-study",
     "title": "Session 03 - Preparing the study material",
-    "section": "Group work: Preparing the study",
-    "text": "Group work: Preparing the study\nGroup tasks:\n\nPrepare our OSF project (steps 5-8 of the CREP Guide)\nTranslate the study material\nSearch for an alternative awe-inducing video and neutral control video.\nThink about possible extensions, add them to this document\nConsider:\n\n\n“make sure participants can’t skip past the writing question before the time is up, and then also so that can’t skip past the videos. I also think that the size of the embedded video on the screen could be an important factor in successfully engendering awe, so something to consider.”\n\n\n\n\n\n\n\nTipPower analysis\n\n\n\nWe will do a detailed power analysis later - for the IRB approval, we do this (one-sided testing, 80% power, taking the originally found effect size at face value):\n\nlibrary(pwr)\npwr.t.test(d=0.51, power=.80, type=\"two.sample\", alternative=\"greater\")\n\n\n     Two-sample t test power calculation \n\n              n = 48.23074\n              d = 0.51\n      sig.level = 0.05\n          power = 0.8\n    alternative = greater\n\nNOTE: n is number in *each* group"
+    "section": "Group work: Prepare the study",
+    "text": "Group work: Prepare the study\nGroup tasks:\n\nPrepare our OSF project (steps 5-8 of the CREP Guide)\nPrepare our study material (see Step 4 of the CREP guide)\n\nTranslate the study material\nSearch for an alternative awe-inducing video and neutral control video.\nWrite an exact “screenplay”: In which order are the instructions, interventions, items presented?\n\nThink about possible extensions, add them to this document"
   },
   {
-    "objectID": "sessions/S3-Study_preparation.html#homework-1-individually",
-    "href": "sessions/S3-Study_preparation.html#homework-1-individually",
+    "objectID": "sessions/S3-Study_preparation.html#homework-learn-formr",
+    "href": "sessions/S3-Study_preparation.html#homework-learn-formr",
     "title": "Session 03 - Preparing the study material",
-    "section": "Homework 1 (individually)",
-    "text": "Homework 1 (individually)\nPlease read Ch. 1 of the online book “Experimentology” and answer the following questions. You can answer in English or in German. Please write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references additionally, just refer to the chapter.\n\nQ1: Summarize the logic of randomization.\nQ2: Imagine that you run a survey and find that people who spend more time playing violent video games tend to be more aggressive (i.e., that there is a positive correlation between violent video games and aggression). Following Figure 1.2, list three reasons why these variables may be correlated.\nQ3: Suppose you wanted to run an experiment testing whether playing violent video games causes increases in aggression. What would be your manipulation and what would be your measure? How would you deal with potential confounding by variables like age?\nQ4: Consider an experiment designed to test people’s food preferences. The experimenter randomly assigns 30 U.S. preschoolers to be served either asparagus or chicken tenders and then asks them how much they enjoyed their meal. Overall, children enjoyed the meat more; the experimenter writes a paper claiming that humans prefer meat over vegetables. List some constraints on the generalizability of this study. In light of these constraints, is this study (or some modification) worth doing at all?"
+    "section": "Homework: Learn formr",
+    "text": "Homework: Learn formr\nThere are various resources - choose according to your preference:\n\nThe official formr documentation (written)\nA 46 min. video tutorial by Alan Jern (in English)\nA 2h workshop video by Kai Horstmann (in German)\n7 short videos (36 min. total) by Daniela Feistauer (in German)\n\nDeliverable: Log into the OSC formr platform (use the credentials provided in Moodle), create a new survey with your name, link a Google sheet with some questions of your choice, and create a run with your name that contains only this survey and a goodbye screen."
   },
   {
     "objectID": "slides/Causality/Causality.html#from-correlation-to-causality",
@@ -3001,13 +3001,6 @@
     "title": "Causality",
     "section": "",
     "text": "Inference of causality is a feature of the experimental design, not of the data analysis."
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#apply-to-our-own-study",
-    "href": "slides/Causality/Causality.html#apply-to-our-own-study",
-    "title": "Causality",
-    "section": "Apply to our own study!",
-    "text": "Apply to our own study!\n\n\nShould we maximize or minimize reactivity effects? (See Q3 of homework)\nWhat would be a good control group?\nHow to design the ESM protocol, the pre- and posttest?"
   },
   {
     "objectID": "slides/Causality/Causality.html#references",
@@ -3127,13 +3120,6 @@
     "title": "Causality",
     "section": "",
     "text": "Inference of causality is a feature of the experimental design, not of the data analysis."
-  },
-  {
-    "objectID": "slides/Causality/Causality.slide.html#apply-to-our-own-study",
-    "href": "slides/Causality/Causality.slide.html#apply-to-our-own-study",
-    "title": "Causality",
-    "section": "Apply to our own study!",
-    "text": "Apply to our own study!\n\n\nShould we maximize or minimize reactivity effects? (See Q3 of homework)\nWhat would be a good control group?\nHow to design the ESM protocol, the pre- and posttest?"
   },
   {
     "objectID": "slides/Causality/Causality.slide.html#references",
