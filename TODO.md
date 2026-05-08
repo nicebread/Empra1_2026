@@ -1,3 +1,9 @@
+## How to find replications and problems
+
+- Install Pubpeer browser extension
+- FLora database
+- 
+
 ## Debate Club: Ego depletion
 
 read https://unsafescience.substack.com/p/the-triumph-of-ego-depletion

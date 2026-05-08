@@ -56,7 +56,7 @@ Then write short replies to these guiding questions:
 
 <!-- trait, a subjective feeling state, a cognitive tendency, an epistemic recognition of the limits of one’s knowledge, and a behavior -->
 
-2. How do the authors treat humility comceptually?
+2. How do the authors treat humility conceptually?
 
 <!-- treating humility as a dynamic state and capturing multiple forms of measurement to triangulate on this fluctuating and multifaceted construct.
 
@@ -67,7 +67,7 @@ A dynamic state of WHAT? Emotion? Cognition?
 
 <!-- Awe is the feeling of wonder and amazement at being in the presence of something vast that transcends one’s current understanding -->
 
-4. Compute the effect size (i.e., the standardized mean difference) between the control and the experimental group concerning strength of elicited awe.
+4. In Study 3: Compute the effect size (i.e., the standardized mean difference) between the control and the experimental group concerning strength of elicited awe.
 
 <!--
 

@@ -151,7 +151,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#what-makes-a-good-control-group" id="toc-what-makes-a-good-control-group" class="nav-link" data-scroll-target="#what-makes-a-good-control-group">What makes a good control group?</a></li>
   <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
   <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"></a></li>
-  <li><a href="#apply-to-our-own-study" id="toc-apply-to-our-own-study" class="nav-link" data-scroll-target="#apply-to-our-own-study">Apply to our own study!</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a>
   <ul class="collapse">
@@ -407,22 +406,12 @@ Inference of causality is a feature of the <strong>experimental design</strong>,
 </h1>
 </div>
 </section>
-<section id="apply-to-our-own-study" class="level2">
-<h2 class="anchored" data-anchor-id="apply-to-our-own-study">Apply to our own study!</h2>
-<div class="smaller">
-<ul>
-<li>Should we maximize or minimize reactivity effects? (See Q3 of homework)</li>
-<li>What would be a good control group?</li>
-<li>How to design the ESM protocol, the pre- and posttest?</li>
-</ul>
-</div>
-</section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
 <div class="smallest">
 <ul>
-<li>Maydeu-Olivares, A., Shi, D., &amp; Fairchild, A. J. (2020). Estimating causal effects in linear regression models with observational data: The instrumental variables regression model. Psychological Methods, 25, 243–258. <a href="https://doi.org/10.1037/met0000226">https://doi.org/10.1037/met0000226</a></li>
-<li>Nahum-Shani, I., Almirall, D., Yap, J. R. T., McKay, J. R., Lynch, K. G., Freiheit, E. A., &amp; Dziak, J. J. (2020). SMART longitudinal analysis: A tutorial for using repeated outcome measures from SMART studies to compare adaptive interventions. Psychological Methods, 25, 1–29. <a href="https://doi.org/10.1037/met0000219">https://doi.org/10.1037/met0000219</a></li>
+<li>Maydeu-Olivares, A., Shi, D., &amp; Fairchild, A. J. (2020). Estimating causal effects in linear regression models with observational data: The instrumental variables regression model. <em>Psychological Methods, 25</em>, 243–258. <a href="https://doi.org/10.1037/met0000226">https://doi.org/10.1037/met0000226</a></li>
+<li>Nahum-Shani, I., Almirall, D., Yap, J. R. T., McKay, J. R., Lynch, K. G., Freiheit, E. A., &amp; Dziak, J. J. (2020). SMART longitudinal analysis: A tutorial for using repeated outcome measures from SMART studies to compare adaptive interventions. <em>Psychological Methods, 25</em>, 1–29. <a href="https://doi.org/10.1037/met0000219">https://doi.org/10.1037/met0000219</a></li>
 <li>Rosenbaum, P. R. (2017). Observation and Experiment: An Introduction to Causal Inference (Illustrated Edition). Harvard University Press.</li>
 <li>Schmiedek, F., &amp; Neubauer, A. B. (2019). Experiments in the Wild: Introducing the Within-Person Encouragement Design. Multivariate Behavioral Research, 0(0), 1–21. <a href="https://doi.org/10.1080/00273171.2019.1627660">https://doi.org/10.1080/00273171.2019.1627660</a></li>
 <li>Matthay, E. C., &amp; Glymour, M. M. (2020). A Graphical Catalog of Threats to Validity. Epidemiology (Cambridge, Mass.), 31(3), 376–384. <a href="https://doi.org/10.1097/EDE.0000000000001161">https://doi.org/10.1097/EDE.0000000000001161</a></li>
@@ -459,44 +448,6 @@ Inference of causality is a feature of the <strong>experimental design</strong>,
 </section>
 
 </main> <!-- /main -->
-
-<script>
-  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-  // slide changes (different for each slide format).
-  (function () {
-    // dispatch for htmlwidgets
-    function fireSlideEnter() {
-      const event = window.document.createEvent("Event");
-      event.initEvent("slideenter", true, true);
-      window.document.dispatchEvent(event);
-    }
-
-    function fireSlideChanged(previousSlide, currentSlide) {
-      fireSlideEnter();
-
-      // dispatch for shiny
-      if (window.jQuery) {
-        if (previousSlide) {
-          window.jQuery(previousSlide).trigger("hidden");
-        }
-        if (currentSlide) {
-          window.jQuery(currentSlide).trigger("shown");
-        }
-      }
-    }
-
-    // hookup for slidy
-    if (window.w3c_slidy) {
-      window.w3c_slidy.add_observer(function (slide_num) {
-        // slide_num starts at position 1
-        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-      });
-    }
-
-  })();
-</script>
-
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

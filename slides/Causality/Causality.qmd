@@ -208,22 +208,15 @@ Boot, W. R., Simons, D. J., Stothart, C., & Stutts, C. (2013). The Pervasive Pro
 </div>
 
 
-## Apply to our own study! 
-
-::: {.smaller}
-- Should we maximize or minimize reactivity effects? (See Q3 of homework)
-- What would be a good control group?
-- How to design the ESM protocol, the pre- and posttest?
-:::
 
 ## References 
 
 ::: {.smallest}
-- Maydeu-Olivares, A., Shi, D., & Fairchild, A. J. (2020). Estimating causal effects in linear    regression models with observational data: The instrumental variables regression model.         Psychological Methods, 25, 243–258. [https://doi.org/10.1037/met0000226](https://doi.org/10.1037/met0000226)
-- Nahum-Shani, I., Almirall, D., Yap, J. R. T., McKay, J. R., Lynch, K. G., Freiheit, E. A., &    Dziak, J. J. (2020). SMART longitudinal analysis: A tutorial for using repeated outcome         measures from SMART studies to compare adaptive interventions. Psychological Methods, 25,       1–29. [https://doi.org/10.1037/met0000219](https://doi.org/10.1037/met0000219)
-- Rosenbaum, P. R. (2017). Observation and Experiment: An Introduction to Causal Inference        (Illustrated Edition). Harvard University Press.
-- Schmiedek, F., & Neubauer, A. B. (2019). Experiments in the Wild: Introducing the               Within-Person Encouragement Design. Multivariate Behavioral Research, 0(0), 1–21.               [https://doi.org/10.1080/00273171.2019.1627660](https://doi.org/10.1080/00273171.2019.1627660)
-- Matthay, E. C., & Glymour, M. M. (2020). A Graphical Catalog of Threats to Validity.            Epidemiology (Cambridge, Mass.), 31(3), 376–384. [https://doi.org/10.1097/EDE.0000000000001161](https://doi.org/10.1097/EDE.0000000000001161)
+- Maydeu-Olivares, A., Shi, D., & Fairchild, A. J. (2020). Estimating causal effects in linear regression models with observational data: The instrumental variables regression model. *Psychological Methods, 25*, 243–258. [https://doi.org/10.1037/met0000226](https://doi.org/10.1037/met0000226)
+- Nahum-Shani, I., Almirall, D., Yap, J. R. T., McKay, J. R., Lynch, K. G., Freiheit, E. A., &    Dziak, J. J. (2020). SMART longitudinal analysis: A tutorial for using repeated outcome measures from SMART studies to compare adaptive interventions. *Psychological Methods, 25*, 1–29. [https://doi.org/10.1037/met0000219](https://doi.org/10.1037/met0000219)
+- Rosenbaum, P. R. (2017). Observation and Experiment: An Introduction to Causal Inference (Illustrated Edition). Harvard University Press.
+- Schmiedek, F., & Neubauer, A. B. (2019). Experiments in the Wild: Introducing the Within-Person Encouragement Design. Multivariate Behavioral Research, 0(0), 1–21. [https://doi.org/10.1080/00273171.2019.1627660](https://doi.org/10.1080/00273171.2019.1627660)
+- Matthay, E. C., & Glymour, M. M. (2020). A Graphical Catalog of Threats to Validity. Epidemiology (Cambridge, Mass.), 31(3), 376–384. [https://doi.org/10.1097/EDE.0000000000001161](https://doi.org/10.1097/EDE.0000000000001161)
 - [https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/]( https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
 - [https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 :::

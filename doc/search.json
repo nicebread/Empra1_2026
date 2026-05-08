@@ -5331,7 +5331,7 @@
     "href": "slides/p-curve/p-curve.html#pet-peese",
     "title": "p-curve",
     "section": "PET-PEESE",
-    "text": "PET-PEESE\n\n(Stanley & Doucou)\n\n\nPEESE = precision-effect estimate with standard error ➙ effect size is regressed on the variance rather than standard error\nAs in PET: Intercept is interpreted as estimate of true effect\nSimulation studies show: PET underestimates if true effect is non-zero, PEESE overestimates if true effect is zero.\n➙ Suggestion: If PET intercept is not significant with p &gt; .05, (i.e.: corrected ES does not differ from zero), use the PET intercept as estimate. If PET intercept significantly differs from zero, use PEESE intercept as estimate.\nNo real theoretical foundation - just the ad-hoc solution that worked best.\n\n\n\n# R Code\nPET = lm(d~se, weights = 1/v)\nPEESE = lm(d~se^2, weights = 1/v)\n\n\n\n\nAppendix of Carter, E. C., & McCullough, M. E. (2014). Publication bias and the limited strength model of self-control: has the evidence for ego depletion been overestimated? Personality and Social Psychology, 5, 823.\nStanley, T. D., & Doucouliagos, H. (2013). Meta-regression approximations to reduce publication selection bias. Research Synthesis Methods, 5(1), 60–78. http://doi.org/10.1002/jrsm.1095"
+    "text": "PET-PEESE\n\n(Stanley & Doucouliagos)\n\n\nPEESE = precision-effect estimate with standard error ➙ effect size is regressed on the variance rather than standard error\nAs in PET: Intercept is interpreted as estimate of true effect\nSimulation studies show: PET underestimates if true effect is non-zero, PEESE overestimates if true effect is zero.\n➙ Suggestion: If PET intercept is not significant with p &gt; .05, (i.e.: corrected ES does not differ from zero), use the PET intercept as estimate. If PET intercept significantly differs from zero, use PEESE intercept as estimate.\nNo real theoretical foundation - just the ad-hoc solution that worked best.\n\n\n\n# R Code\nPET = lm(d~se, weights = 1/v)\nPEESE = lm(d~se^2, weights = 1/v)\n\n\n\n\nAppendix of Carter, E. C., & McCullough, M. E. (2014). Publication bias and the limited strength model of self-control: has the evidence for ego depletion been overestimated? Personality and Social Psychology, 5, 823.\nStanley, T. D., & Doucouliagos, H. (2013). Meta-regression approximations to reduce publication selection bias. Research Synthesis Methods, 5(1), 60–78. http://doi.org/10.1002/jrsm.1095"
   },
   {
     "objectID": "slides/p-curve/p-curve.html#section-1",
@@ -5674,21 +5674,21 @@
     "href": "sessions/S3-Study_preparation.html",
     "title": "Session 03 - Preparing the study material",
     "section": "",
-    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate a shared login for the survey system"
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate a shared login for the online survey system"
   },
   {
     "objectID": "sessions/S3-Study_preparation.html#overview",
     "href": "sessions/S3-Study_preparation.html#overview",
     "title": "Session 03 - Preparing the study material",
     "section": "Overview",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWrap-up Homework: p-hack, target paper\n30\n\n\n\nGit Troubleshooting\n30\n\n\n\nGroup work: Preparing the study\n45\n\n\n\nIntroduction to formr\n30\n\n\n\nGroup work 2: Implement the survey\n45\n\n\n\nCausality\n60\nSlides\n\n\nHomework: Create the video (or rather in class?)"
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWrap-up Homework: p-hack, target paper\n30\n\n\n\nGit Troubleshooting\n30\n\n\n\nGroup work: Preparing the study\n45\n\n\n\nHomework: formr\n5"
   },
   {
     "objectID": "sessions/S3-Study_preparation.html#group-work-preparing-the-study",
     "href": "sessions/S3-Study_preparation.html#group-work-preparing-the-study",
     "title": "Session 03 - Preparing the study material",
     "section": "Group work: Preparing the study",
-    "text": "Group work: Preparing the study\nGroup tasks:\n\nPrepare our OSF project (steps 5-8 of the CREP Guide)\nTranslate the study material\nSearch for an alternative awe-inducing video and neutral control video.\nThink about possible extensions, add them to this document\nConsider:\n\n\n“make sure participants can’t skip past the writing question before the time is up, and then also so that can’t skip past the videos. I also think that the size of the embedded video on the screen could be an important factor in successfully engendering awe, so something to consider.”\n\n\n\n\n\n\n\nTipPower analysis\n\n\n\nWe will do a detailed power analysis later - for the IRB approval, we do this (one-sided testing, 80% power, taking the originally found effect size at face value):\n\nlibrary(pwr)\npwr.t.test(d=0.51, power=.80, type=\"two.sample\", alternative=\"greater\")\n\n\n     Two-sample t test power calculation \n\n              n = 48.23074\n              d = 0.51\n      sig.level = 0.05\n          power = 0.8\n    alternative = greater\n\nNOTE: n is number in *each* group"
+    "text": "Group work: Preparing the study\nGroup tasks:\n\nPrepare our OSF project (steps 5-8 of the CREP Guide)\nPrepare our study material (see Step 4 of the CREP guide)\n\nTranslate the study material\nSearch for an alternative awe-inducing video and neutral control video.\nWrite an exact “screenplay”: In which order are the instructions, interventions, items presented?\n\nThink about possible extensions, add them to this document"
   },
   {
     "objectID": "sessions/S3-Study_preparation.html#homework-1-individually",
@@ -5696,5 +5696,19 @@
     "title": "Session 03 - Preparing the study material",
     "section": "Homework 1 (individually)",
     "text": "Homework 1 (individually)\nPlease read Ch. 1 of the online book “Experimentology” and answer the following questions. You can answer in English or in German. Please write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references additionally, just refer to the chapter.\n\nQ1: Summarize the logic of randomization.\nQ2: Imagine that you run a survey and find that people who spend more time playing violent video games tend to be more aggressive (i.e., that there is a positive correlation between violent video games and aggression). Following Figure 1.2, list three reasons why these variables may be correlated.\nQ3: Suppose you wanted to run an experiment testing whether playing violent video games causes increases in aggression. What would be your manipulation and what would be your measure? How would you deal with potential confounding by variables like age?\nQ4: Consider an experiment designed to test people’s food preferences. The experimenter randomly assigns 30 U.S. preschoolers to be served either asparagus or chicken tenders and then asks them how much they enjoyed their meal. Overall, children enjoyed the meat more; the experimenter writes a paper claiming that humans prefer meat over vegetables. List some constraints on the generalizability of this study. In light of these constraints, is this study (or some modification) worth doing at all?"
+  },
+  {
+    "objectID": "sessions/S3-Study_preparation.html#group-task-2-implement-in-formr",
+    "href": "sessions/S3-Study_preparation.html#group-task-2-implement-in-formr",
+    "title": "Session 03 - Preparing the study material",
+    "section": "Group task 2: Implement in formr",
+    "text": "Group task 2: Implement in formr\nConsider this:\n\n“make sure participants can’t skip past the writing question before the time is up, and then also so that can’t skip past the videos. I also think that the size of the embedded video on the screen could be an important factor in successfully engendering awe, so something to consider.”"
+  },
+  {
+    "objectID": "sessions/S3-Study_preparation.html#homework-learn-formr",
+    "href": "sessions/S3-Study_preparation.html#homework-learn-formr",
+    "title": "Session 03 - Preparing the study material",
+    "section": "Homework: Learn formr",
+    "text": "Homework: Learn formr\nThere are various resources - choose according to your preference:\n\nThe official formr documentation (written)\nA 46 min. video tutorial by Alan Jern (in English)\nA 2h workshop video by Kai Horstmann (in German)\n7 short videos (36 min. total) by Daniela Feistauer (in German)\n\nDeliverable: Log into the OSC formr platform (use the credentials provided in Moodle), create a new survey with your name, link a Google sheet with some questions of your choice, and create a run with your name that contains only this survey and a goodbye screen."
   }
 ]
