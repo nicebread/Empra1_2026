@@ -6,12 +6,12 @@ description: XXX
 
 # Overview
 
-| Topic                       | Duration | Notes                                                                                                                                           |
-| :-------------------------- | :------: | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Finalize implementation     |    45    |                                                                                                                                                 |
-| Create video of procedure   |    20    | See [CREP Step 9: Procedure Video](https://docs.google.com/document/d/13iShvF76RDlLSmWMzhr5jeLAetzRQGHobCQSovkO1mo/edit#heading=h.4f3v0j9ih1g9) |
-| Group work: CREP Step 10-13 |    45    | See [CREP 10-13](https://docs.google.com/document/d/13iShvF76RDlLSmWMzhr5jeLAetzRQGHobCQSovkO1mo/edit#heading=h.cbj6hltx0v3n)                   |
-| Causality                   |    60    | [Slides](/slides/Causality/Causality.qmd)                                                                                                       |
+| Topic                         | Duration | Notes                                                                                                                                           |
+| :---------------------------- | :------: | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Finalize formr implementation |    60    |                                                                                                                                                 |
+| Create video of procedure     |    20    | See [CREP Step 9: Procedure Video](https://docs.google.com/document/d/13iShvF76RDlLSmWMzhr5jeLAetzRQGHobCQSovkO1mo/edit#heading=h.4f3v0j9ih1g9) |
+| Group work: CREP Step 10-13   |    45    | See [CREP 10-13](https://docs.google.com/document/d/13iShvF76RDlLSmWMzhr5jeLAetzRQGHobCQSovkO1mo/edit#heading=h.cbj6hltx0v3n)                   |
+| Causality                     |    60    | [Slides](/slides/Causality/Causality.qmd)                                                                                                       |
 
 
 : {.striped}

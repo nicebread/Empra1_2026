@@ -44,7 +44,9 @@ pwr.t.test(d=0.51, power=.80, type="two.sample", alternative="greater")
  -->
 
 
-## Homework: Learn formr
+## Homework 1: Complete any remaining tasks (see above)
+
+## Homework 2: Learn formr
 
 There are various resources - choose according to your preference:
 
@@ -53,4 +55,4 @@ There are various resources - choose according to your preference:
 - A [2h workshop video](https://leibniz-psychology.org/practices-and-tools-of-open-science/umfragen-erstellen-mit-formr) by Kai Horstmann (in German)
 - [7 short videos](https://invidious.nerdvpn.de/watch?v=tNfNWogGCc4&list=PLykZOoFFtCkgkyz8BofTBHJ0d9xYNuZMO) (36 min. total) by Daniela Feistauer (in German)
 
-**Deliverable**: Log into the [OSC formr platform](https://formr.osc.lmu.de/admin/account/logout) (use the credentials provided in Moodle), create a new **survey** with your name, link a Google sheet with some questions of your choice, and create a **run** with your name that contains only this survey and a goodbye screen.
+**Deliverable**: Log into the [OSC formr platform](https://formr.osc.lmu.de/admin/account/logout) (use the credentials provided in Moodle), create a new *Survey* with your name, link a Google sheet with some questions of your choice, and create a *Run* with your name that contains only this survey and a goodbye screen. Try out different item types. Try to link a Youtube video.
