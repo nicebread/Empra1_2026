@@ -148,7 +148,7 @@ print(pcurve_plot(.80, ymax = 30, sig.region = TRUE, callout = TRUE))
 #| echo: false
 #| warning: false
 #| message: false
-print(plot_special_2(example = TRUE))
+print(plot_special_2(callout = TRUE))
 ```
 
 ## Publication bias

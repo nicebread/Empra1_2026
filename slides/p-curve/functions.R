@@ -265,7 +265,9 @@ pcurve_plot <- function(power = .10, p.max = .9999, ymax = 5, sig.region = FALSE
 #' @param power Numeric. The true statistical power. Default is 0.60.
 #' @param p.max Numeric. The maximum p-value to plot. Default is 0.2.
 #' @param ymax Numeric. The maximum density on the y-axis. Default is 50.
-#' @param example Logical. If TRUE, adds dart images, k-labels, and callout bubbles.
+#' @param callout Logical. If TRUE, adds dart images, k-labels, and callout bubbles with dynamic percentages of how many of all p-values fall into the respective bins.
+#' @param darts_bin1 Integer. Number of darts in the first bin (p < 0.025). Default is 5.
+#' @param darts_bin2 Integer. Number of darts in the second bin (0.025 <= p <= 0.05). Default is 13.
 #' @param publication_bias Logical. If TRUE, adds vertical red line at 0.05 and arrows indicating published vs. file-drawer bins.
 #'
 #' @return A ggplot object showing binned significance regions.
@@ -273,8 +275,8 @@ pcurve_plot <- function(power = .10, p.max = .9999, ymax = 5, sig.region = FALSE
 #'
 #' @examples
 #' plot_special_2()
-#' plot_special_2(example = TRUE)
-plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, example = FALSE, publication_bias = FALSE) {
+#' plot_special_2(callout = TRUE)
+plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, callout = FALSE, darts_bin1 = 5, darts_bin2 = 13, publication_bias = FALSE) {
   df <- data.frame(p = seq(.001, p.max, length.out = 1000))
   df$density <- dpvalue(df$p, power = power)
 
@@ -294,41 +296,60 @@ plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, example = FALSE,
     coord_cartesian(ylim = c(0, ymax), clip = "off") +
     theme(plot.margin = margin(t = 10, r = 10, b = 40, l = 10))
 
-  # Conditional inclusion of example elements
-  if (example) {
-    # 1. Dart images: Coordinate clusters for k=5 (green) and k=13 (yellow)
-    dart_df <- data.frame(
-      x = c(
-        0.008, 0.010, 0.015, 0.010, 0.020,
-        0.030, 0.032, 0.035, 0.038, 0.040, 0.042, 0.045, 0.048, 0.031, 0.033, 0.037, 0.041, 0.044
-      ),
-      y = c(
-        20, 15, 10, 12, 8,
-        5, 5, 4, 3, 4, 5, 3, 4, 6, 5, 5, 4, 4
-      ),
-      image = "img/dart.png"
-    )
+  # Conditional inclusion of callout elements
+  if (callout) {
+    # Dynamically calculate percentages for the regions
+    pct2 <- round(integrate(function(p) dpvalue(p, power = power), 0.025, 0.05)$value * 100)
+    pct1 <- round(power * 100) - pct2
 
-    p <- p +
-      ggimage::geom_image(data = dart_df, mapping = aes(x = x, y = y, image = image), inherit.aes = FALSE, size = 0.12)
+    label1 <- paste0(pct1, "% of all p-values should be <.025")
+    label2 <- paste0(pct2, "% of all p-values should be between .025 and .05")
 
-    # 2. Text labels below the areas (k=5, k=13) with extended margin
+    # 1. Dart images: randomly generated in the green (bin1) and yellow (bin2) areas
+    x_darts <- numeric(0)
+    y_darts <- numeric(0)
+
+    if (darts_bin1 > 0) {
+      x1 <- seq(0.014, 0.024, length.out = darts_bin1) + runif(darts_bin1, -0.0005, 0.0005)
+      y_min1 <- rep(ymax * 0.07, darts_bin1)
+      y_max1 <- pmax(y_min1 + 1, dpvalue(x1, power = power) * 0.85)
+      y1 <- runif(darts_bin1, min = y_min1, max = y_max1)
+      x_darts <- c(x_darts, x1)
+      y_darts <- c(y_darts, y1)
+    }
+
+    if (darts_bin2 > 0) {
+      x2 <- seq(0.038, 0.049, length.out = darts_bin2) + runif(darts_bin2, -0.0005, 0.0005)
+      y_min2 <- rep(ymax * 0.07, darts_bin2)
+      y_max2 <- pmax(y_min2 + 1, dpvalue(x2, power = power) * 0.85)
+      y2 <- runif(darts_bin2, min = y_min2, max = y_max2)
+      x_darts <- c(x_darts, x2)
+      y_darts <- c(y_darts, y2)
+    }
+
+    if (length(x_darts) > 0) {
+      dart_df <- data.frame(x = x_darts, y = y_darts, image = "img/dart.png")
+      p <- p +
+        ggimage::geom_image(data = dart_df, mapping = aes(x = x, y = y, image = image), inherit.aes = FALSE, size = 0.12)
+    }
+
+    # 2. Text labels below the areas
     p <- p +
-      annotate("text", x = 0.0125, y = 0, label = "k=5", size = 5, vjust = 4) +
-      annotate("text", x = 0.0375, y = 0, label = "k=13", size = 5, vjust = 4)
+      annotate("text", x = 0.0125, y = 0, label = paste0("k=", darts_bin1), size = 5, vjust = 4) +
+      annotate("text", x = 0.0375, y = 0, label = paste0("k=", darts_bin2), size = 5, vjust = 4)
 
     # 3. Callout bubbles and pointers
     p <- p +
       # Pointer to the green area
       annotate("segment",
         x = 0.04, y = ymax * 0.9,
-        xend = 0.01, yend = 22,
+        xend = 0.01, yend = dpvalue(0.01, power = power) * 0.8,
         color = "royalblue", linewidth = 2.5
       ) +
       # Label for the green area
       annotate("label",
         x = 0.04, y = ymax * 0.9,
-        label = "49% of all p-values should be <.025",
+        label = label1,
         fill = "royalblue", color = "white",
         fontface = "bold", size = 6, hjust = 0, vjust = 0,
         label.padding = unit(0.8, "lines"), label.size = NA
@@ -337,13 +358,13 @@ plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, example = FALSE,
       # Pointer to the yellow area
       annotate("segment",
         x = 0.06, y = ymax * 0.7,
-        xend = 0.035, yend = 10,
+        xend = 0.035, yend = dpvalue(0.035, power = power) * 0.8,
         color = "royalblue", linewidth = 2.5
       ) +
       # Label for the yellow area
       annotate("label",
         x = 0.06, y = ymax * 0.7,
-        label = "11% of all p-values should be between .025 and .05",
+        label = label2,
         fill = "royalblue", color = "white",
         fontface = "bold", size = 6, hjust = 0, vjust = 0,
         label.padding = unit(0.8, "lines"), label.size = NA
