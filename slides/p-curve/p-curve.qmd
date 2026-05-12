@@ -100,7 +100,7 @@ print(plot_h0(stage = 3))
 #| echo: false
 #| warning: false
 #| message: false
-print(pcurve_plot(.10, ymax = 8, sig.region = TRUE))
+print(pcurve_plot(.10, ymax = 8, sig.region = TRUE, callout = TRUE))
 ```
 
 ## ***p***-curve {transition="fade-in fade-out"}
@@ -112,7 +112,7 @@ print(pcurve_plot(.10, ymax = 8, sig.region = TRUE))
 #| echo: false
 #| warning: false
 #| message: false
-print(pcurve_plot(.35, ymax = 12, sig.region = TRUE, label = "35 % power\n(average in psychology)"))
+print(pcurve_plot(.35, ymax = 12, sig.region = TRUE, callout = TRUE, label = "35 % power\n(average in psychology)"))
 ```
 
 ## ***p***-curve {transition="fade-in slide-out"}
@@ -124,7 +124,7 @@ print(pcurve_plot(.35, ymax = 12, sig.region = TRUE, label = "35 % power\n(avera
 #| echo: false
 #| warning: false
 #| message: false
-print(pcurve_plot(.80, ymax = 30, sig.region = TRUE))
+print(pcurve_plot(.80, ymax = 30, sig.region = TRUE, callout = TRUE))
 ```
 
 ---

@@ -101,8 +101,8 @@ dpvalue <- function(p,
 #' @param stage Integer (1, 2, or 3) indicating the plot depth:
 #'   1: Base H0 line and dotted borders.
 #'   2: Adds the light red background area.
-#'   3: Adds the 5% significance region, text labels, and dart images. 
-#'      Note: Dart images are searched relative to the path of the Quarto 
+#'   3: Adds the 5% significance region, text labels, and dart images.
+#'      Note: Dart images are searched relative to the path of the Quarto
 #'      file calling this function.
 #'
 #' @return A ggplot object representing the H0 distribution.
@@ -121,10 +121,12 @@ plot_h0 <- function(stage = 1) {
 
   # Stage 3: Dark red significance box and text labels
   if (stage >= 3) {
-    p <- p + 
+    p <- p +
       annotate("rect", xmin = 0, xmax = 0.05, ymin = 0, ymax = 1, fill = "firebrick") +
-      annotate("text", x = 0.025, y = 0.5, label = "5%", color = "white", 
-               fontface = "bold", angle = 90, size = 6)
+      annotate("text",
+        x = 0.025, y = 0.5, label = "5%", color = "white",
+        fontface = "bold", angle = 90, size = 6
+      )
   }
 
   # Stage 1: Base lines (always present)
@@ -133,8 +135,10 @@ plot_h0 <- function(stage = 1) {
     geom_segment(aes(x = 1, xend = 1, y = 0, yend = 1), linetype = "dotted") +
     geom_segment(aes(x = 0, xend = 1, y = 0, yend = 0), linetype = "dotted") +
     geom_segment(aes(x = 0, xend = 1, y = 1, yend = 1), color = "red", linewidth = 1.2) +
-    scale_x_continuous(limits = c(0, 1), breaks = seq(0, 1, by = 0.2), 
-                       labels = function(x) sprintf("%.1f", x)) +
+    scale_x_continuous(
+      limits = c(0, 1), breaks = seq(0, 1, by = 0.2),
+      labels = function(x) sprintf("%.1f", x)
+    ) +
     scale_y_continuous(limits = c(0, 5)) +
     labs(x = "p value", y = "Density") +
     guides(x = guide_axis(cap = "both"), y = guide_axis(cap = "both")) +
@@ -148,7 +152,7 @@ plot_h0 <- function(stage = 1) {
       image = "img/dart.png"
     )
 
-    p <- p + 
+    p <- p +
       ggimage::geom_image(
         data = dart_data,
         mapping = aes(x = x, y = y, image = image),
@@ -170,75 +174,91 @@ plot_h0 <- function(stage = 1) {
 #' @param p.max Numeric. The maximum p-value to plot on the x-axis. Default is 0.9999.
 #' @param ymax Numeric. The maximum y-axis value (density). Default is 5.
 #' @param sig.region Logical. If TRUE, visually highlights the significant region (p <= 0.05).
+#' @param callout Logical. If TRUE, displays a blue callout box pointing to the plot and showing the chosen power value. Default is FALSE.
 #' @param label Character. Optional custom text for the blue box. Use \n for line breaks.
 #'
 #' @return A ggplot object representing the p-curve.
 #' @export
 #'
 #' @examples
-#' pcurve_plot(.80, ymax = 30, sig.region = TRUE)
-pcurve_plot <- function(power = .10, p.max = .9999, ymax = 5, sig.region = FALSE, label = NULL) {
-    # Generate data for the curve
-    df <- data.frame(p = seq(.001, p.max, length.out = 1000))
-    df$density <- dpvalue(df$p, power = power)
+#' pcurve_plot(.80, ymax = 30, sig.region = TRUE, callout = TRUE)
+pcurve_plot <- function(power = .10, p.max = .9999, ymax = 5, sig.region = FALSE, callout = FALSE, label = NULL) {
+  # Generate data for the curve
+  df <- data.frame(p = seq(.001, p.max, length.out = 1000))
+  df$density <- dpvalue(df$p, power = power)
 
-    # Base plot with area and H0 reference line
-    p_base <- ggplot(df, aes(x = p, y = density)) +
-        geom_area(fill = "#DFFABE", color = "black", linetype = "dotted", 
-                  linewidth = 0.5, outline.type = "full") +
-        geom_line(color = "green", linewidth = 1.2) +
-        annotate("segment", x = 0.01, xend = p.max, y = 1, yend = 1, 
-                 color = "red", linetype = "dashed", linewidth = 0.8) +
-        scale_x_continuous(limits = c(0, round(p.max, 1)), breaks = seq(0, 1, by = 0.2), 
-                           labels = function(x) sprintf("%.1f", x)) +
-        scale_y_continuous(limits = c(0, ymax)) +
-        labs(x = "p value", y = "Density") +
-        guides(x = guide_axis(cap = "both"), y = guide_axis(cap = "both")) +
-        theme_classic(base_size = 14)
+  # Base plot with area and H0 reference line
+  p_base <- ggplot(df, aes(x = p, y = density)) +
+    geom_area(
+      fill = "#DFFABE", color = "black", linetype = "dotted",
+      linewidth = 0.5, outline.type = "full"
+    ) +
+    geom_line(color = "green", linewidth = 1.2) +
+    annotate("segment",
+      x = 0.01, xend = p.max, y = 1, yend = 1,
+      color = "red", linetype = "dashed", linewidth = 0.8
+    ) +
+    scale_x_continuous(
+      limits = c(0, round(p.max, 1)), breaks = seq(0, 1, by = 0.2),
+      labels = function(x) sprintf("%.1f", x)
+    ) +
+    scale_y_continuous(limits = c(0, ymax)) +
+    labs(x = "p value", y = "Density") +
+    guides(x = guide_axis(cap = "both"), y = guide_axis(cap = "both")) +
+    theme_classic(base_size = 14)
 
-    # Add significance region and blue callout bubble
-    if (sig.region) {
-        df_sig <- df[df$p <= 0.05, ]
+  # Add significance region
+  if (sig.region) {
+    df_sig <- df[df$p <= 0.05, ]
 
-        # Determine final label text
-        # If label is NULL, use default percentage, otherwise use provided label
-        final_label <- if (is.null(label)) paste(round(power * 100), "% power") else label
+    p_base <- p_base +
+      geom_area(
+        data = df_sig, fill = "#93F759", color = "black",
+        linetype = "dotted", linewidth = 0.5, outline.type = "full"
+      ) +
+      # Vertical percentage text inside the green box
+      annotate("text",
+        x = 0.025, y = 0,
+        label = paste0(round(power * 100), "%"),
+        color = "black", fontface = "bold", angle = 90, hjust = -0.1, size = 6
+      )
+  }
 
-        p_base <- p_base +
-            geom_area(data = df_sig, fill = "#93F759", color = "black", 
-                      linetype = "dotted", linewidth = 0.5, outline.type = "full") +
-            # Vertical percentage text inside the green box
-            annotate("text",
-                x = 0.025, y = 0,
-                label = paste0(round(power * 100), "%"),
-                color = "black", fontface = "bold", angle = 90, hjust = -0.1, size = 6
-            ) +
-            # Blue Callout: Pointer/Line
-            annotate("segment", 
-                     x = 0.4, y = ymax * 0.7, 
-                     xend = 0.05, yend = dpvalue(0.05, power = power), 
-                     color = "royalblue", linewidth = 2.5) +
-            # Blue Callout: Label Box
-            annotate("label", 
-                     x = 0.4, y = ymax * 0.7, 
-                     label = final_label, 
-                     fill = "royalblue", color = "white", 
-                     fontface = "bold", 
-                     size = 8,
-                     hjust = 0, 
-                     vjust = 0, 
-                     label.padding = unit(0.8, "lines"), 
-                     label.size = NA)
-    }
+  # Add blue callout bubble
+  if (callout) {
+    # Determine final label text
+    # If label is NULL, use default percentage, otherwise use provided label
+    final_label <- if (is.null(label)) paste(round(power * 100), "% power") else label
 
-    return(p_base)
+    p_base <- p_base +
+      # Blue Callout: Pointer/Line
+      annotate("segment",
+        x = 0.4, y = ymax * 0.7,
+        xend = 0.05, yend = dpvalue(0.05, power = power),
+        color = "royalblue", linewidth = 2.5
+      ) +
+      # Blue Callout: Label Box
+      annotate("label",
+        x = 0.4, y = ymax * 0.7,
+        label = final_label,
+        fill = "royalblue", color = "white",
+        fontface = "bold",
+        size = 8,
+        hjust = 0,
+        vjust = 0,
+        label.padding = unit(0.8, "lines"),
+        label.size = NA
+      )
+  }
+
+  return(p_base)
 }
 
 #' Special P-Curve Plot 2: Highlight specific p-value bins
 #'
 #' This function creates a detailed view of the p-curve for small p-values
 #' (e.g., up to 0.20), specifically highlighting the regions 0 to 0.025 and
-#' 0.025 to 0.05 with distinct colors. Optional example elements (darts, 
+#' 0.025 to 0.05 with distinct colors. Optional example elements (darts,
 #' callouts, k-values) can be activated and are true for a power of 60%.
 #' Optional publication bias annotations can also be activated.
 #'
@@ -255,34 +275,37 @@ pcurve_plot <- function(power = .10, p.max = .9999, ymax = 5, sig.region = FALSE
 #' plot_special_2()
 #' plot_special_2(example = TRUE)
 plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, example = FALSE, publication_bias = FALSE) {
-    df <- data.frame(p = seq(.001, p.max, length.out = 1000))
-    df$density <- dpvalue(df$p, power = power)
+  df <- data.frame(p = seq(.001, p.max, length.out = 1000))
+  df$density <- dpvalue(df$p, power = power)
 
-    df_sig1 <- df[df$p >= 0.025 & df$p <= 0.05, ]
-    df_sig2 <- df[df$p <= 0.025, ]
+  df_sig1 <- df[df$p >= 0.025 & df$p <= 0.05, ]
+  df_sig2 <- df[df$p <= 0.025, ]
 
-    p <- ggplot(df, aes(x = p, y = density)) +
-        geom_area(fill = "#FC8C6C") +
-        geom_area(data = df_sig1, fill = "#FAC12A") +
-        geom_area(data = df_sig2, fill = "#83F41F") +
-        geom_line(color = "grey20", linewidth = 0.8) +
-        scale_x_continuous(limits = c(0, round(p.max, 1)), breaks = seq(0, p.max, by = 0.05), labels = function(x) sprintf("%.2f", x)) +
-        scale_y_continuous() +
-        labs(x = "p value", y = "Density") +
-        guides(x = guide_axis(cap = "both"), y = guide_axis(cap = "both")) +
-        theme_classic(base_size = 14) +
-        coord_cartesian(ylim = c(0, ymax), clip = "off") +
-        theme(plot.margin = margin(t = 10, r = 10, b = 40, l = 10))
-    
-    # Conditional inclusion of example elements
+  p <- ggplot(df, aes(x = p, y = density)) +
+    geom_area(fill = "#FC8C6C") +
+    geom_area(data = df_sig1, fill = "#FAC12A") +
+    geom_area(data = df_sig2, fill = "#83F41F") +
+    geom_line(color = "grey20", linewidth = 0.8) +
+    scale_x_continuous(limits = c(0, round(p.max, 1)), breaks = seq(0, p.max, by = 0.05), labels = function(x) sprintf("%.2f", x)) +
+    scale_y_continuous() +
+    labs(x = "p value", y = "Density") +
+    guides(x = guide_axis(cap = "both"), y = guide_axis(cap = "both")) +
+    theme_classic(base_size = 14) +
+    coord_cartesian(ylim = c(0, ymax), clip = "off") +
+    theme(plot.margin = margin(t = 10, r = 10, b = 40, l = 10))
+
+  # Conditional inclusion of example elements
   if (example) {
-    
     # 1. Dart images: Coordinate clusters for k=5 (green) and k=13 (yellow)
     dart_df <- data.frame(
-      x = c(0.008, 0.010, 0.015, 0.010, 0.020, 
-            0.030, 0.032, 0.035, 0.038, 0.040, 0.042, 0.045, 0.048, 0.031, 0.033, 0.037, 0.041, 0.044),
-      y = c(20, 15, 10, 12, 8, 
-            5, 5, 4, 3, 4, 5, 3, 4, 6, 5, 5, 4, 4),
+      x = c(
+        0.008, 0.010, 0.015, 0.010, 0.020,
+        0.030, 0.032, 0.035, 0.038, 0.040, 0.042, 0.045, 0.048, 0.031, 0.033, 0.037, 0.041, 0.044
+      ),
+      y = c(
+        20, 15, 10, 12, 8,
+        5, 5, 4, 3, 4, 5, 3, 4, 6, 5, 5, 4, 4
+      ),
       image = "img/dart.png"
     )
 
@@ -297,56 +320,70 @@ plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, example = FALSE,
     # 3. Callout bubbles and pointers
     p <- p +
       # Pointer to the green area
-      annotate("segment", 
-               x = 0.04, y = ymax * 0.9, 
-               xend = 0.01, yend = 22, 
-               color = "royalblue", linewidth = 2.5) +
+      annotate("segment",
+        x = 0.04, y = ymax * 0.9,
+        xend = 0.01, yend = 22,
+        color = "royalblue", linewidth = 2.5
+      ) +
       # Label for the green area
-      annotate("label", 
-               x = 0.04, y = ymax * 0.9, 
-               label = "49% of all p-values should be <.025", 
-               fill = "royalblue", color = "white", 
-               fontface = "bold", size = 6, hjust = 0, vjust = 0, 
-               label.padding = unit(0.8, "lines"), label.size = NA) +
+      annotate("label",
+        x = 0.04, y = ymax * 0.9,
+        label = "49% of all p-values should be <.025",
+        fill = "royalblue", color = "white",
+        fontface = "bold", size = 6, hjust = 0, vjust = 0,
+        label.padding = unit(0.8, "lines"), label.size = NA
+      ) +
 
       # Pointer to the yellow area
-      annotate("segment", 
-               x = 0.06, y = ymax * 0.7, 
-               xend = 0.035, yend = 10, 
-               color = "royalblue", linewidth = 2.5) +
+      annotate("segment",
+        x = 0.06, y = ymax * 0.7,
+        xend = 0.035, yend = 10,
+        color = "royalblue", linewidth = 2.5
+      ) +
       # Label for the yellow area
-      annotate("label", 
-               x = 0.06, y = ymax * 0.7, 
-               label = "11% of all p-values should be between .025 and .05", 
-               fill = "royalblue", color = "white", 
-               fontface = "bold", size = 6, hjust = 0, vjust = 0, 
-               label.padding = unit(0.8, "lines"), label.size = NA)
+      annotate("label",
+        x = 0.06, y = ymax * 0.7,
+        label = "11% of all p-values should be between .025 and .05",
+        fill = "royalblue", color = "white",
+        fontface = "bold", size = 6, hjust = 0, vjust = 0,
+        label.padding = unit(0.8, "lines"), label.size = NA
+      )
   }
 
   # Conditional inclusion of publication bias annotations
   if (publication_bias) {
-      p <- p +
-          # Thick vertical red line at p = 0.05
-          annotate("segment", x = 0.05, xend = 0.05, y = ymax * 0.02, yend = ymax, 
-                   color = "#cc2200", linewidth = 2.5) +
-          
-          # Curved arrow left (published)
-          annotate("curve", x = 0.035, y = ymax * 0.05, xend = 0.015, yend = -ymax * 0.15, 
-                   curvature = 0.2, arrow = arrow(length = unit(0.4, "cm"), type = "closed"), 
-                   color = "grey60", linewidth = 2) +
-                   
-          # Text 'published'
-          annotate("text", x = 0.015, y = -ymax * 0.22, label = "published", 
-                   size = 7, hjust = 0.5) +
-                   
-          # Curved arrow right (file-drawer) - Symmetrical to the left arrow
-          annotate("curve", x = 0.065, y = ymax * 0.05, xend = 0.085, yend = -ymax * 0.15, 
-                   curvature = -0.2, arrow = arrow(length = unit(0.4, "cm"), type = "closed"), 
-                   color = "grey60", linewidth = 2) +
-                   
-          # Text 'file-drawer' - Symmetrical to the left label
-          annotate("text", x = 0.085, y = -ymax * 0.22, label = "file-drawer", 
-                   size = 7, hjust = 0.5)
+    p <- p +
+      # Thick vertical red line at p = 0.05
+      annotate("segment",
+        x = 0.05, xend = 0.05, y = ymax * 0.02, yend = ymax,
+        color = "#cc2200", linewidth = 2.5
+      ) +
+
+      # Curved arrow left (published)
+      annotate("curve",
+        x = 0.035, y = ymax * 0.05, xend = 0.015, yend = -ymax * 0.15,
+        curvature = 0.2, arrow = arrow(length = unit(0.4, "cm"), type = "closed"),
+        color = "grey60", linewidth = 2
+      ) +
+
+      # Text 'published'
+      annotate("text",
+        x = 0.015, y = -ymax * 0.22, label = "published",
+        size = 7, hjust = 0.5
+      ) +
+
+      # Curved arrow right (file-drawer) - Symmetrical to the left arrow
+      annotate("curve",
+        x = 0.065, y = ymax * 0.05, xend = 0.085, yend = -ymax * 0.15,
+        curvature = -0.2, arrow = arrow(length = unit(0.4, "cm"), type = "closed"),
+        color = "grey60", linewidth = 2
+      ) +
+
+      # Text 'file-drawer' - Symmetrical to the left label
+      annotate("text",
+        x = 0.085, y = -ymax * 0.22, label = "file-drawer",
+        size = 7, hjust = 0.5
+      )
   }
 
   return(p)
