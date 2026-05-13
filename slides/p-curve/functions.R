@@ -147,7 +147,7 @@ plot_h0 <- function(stage = 1) {
   # Stage 3: Dart symbols (On top of Stage 1 lines)
   if (stage >= 3) {
     dart_data <- data.frame(
-      x = c(0.09, 0.29, 0.50, 0.58, 0.74, 0.89),
+      x = c(0.20, 0.29, 0.50, 0.58, 0.74, 0.89),
       y = c(1.05, 1.05, 1.05, 1.05, 1.05, 1.05),
       image = "img/dart.png"
     )
@@ -158,7 +158,7 @@ plot_h0 <- function(stage = 1) {
         mapping = aes(x = x, y = y, image = image),
         inherit.aes = FALSE,
         asp = 1,
-        size = 0.25
+        size = 0.4
       )
   }
 
@@ -202,7 +202,8 @@ pcurve_plot <- function(power = .10, p.max = .9999, ymax = 5, sig.region = FALSE
       limits = c(0, round(p.max, 1)), breaks = seq(0, 1, by = 0.2),
       labels = function(x) sprintf("%.1f", x)
     ) +
-    scale_y_continuous(limits = c(0, ymax)) +
+    scale_y_continuous(expand = c(0, 0)) +
+    coord_cartesian(ylim = c(0, ymax)) +
     labs(x = "p value", y = "Density") +
     guides(x = guide_axis(cap = "both"), y = guide_axis(cap = "both")) +
     theme_classic(base_size = 14)
@@ -238,16 +239,17 @@ pcurve_plot <- function(power = .10, p.max = .9999, ymax = 5, sig.region = FALSE
         color = "royalblue", linewidth = 2.5
       ) +
       # Blue Callout: Label Box
-      annotate("label",
-        x = 0.4, y = ymax * 0.7,
-        label = final_label,
+      geom_label(
+        data = data.frame(x = 0.4, y = ymax * 0.7, label = final_label),
+        mapping = aes(x = x, y = y, label = label),
         fill = "royalblue", color = "white",
         fontface = "bold",
         size = 8,
         hjust = 0,
         vjust = 0,
         label.padding = unit(0.8, "lines"),
-        label.size = NA
+        linewidth = 0,
+        inherit.aes = FALSE
       )
   }
 
@@ -279,6 +281,14 @@ pcurve_plot <- function(power = .10, p.max = .9999, ymax = 5, sig.region = FALSE
 plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, callout = FALSE, darts_bin1 = 5, darts_bin2 = 13, publication_bias = FALSE) {
   df <- data.frame(p = seq(.001, p.max, length.out = 1000))
   df$density <- dpvalue(df$p, power = power)
+
+  # Handle y-axis overflow by interpolating the exact intersection point at ymax
+  if (any(df$density > ymax)) {
+    idx <- which.max(df$density <= ymax)
+    p_exact <- df$p[idx - 1] + (ymax - df$density[idx - 1]) * (df$p[idx] - df$p[idx - 1]) / (df$density[idx] - df$density[idx - 1])
+    df <- df[df$density <= ymax, ]
+    df <- rbind(data.frame(p = p_exact, density = ymax), df)
+  }
 
   df_sig1 <- df[df$p >= 0.025 & df$p <= 0.05, ]
   df_sig2 <- df[df$p <= 0.025, ]
@@ -347,12 +357,13 @@ plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, callout = FALSE,
         color = "royalblue", linewidth = 2.5
       ) +
       # Label for the green area
-      annotate("label",
-        x = 0.04, y = ymax * 0.9,
-        label = label1,
+      geom_label(
+        data = data.frame(x = 0.04, y = ymax * 0.9, label = label1),
+        mapping = aes(x = x, y = y, label = label),
         fill = "royalblue", color = "white",
         fontface = "bold", size = 6, hjust = 0, vjust = 0,
-        label.padding = unit(0.8, "lines"), label.size = NA
+        label.padding = unit(0.8, "lines"), linewidth = 0,
+        inherit.aes = FALSE
       ) +
 
       # Pointer to the yellow area
@@ -362,12 +373,13 @@ plot_special_2 <- function(power = .60, p.max = 0.2, ymax = 50, callout = FALSE,
         color = "royalblue", linewidth = 2.5
       ) +
       # Label for the yellow area
-      annotate("label",
-        x = 0.06, y = ymax * 0.7,
-        label = label2,
+      geom_label(
+        data = data.frame(x = 0.06, y = ymax * 0.7, label = label2),
+        mapping = aes(x = x, y = y, label = label),
         fill = "royalblue", color = "white",
         fontface = "bold", size = 6, hjust = 0, vjust = 0,
-        label.padding = unit(0.8, "lines"), label.size = NA
+        label.padding = unit(0.8, "lines"), linewidth = 0,
+        inherit.aes = FALSE
       )
   }
 
