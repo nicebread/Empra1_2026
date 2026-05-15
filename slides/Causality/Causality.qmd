@@ -128,7 +128,6 @@ Slide from [https://homepages.uni-regensburg.de/~pfn23853/rffcw/mhw.pdf](https:/
 - Additional assumptions for within-person designs:
   1. *Temporal stability*: The outcome does not depend on the time the treatment is delivered (e.g., maturation effects: first apply control condition, 1 year later the experimental condition ➙ maturation effect can be misinterpreted as treatment effect)
   2. *Causal transience*: The treatment effect does not persist beyond the time of outcome measurement (at least, it does not spill over to the next treatment).
-     1. Hmmm. How long does our treatment last?
 - Statistical test: Simply a paired t-test, or a regression.
 :::
 

@@ -21,9 +21,19 @@ description: XXX
 
 - Finalize the material
 - Create the actual formr survey & run. Consider this:
-    - "make sure participants can’t skip past the writing question before the time is up, and then also so that can’t skip past the videos. I also think that the size of the embedded video on the screen could be an important factor in successfully engendering awe, so something to consider."
+  - Implement the experimental logic: Randomly show one of the three videos.
+  - "make sure participants can’t skip past the writing question before the time is up, and then also so that can’t skip past the videos. I also think that the size of the embedded video on the screen could be an important factor in successfully engendering awe, so something to consider."
+  - Advanced wishlist:
+    - Can we trigger a fullscreen view of the video? (The browser probably forbids this)
+    - Download the video and store it on the LRZ server (instead of streaming from Youtube).
+    - Can we measure the actual size of the displayed video (e.g., in pixels), and save it into a formr variable?
 
 
+## Upload to OSF
+
+> Please make sure to clearly identify and document any deviations from the original study (e.g., new measures, different setting, a different category of participants).
+ 
+--> Create a document DEVIATIONS.md that summarizes all known deviations from the original study in tabular form.
 
 ## Homework 1 (individually)
 
