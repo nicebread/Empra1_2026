@@ -1,11 +1,18 @@
+# Quarto
 /.quarto/
 **/*.quarto_ipynb
-
-# Computation cache
 /_freeze/
+*_files/
+*_cache/
 
 # Output directory
 /doc/
+
+# R/RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
 
 # Operating system files
 .DS_Store
