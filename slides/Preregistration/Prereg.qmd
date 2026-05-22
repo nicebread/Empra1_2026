@@ -324,6 +324,9 @@ Lin & Green (2016)
 </div>
 
 
+## Preregistration platforms
+
+TODO
 
 <!-- Footer insert below -->
 ```{r child="../../common/lastslide.qmd"}
