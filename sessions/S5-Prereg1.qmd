@@ -1,0 +1,126 @@
+---
+title: Session 05 - Finalize Study & Prereg
+number-sections: false
+description: We do the last finetuning of the study; intro to preregistration
+---
+
+::: {.callout-note collapse="true" title="Instructor notes"}
+- Print the "[Prereg Advocatus Diaboli game cards](../slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game cards.qmd)"
+:::
+
+
+## Overview
+
+| Topic                      | Duration | Notes                                                                                  |
+| :------------------------- | :------: | -------------------------------------------------------------------------------------- |
+| Last finetuning of study   |    45    |                                                                                        |
+| Wrap-up Homework "Prereg"  |    10    |                                                                                        |
+| Prereg Intro               |    30    | Also show the PRR-QUANT template                                                       |
+| Advocatus Diaboli Game     |    20    |                                                                                        |
+| Causality                  |    45    | [Slides](/slides/Causality/Causality.qmd)                                              |
+| Install Quarto             |    15    | See [instructions](https://lmu-osc.github.io/introduction-to-Quarto/preparations.html) |
+| Form 4 groups for homework |    10    | A to D, with funny names                                                               |
+| Homework Instructions      |    5     |                                                                                        |
+
+: {.striped}
+
+
+## Last finetuning of study
+
+**(1) Create Video of Procedure**
+
+See [CREP Step 9: Procedure Video](https://docs.google.com/document/d/13iShvF76RDlLSmWMzhr5jeLAetzRQGHobCQSovkO1mo/edit#heading=h.4f3v0j9ih1g9).
+
+**(2) Participant management**:
+
+- Create shared email address (e.g. at web.de; use a European provider) as primary contact point for study participants. The group will monitor and administer this email address in a rotating way.
+- Add this email address to the formr study.
+
+**(3) OSF upload of files**:
+
+- "Please make sure to clearly identify and document any deviations from the original study (e.g., new measures, different setting, a different category of participants)."  --> Create a document DEVIATIONS.md that summarizes all known deviations from the original study in tabular form.
+- Move the final formr Google sheet into our joint Google Drive folder; upload the sheet (exported as ods or xlsx file) into our OSF project
+- See See [CREP 10-13](https://docs.google.com/document/d/13iShvF76RDlLSmWMzhr5jeLAetzRQGHobCQSovkO1mo/edit#heading=h.cbj6hltx0v3n) for additional steps
+
+
+## Homework
+
+This is the homework for the next three weeks - distribute it yourself!
+
+### Homework 1 (individually): Test the study
+
+Go through the study as a participant. Fill in the items properly (we want to have an estimate of the time it needs to fill in all items). In the open text field, write which video you have seen.
+In the group some should use smartphones, others tablets, other different browsers on desktop/laptop.
+
+### Homework 2 (individually): Read Chapter 1 of "Experimentology"
+
+<!-- Note: This homework needs to come *after* the Causality presentation -->
+
+Read Ch. 1 of the online book "[Experimentology](https://experimentology.io/)" and answer the following questions. You can answer in English or in German. 
+
+**Deliverable**: Write the answers directly into the answer field in the Moodle task. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references in addition, just refer to the chapter itself.
+
+- Q1: Summarize the logic of randomization.
+- Q2: Imagine that you run a survey and find that people who spend more time playing violent video games tend to be more aggressive (i.e., that there is a positive correlation between violent video games and aggression). Following Figure [1.2](https://experimentology.io/1-experiments.html#fig:experiments-money2), list three reasons why these variables may be correlated.
+- Q3: Suppose you wanted to run an experiment testing whether playing violent video games causes increases in aggression. What would be your manipulation and what would be your measure? How would you deal with potential confounding by variables like age?
+- Q4: Consider an experiment designed to test people’s food preferences. The experimenter randomly assigns 30 U.S. preschoolers to be served either asparagus or chicken tenders and then asks them how much they enjoyed their meal. Overall, children enjoyed the meat more; the experimenter writes a paper claiming that humans prefer meat over vegetables. List some constraints on the generalizability of this study. In light of these constraints, is this study (or some modification) worth doing at all?
+
+<!-- Answers:
+
+Q1: When we want to find causal relations, we want to go from “seeing” to “doing”, i.e., we want to control the situation instead of just observing it. We have to make sure, that we only manipulate a single parameter, which is also the parameter we want to observe the effect of. In order to make sure that other parameters are kept constant, we use randomization to distribute participants to groups randomly.
+
+Q2: 
+1. Playing violent could indeed cause increased aggressivity and hence be responsible for the correlation. 
+2. Conversely it could be possible that people who tend to be more aggressive are more inclined to play violent video games as well. 
+3. One could argue that gender confounds the correlation: Men tend to be more aggressive and to be more in playing violent video games.
+
+Q3:
+**Manipulation:** Both the control group and the experimental group play video games. Control group plays a non-violent game, while the experimental group plays a violent game.
+**An idea:** Ideally, we’d try to keep other factors (like time pressure in the game / logic / the gameplay in general) constant in both groups, since those other factors might also influence aggression. We could take a “normal” game and extend it to include violent aspects. We could, for example, take Minecraft and write an extension, where players must kill villagers to stay alive. (Reduce number of spawned animals / any other food sources and make it possible for players to kill villagers and get their food. Players should also see blood when they kill a villager or an animal.) This modified version of Minecraft does not change anything in the game except introducing violence to the game.
+**Measure:** Participants fill out aggression questionnaires before and after the gaming period.
+**Dealing with confounders:** Randomization
+
+
+Q4:
+We can not generalize the results to all “people”, all vegetables and meat, because: 
+- Only preschoolers from the U.S. as participants
+- Enjoyment != preference (?)
+- Asparagus is not the only vegetable
+- There are other types of meat
+
+From this study, we only learn that U.S. preschoolers enjoy eating chicken tenders more, compared to asparagus. It is still worth doing this study and variants of this study, we can have different groups of participants or different food each time. Over time, we would be able to generalize the effect after conducting many studies.
+
+ -->
+
+### Homework 3 (in groups): Fill in the preregistration
+
+Fill in the PRP-QUANT preregistration template.
+For that purpose, create a copy of the template file ["PRP_QUANT_Awe_template"](https://docs.google.com/document/d/1svcn9GxWzxYW7MN7sdL5_zQvb5qCo6DnQC_YAuIHMMM/edit?usp=sharing) in our Google drive (into the same folder), and name it after your group ID (i.e., `PRP_QUANT_Awe_A`, `PRP_QUANT_Awe_B`, etc.).
+
+- Remember: We only focus on Study 3 of the original paper.
+- As we do a direct replication, we aim for the same procedure as in the original study (unless there are good reasons to deviate). Explicitly mention where we have (a) planned deviations and (b) where the original instructions were so unclear that we had to fill in the gaps with reasonable assumptions.
+- You do **not** need to fill in: 
+  - *T1* to *T8*
+  - The entire section on "Abstract" (*A1* to *A4*)
+  - *I1*
+  - "*M3* Sample size, power and precision": We do this together later
+  - "*AP4* Reliability analysis (if applicable)": You have not learned how to do this yet.
+- In some places you will be unsure what to fill in. Try to come up with reasonable guesses; we will create an improved consensus version in the next step.
+- Be concise, no need to write a novel.
+
+### Homework 4 (individually): Do the Quarto tutorial
+
+Do the LMU OSC [Quarto Tutorial](https://lmu-osc.github.io/introduction-to-Quarto/). Work through sections 1 ("Welcome to Quarto") and 2 ("Quarto Tutorials", up to and including the last section "Tutorial: Authoring").
+It certainly makes sense to read the short "3. Tips and Comments" section.
+
+(Note: If you are interested, you can go on with the Advanced Exercises. But we will do the "APA 7 Manuscripts" chapter later together.)
+
+**Deliverable**: Now we combine our git skills and the new Quarto skills.
+
+1. Create a new Github project, clone it to your local computer.
+2. Within the local project, create a Quarto document (with `.qmd` extension and `format: html`) that has at least one `R` chunk with a computation.
+3. Render it to PDF.
+4. Commit and push your changes to the remote repository.
+5. Verify online: Go to the project website on Github and see if the new files appeared.
+
+This is a challenging combination of tasks. If you don't manage to do all steps, don't panic. After reasonable efforts to solve the problems yourself, you can write an email to the instructor (with a specific explanation of the issues you encountered; e.g. the exact error messages), or we solve remaining issues together in the next session.

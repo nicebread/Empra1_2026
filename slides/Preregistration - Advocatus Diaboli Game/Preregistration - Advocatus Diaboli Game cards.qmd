@@ -1,0 +1,233 @@
+---
+title: "Preregistration – Advocatus Diaboli Game Cards"
+subtitle: "Printable cards for team activity"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: 2026-05-21
+format:
+  html:
+    toc: false
+    page-layout: full
+    embed-resources: true
+---
+
+<!-- Note: This is a ChatGPT-generated copy of the Advocatus Diaboli presentation -->
+
+<style>
+@page {
+  size: A4 portrait;
+  margin: 10mm;
+}
+
+body {
+  font-size: 11pt;
+}
+
+main.content {
+  max-width: none;
+}
+
+.instructions {
+  margin-bottom: 4mm;
+  padding: 2mm 4mm;
+  border-left: 3px solid #6c757d;
+  background: #f8f9fa;
+  font-size: 0.8rem;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5mm;
+  margin-bottom: 5mm;
+}
+
+.card {
+  border: 1.5px dashed #6c757d;
+  border-radius: 6px;
+  padding: 3mm 4mm;
+  box-sizing: border-box;
+  background: white;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.objection-card {
+  min-height: 30mm;
+}
+
+.reply-card {
+  min-height: 44mm;
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 3mm;
+  margin-bottom: 2mm;
+}
+
+.card-tag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #6c757d;
+}
+
+.card-id {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #495057;
+}
+
+.objection-text {
+  font-size: 0.95rem;
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.reply-card ul {
+  margin-bottom: 0;
+  padding-left: 1.2em;
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
+
+.reply-card li {
+  margin-bottom: 1mm;
+}
+
+.page-break {
+  break-before: page;
+  page-break-before: always;
+}
+
+@media print {
+  h1, h2 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .card {
+    box-shadow: none;
+  }
+
+  .print-start {
+    break-before: page;
+    page-break-before: always;
+  }
+}
+</style>
+
+Use: print on A4 paper at 100%, cut along the dashed borders, and give the cards to teams. The small labels (`A1`–`A7`) help you match objections with replies.
+
+## Objection cards {.print-start}
+
+::: {.instructions}
+Print these cards, cut them out, and hand one or more objection cards to each team.
+:::
+
+:::: {.cards-grid}
+::: {.card .objection-card}
+<div class="card-head"><span class="card-tag">But...</span><span class="card-id">A1</span></div>
+<div class="objection-text">... preregistration keeps me from conducting exploratory research!</div>
+:::
+
+::: {.card .objection-card}
+<div class="card-head"><span class="card-tag">But...</span><span class="card-id">A2</span></div>
+<div class="objection-text">... preregistration takes so much time!</div>
+:::
+
+::: {.card .objection-card}
+<div class="card-head"><span class="card-tag">But...</span><span class="card-id">A3</span></div>
+<div class="objection-text">... someone will steal my ideas!</div>
+:::
+
+::: {.card .objection-card}
+<div class="card-head"><span class="card-tag">But...</span><span class="card-id">A4</span></div>
+<div class="objection-text">... what if I (or my students) make mistakes in the preregistration?</div>
+:::
+
+::: {.card .objection-card}
+<div class="card-head"><span class="card-tag">But...</span><span class="card-id">A5</span></div>
+<div class="objection-text">... someone could preregister multiple hypotheses and take the preregistration that fits the data best!</div>
+:::
+
+::: {.card .objection-card}
+<div class="card-head"><span class="card-tag">But...</span><span class="card-id">A6</span></div>
+<div class="objection-text">... people preregister stuff and then deviate significantly from the preregistration. What is it good for then?</div>
+:::
+
+::: {.card .objection-card}
+<div class="card-head"><span class="card-tag">But...</span><span class="card-id">A7</span></div>
+<div class="objection-text">... I am doing qualitative research and none of the quantitative templates fits my way of working!?</div>
+:::
+::::
+
+<div class="page-break"></div>
+
+## Reply cards
+
+::: {.instructions}
+These can be used as answer cards, instructor cards, or a separate matching set.
+:::
+
+:::: {.cards-grid}
+::: {.card .reply-card}
+<div class="card-head"><span class="card-tag">Reply</span><span class="card-id">A1</span></div>
+
+- Improving your confirmatory research does not mean that you have to refrain from doing exploratory research.
+- You can also preregister your exploratory research (e.g., planned analysis methods).
+:::
+
+::: {.card .reply-card}
+<div class="card-head"><span class="card-tag">Reply</span><span class="card-id">A2</span></div>
+
+- Actually it might even save you time during data analysis and interpretation.
+- Preregistration mostly changes the order of the research process (e.g., think about how to analyze your data before rather than after you collect them).
+:::
+
+::: {.card .reply-card}
+<div class="card-head"><span class="card-tag">Reply</span><span class="card-id">A3</span></div>
+
+- On the contrary, by preregistering your ideas you mark them as yours.
+- If anyone still dares to steal them, it becomes much easier to point this out as scientific misconduct.
+- On some repositories (e.g., OSF), you can put an embargo on the preregistration so that it is not publicly visible for up to four years.
+:::
+
+::: {.card .reply-card}
+<div class="card-head"><span class="card-tag">Reply</span><span class="card-id">A4</span></div>
+
+- Everyone makes mistakes, so there is no need to be embarrassed.
+- You can always deviate from your preregistered analysis if you provide a good justification.
+- If your preregistration is open and someone finds a mistake, that can save you from discovering it too late.
+:::
+
+::: {.card .reply-card}
+<div class="card-head"><span class="card-tag">Reply</span><span class="card-id">A5</span></div>
+
+- That would be relatively easy-to-spot scientific misconduct compared with not-so-easy-to-spot HARKing without preregistration.
+- If more than one hypothesis is preregistered, you would need a lot of luck to have a “perfect-fit” preregistration.
+:::
+
+::: {.card .reply-card}
+<div class="card-head"><span class="card-tag">Reply</span><span class="card-id">A6</span></div>
+
+- As a reviewer, it should make you more vigilant about the quality of the paper and lead you to require justifications for deviations from the preregistration.
+- As a reader, you can better judge the quality of the results by seeing whether they come from confirmatory or exploratory research.
+- It helps you spot questionable research practices.
+:::
+
+::: {.card .reply-card}
+<div class="card-head"><span class="card-tag">Reply</span><span class="card-id">A7</span></div>
+
+- The fact that existing templates do not fit perfectly does not mean that you cannot conduct a preregistration.
+- Try to explain: What are your hypotheses? How do you want to investigate them? What will your data look like? How do you plan to evaluate the data?
+- If you minimize degrees of freedom, you have met the core goal.
+:::
+::::
