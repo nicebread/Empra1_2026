@@ -15,9 +15,9 @@ description: We do the last finetuning of the study; intro to preregistration
 | :------------------------- | :------: | -------------------------------------------------------------------------------------- |
 | Last finetuning of study   |    45    |                                                                                        |
 | Wrap-up Homework "Prereg"  |    10    |                                                                                        |
-| Prereg Intro               |    30    | Also show the PRR-QUANT template                                                       |
+| Prereg Intro               |    30    | [Slides](slides/Preregistration/Prereg.qmd); also show the PRR-QUANT template       |
 | Advocatus Diaboli Game     |    20    |                                                                                        |
-| Causality                  |    45    | [Slides](/slides/Causality/Causality.qmd)                                              |
+| Causality                  |    45    | [Slides](slides/Causality/Causality.qmd)                                              |
 | Install Quarto             |    15    | See [instructions](https://lmu-osc.github.io/introduction-to-Quarto/preparations.html) |
 | Form 4 groups for homework |    10    | A to D, with funny names                                                               |
 | Homework Instructions      |    5     |                                                                                        |
@@ -41,6 +41,7 @@ See [CREP Step 9: Procedure Video](https://docs.google.com/document/d/13iShvF76R
 - "Please make sure to clearly identify and document any deviations from the original study (e.g., new measures, different setting, a different category of participants)."  --> Create a document DEVIATIONS.md that summarizes all known deviations from the original study in tabular form.
 - Move the final formr Google sheet into our joint Google Drive folder; upload the sheet (exported as ods or xlsx file) into our OSF project
 - See See [CREP 10-13](https://docs.google.com/document/d/13iShvF76RDlLSmWMzhr5jeLAetzRQGHobCQSovkO1mo/edit#heading=h.cbj6hltx0v3n) for additional steps
+- Check replicability: Would an external researcher be able to run a direct replication (i.e., with the same procedures and materials) just by looking into this OSF repository?
 
 
 ## Homework

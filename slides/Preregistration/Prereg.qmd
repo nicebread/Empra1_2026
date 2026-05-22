@@ -50,15 +50,27 @@ get all material here: [https://osf.io/zjrhu/](https://osf.io/zjrhu/)
 | Threat label          | Explanation                                                                                                           | Remedy                                                                |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | <span class="fragment" data-fragment-index="1">**Hindsight bias**</span> | <span class="fragment" data-fragment-index="2">Tendency to frame previous decisions or events as more predictable after the outcome is known (“I knew it all along”)</span> | <span class="fragment" data-fragment-index="3">Write down your hypotheses and analysis plans before you see the data</span> |
-| <span class="fragment" data-fragment-index="4">**Confirmation bias**</span> | <span class="fragment" data-fragment-index="5">Tendency to seek out, interpret, favor and recall information in a way that supports one’s prior expectations</span> | <span class="fragment" data-fragment-index="6">Write down your decision rules before you see the data</span> |
+| <span class="fragment" data-fragment-index="4">**Confirmation bias**</span> | <span class="fragment" data-fragment-index="5">Tendency to seek out, interpret, favor and recall information in a way that supports one’s prior expectations</span> | <span class="fragment" data-fragment-index="6">Write down your decision rules and analysis plan before you see the data</span> |
 
 
-## What is a preregistration?
+## 
 
-> „The specification of a research design, hypotheses, and analysis plan prior to observing the outcomes of a study“
+::: {.callout-box}
+**Preregistration** = 
+
+The specification of ...
+
+- the research design (including sample size planning), 
+- operationalizations, 
+- hypotheses, 
+- analysis plan, and
+- inferential criteria
+
+... prior to observing the outcomes of a study.
+:::
 
 ::: footer
-Nosek & Lindsay (2018)
+adapted from Nosek & Lindsay (2018), PRP-QUANT template, and [RESQUE](https://www.resque.info/).
 :::
 
 
@@ -94,9 +106,10 @@ Wasserstein, R. L., & Lazar, N. A. (2016). The ASA Statement on p -Values: Conte
 - Use a third-party platform that freezes the file (so that you cannot edit it later) with a timestamp
 - Nullius in verba: The less trust is necessary, the more convincing.
 
-. . . 
-
+::: {.fragment}
 {{< fa people-group size=1x >}} Discuss: What challenge does a secondary data analysis (from an existing dataset) pose?
+:::
+
 
 ## Why do we preregister?
 ### Summary
@@ -107,28 +120,26 @@ Wasserstein, R. L., & Lazar, N. A. (2016). The ASA Statement on p -Values: Conte
 4. **Intended side-effect**: We think more clearly about our design and data collection *before* we start collecting data &rarr; quality improvements.
 
 
-# Special cases and their solutions
+<!-- # Special cases and their solutions
 
 ## "before data collection" - but if the data set is already there?
 
 ## Somebody will steal my idea!
 
---> Embargo
+Embargo -->
 
 ## Registered Report
 
-
+![](img/RR_workflow.webp){.img-full}
 
 
 
 # Elements of a preregistration
 
 ## Elements of a preregistration
+### 1. Hypotheses
 
-**1. Hypotheses**
-<div style="margin-bottom: -40px;margin-left: -10px;">
-![](img/Essential.jpg){width=200px}
-</div>
+✅ **Essential**:
 
 ::: {.smaller}
 - Describe hypotheses as relationships between variables
@@ -136,25 +147,22 @@ Wasserstein, R. L., & Lazar, N. A. (2016). The ASA Statement on p -Values: Conte
 - Describe manipulation checks (or why they are not included)
 :::
 
-<div style="margin-bottom: -30px;">
-![](img/Recommended.jpg){width=250px}
-</div>
+☑️ **Recommended**:
+
 ::: {.smaller}
 - Figures / tables to describe interaction effects
 - Rationales / theoretical frameworks to justify the hypotheses
 :::
 
 
-::: {.attribution style="font-size: 12px;"}
+::: footer
 van t‘Veer & Giner-Sorolla (2016)
 :::
 
 ## Elements of a preregistration
+### 2. Operationalizations
 
-**2. Design**
-<div style="margin-bottom: -40px;margin-left: -10px;">
-![](img/Essential.jpg){width=200px}
-</div>
+✅ **Essential**:
 
 ::: {.smaller}
 - List, based on your hypotheses,
@@ -164,18 +172,16 @@ van t‘Veer & Giner-Sorolla (2016)
 :::
 
 
-::: {.attribution style="font-size: 12px;"}
+::: footer
 van t‘Veer & Giner-Sorolla (2016)
 :::
 
 
 
 ## Elements of a preregistration
+### 3. Planned sample
 
-**3. Planned sample**
-<div style="margin-bottom: -40px;margin-left: -10px;">
-![](img/Essential.jpg){width=200px}
-</div>
+✅ **Essential**:
 
 ::: {.smaller}
 - Pre-selection rules (e.g., age limits)
@@ -192,11 +198,9 @@ van t‘Veer & Giner-Sorolla (2016), Schönbrodt & Wagenmakers (2017)
 
 
 ## Elements of a preregistration
+### 4. Exclusion criteria
 
-**4. Exclusion criteria**
-<div style="margin-bottom: -40px;margin-left: -10px;">
-![](img/Essential.jpg){width=200px}
-</div>
+✅ **Essential**:
 
 <div style="margin-bottom: -40px;">
 ::: {.smaller}
@@ -209,27 +213,24 @@ van t‘Veer & Giner-Sorolla (2016), Schönbrodt & Wagenmakers (2017)
 :::
 </div>
 
-<div style="margin-bottom: -30px;">
-![](img/Recommended.jpg){width=250px}
-</div>
+☑️ **Recommended**:
+
 ::: {.smaller}
 - Set fail-save levels of exclusion at which whole study needs to be stopped,
 altered, and restarted
 :::
 
 
-::: {.attribution style="font-size: 12px;"}
+::: footer
 van t‘Veer & Giner-Sorolla (2016)
 :::
 
 
 
 ## Elements of a preregistration
+### 5. Analysis plan
 
-**5. Analysis plan**
-<div style="margin-bottom: -40px;margin-left: -10px;">
-![](img/Essential.jpg){width=200px}
-</div>
+✅ **Essential**:
 
 ::: {.smaller}
 - Describe statistical analyses that test hypotheses. For each, include
@@ -237,22 +238,20 @@ van t‘Veer & Giner-Sorolla (2016)
   - Statistical technique
   - Each variable‘s role in the technique (e.g., IV, DV, covariate, ...)
   - If covariates are used: Rationale for using them
-  - If using techniques other than NHST, describe criteria and inputs toward making conclusions     about your hypotheses
+  - Describe inferential criteria (i.e., when will you accept or reject a hypothesis?). This is typically the $\alpha$ level and whether you test one- or two-sided.
 :::
 
 
-::: {.attribution style="font-size: 12px;"}
+::: footer
 van t‘Veer & Giner-Sorolla (2016)
 :::
 
 
 
 ## Elements of a preregistration
+### 5. Analysis plan
 
-**5. Analysis plan**
-<div style="margin-bottom: -30px;">
-![](img/Recommended.jpg){width=250px}
-</div>
+☑️ **Recommended**:
 
 ::: {.smaller}
 - Specify contingencies and assumptions, such as
@@ -263,18 +262,16 @@ van t‘Veer & Giner-Sorolla (2016)
 :::
 
 
-::: {.attribution style="font-size: 12px;"}
+::: footer
 van t‘Veer & Giner-Sorolla (2016)
 :::
 
 
 
 ## Elements of a preregistration
+### 6. Additional stuff
 
-**6. Additional stuff**
-<div style="margin-bottom: -30px;margin-left: -10px;">
-![](img/Recommended.jpg){width=250px}
-</div>
+☑️ **Recommended**:
 
 ::: {.smaller}
 - For exploratory analyses: "We don‘t have any hypotheses"
@@ -283,7 +280,7 @@ van t‘Veer & Giner-Sorolla (2016)
 :::
 
 
-::: {.attribution style="font-size: 12px;"}
+::: footer
 Lin & Green (2016)
 :::
 

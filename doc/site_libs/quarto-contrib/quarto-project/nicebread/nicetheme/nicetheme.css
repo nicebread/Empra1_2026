@@ -83,6 +83,7 @@ Apply to the entire slide:
 
 /* Poster-like analogy box for emphasis slides */
 .reveal .callout-box {
+  display: block;
   background-color: #f7f7f7;
   border: 3px solid #093;
   border-radius: 14px;
@@ -92,7 +93,11 @@ Apply to the entire slide:
   font-weight: 700;
   line-height: 1.2;
   margin: 0.2em auto;
+  width: fit-content;
   max-width: 80%;
+  box-sizing: border-box;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 
@@ -139,3 +144,4 @@ Use as an inner wrapper inside a column: ::: {.img-vcenter}
 .reveal blockquote {
   font-size: 75%;
 }
+
