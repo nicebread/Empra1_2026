@@ -75,6 +75,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -140,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#biases" id="toc-biases" class="nav-link" data-scroll-target="#biases">Biases</a></li>
   </ul></li>
-  <li><a href="#what-is-a-preregistration" id="toc-what-is-a-preregistration" class="nav-link" data-scroll-target="#what-is-a-preregistration">What is a preregistration?</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   <li><a href="#distinguishing-confirmatory-from-exploratory-analyses" id="toc-distinguishing-confirmatory-from-exploratory-analyses" class="nav-link" data-scroll-target="#distinguishing-confirmatory-from-exploratory-analyses">Distinguishing confirmatory from exploratory analyses</a></li>
   <li><a href="#convince-others-that-you-did-not-engage-in-qrps" id="toc-convince-others-that-you-did-not-engage-in-qrps" class="nav-link" data-scroll-target="#convince-others-that-you-did-not-engage-in-qrps">Convince others that you did not engage in QRPs</a>
   <ul class="collapse">
@@ -150,21 +179,37 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
   </ul></li>
-  <li><a href="#special-cases-and-their-solutions" id="toc-special-cases-and-their-solutions" class="nav-link" data-scroll-target="#special-cases-and-their-solutions">Special cases and their solutions</a>
-  <ul class="collapse">
-  <li><a href="#before-data-collection---but-if-the-data-set-is-already-there" id="toc-before-data-collection---but-if-the-data-set-is-already-there" class="nav-link" data-scroll-target="#before-data-collection---but-if-the-data-set-is-already-there">“before data collection” - but if the data set is already there?</a></li>
-  <li><a href="#somebody-will-steal-my-idea" id="toc-somebody-will-steal-my-idea" class="nav-link" data-scroll-target="#somebody-will-steal-my-idea">Somebody will steal my idea!</a></li>
   <li><a href="#registered-report" id="toc-registered-report" class="nav-link" data-scroll-target="#registered-report">Registered Report</a></li>
-  </ul></li>
   <li><a href="#elements-of-a-preregistration" id="toc-elements-of-a-preregistration" class="nav-link" data-scroll-target="#elements-of-a-preregistration">Elements of a preregistration</a>
   <ul class="collapse">
-  <li><a href="#elements-of-a-preregistration-1" id="toc-elements-of-a-preregistration-1" class="nav-link" data-scroll-target="#elements-of-a-preregistration-1">Elements of a preregistration</a></li>
-  <li><a href="#elements-of-a-preregistration-2" id="toc-elements-of-a-preregistration-2" class="nav-link" data-scroll-target="#elements-of-a-preregistration-2">Elements of a preregistration</a></li>
-  <li><a href="#elements-of-a-preregistration-3" id="toc-elements-of-a-preregistration-3" class="nav-link" data-scroll-target="#elements-of-a-preregistration-3">Elements of a preregistration</a></li>
-  <li><a href="#elements-of-a-preregistration-4" id="toc-elements-of-a-preregistration-4" class="nav-link" data-scroll-target="#elements-of-a-preregistration-4">Elements of a preregistration</a></li>
-  <li><a href="#elements-of-a-preregistration-5" id="toc-elements-of-a-preregistration-5" class="nav-link" data-scroll-target="#elements-of-a-preregistration-5">Elements of a preregistration</a></li>
-  <li><a href="#elements-of-a-preregistration-6" id="toc-elements-of-a-preregistration-6" class="nav-link" data-scroll-target="#elements-of-a-preregistration-6">Elements of a preregistration</a></li>
-  <li><a href="#elements-of-a-preregistration-7" id="toc-elements-of-a-preregistration-7" class="nav-link" data-scroll-target="#elements-of-a-preregistration-7">Elements of a preregistration</a></li>
+  <li><a href="#elements-of-a-preregistration-1" id="toc-elements-of-a-preregistration-1" class="nav-link" data-scroll-target="#elements-of-a-preregistration-1">Elements of a preregistration</a>
+  <ul class="collapse">
+  <li><a href="#hypotheses" id="toc-hypotheses" class="nav-link" data-scroll-target="#hypotheses">1. Hypotheses</a></li>
+  </ul></li>
+  <li><a href="#elements-of-a-preregistration-2" id="toc-elements-of-a-preregistration-2" class="nav-link" data-scroll-target="#elements-of-a-preregistration-2">Elements of a preregistration</a>
+  <ul class="collapse">
+  <li><a href="#operationalizations" id="toc-operationalizations" class="nav-link" data-scroll-target="#operationalizations">2. Operationalizations</a></li>
+  </ul></li>
+  <li><a href="#elements-of-a-preregistration-3" id="toc-elements-of-a-preregistration-3" class="nav-link" data-scroll-target="#elements-of-a-preregistration-3">Elements of a preregistration</a>
+  <ul class="collapse">
+  <li><a href="#planned-sample" id="toc-planned-sample" class="nav-link" data-scroll-target="#planned-sample">3. Planned sample</a></li>
+  </ul></li>
+  <li><a href="#elements-of-a-preregistration-4" id="toc-elements-of-a-preregistration-4" class="nav-link" data-scroll-target="#elements-of-a-preregistration-4">Elements of a preregistration</a>
+  <ul class="collapse">
+  <li><a href="#exclusion-criteria" id="toc-exclusion-criteria" class="nav-link" data-scroll-target="#exclusion-criteria">4. Exclusion criteria</a></li>
+  </ul></li>
+  <li><a href="#elements-of-a-preregistration-5" id="toc-elements-of-a-preregistration-5" class="nav-link" data-scroll-target="#elements-of-a-preregistration-5">Elements of a preregistration</a>
+  <ul class="collapse">
+  <li><a href="#analysis-plan" id="toc-analysis-plan" class="nav-link" data-scroll-target="#analysis-plan">5. Analysis plan</a></li>
+  </ul></li>
+  <li><a href="#elements-of-a-preregistration-6" id="toc-elements-of-a-preregistration-6" class="nav-link" data-scroll-target="#elements-of-a-preregistration-6">Elements of a preregistration</a>
+  <ul class="collapse">
+  <li><a href="#analysis-plan-1" id="toc-analysis-plan-1" class="nav-link" data-scroll-target="#analysis-plan-1">5. Analysis plan</a></li>
+  </ul></li>
+  <li><a href="#elements-of-a-preregistration-7" id="toc-elements-of-a-preregistration-7" class="nav-link" data-scroll-target="#elements-of-a-preregistration-7">Elements of a preregistration</a>
+  <ul class="collapse">
+  <li><a href="#additional-stuff" id="toc-additional-stuff" class="nav-link" data-scroll-target="#additional-stuff">6. Additional stuff</a></li>
+  </ul></li>
   <li><a href="#preregistration-templates" id="toc-preregistration-templates" class="nav-link" data-scroll-target="#preregistration-templates">Preregistration templates</a></li>
   <li><a href="#preregistration-templates-alternatives" id="toc-preregistration-templates-alternatives" class="nav-link" data-scroll-target="#preregistration-templates-alternatives">Preregistration templates (alternatives)</a></li>
   <li><a href="#a-curated-list-of-high-quality-preregistrations" id="toc-a-curated-list-of-high-quality-preregistrations" class="nav-link" data-scroll-target="#a-curated-list-of-high-quality-preregistrations">A curated list of high quality preregistrations</a></li>
@@ -286,19 +331,28 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td><span class="fragment" data-fragment-index="4"><strong>Confirmation bias</strong></span></td>
 <td><span class="fragment" data-fragment-index="5">Tendency to seek out, interpret, favor and recall information in a way that supports one’s prior expectations</span></td>
-<td><span class="fragment" data-fragment-index="6">Write down your decision rules before you see the data</span></td>
+<td><span class="fragment" data-fragment-index="6">Write down your decision rules and analysis plan before you see the data</span></td>
 </tr>
 </tbody>
 </table>
 </section>
 </section>
-<section id="what-is-a-preregistration" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-a-preregistration">What is a preregistration?</h2>
-<blockquote class="blockquote">
-<p>„The specification of a research design, hypotheses, and analysis plan prior to observing the outcomes of a study“</p>
-</blockquote>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+<div class="callout-box">
+<p><strong>Preregistration</strong> =</p>
+<p>The specification of …</p>
+<ul>
+<li>the research design (including sample size planning),</li>
+<li>operationalizations,</li>
+<li>hypotheses,</li>
+<li>analysis plan, and</li>
+<li>inferential criteria</li>
+</ul>
+<p>… prior to observing the outcomes of a study.</p>
+</div>
 <div class="footer">
-<p>Nosek &amp; Lindsay (2018)</p>
+<p>adapted from Nosek &amp; Lindsay (2018), PRP-QUANT template, and <a href="https://www.resque.info/">RESQUE</a>.</p>
 </div>
 </section>
 <section id="distinguishing-confirmatory-from-exploratory-analyses" class="level2">
@@ -333,8 +387,9 @@ ul.task-list li input[type="checkbox"] {
 <li>Use a third-party platform that freezes the file (so that you cannot edit it later) with a timestamp</li>
 <li>Nullius in verba: The less trust is necessary, the more convincing.</li>
 </ul>
-<p>. . .</p>
+<div class="fragment">
 <p><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Discuss: What challenge does a secondary data analysis (from an existing dataset) pose?</p>
+</div>
 </section>
 </section>
 <section id="why-do-we-preregister" class="level2">
@@ -347,29 +402,26 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Restrict your degrees of freedom</strong>: Clearly distinguish confirmatory from exploratory results</li>
 <li><strong>Intended side-effect</strong>: We think more clearly about our design and data collection <em>before</em> we start collecting data → quality improvements.</li>
 </ol>
+<!-- # Special cases and their solutions
+
+## "before data collection" - but if the data set is already there?
+
+## Somebody will steal my idea!
+
+Embargo -->
 </section>
-</section>
-<section id="special-cases-and-their-solutions" class="level1">
-<h1>Special cases and their solutions</h1>
-<section id="before-data-collection---but-if-the-data-set-is-already-there" class="level2">
-<h2 class="anchored" data-anchor-id="before-data-collection---but-if-the-data-set-is-already-there">“before data collection” - but if the data set is already there?</h2>
-</section>
-<section id="somebody-will-steal-my-idea" class="level2">
-<h2 class="anchored" data-anchor-id="somebody-will-steal-my-idea">Somebody will steal my idea!</h2>
-<p>–&gt; Embargo</p>
 </section>
 <section id="registered-report" class="level2">
 <h2 class="anchored" data-anchor-id="registered-report">Registered Report</h2>
-</section>
+<p><img src="img/RR_workflow.webp" class="img-full img-fluid"></p>
 </section>
 <section id="elements-of-a-preregistration" class="level1">
 <h1>Elements of a preregistration</h1>
 <section id="elements-of-a-preregistration-1" class="level2">
 <h2 class="anchored" data-anchor-id="elements-of-a-preregistration-1">Elements of a preregistration</h2>
-<strong>1. Hypotheses</strong>
-<div style="margin-bottom: -40px;margin-left: -10px;">
-<p><img src="img/Essential.jpg" class="img-fluid" width="200"></p>
-</div>
+<section id="hypotheses" class="level3">
+<h3 class="anchored" data-anchor-id="hypotheses">1. Hypotheses</h3>
+<p>✅ <strong>Essential</strong>:</p>
 <div class="smaller">
 <ul>
 <li>Describe hypotheses as relationships between variables</li>
@@ -377,25 +429,23 @@ ul.task-list li input[type="checkbox"] {
 <li>Describe manipulation checks (or why they are not included)</li>
 </ul>
 </div>
-<div style="margin-bottom: -30px;">
-<p><img src="img/Recommended.jpg" class="img-fluid" width="250"></p>
-</div>
+<p>☑️ <strong>Recommended</strong>:</p>
 <div class="smaller">
 <ul>
 <li>Figures / tables to describe interaction effects</li>
 <li>Rationales / theoretical frameworks to justify the hypotheses</li>
 </ul>
 </div>
-<div class="attribution" style="font-size: 12px;">
+<div class="footer">
 <p>van t‘Veer &amp; Giner-Sorolla (2016)</p>
 </div>
 </section>
+</section>
 <section id="elements-of-a-preregistration-2" class="level2">
 <h2 class="anchored" data-anchor-id="elements-of-a-preregistration-2">Elements of a preregistration</h2>
-<strong>2. Design</strong>
-<div style="margin-bottom: -40px;margin-left: -10px;">
-<p><img src="img/Essential.jpg" class="img-fluid" width="200"></p>
-</div>
+<section id="operationalizations" class="level3">
+<h3 class="anchored" data-anchor-id="operationalizations">2. Operationalizations</h3>
+<p>✅ <strong>Essential</strong>:</p>
 <div class="smaller">
 <ul>
 <li>List, based on your hypotheses,
@@ -406,16 +456,16 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 </div>
-<div class="attribution" style="font-size: 12px;">
+<div class="footer">
 <p>van t‘Veer &amp; Giner-Sorolla (2016)</p>
 </div>
 </section>
+</section>
 <section id="elements-of-a-preregistration-3" class="level2">
 <h2 class="anchored" data-anchor-id="elements-of-a-preregistration-3">Elements of a preregistration</h2>
-<strong>3. Planned sample</strong>
-<div style="margin-bottom: -40px;margin-left: -10px;">
-<p><img src="img/Essential.jpg" class="img-fluid" width="200"></p>
-</div>
+<section id="planned-sample" class="level3">
+<h3 class="anchored" data-anchor-id="planned-sample">3. Planned sample</h3>
+<p>✅ <strong>Essential</strong>:</p>
 <div class="smaller">
 <ul>
 <li>Pre-selection rules (e.g., age limits)</li>
@@ -428,12 +478,12 @@ ul.task-list li input[type="checkbox"] {
 <p>van t‘Veer &amp; Giner-Sorolla (2016), Schönbrodt &amp; Wagenmakers (2017)</p>
 </div>
 </section>
+</section>
 <section id="elements-of-a-preregistration-4" class="level2">
 <h2 class="anchored" data-anchor-id="elements-of-a-preregistration-4">Elements of a preregistration</h2>
-<strong>4. Exclusion criteria</strong>
-<div style="margin-bottom: -40px;margin-left: -10px;">
-<p><img src="img/Essential.jpg" class="img-fluid" width="200"></p>
-</div>
+<section id="exclusion-criteria" class="level3">
+<h3 class="anchored" data-anchor-id="exclusion-criteria">4. Exclusion criteria</h3>
+<p>✅ <strong>Essential</strong>:</p>
 <div style="margin-bottom: -40px;">
 <div class="smaller">
 <ul>
@@ -448,24 +498,22 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </div>
 </div>
-<div style="margin-bottom: -30px;">
-<p><img src="img/Recommended.jpg" class="img-fluid" width="250"></p>
-</div>
+<p>☑️ <strong>Recommended</strong>:</p>
 <div class="smaller">
 <ul>
 <li>Set fail-save levels of exclusion at which whole study needs to be stopped, altered, and restarted</li>
 </ul>
 </div>
-<div class="attribution" style="font-size: 12px;">
+<div class="footer">
 <p>van t‘Veer &amp; Giner-Sorolla (2016)</p>
 </div>
 </section>
+</section>
 <section id="elements-of-a-preregistration-5" class="level2">
 <h2 class="anchored" data-anchor-id="elements-of-a-preregistration-5">Elements of a preregistration</h2>
-<strong>5. Analysis plan</strong>
-<div style="margin-bottom: -40px;margin-left: -10px;">
-<p><img src="img/Essential.jpg" class="img-fluid" width="200"></p>
-</div>
+<section id="analysis-plan" class="level3">
+<h3 class="anchored" data-anchor-id="analysis-plan">5. Analysis plan</h3>
+<p>✅ <strong>Essential</strong>:</p>
 <div class="smaller">
 <ul>
 <li>Describe statistical analyses that test hypotheses. For each, include
@@ -474,20 +522,20 @@ ul.task-list li input[type="checkbox"] {
 <li>Statistical technique</li>
 <li>Each variable‘s role in the technique (e.g., IV, DV, covariate, …)</li>
 <li>If covariates are used: Rationale for using them</li>
-<li>If using techniques other than NHST, describe criteria and inputs toward making conclusions about your hypotheses</li>
+<li>Describe inferential criteria (i.e., when will you accept or reject a hypothesis?). This is typically the <span class="math inline">\(\alpha\)</span> level and whether you test one- or two-sided.</li>
 </ul></li>
 </ul>
 </div>
-<div class="attribution" style="font-size: 12px;">
+<div class="footer">
 <p>van t‘Veer &amp; Giner-Sorolla (2016)</p>
 </div>
 </section>
+</section>
 <section id="elements-of-a-preregistration-6" class="level2">
 <h2 class="anchored" data-anchor-id="elements-of-a-preregistration-6">Elements of a preregistration</h2>
-<strong>5. Analysis plan</strong>
-<div style="margin-bottom: -30px;">
-<p><img src="img/Recommended.jpg" class="img-fluid" width="250"></p>
-</div>
+<section id="analysis-plan-1" class="level3">
+<h3 class="anchored" data-anchor-id="analysis-plan-1">5. Analysis plan</h3>
+<p>☑️ <strong>Recommended</strong>:</p>
 <div class="smaller">
 <ul>
 <li>Specify contingencies and assumptions, such as
@@ -499,16 +547,16 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 </div>
-<div class="attribution" style="font-size: 12px;">
+<div class="footer">
 <p>van t‘Veer &amp; Giner-Sorolla (2016)</p>
 </div>
 </section>
+</section>
 <section id="elements-of-a-preregistration-7" class="level2">
 <h2 class="anchored" data-anchor-id="elements-of-a-preregistration-7">Elements of a preregistration</h2>
-<strong>6. Additional stuff</strong>
-<div style="margin-bottom: -30px;margin-left: -10px;">
-<p><img src="img/Recommended.jpg" class="img-fluid" width="250"></p>
-</div>
+<section id="additional-stuff" class="level3">
+<h3 class="anchored" data-anchor-id="additional-stuff">6. Additional stuff</h3>
+<p>☑️ <strong>Recommended</strong>:</p>
 <div class="smaller">
 <ul>
 <li>For exploratory analyses: “We don‘t have any hypotheses”</li>
@@ -516,9 +564,10 @@ ul.task-list li input[type="checkbox"] {
 <li>Conditional safeguards: What will happen if…?</li>
 </ul>
 </div>
-<div class="attribution" style="font-size: 12px;">
+<div class="footer">
 <p>Lin &amp; Green (2016)</p>
 </div>
+</section>
 </section>
 <section id="preregistration-templates" class="level2">
 <h2 class="anchored" data-anchor-id="preregistration-templates">Preregistration templates</h2>
