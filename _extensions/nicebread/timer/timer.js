@@ -107,14 +107,8 @@ function initializeTimer(containerId, timeLimit, startOn, size = "100%", soundSt
 
   function isHidden() {
     let el = document.getElementById(containerId);
-    let ancestor = el.parentNode;
-    while (ancestor && ancestor.tagName !== "SECTION") {
-      ancestor = ancestor.parentNode;
-    }
-    if (!ancestor) return true;
-    if (ancestor.hidden) return true;
-    const style = window.getComputedStyle(ancestor);
-    return style.display === "none";
+    if (!el) return true;
+    return el.offsetParent === null;
   }
 
   function toggleTimer() {
