@@ -2,7 +2,6 @@
 /* Timer Countdown */
 
 .base-timer {
-  cursor: pointer;
   position: relative;
   width: 300px;
   height: 300px;
@@ -64,5 +63,32 @@ div.base-timer svg circle, div.base-timer svg path {
 }
 
 .timer-reset:hover .timer-reset-icon {
+  stroke: black;
+}
+
+.timer-playpause {
+  cursor: pointer;
+}
+
+.timer-playpause-bg {
+  fill: transparent;
+  pointer-events: all;
+  transition: fill 0.2s ease-in-out;
+}
+
+.timer-playpause:hover .timer-playpause-bg {
+  fill: rgba(0, 0, 0, 0.1);
+}
+
+.timer-playpause-icon {
+  stroke: grey;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  transition: stroke 0.2s ease-in-out;
+}
+
+.timer-playpause:hover .timer-playpause-icon {
   stroke: black;
 }
