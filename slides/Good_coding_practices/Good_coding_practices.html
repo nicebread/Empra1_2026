@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felix Schönbrodt">
 <meta name="author" content="Caroline Zygar-Hoffmann">
-<meta name="dcterms.date" content="2024-04-27">
+<meta name="dcterms.date" content="2026-06-12">
 
 <title>How to minimize mistakes – Robust Evidence(Forschungsorientiertes Praktikum I)</title>
 <style>
@@ -77,10 +77,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f7333b7c44a7c3d55afcc11699a363c3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-d42e3a450557161d5337326f150af9d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -166,6 +168,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#the-ideal-reality" id="toc-the-ideal-reality" class="nav-link active" data-scroll-target="#the-ideal-reality">The Ideal? <span style="padding-left: 300px;">Reality?</span></a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   <li><a href="#mistakes-lurk-everywhere" id="toc-mistakes-lurk-everywhere" class="nav-link" data-scroll-target="#mistakes-lurk-everywhere">Mistakes lurk everywhere</a></li>
   <li><a href="#mistakes-lurk-everywhere-1" id="toc-mistakes-lurk-everywhere-1" class="nav-link" data-scroll-target="#mistakes-lurk-everywhere-1">Mistakes lurk everywhere</a>
   <ul class="collapse">
@@ -234,7 +237,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 27, 2024</p>
+      <p class="date">June 12, 2026</p>
     </div>
   </div>
   
@@ -256,15 +259,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Trust in science: Scientists are impartial, meticulous, and check their results rigorously in peer review before publication</li>
 <li>Although error-freeness cannot be guaranteed, science provides the most reliable source of information, and if errors happen, they soon get detected and corrected.</li>
 </ul>
-</div><div class="column" style="width:50%;">
+</div><div class="column fragment" style="width:50%;">
 <ul>
 <li>Replication/credibility crisis</li>
 <li>Number of retractions rises exponentially</li>
 <li>Pressure to „publish or perish“ leads to hurried manuscript, less error checking</li>
 <li>Reviewer overload leads to superficial reviews</li>
+<li>AI tools create fake science that is hard to detect</li>
 <li><strong>statcheck</strong> (Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic</li>
 </ul>
 </div>
+</div>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+<div class="callout-box">
+<p><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Where can errors happen during data collection or data analysis? Be creative!</p>
 </div>
 </section>
 <section id="mistakes-lurk-everywhere" class="level2">
@@ -293,22 +303,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="mistakes-lurk-everywhere-1">Mistakes lurk everywhere</h2>
 <section id="examples-miscoding-missing-values" class="level3">
 <h3 class="anchored" data-anchor-id="examples-miscoding-missing-values">Examples: Miscoding Missing Values</h3>
-<ul>
-<li>Jasso (1985) ASR: coital frequency increases with wife’s age
-<ul>
+<div class="incremental">
+<ul class="incremental">
+<li>Jasso (1985): Coital frequency increases with wife’s age
+<ul class="incremental">
 <li>Kahn/Udry (1986): 4 observations had value 88; Jasso treated these as valid values; treating these as missing, the effect of wife’s age becomes non-significant</li>
 </ul></li>
-<li>Herring (2009) ASR: diversity increases firm revenue
-<ul>
+<li>Herring (2009): Diversity increases firm revenue
+<ul class="incremental">
 <li>Stojmenovska/Bol/Leopold (2017): 206 firms had values 88,888,888,888; Herring treated these as valid values; treating these as missing, the effect of diversity becomes non-significant</li>
 </ul></li>
-<li>Munsch (2015) ASR: marital infidelity is at 10 %
-<ul>
-<li>Munsch (2018): 246 missings were miscoded as “infidelity” (Stata <code>.</code>-problem); with correct coding marital infidelity is at 6 %</li>
+<li>Munsch (2015): Marital infidelity is at 10%
+<ul class="incremental">
+<li>Munsch (2018): 246 missings were miscoded as “infidelity” (“Stata <code>.</code>-problem”); with correct coding marital infidelity is at 6%</li>
 </ul></li>
 </ul>
+</div>
 <div class="footer">
-<p>Taken from a presentation from Katrin Auspurg &amp; Josef Brüderl</p>
+<p>Taken from a presentation from Katrin Auspurg &amp; Josef Brüderl. All examples are from publications in the <em>American Sociological Review</em>, considered one of the very top journals in sociology.</p>
 </div>
 </section>
 </section>
@@ -356,19 +368,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="columns">
 <div class="column" style="width:60%;">
 <ol type="1">
-<li>When you rely on random numbers (e.g., in simulation studies): Set a seed for reproducibility
+<li>When you rely on random numbers (e.g., in simulation studies): Set a seed for reproducibility (e.g., <code>set.seed(123)</code>)
 <ul>
 <li>Take care when doing parallel computing, this sometimes requires special treatment of seeds</li>
 </ul></li>
 <li>Document exact versions of all packages/ external programs at each completed stage of data analysis
 <ul>
-<li>e.g., in R: Save the <code>sessionInfo()</code> of the analytical pipeline in an accompanying file when you submit a paper, and for every revision</li>
+<li>e.g., in R: Save the <code>sessionInfo()</code> of the analytical pipeline in the README file when you submit a paper, and for every revision</li>
 </ul></li>
 <li>Save a snapshot of the current version/state of the statistical software
 <ul>
-<li>e.g., in <code>R</code>: <code>checkpoint</code> package, <code>packrat</code> package, <code>renv</code> package</li>
+<li>e.g., in <code>R</code>: packages <code>renv</code>, <code>checkpoint</code>, or <code>packrat</code></li>
 </ul></li>
-<li>The safest way: Make a docker container which contains the full computational environment (including OS)</li>
+<li>The safest way: Make a docker container which contains the full computational environment (including the OS)</li>
 </ol>
 </div><div class="column" style="width:40%;">
 <div>
@@ -400,7 +412,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="file-organization" class="level2">
 <h2 class="anchored" data-anchor-id="file-organization">File organization</h2>
-<p><br></p>
 <ul>
 <li>(The following guidelines apply to many, but not all possible types of projects)</li>
 <li>All files that are necessary for reproducing the results should be bundled in <span class="hl">one</span> directory
@@ -410,22 +421,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul></li>
 <li>Use a consistent, self-explanatory subdirectory structure</li>
 <li>Number script files in execution order (see next slide)</li>
+<li>Use paths relative to the project root instead of absolute paths (e.g., <code>raw_data/study1/</code> instead of <code>C:/Users/felix/Empra_Project/raw_data/study1/</code>).</li>
 </ul>
 </section>
 <section id="directory-organization" class="level2">
 <h2 class="anchored" data-anchor-id="directory-organization">Directory organization</h2>
-<div style="text-align: center;">
-<p><img src="img/Directory_Organization.jpg" class="img-fluid" width="1000"></p>
-</div>
+<p><img src="img/Directory_Organization.jpg" class="img-full img-fluid"></p>
 </section>
 <section id="subdirectory-organization" class="level2">
 <h2 class="anchored" data-anchor-id="subdirectory-organization">Subdirectory organization</h2>
-<div class="smaller">
-<ul>
+<div class="smaller incremental">
+<ul class="incremental">
 <li>(Again, this is <em>one</em> possible organization scheme)</li>
 <li><strong>/raw_data</strong>: Contains all raw primary data files, as you received them (or exported them from the experimental software), without any manual preprocessing. Primary data files are <span class="hl">sacrosanct</span> – set them to read-only, never change anything in them. Any transformation, data exclusions, or error corrections must be done in scripts in order to be reproducible.</li>
 <li><strong>/processed_data</strong>: Stores intermediate data objects. For example, after you did all your outlier exclusions, data transformations, etc., store a file „data_cleaned.csv“ in <code>/cache</code>. If you refer to this data file in subsequent scripts, you do not have to run the preprocessing script every time. All files in <code>/processed_data</code> can be safely deleted, as they can be reconstructed by running all script files in the correct order.</li>
-<li><strong>/doc</strong>: Documents (such as PDFs, manuals, etc.) related to the project.</li>
+<li><strong>/doc</strong>: Documents (such as PDFs, manuals, etc.) related to the project, including the data dictionary</li>
 <li><strong>/plots</strong>: Store result plots that you created in your scripts.</li>
 <li><strong>/export</strong>: If you export (sub)data sets or summaries for dissemination, store them here.</li>
 <li><strong>/archive</strong>: Old scripts and other files which are not used for your final analytical pipeline, but which you want to keep for some reasons.</li>
@@ -436,6 +446,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="subdirectory-organization-1">Subdirectory organization</h2>
 <section id="the-readme-file" class="level3">
 <h3 class="anchored" data-anchor-id="the-readme-file">The README file</h3>
+<div class="smaller">
 <ul>
 <li>Nowadays, it is typically in markdown format (i.e., <code>README.md</code>) as it is rendered in Github and other repositories</li>
 <li>Located at the top level of the project directory, it is <em>the</em> central entry point for other users: What do they need to get started? How can you make their life easier?</li>
@@ -448,7 +459,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Instructions on how to reproduce the results</li>
 <li>A license statement</li>
 </ul></li>
+<li>There might be additional READMEs in subfolders, explaining what is happening in that folder.</li>
 </ul>
+</div>
 </section>
 </section>
 <section id="variable-name-conventions-1" class="level2">
@@ -503,7 +516,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><br></p>
 <ul>
 <li>At the start of each script file: Author, license, purpose of the file.</li>
-<li>Load add-on packages all at once at the beginning of the file</li>
+<li>Load packages all at once at the beginning of the file</li>
 <li>Rule of thumb: At least 1 comment per 3 lines of code</li>
 <li>Separate chunks of code with comment lines</li>
 <li>Use English variable names and comments from the beginning (you don‘t want to translate everything before dissemination)</li>
@@ -516,10 +529,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="code-commenting-2" class="level2">
 <h2 class="anchored" data-anchor-id="code-commenting-2">Code commenting 2</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<div class="smaller">
-<p><br></p>
 <ul>
 <li>Link code comments to paper structure
 <ul>
@@ -529,34 +538,33 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Bonus: Link code comments to IDs of the preregistration</li>
 <li>If the file gets too long (e.g., &gt; 500 lines), split into multiple files</li>
 </ul>
-</div>
-</div><div class="column" style="width:60%;">
-<p><img src="img/Code_Commenting.jpg" class="img-fluid"></p>
-</div>
-</div>
 </section>
 <section id="collaboration" class="level2">
 <h2 class="anchored" data-anchor-id="collaboration">Collaboration</h2>
 <ul>
 <li>Pair Programming
 <ul>
-<li>Pair programming is an agile software development technique in which two programmers work together at one workstation. One, the <strong>driver</strong>, writes code while the other, the <strong>observer</strong> or <strong>navigator</strong>, reviews each line of code as it is typed in. The two programmers switch roles frequently. (<a href="https://en.wikipedia.org/wiki/Pair_programming">Wikipedia</a>)</li>
+<li>“Pair programming is an agile software development technique in which two programmers work together at one workstation. One, the <strong>driver</strong>, writes code while the other, the <strong>observer</strong> or <strong>navigator</strong>, reviews each line of code as it is typed in. The two programmers switch roles frequently.” (<a href="https://en.wikipedia.org/wiki/Pair_programming">Wikipedia</a>)</li>
+<li>Nowadays, often an AI agent is the driver, while the human is an unskilled observer who has no idea what the code is actually doing.</li>
 </ul></li>
-<li>Golden route: Independent implementation</li>
+<li>Golden route for increasing trust in code quality: Independent implementation (but nearly never done).</li>
 </ul>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
+<div class="smaller">
 <ul>
+<li>Upcoming: Roggenkamp et al.&nbsp;(2026): Promoting the computational reproducibility of the social and behavioral sciences</li>
 <li>Bishop, D. V. M. (2018). Fallibility in Science: Responding to Errors in the Work of Oneself and Others. Advances in Methods and Practices in Psychological Science, 1(3), 432–438. <a href="http://doi.org/10.1177/2515245918776632">http://doi.org/10.1177/2515245918776632</a></li>
-<li>Rouder, J., Haaf, J. M., &amp; Snyder, H. K. (2018, March 25). Minimizing Mistakes In Psychological Science. <a href="https://doi.org/10.31234/osf.io/gxcy5">https://doi.org/10.31234/osf.io/gxcy5</a></li>
-<li>Martin, R. (2008). Clean Code: A Handbook of Agile Software Craftsmanship (1st ed.). Upper Saddle River, NJ: Prentice Hall.</li>
+<li>Rouder, J. N., Haaf, J. M., &amp; Snyder, H. K. (2019). Minimizing Mistakes in Psychological Science. Advances in Methods and Practices in Psychological Science, 2(1), 3–11. <a href="https://doi.org/10.1177/2515245918801915">https://doi.org/10.1177/2515245918801915</a></li>
+<li>Strand, J. F. (2025). Error tight: Exercises for lab groups to prevent research mistakes. Psychological Methods, 30(2), 416–424. <a href="https://doi.org/10.1037/met0000547">https://doi.org/10.1037/met0000547</a></li>
 <li>Karthik Ram: How To Make Your Data Analysis Notebooks More Reproducible
 <ul>
 <li><a href="https://github.com/karthik/rstudio2019">https://github.com/karthik/rstudio2019</a></li>
 <li><a href="https://inundata.org/talks/rstd19/#/">https://inundata.org/talks/rstd19/#/</a></li>
 </ul></li>
 </ul>
+</div>
 <!-- Footer insert below -->
 </section>
 <section id="end" class="level1">
