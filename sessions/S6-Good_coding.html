@@ -168,7 +168,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#homework-1-in-groups-prepare-participant-recruitment" id="toc-homework-1-in-groups-prepare-participant-recruitment" class="nav-link" data-scroll-target="#homework-1-in-groups-prepare-participant-recruitment">Homework 1 (in groups): Prepare participant recruitment</a>
   <ul class="collapse">
   <li><a href="#homework-2-individually-do-the-dplyr-tutorial" id="toc-homework-2-individually-do-the-dplyr-tutorial" class="nav-link" data-scroll-target="#homework-2-individually-do-the-dplyr-tutorial">Homework 2 (individually): Do the dplyr tutorial</a></li>
-  <li><a href="#homework-3-in-groups-dig-into-original-data-set" id="toc-homework-3-in-groups-dig-into-original-data-set" class="nav-link" data-scroll-target="#homework-3-in-groups-dig-into-original-data-set">Homework 3 (in groups): Dig into original data set</a></li>
+  <li><a href="#homework-3-in-groups-dig-into-original-data-set-prepare-the-reproducibility-check" id="toc-homework-3-in-groups-dig-into-original-data-set-prepare-the-reproducibility-check" class="nav-link" data-scroll-target="#homework-3-in-groups-dig-into-original-data-set-prepare-the-reproducibility-check">Homework 3 (in groups): Dig into original data set / Prepare the reproducibility check</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -224,13 +224,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Advocatus Diaboli Game</td>
-<td style="text-align: center;">20</td>
+<td style="text-align: center;">40</td>
 <td></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Good coding practices</td>
-<td style="text-align: center;">45</td>
+<td style="text-align: center;">60</td>
 <td><a href="../slides/Good_coding_practices/Good_coding_practices.html">Slides</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Explain Homework</td>
+<td style="text-align: center;">20</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -247,11 +252,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>See <a href="https://www.oer.psy.lmu.de/R_Tutorial/Teil4_tidyverse.html">https://www.oer.psy.lmu.de/R_Tutorial/Teil4_tidyverse.html</a>.</p>
 <p><code>dplyr</code> is an R package for data manipulation, providing a consistent set of verbs — <code>filter()</code>, <code>select()</code>, <code>mutate()</code>, <code>summarise()</code>, and <code>arrange()</code> — to transform and summarize data frames. It is very convenient to clean and generally preprocess raw data.</p>
 </section>
-<section id="homework-3-in-groups-dig-into-original-data-set" class="level3">
-<h3 class="anchored" data-anchor-id="homework-3-in-groups-dig-into-original-data-set">Homework 3 (in groups): Dig into original data set</h3>
+<section id="homework-3-in-groups-dig-into-original-data-set-prepare-the-reproducibility-check" class="level3">
+<h3 class="anchored" data-anchor-id="homework-3-in-groups-dig-into-original-data-set-prepare-the-reproducibility-check">Homework 3 (in groups): Dig into original data set / Prepare the reproducibility check</h3>
 <ol type="1">
-<li><p>Set up the folder structure as explained in the <a href="../slides/Good_coding_practices/Good_coding_practices.html">Good Coding Practices</a> presentation (slides 12ff.). Create all folders (even if they are currently empty). Place the raw data file (see Moodle) into the <code>raw_data</code> subfolder (the data files is all you have).</p></li>
-<li><p>Import the data in R. Find out from which software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the main analyses of the original paper? What do their values mean?).</p></li>
+<li>Set up the folder structure as explained in the <a href="../slides/Good_coding_practices/Good_coding_practices.html">Good Coding Practices</a> presentation (slides 12ff.):</li>
+</ol>
+<ul>
+<li>Create all folders, even if they are currently empty. Note: Git does not include empty folders to the repository. If you still want them to show up, add an empty file called <code>.gitkeep</code> to the otherwise empty folder. Files with a name starting with a dot are hidden files that do not show up in the Explorer/Finder (but still are there).</li>
+<li>Place the raw data file (see Moodle) into the <code>raw_data</code> subfolder (the data files is all you have)</li>
+<li>Create an R-Studio project in the top level folder</li>
+<li>Create a file called <code>.gitignore</code> in the root folder, and add a line “*.sav” to it. This tells git to ignore all files with a <code>.sav</code> file extension.</li>
+<li>Put everything under <code>git</code> version control.</li>
+<li><strong>Important</strong>: Really make sure that you do <em>not</em> share the raw data file on GitHub. If you are unsure how to proceed, do not push yet to GitHub; we’ll do it together next session.</li>
+</ul>
+<ol start="2" type="1">
+<li>Import the data in R. Find out from which software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the main analyses of the original paper? What do their values mean?).</li>
 </ol>
 <div class="callout callout-style-default callout-tip callout-titled" title="Hint">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -321,7 +336,7 @@ $ Cond                  : num  0 0 0 0 0 0 1 1 1 1 ...
 <li>compute some descriptive statistics and compare them to the paper.</li>
 <li>Optionally, try to reproduce the t-test that tested the main hypothesis in the paper</li>
 </ol>
-<p>Make a note of any problems and inconsistencies you discover. You can use your new dplyr skills, or stay at base R.</p>
+<p>Make a note of any problems and inconsistencies you discover. You can use your new <code>dplyr</code> skills, or stay at base R.</p>
 
 
 </section>
