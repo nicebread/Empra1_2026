@@ -177,17 +177,6 @@ Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-repro
 :::
 :::
 
-## Coding style
-
-- Meaningful variable names, meaningful directory
-  structure
-- Never copy and paste code
-- Never write a coding block longer than your screen
-- Literate Programming (Knuth): Computer code is for humans, not just for computers.
-  
-::: footer
-[https://x.com/mcxfrank/status/1075466294797824000](https://x.com/mcxfrank/status/1075466294797824000)
-:::
 
 ## File organization
 
@@ -322,6 +311,7 @@ x
   - „Hypothesis 2: Does metafilin increase [...]?“
 - Bonus: Link code comments to IDs of the preregistration
 - If the file gets too long (e.g., > 500 lines), split into multiple files
+- Literate Programming (Donald Knuth, developer of $\LaTeX$): Computer code is for humans, not just for computers.
 
 
 ## Collaboration

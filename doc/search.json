@@ -2482,7 +2482,7 @@
     "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#code-commenting-2",
     "title": "How to minimize mistakes",
     "section": "Code commenting 2",
-    "text": "Code commenting 2\n\nLink code comments to paper structure\n\n„Table 3: Descriptives of…“\n„Hypothesis 2: Does metafilin increase […]?“\n\nBonus: Link code comments to IDs of the preregistration\nIf the file gets too long (e.g., &gt; 500 lines), split into multiple files"
+    "text": "Code commenting 2\n\nLink code comments to paper structure\n\n„Table 3: Descriptives of…“\n„Hypothesis 2: Does metafilin increase […]?“\n\nBonus: Link code comments to IDs of the preregistration\nIf the file gets too long (e.g., &gt; 500 lines), split into multiple files\nLiterate Programming (Donald Knuth, developer of \\(\\LaTeX\\)): Computer code is for humans, not just for computers."
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#collaboration",
