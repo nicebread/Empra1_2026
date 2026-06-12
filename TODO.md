@@ -12,6 +12,8 @@ read https://unsafescience.substack.com/p/the-triumph-of-ego-depletion
 
 ## Other stuff
 
+- vor Erstellung des formr sheets gleich sagen: Variablennamen auf englisch, so kurz wie möglich, Semantik.
+
 - Intro: Mask link functionality in apaquarto?
 
 - Run OS knowledge test (Barthelmäs)

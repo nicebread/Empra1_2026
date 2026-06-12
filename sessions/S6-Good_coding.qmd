@@ -1,28 +1,90 @@
 ---
-title: Session 06 - Preregistration 1
+title: Session 06 - Preregistration 2; Good coding practices
 number-sections: false
-description: We learn how to preregister a study
+description: We learn more about preregistration and how to set up a code repository
 ---
 
 # Overview
 
-| Topic                                 | Duration | Notes                                                                                                     |
-| :------------------------------------ | :------: | --------------------------------------------------------------------------------------------------------- |
-| Wrap up homework 1: Literature search |    30    |                                                                                                           |
-| Wrap-up Homework "Prereg"  |    10    |                                                                                        |
-| Prereg Intro               |    30    | [Slides](slides/Preregistration/Prereg.qmd); also show the PRR-QUANT template       |
-| Advocatus Diaboli Game     |    20    |                                                                                        |
-| Causality                  |    45    | [Slides](slides/Causality/Causality.qmd)                                              |
+| Topic                     | Duration | Notes                                                               |
+| :------------------------ | :------: | ------------------------------------------------------------------- |
+| Wrap-up Homework "Prereg" |    10    | Will discuss in detail with the consensus prereg                    |
+| Prereg Intro              |    30    | [Slides](../slides/Preregistration/Prereg.qmd)                      |
+| Advocatus Diaboli Game    |    20    |                                                                     |
+| Good coding practices     |    45    | [Slides](../slides/Good_coding_practices/Good_coding_practices.qmd) |
+| Causality                 |    45    | [Slides](../slides/Causality/Causality.qmd)                         |
 
 
-
-| Power analysis Intro                  |    60    | [Slides](../slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.qmd)                         |
-| Do a power analysis in practice       |    50    |                                                                                                           |
-| How (not) to report a power analysis  |    15    | [Slides](../slides/Power-Analysis Reporting/How-to-report-a-power-analysis.qmd)                           |
-| Game: Prereg advocatus Diaboli        |    20    | [Slides](../slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.qmd) |
 
 : {.striped}
 
+
+## Homework 1 (in groups): Prepare participant acquisition
+
+- Group 1: Text for SONA
+- Group 2: Flyer, Text for Social Media
+- Group 3: Werbekanäle überlegen: Social Media, Whatsapp-Gruppen, andere Empras, Freundeskreis/Familie, nicht nur Studenten, wo bekommt man Männer her?
+
+Do this in our [Google Drive](https://drive.google.com/drive/folders/1pI7tT6rnoCVOo-ScwjkcAfLPOoHIlw2z?usp=share_link) so that you can see the texts/progress of the other groups.
+
+### Homework 2 (in groups): Dig into original data set
+
+(1) Set up the folder structure as explained in the [Good Coding Practices](../slides/Good_coding_practices/Good_coding_practices.qmd) presentation (slides 12ff.). Create all folders (even if they are currently empty).
+
+(2) Import the data - the data files is all you have. Find out from software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the analyses? What do their values mean?).
+
+::: {.callout-tip collapse="true" title="Hint"}
+This is an SPSS data file. You can import it as a data frame with:
+
+```r
+# install.packages("rio")
+library(rio)
+dat <- import("raw_data/RRBehavioralHumility_Deidentified.sav")
+```
+
+In SPSS data files, meta-data about the variables (i.e., the columns) can be stored in the data file itself. This sometimes functions as a (often incomplete) codebook. When you import the `.sav` file, these meta-data are stored as so-called `attributes` of columns in the data frame. You see a preview of them if you print the structure of the data frame with `str(dat)`:
+```text
+'data.frame':	104 obs. of  28 variables:
+
+[...]
+
+$ Cond                  : num  0 0 0 0 0 0 1 1 1 1 ...
+  ..- attr(*, "label")= chr "Condition"
+  ..- attr(*, "format.spss")= chr "F11.0"
+  ..- attr(*, "display_width")= int 11
+  ..- attr(*, "labels")= Named num [1:2] 0 1
+  .. ..- attr(*, "names")= chr [1:2] "Control" "Awe"
+
+ [...]
+
+ $ SelectOut             : num  2 2 2 2 2 2 2 2 2 2 ...
+  ..- attr(*, "label")= chr "1= outlier (>3SD), 2=didn't follow instructions to talk about weaknesses"
+  ..- attr(*, "format.spss")= chr "F8.2"
+  ..- attr(*, "display_width")= int 15
+```
+
+So, the variable `$Cond` has the label `Condition`, and the values `0` and `1` are mapped to `"Control"` and `"Awe"`.
+
+You can directly access the attributes with this R command:
+
+```r
+attr(dat$Cond, which="labels")
+```
+:::
+
+(3) Get an overview of the data set with the `summarytools` package.
+
+::: {.callout-tip collapse="true" title="Hint"}
+
+```r
+# install.packages("summarytools")
+library(summarytools)
+view(dfSummary(dat))
+```
+::: 
+
+
+(4) When you found out which variables are relevant for us, compute some descriptive statistics and compare them to the paper. Optionally, try to reproduce the t-test that tested the main hypothesis in the paper.
 
 ### Homework 2 (individually): Read Chapter 1 of "Experimentology"
 

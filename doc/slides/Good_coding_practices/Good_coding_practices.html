@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -77,10 +77,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -167,7 +169,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#the-ideal-reality" id="toc-the-ideal-reality" class="nav-link active" data-scroll-target="#the-ideal-reality">The Ideal? <span style="padding-left: 300px;">Reality?</span></a></li>
   <li><a href="#mistakes-lurk-everywhere" id="toc-mistakes-lurk-everywhere" class="nav-link" data-scroll-target="#mistakes-lurk-everywhere">Mistakes lurk everywhere</a></li>
-  <li><a href="#mistakes-lurk-everywhere-1" id="toc-mistakes-lurk-everywhere-1" class="nav-link" data-scroll-target="#mistakes-lurk-everywhere-1">Mistakes lurk everywhere</a>
+  <li><a href="#mistakes-lurk-everywhere-1" id="toc-mistakes-lurk-everywhere-1" class="nav-link" data-scroll-target="#mistakes-lurk-everywhere-1">Mistakes lurk everywhere</a></li>
+  <li><a href="#mistakes-lurk-everywhere-2" id="toc-mistakes-lurk-everywhere-2" class="nav-link" data-scroll-target="#mistakes-lurk-everywhere-2">Mistakes lurk everywhere</a>
   <ul class="collapse">
   <li><a href="#examples-miscoding-missing-values" id="toc-examples-miscoding-missing-values" class="nav-link" data-scroll-target="#examples-miscoding-missing-values">Examples: Miscoding Missing Values</a></li>
   </ul></li>
@@ -256,12 +259,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Trust in science: Scientists are impartial, meticulous, and check their results rigorously in peer review before publication</li>
 <li>Although error-freeness cannot be guaranteed, science provides the most reliable source of information, and if errors happen, they soon get detected and corrected.</li>
 </ul>
-</div><div class="column" style="width:50%;">
+</div><div class="column fragment" style="width:50%;">
 <ul>
 <li>Replication/credibility crisis</li>
 <li>Number of retractions rises exponentially</li>
 <li>Pressure to „publish or perish“ leads to hurried manuscript, less error checking</li>
 <li>Reviewer overload leads to superficial reviews</li>
+<li>AI tools create fake science that is hard to detect</li>
 <li><strong>statcheck</strong> (Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic</li>
 </ul>
 </div>
@@ -269,6 +273,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="mistakes-lurk-everywhere" class="level2">
 <h2 class="anchored" data-anchor-id="mistakes-lurk-everywhere">Mistakes lurk everywhere</h2>
+<div class="callout-box">
+<p><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Where can errors happen during data collection or data analysis? Be creative?</p>
+</div>
+</section>
+<section id="mistakes-lurk-everywhere-1" class="level2">
+<h2 class="anchored" data-anchor-id="mistakes-lurk-everywhere-1">Mistakes lurk everywhere</h2>
 <div class="smaller">
 <ul>
 <li>Errors in data collection software/scripts</li>
@@ -289,24 +299,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 </div>
 </section>
-<section id="mistakes-lurk-everywhere-1" class="level2">
-<h2 class="anchored" data-anchor-id="mistakes-lurk-everywhere-1">Mistakes lurk everywhere</h2>
+<section id="mistakes-lurk-everywhere-2" class="level2">
+<h2 class="anchored" data-anchor-id="mistakes-lurk-everywhere-2">Mistakes lurk everywhere</h2>
 <section id="examples-miscoding-missing-values" class="level3">
 <h3 class="anchored" data-anchor-id="examples-miscoding-missing-values">Examples: Miscoding Missing Values</h3>
-<ul>
+<div class="incremental">
+<ul class="incremental">
 <li>Jasso (1985) ASR: coital frequency increases with wife’s age
-<ul>
+<ul class="incremental">
 <li>Kahn/Udry (1986): 4 observations had value 88; Jasso treated these as valid values; treating these as missing, the effect of wife’s age becomes non-significant</li>
 </ul></li>
 <li>Herring (2009) ASR: diversity increases firm revenue
-<ul>
+<ul class="incremental">
 <li>Stojmenovska/Bol/Leopold (2017): 206 firms had values 88,888,888,888; Herring treated these as valid values; treating these as missing, the effect of diversity becomes non-significant</li>
 </ul></li>
 <li>Munsch (2015) ASR: marital infidelity is at 10 %
-<ul>
-<li>Munsch (2018): 246 missings were miscoded as “infidelity” (Stata <code>.</code>-problem); with correct coding marital infidelity is at 6 %</li>
+<ul class="incremental">
+<li>Munsch (2018): 246 missings were miscoded as “infidelity” (Stata <code>.</code>-problem); with correct coding marital infidelity is at 6%</li>
 </ul></li>
 </ul>
+</div>
 <div class="footer">
 <p>Taken from a presentation from Katrin Auspurg &amp; Josef Brüderl</p>
 </div>

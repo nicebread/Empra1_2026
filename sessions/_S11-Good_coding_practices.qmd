@@ -11,9 +11,6 @@ description: Good coding practices - Quarto introduction
 | Wrap up homework 1: Codebook                             |    20    |                                                                     |
 | Collect Feedback for App                                 |    20    |                                                                     |
 | Introduction to Rmarkdown/Quarto                         |    20    | Slides (TODO)                                                       |
-| Preparation: Install software infrastructure (see below) |    30    |                                                                     |
-| Good coding practices                                    |    45    | [Slides](../slides/Good_coding_practices/Good_coding_practices.qmd) |
-| Homework: Quarto tutorial                                |    5     |                                                                     |
 
 : {.striped}
 

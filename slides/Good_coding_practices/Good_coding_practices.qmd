@@ -10,7 +10,7 @@ author:
     orcid: 0000-0002-8677-2276
     email: caroline.zygar@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München    
-date: 2024-04-27
+date: 2026-06-12
 footer: "Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
   nicetheme-revealjs: 
@@ -44,15 +44,22 @@ revealjs-plugins:
   they soon get detected and
   corrected.
 :::
-::: {.column width="50%"}
+::: {.column .fragment width="50%"}
 
 - Replication/credibility crisis
 - Number of retractions rises exponentially
 - Pressure to „publish or perish“ leads to hurried manuscript, less error checking
 - Reviewer overload leads to superficial reviews
+- AI tools create fake science that is hard to detect
 - **statcheck** (Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic
 :::
 ::::
+
+
+## 
+::: {.callout-box}
+{{< fa people-group size=1x >}} Where can errors happen during data collection or data analysis? Be creative!
+:::
 
 ## Mistakes lurk everywhere
 
@@ -73,15 +80,17 @@ revealjs-plugins:
 ## Mistakes lurk everywhere
 ### Examples: Miscoding Missing Values
 
-- Jasso (1985) ASR: coital frequency increases with wife's age
+::: {.incremental}
+- Jasso (1985): Coital frequency increases with wife's age
   - Kahn/Udry (1986): 4 observations had value 88; Jasso treated these as valid values; treating these as missing, the effect of wife's age becomes non-significant
-- Herring (2009) ASR: diversity increases firm revenue
+- Herring (2009): Diversity increases firm revenue
   - Stojmenovska/Bol/Leopold (2017): 206 firms had values 88,888,888,888; Herring treated these as valid values; treating these as missing, the effect of diversity becomes non-significant
-- Munsch (2015) ASR: marital infidelity is at 10 %
-  - Munsch (2018): 246 missings were miscoded as "infidelity" (Stata `.`-problem); with correct coding marital infidelity is at 6 %
+- Munsch (2015): Marital infidelity is at 10%
+  - Munsch (2018): 246 missings were miscoded as "infidelity" ("Stata `.`-problem"); with correct coding marital infidelity is at 6%
+:::
 
 ::: footer
-Taken from a presentation from Katrin Auspurg & Josef Brüderl
+Taken from a presentation from Katrin Auspurg & Josef Brüderl. All examples are from publications in the *American Sociological Review*, considered one of the very top journals in sociology.
 ::: 
 
 ## How to prevent coding errors?
@@ -138,16 +147,15 @@ Has some nice convenience functions, e.g. when importing SPSS or other data file
 ::: {.column width="60%"}
 
 1. When you rely on random numbers (e.g., in
-   simulation studies): Set a seed for reproducibility
+   simulation studies): Set a seed for reproducibility (e.g., `set.seed(123)`)
    - Take care when doing parallel computing, this sometimes
 requires special treatment of seeds
 2. Document exact versions of all packages/ external
    programs at each completed stage of data analysis
-   - e.g., in R: Save the `sessionInfo()` of the analytical pipeline in an
-     accompanying file when you submit a paper, and for every revision
+   - e.g., in R: Save the `sessionInfo()` of the analytical pipeline in the README file when you submit a paper, and for every revision
 3. Save a snapshot of the current version/state of the statistical software
-   - e.g., in `R`: `checkpoint` package, `packrat` package, `renv` package
-1. The safest way: Make a docker container which contains the full computational environment (including OS)
+   - e.g., in `R`: packages `renv`, `checkpoint`, or `packrat`
+4. The safest way: Make a docker container which contains the full computational environment (including the OS)
 :::
 
 ::: {.column width="40%"}
@@ -183,8 +191,6 @@ Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-repro
 
 ## File organization
 
-<br>
-
 - (The following guidelines apply to many, but not all
   possible types of projects)
 - All files that are necessary for reproducing the results
@@ -196,24 +202,23 @@ Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-repro
     person can reproduce the full analytical pipeline.
 - Use a consistent, self-explanatory subdirectory structure
 - Number script files in execution order (see next slide)
+- Use paths relative to the project root instead of absolute paths (e.g., `raw_data/study1/` instead of `C:/Users/felix/Empra_Project/raw_data/study1/`).
 
 
 
 ## Directory organization
 
-<div style="text-align: center;">
-![](img/Directory_Organization.jpg){width=1000px}
-</div>
+![](img/Directory_Organization.jpg){.img-full}
 
 
 ## Subdirectory organization
 
-::: {.smaller}
+::: {.smaller .incremental}
 - (Again, this is *one* possible organization scheme)
 - **/raw_data**: Contains all raw primary data files, as you received them (or exported them from the experimental software), without any manual preprocessing. Primary data files are [sacrosanct]{.hl} – set them to read-only, never change anything in them. Any transformation, data exclusions, or error corrections must be done in scripts in order to be reproducible.
 - **/processed_data**: Stores intermediate data objects. For example, after you did all your
   outlier exclusions, data transformations, etc., store a file „data_cleaned.csv“ in `/cache`. If you refer to this data file in subsequent scripts, you do not have to run the preprocessing script every time. All files in `/processed_data` can be safely deleted, as they can be reconstructed by running all script files in the correct order.
-- **/doc**: Documents (such as PDFs, manuals, etc.) related to the project.
+- **/doc**: Documents (such as PDFs, manuals, etc.) related to the project, including the data dictionary
 - **/plots**: Store result plots that you created in your scripts.
 - **/export**: If you export (sub)data sets or summaries for dissemination, store them here.
 - **/archive**: Old scripts and other files which are not used for your final analytical pipeline, but which you want to keep for some reasons.
@@ -222,6 +227,7 @@ Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-repro
 ## Subdirectory organization
 ### The README file
 
+::: {.smaller}
 - Nowadays, it is typically in markdown format (i.e., `README.md`) as it is rendered in Github and other repositories
 - Located at the top level of the project directory, it is *the* central entry point for other users: What do they need to get started? How can you make their life easier?
 - Consider to add the following information:
@@ -231,7 +237,8 @@ Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-repro
   - An overview of the directory structure
   - Instructions on how to reproduce the results
   - A license statement
-  
+- There might be additional READMEs in subfolders, explaining what is happening in that folder.
+:::
 
 
 ## Variable name conventions 1
@@ -293,18 +300,11 @@ x
 ::: {.smaller}
 <br>
 
-- At the start of each script file: Author,
-  license, purpose of the file.
-- Load add-on packages all at once at the
-  beginning of the file
-- Rule of thumb: At least
-  1 comment per 3 lines of code
-- Separate chunks of code with comment
-  lines
-- Use English variable names and
-  comments from the beginning
-  (you don‘t want to translate everything
-  before dissemination)
+- At the start of each script file: Author, license, purpose of the file.
+- Load packages all at once at the beginning of the file
+- Rule of thumb: At least 1 comment per 3 lines of code
+- Separate chunks of code with comment lines
+- Use English variable names and comments from the beginning (you don‘t want to translate everything before dissemination)
 :::
 :::
 
@@ -317,51 +317,39 @@ x
 
 ## Code commenting 2
 
-:::: columns
-::: {.column width="40%"}
-
-::: {.smaller}
-<br>
-
 - Link code comments to paper structure
   - „Table 3: Descriptives of...“
   - „Hypothesis 2: Does metafilin increase [...]?“
 - Bonus: Link code comments to IDs of the preregistration
 - If the file gets too long (e.g., > 500 lines), split into multiple files
-:::
-:::
-
-::: {.column width="60%"}
-![](img/Code_Commenting.jpg)
-:::
-::::
 
 
 ## Collaboration
 
 - Pair Programming
-  - Pair programming is an agile software development technique in
+  - "Pair programming is an agile software development technique in
     which two programmers work together at one workstation. One,
     the **driver**, writes code while the other, the **observer** or **navigator**,
     reviews each line of code as it is typed in. The two programmers
-    switch roles frequently. ([Wikipedia](https://en.wikipedia.org/wiki/Pair_programming))
-- Golden route: Independent implementation
+    switch roles frequently." ([Wikipedia](https://en.wikipedia.org/wiki/Pair_programming))
+  - Nowadays, often an AI agent is the driver, while the human is an unskilled observer who has no idea what the code is actually doing.
+- Golden route for increasing trust in code quality: Independent implementation (but nearly never done).
 
 ## References
 
+::: {.smaller}
+- Upcoming: Roggenkamp et al. (2026): Promoting the computational reproducibility of the social and behavioral sciences
 - Bishop, D. V. M. (2018). Fallibility in Science: Responding to Errors in
   the Work of Oneself and Others. Advances in Methods and Practices
   in Psychological Science, 1(3), 432–438.
   [http://doi.org/10.1177/2515245918776632](http://doi.org/10.1177/2515245918776632)
-- Rouder, J., Haaf, J. M., & Snyder, H. K. (2018, March 25). Minimizing
-  Mistakes In Psychological Science.    [https://doi.org/10.31234/osf.io/gxcy5](https://doi.org/10.31234/osf.io/gxcy5)
-- Martin, R. (2008). Clean Code: A Handbook of Agile Software
-  Craftsmanship (1st ed.). Upper Saddle River, NJ: Prentice Hall.
+- Rouder, J. N., Haaf, J. M., & Snyder, H. K. (2019). Minimizing Mistakes in Psychological Science. Advances in Methods and Practices in Psychological Science, 2(1), 3–11. [https://doi.org/10.1177/2515245918801915](https://doi.org/10.1177/2515245918801915)
+- Strand, J. F. (2025). Error tight: Exercises for lab groups to prevent research mistakes. Psychological Methods, 30(2), 416–424. [https://doi.org/10.1037/met0000547](https://doi.org/10.1037/met0000547)
 - Karthik Ram: How To Make Your Data Analysis Notebooks More
   Reproducible
   - [https://github.com/karthik/rstudio2019](https://github.com/karthik/rstudio2019)
   - [https://inundata.org/talks/rstd19/#/](https://inundata.org/talks/rstd19/#/)
-
+::: 
 
 <!-- Footer insert below -->
 ```{r child="../../common/lastslide.qmd"}

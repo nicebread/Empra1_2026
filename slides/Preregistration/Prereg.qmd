@@ -1,6 +1,10 @@
 ---
 title: "Introduction to Preregistration"
 author:
+  - name: Sara Lil Middleton
+    orcid: 0000-0001-5307-8029
+    email: Sara.Middleton@psy.lmu.de
+    affiliations: LMU Open Science Center
   - name: Felix Schönbrodt
     orcid: 0000-0002-8282-3910
     email: felix.schoenbrodt@psy.lmu.de
@@ -53,12 +57,7 @@ get all material here: [https://osf.io/zjrhu/](https://osf.io/zjrhu/)
 | <span class="fragment" data-fragment-index="4">**Confirmation bias**</span> | <span class="fragment" data-fragment-index="5">Tendency to seek out, interpret, favor and recall information in a way that supports one’s prior expectations</span> | <span class="fragment" data-fragment-index="6">Write down your decision rules and analysis plan before you see the data</span> |
 
 
-## 
-
-::: {.callout-box}
-**Preregistration** = 
-
-The specification of ...
+## *Preregistration* is the specification of ...
 
 - the research design (including sample size planning), 
 - operationalizations, 
@@ -67,7 +66,6 @@ The specification of ...
 - inferential criteria
 
 ... prior to observing the outcomes of a study.
-:::
 
 ::: footer
 adapted from Nosek & Lindsay (2018), PRP-QUANT template, and [RESQUE](https://www.resque.info/).
@@ -85,7 +83,7 @@ adapted from Nosek & Lindsay (2018), PRP-QUANT template, and [RESQUE](https://ww
 - *p*-value: Meaningful.
 :::
 
-::: {.column width='50%'}
+::: {.column width='50%' .fragment}
 **Exploratory analysis**
 
 - Number of hypothesis tests: Unknown.

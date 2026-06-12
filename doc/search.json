@@ -2377,7 +2377,7 @@
     "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#the-ideal-reality",
     "title": "How to minimize mistakes",
     "section": "The Ideal? Reality?",
-    "text": "The Ideal? Reality?\n\n\n\nSurrounded from a flood of fake news, science is one of (the last?) sources of credible information.\nTrust in science: Scientists are impartial, meticulous, and check their results rigorously in peer review before publication\nAlthough error-freeness cannot be guaranteed, science provides the most reliable source of information, and if errors happen, they soon get detected and corrected.\n\n\n\nReplication/credibility crisis\nNumber of retractions rises exponentially\nPressure to „publish or perish“ leads to hurried manuscript, less error checking\nReviewer overload leads to superficial reviews\nstatcheck (Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic"
+    "text": "The Ideal? Reality?\n\n\n\nSurrounded from a flood of fake news, science is one of (the last?) sources of credible information.\nTrust in science: Scientists are impartial, meticulous, and check their results rigorously in peer review before publication\nAlthough error-freeness cannot be guaranteed, science provides the most reliable source of information, and if errors happen, they soon get detected and corrected.\n\n\n\nReplication/credibility crisis\nNumber of retractions rises exponentially\nPressure to „publish or perish“ leads to hurried manuscript, less error checking\nReviewer overload leads to superficial reviews\nAI tools create fake science that is hard to detect\nstatcheck (Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic"
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#mistakes-lurk-everywhere",
@@ -2391,7 +2391,7 @@
     "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#mistakes-lurk-everywhere-1",
     "title": "How to minimize mistakes",
     "section": "Mistakes lurk everywhere",
-    "text": "Mistakes lurk everywhere\nExamples: Miscoding Missing Values\n\nJasso (1985) ASR: coital frequency increases with wife’s age\n\nKahn/Udry (1986): 4 observations had value 88; Jasso treated these as valid values; treating these as missing, the effect of wife’s age becomes non-significant\n\nHerring (2009) ASR: diversity increases firm revenue\n\nStojmenovska/Bol/Leopold (2017): 206 firms had values 88,888,888,888; Herring treated these as valid values; treating these as missing, the effect of diversity becomes non-significant\n\nMunsch (2015) ASR: marital infidelity is at 10 %\n\nMunsch (2018): 246 missings were miscoded as “infidelity” (Stata .-problem); with correct coding marital infidelity is at 6 %\n\n\n\nTaken from a presentation from Katrin Auspurg & Josef Brüderl"
+    "text": "Mistakes lurk everywhere\nExamples: Miscoding Missing Values\n\nJasso (1985): Coital frequency increases with wife’s age\n\nKahn/Udry (1986): 4 observations had value 88; Jasso treated these as valid values; treating these as missing, the effect of wife’s age becomes non-significant\n\nHerring (2009): Diversity increases firm revenue\n\nStojmenovska/Bol/Leopold (2017): 206 firms had values 88,888,888,888; Herring treated these as valid values; treating these as missing, the effect of diversity becomes non-significant\n\nMunsch (2015): Marital infidelity is at 10%\n\nMunsch (2018): 246 missings were miscoded as “infidelity” (“Stata .-problem”); with correct coding marital infidelity is at 6%\n\n\n\nTaken from a presentation from Katrin Auspurg & Josef Brüderl. All examples are from publications in the American Sociological Review, considered one of the very top journals in sociology."
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#how-to-prevent-coding-errors",
@@ -2419,7 +2419,7 @@
     "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#technical-reproducibility",
     "title": "How to minimize mistakes",
     "section": "Technical reproducibility",
-    "text": "Technical reproducibility\n\n\n\n\nWhen you rely on random numbers (e.g., in simulation studies): Set a seed for reproducibility\n\nTake care when doing parallel computing, this sometimes requires special treatment of seeds\n\nDocument exact versions of all packages/ external programs at each completed stage of data analysis\n\ne.g., in R: Save the sessionInfo() of the analytical pipeline in an accompanying file when you submit a paper, and for every revision\n\nSave a snapshot of the current version/state of the statistical software\n\ne.g., in R: checkpoint package, packrat package, renv package\n\nThe safest way: Make a docker container which contains the full computational environment (including OS)\n\n\n\n\n\n\n\n\n\n\n\n\nGraphic from https://rviews.rstudio.com/2018/01/18/package-management-for-reproducible-r-code/"
+    "text": "Technical reproducibility\n\n\n\n\nWhen you rely on random numbers (e.g., in simulation studies): Set a seed for reproducibility (e.g., set.seed(123))\n\nTake care when doing parallel computing, this sometimes requires special treatment of seeds\n\nDocument exact versions of all packages/ external programs at each completed stage of data analysis\n\ne.g., in R: Save the sessionInfo() of the analytical pipeline in the README file when you submit a paper, and for every revision\n\nSave a snapshot of the current version/state of the statistical software\n\ne.g., in R: packages renv, checkpoint, or packrat\n\nThe safest way: Make a docker container which contains the full computational environment (including the OS)\n\n\n\n\n\n\n\n\n\n\n\n\nGraphic from https://rviews.rstudio.com/2018/01/18/package-management-for-reproducible-r-code/"
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#coding-style",
@@ -2433,7 +2433,7 @@
     "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#file-organization",
     "title": "How to minimize mistakes",
     "section": "File organization",
-    "text": "File organization\n\n\n(The following guidelines apply to many, but not all possible types of projects)\nAll files that are necessary for reproducing the results should be bundled in one directory\n\nIncluding: primary unprocessed data files, scripts for data preprocessing, cached intermediate data objects, scripts for hypothesis testing, generated result plots, …\nGoal: You zip the directory, send it to somebody, and the person can reproduce the full analytical pipeline.\n\nUse a consistent, self-explanatory subdirectory structure\nNumber script files in execution order (see next slide)"
+    "text": "File organization\n\n(The following guidelines apply to many, but not all possible types of projects)\nAll files that are necessary for reproducing the results should be bundled in one directory\n\nIncluding: primary unprocessed data files, scripts for data preprocessing, cached intermediate data objects, scripts for hypothesis testing, generated result plots, …\nGoal: You zip the directory, send it to somebody, and the person can reproduce the full analytical pipeline.\n\nUse a consistent, self-explanatory subdirectory structure\nNumber script files in execution order (see next slide)\nUse paths relative to the project root instead of absolute paths (e.g., raw_data/study1/ instead of C:/Users/felix/Empra_Project/raw_data/study1/)."
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#directory-organization",
@@ -2447,14 +2447,14 @@
     "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#subdirectory-organization",
     "title": "How to minimize mistakes",
     "section": "Subdirectory organization",
-    "text": "Subdirectory organization\n\n\n(Again, this is one possible organization scheme)\n/raw_data: Contains all raw primary data files, as you received them (or exported them from the experimental software), without any manual preprocessing. Primary data files are sacrosanct – set them to read-only, never change anything in them. Any transformation, data exclusions, or error corrections must be done in scripts in order to be reproducible.\n/processed_data: Stores intermediate data objects. For example, after you did all your outlier exclusions, data transformations, etc., store a file „data_cleaned.csv“ in /cache. If you refer to this data file in subsequent scripts, you do not have to run the preprocessing script every time. All files in /processed_data can be safely deleted, as they can be reconstructed by running all script files in the correct order.\n/doc: Documents (such as PDFs, manuals, etc.) related to the project.\n/plots: Store result plots that you created in your scripts.\n/export: If you export (sub)data sets or summaries for dissemination, store them here.\n/archive: Old scripts and other files which are not used for your final analytical pipeline, but which you want to keep for some reasons."
+    "text": "Subdirectory organization\n\n\n(Again, this is one possible organization scheme)\n/raw_data: Contains all raw primary data files, as you received them (or exported them from the experimental software), without any manual preprocessing. Primary data files are sacrosanct – set them to read-only, never change anything in them. Any transformation, data exclusions, or error corrections must be done in scripts in order to be reproducible.\n/processed_data: Stores intermediate data objects. For example, after you did all your outlier exclusions, data transformations, etc., store a file „data_cleaned.csv“ in /cache. If you refer to this data file in subsequent scripts, you do not have to run the preprocessing script every time. All files in /processed_data can be safely deleted, as they can be reconstructed by running all script files in the correct order.\n/doc: Documents (such as PDFs, manuals, etc.) related to the project, including the data dictionary\n/plots: Store result plots that you created in your scripts.\n/export: If you export (sub)data sets or summaries for dissemination, store them here.\n/archive: Old scripts and other files which are not used for your final analytical pipeline, but which you want to keep for some reasons."
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#subdirectory-organization-1",
     "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#subdirectory-organization-1",
     "title": "How to minimize mistakes",
     "section": "Subdirectory organization",
-    "text": "Subdirectory organization\nThe README file\n\nNowadays, it is typically in markdown format (i.e., README.md) as it is rendered in Github and other repositories\nLocated at the top level of the project directory, it is the central entry point for other users: What do they need to get started? How can you make their life easier?\nConsider to add the following information:\n\nProject title, authors, date, contact information\nInstructions on how to cite the project (or a link to an existing preprint or publication)\nA brief description of the project\nAn overview of the directory structure\nInstructions on how to reproduce the results\nA license statement"
+    "text": "Subdirectory organization\nThe README file\n\n\nNowadays, it is typically in markdown format (i.e., README.md) as it is rendered in Github and other repositories\nLocated at the top level of the project directory, it is the central entry point for other users: What do they need to get started? How can you make their life easier?\nConsider to add the following information:\n\nProject title, authors, date, contact information\nInstructions on how to cite the project (or a link to an existing preprint or publication)\nA brief description of the project\nAn overview of the directory structure\nInstructions on how to reproduce the results\nA license statement\n\nThere might be additional READMEs in subfolders, explaining what is happening in that folder."
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#variable-name-conventions-1",
@@ -2475,28 +2475,28 @@
     "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#code-commenting-1",
     "title": "How to minimize mistakes",
     "section": "Code commenting 1",
-    "text": "Code commenting 1\n\n\n\n\n\nAt the start of each script file: Author, license, purpose of the file.\nLoad add-on packages all at once at the beginning of the file\nRule of thumb: At least 1 comment per 3 lines of code\nSeparate chunks of code with comment lines\nUse English variable names and comments from the beginning (you don‘t want to translate everything before dissemination)"
+    "text": "Code commenting 1\n\n\n\n\n\nAt the start of each script file: Author, license, purpose of the file.\nLoad packages all at once at the beginning of the file\nRule of thumb: At least 1 comment per 3 lines of code\nSeparate chunks of code with comment lines\nUse English variable names and comments from the beginning (you don‘t want to translate everything before dissemination)"
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#code-commenting-2",
     "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#code-commenting-2",
     "title": "How to minimize mistakes",
     "section": "Code commenting 2",
-    "text": "Code commenting 2\n\n\n\n\n\nLink code comments to paper structure\n\n„Table 3: Descriptives of…“\n„Hypothesis 2: Does metafilin increase […]?“\n\nBonus: Link code comments to IDs of the preregistration\nIf the file gets too long (e.g., &gt; 500 lines), split into multiple files"
+    "text": "Code commenting 2\n\nLink code comments to paper structure\n\n„Table 3: Descriptives of…“\n„Hypothesis 2: Does metafilin increase […]?“\n\nBonus: Link code comments to IDs of the preregistration\nIf the file gets too long (e.g., &gt; 500 lines), split into multiple files"
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#collaboration",
     "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#collaboration",
     "title": "How to minimize mistakes",
     "section": "Collaboration",
-    "text": "Collaboration\n\nPair Programming\n\nPair programming is an agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently. (Wikipedia)\n\nGolden route: Independent implementation"
+    "text": "Collaboration\n\nPair Programming\n\n“Pair programming is an agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently.” (Wikipedia)\nNowadays, often an AI agent is the driver, while the human is an unskilled observer who has no idea what the code is actually doing.\n\nGolden route for increasing trust in code quality: Independent implementation (but nearly never done)."
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#references",
     "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#references",
     "title": "How to minimize mistakes",
     "section": "References",
-    "text": "References\n\nBishop, D. V. M. (2018). Fallibility in Science: Responding to Errors in the Work of Oneself and Others. Advances in Methods and Practices in Psychological Science, 1(3), 432–438. http://doi.org/10.1177/2515245918776632\nRouder, J., Haaf, J. M., & Snyder, H. K. (2018, March 25). Minimizing Mistakes In Psychological Science. https://doi.org/10.31234/osf.io/gxcy5\nMartin, R. (2008). Clean Code: A Handbook of Agile Software Craftsmanship (1st ed.). Upper Saddle River, NJ: Prentice Hall.\nKarthik Ram: How To Make Your Data Analysis Notebooks More Reproducible\n\nhttps://github.com/karthik/rstudio2019\nhttps://inundata.org/talks/rstd19/#/"
+    "text": "References\n\n\nUpcoming: Roggenkamp et al. (2026): Promoting the computational reproducibility of the social and behavioral sciences\nBishop, D. V. M. (2018). Fallibility in Science: Responding to Errors in the Work of Oneself and Others. Advances in Methods and Practices in Psychological Science, 1(3), 432–438. http://doi.org/10.1177/2515245918776632\nRouder, J. N., Haaf, J. M., & Snyder, H. K. (2019). Minimizing Mistakes in Psychological Science. Advances in Methods and Practices in Psychological Science, 2(1), 3–11. https://doi.org/10.1177/2515245918801915\nStrand, J. F. (2025). Error tight: Exercises for lab groups to prevent research mistakes. Psychological Methods, 30(2), 416–424. https://doi.org/10.1037/met0000547\nKarthik Ram: How To Make Your Data Analysis Notebooks More Reproducible\n\nhttps://github.com/karthik/rstudio2019\nhttps://inundata.org/talks/rstd19/#/"
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#contact",
@@ -2510,28 +2510,28 @@
     "href": "slides/Good_coding_practices/Good_coding_practices.html",
     "title": "How to minimize mistakes",
     "section": "",
-    "text": "Surrounded from a flood of fake news, science is one of (the last?) sources of credible information.\nTrust in science: Scientists are impartial, meticulous, and check their results rigorously in peer review before publication\nAlthough error-freeness cannot be guaranteed, science provides the most reliable source of information, and if errors happen, they soon get detected and corrected.\n\n\n\nReplication/credibility crisis\nNumber of retractions rises exponentially\nPressure to „publish or perish“ leads to hurried manuscript, less error checking\nReviewer overload leads to superficial reviews\nstatcheck (Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic"
+    "text": "Surrounded from a flood of fake news, science is one of (the last?) sources of credible information.\nTrust in science: Scientists are impartial, meticulous, and check their results rigorously in peer review before publication\nAlthough error-freeness cannot be guaranteed, science provides the most reliable source of information, and if errors happen, they soon get detected and corrected.\n\n\n\nReplication/credibility crisis\nNumber of retractions rises exponentially\nPressure to „publish or perish“ leads to hurried manuscript, less error checking\nReviewer overload leads to superficial reviews\nAI tools create fake science that is hard to detect\nstatcheck (Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic"
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.html#the-ideal-reality",
     "href": "slides/Good_coding_practices/Good_coding_practices.html#the-ideal-reality",
     "title": "How to minimize mistakes",
     "section": "",
-    "text": "Surrounded from a flood of fake news, science is one of (the last?) sources of credible information.\nTrust in science: Scientists are impartial, meticulous, and check their results rigorously in peer review before publication\nAlthough error-freeness cannot be guaranteed, science provides the most reliable source of information, and if errors happen, they soon get detected and corrected.\n\n\n\nReplication/credibility crisis\nNumber of retractions rises exponentially\nPressure to „publish or perish“ leads to hurried manuscript, less error checking\nReviewer overload leads to superficial reviews\nstatcheck (Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic"
+    "text": "Surrounded from a flood of fake news, science is one of (the last?) sources of credible information.\nTrust in science: Scientists are impartial, meticulous, and check their results rigorously in peer review before publication\nAlthough error-freeness cannot be guaranteed, science provides the most reliable source of information, and if errors happen, they soon get detected and corrected.\n\n\n\nReplication/credibility crisis\nNumber of retractions rises exponentially\nPressure to „publish or perish“ leads to hurried manuscript, less error checking\nReviewer overload leads to superficial reviews\nAI tools create fake science that is hard to detect\nstatcheck (Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic"
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.html#mistakes-lurk-everywhere",
     "href": "slides/Good_coding_practices/Good_coding_practices.html#mistakes-lurk-everywhere",
     "title": "How to minimize mistakes",
     "section": "Mistakes lurk everywhere",
-    "text": "Mistakes lurk everywhere\n\n\nErrors in data collection software/scripts\nError in manual data transcription\nAnalyzing the wrong data set (e.g., an old version, a filter has been unknowingly applied)\nCoding errors\n\nWrong group assignment (control/ experimental group)\nNAs coded as 99?\n\nFaulty analysis software; version changes in R packages\nMistyping numbers when copying them from R to manuscript\nSend the wrong file to the journal submission system\nAsymmetry: Mistakes tend to go in the preferred direction (Gould, 1996), because we check more vigorously when results (unexpectedly) go into the wrong direction.\n\nSee also „garden of forking paths“ (Gelman & Loken, 2013): A lot of p-hacking is unintentional"
+    "text": "Mistakes lurk everywhere\n\n Where can errors happen during data collection or data analysis? Be creative?"
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.html#mistakes-lurk-everywhere-1",
     "href": "slides/Good_coding_practices/Good_coding_practices.html#mistakes-lurk-everywhere-1",
     "title": "How to minimize mistakes",
     "section": "Mistakes lurk everywhere",
-    "text": "Mistakes lurk everywhere\n\nExamples: Miscoding Missing Values\n\nJasso (1985) ASR: coital frequency increases with wife’s age\n\nKahn/Udry (1986): 4 observations had value 88; Jasso treated these as valid values; treating these as missing, the effect of wife’s age becomes non-significant\n\nHerring (2009) ASR: diversity increases firm revenue\n\nStojmenovska/Bol/Leopold (2017): 206 firms had values 88,888,888,888; Herring treated these as valid values; treating these as missing, the effect of diversity becomes non-significant\n\nMunsch (2015) ASR: marital infidelity is at 10 %\n\nMunsch (2018): 246 missings were miscoded as “infidelity” (Stata .-problem); with correct coding marital infidelity is at 6 %\n\n\n\nTaken from a presentation from Katrin Auspurg & Josef Brüderl"
+    "text": "Mistakes lurk everywhere\n\n\nErrors in data collection software/scripts\nError in manual data transcription\nAnalyzing the wrong data set (e.g., an old version, a filter has been unknowingly applied)\nCoding errors\n\nWrong group assignment (control/ experimental group)\nNAs coded as 99?\n\nFaulty analysis software; version changes in R packages\nMistyping numbers when copying them from R to manuscript\nSend the wrong file to the journal submission system\nAsymmetry: Mistakes tend to go in the preferred direction (Gould, 1996), because we check more vigorously when results (unexpectedly) go into the wrong direction.\n\nSee also „garden of forking paths“ (Gelman & Loken, 2013): A lot of p-hacking is unintentional"
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.html#how-to-prevent-coding-errors",
@@ -3091,21 +3091,21 @@
     "href": "sessions/S5-Prereg1.html#overview",
     "title": "Session 05 - Finalize Study & Prereg",
     "section": "Overview",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLast finetuning of study\n45\n\n\n\nWrap-up Homework “Prereg”\n10\n\n\n\nPrereg Intro\n30\nAlso show the PRR-QUANT template\n\n\nAdvocatus Diaboli Game\n20\n\n\n\nCausality\n45\nSlides\n\n\nInstall Quarto\n15\nSee instructions\n\n\nForm 4 groups for homework\n10\nA to D, with funny names\n\n\nHomework Instructions\n5"
+    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLast finetuning of study\n45\n\n\n\nForm 4 groups for homework\n10\nA to D, with funny names\n\n\nHomework Instructions\n5"
   },
   {
     "objectID": "sessions/S5-Prereg1.html#last-finetuning-of-study",
     "href": "sessions/S5-Prereg1.html#last-finetuning-of-study",
     "title": "Session 05 - Finalize Study & Prereg",
     "section": "Last finetuning of study",
-    "text": "Last finetuning of study\n(1) Create Video of Procedure\nSee CREP Step 9: Procedure Video.\n(2) Participant management:\n\nCreate shared email address (e.g. at web.de; use a European provider) as primary contact point for study participants. The group will monitor and administer this email address in a rotating way.\nAdd this email address to the formr study.\n\n(3) OSF upload of files:\n\n“Please make sure to clearly identify and document any deviations from the original study (e.g., new measures, different setting, a different category of participants).” –&gt; Create a document DEVIATIONS.md that summarizes all known deviations from the original study in tabular form.\nMove the final formr Google sheet into our joint Google Drive folder; upload the sheet (exported as ods or xlsx file) into our OSF project\nSee See CREP 10-13 for additional steps"
+    "text": "Last finetuning of study\n(1) Create Video of Procedure\nSee CREP Step 9: Procedure Video.\n(2) Participant management:\n\nCreate shared email address (e.g. at web.de; use a European provider) as primary contact point for study participants. The group will monitor and administer this email address in a rotating way.\nAdd this email address to the formr study.\n\n(3) OSF upload of files:\n\n“Please make sure to clearly identify and document any deviations from the original study (e.g., new measures, different setting, a different category of participants).” –&gt; Create a document DEVIATIONS.md that summarizes all known deviations from the original study in tabular form.\nMove the final formr Google sheet into our joint Google Drive folder; upload the sheet (exported as ods or xlsx file) into our OSF project\nSee See CREP 10-13 for additional steps\nCheck replicability: Would an external researcher be able to run a direct replication (i.e., with the same procedures and materials) just by looking into this OSF repository?"
   },
   {
     "objectID": "sessions/S5-Prereg1.html#homework",
     "href": "sessions/S5-Prereg1.html#homework",
     "title": "Session 05 - Finalize Study & Prereg",
     "section": "Homework",
-    "text": "Homework\nThis is the homework for the next three weeks - distribute it yourself!\n\nHomework 1 (individually): Test the study\nGo through the study as a participant. Fill in the items properly (we want to have an estimate of the time it needs to fill in all items). In the open text field, write which video you have seen. In the group some should use smartphones, others tablets, other different browsers on desktop/laptop.\n\n\nHomework 2 (individually): Read Chapter 1 of “Experimentology”\n\nRead Ch. 1 of the online book “Experimentology” and answer the following questions. You can answer in English or in German.\nDeliverable: Write the answers directly into the answer field in the Moodle task. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references in addition, just refer to the chapter itself.\n\nQ1: Summarize the logic of randomization.\nQ2: Imagine that you run a survey and find that people who spend more time playing violent video games tend to be more aggressive (i.e., that there is a positive correlation between violent video games and aggression). Following Figure 1.2, list three reasons why these variables may be correlated.\nQ3: Suppose you wanted to run an experiment testing whether playing violent video games causes increases in aggression. What would be your manipulation and what would be your measure? How would you deal with potential confounding by variables like age?\nQ4: Consider an experiment designed to test people’s food preferences. The experimenter randomly assigns 30 U.S. preschoolers to be served either asparagus or chicken tenders and then asks them how much they enjoyed their meal. Overall, children enjoyed the meat more; the experimenter writes a paper claiming that humans prefer meat over vegetables. List some constraints on the generalizability of this study. In light of these constraints, is this study (or some modification) worth doing at all?\n\n\n\n\nHomework 3 (in groups): Fill in the preregistration\nFill in the PRP-QUANT preregistration template. For that purpose, create a copy of the template file “PRP_QUANT_Awe_template” in our Google drive (into the same folder), and name it after your group ID (i.e., PRP_QUANT_Awe_A, PRP_QUANT_Awe_B, etc.).\n\nRemember: We only focus on Study 3 of the original paper.\nAs we do a direct replication, we aim for the same procedure as in the original study (unless there are good reasons to deviate). Explicitly mention where we have (a) planned deviations and (b) where the original instructions were so unclear that we had to fill in the gaps with reasonable assumptions.\nYou do not need to fill in:\n\nT1 to T8\nThe entire section on “Abstract” (A1 to A4)\nI1\n“M3 Sample size, power and precision”: We do this together later\n“AP4 Reliability analysis (if applicable)”: You have not learned how to do this yet.\n\nIn some places you will be unsure what to fill in. Try to come up with reasonable guesses; we will create an improved consensus version in the next step.\nBe concise, no need to write a novel.\n\n\n\nHomework 4 (individually): Do the Quarto tutorial\nDo the LMU OSC Quarto Tutorial. Work through sections 1 (“Welcome to Quarto”) and 2 (“Quarto Tutorials”, up to and including the last section “Tutorial: Authoring”). It certainly makes sense to read the short “3. Tips and Comments” section.\n(Note: If you are interested, you can go on with the Advanced Exercises. But we will do the “APA 7 Manuscripts” chapter later together.)\nDeliverable: Now we combine our git skills and the new Quarto skills.\n\nCreate a new Github project, clone it to your local computer.\nWithin the local project, create a Quarto document (with .qmd extension and format: html) that has at least one R chunk with a computation.\nRender it to PDF.\nCommit and push your changes to the remote repository.\nVerify online: Go to the project website on Github and see if the new files appeared.\n\nThis is a challenging combination of tasks. If you don’t manage to do all steps, don’t panic. After reasonable efforts to solve the problems yourself, you can write an email to the instructor (with a specific explanation of the issues you encountered; e.g. the exact error messages), or we solve remaining issues together in the next session."
+    "text": "Homework\nThis is the homework for the next three weeks - distribute it yourself!\n\nHomework 1 (individually): Test the study\nGo through the study as a participant (see study link in GDrive README). Fill in the items properly (we want to have an estimate of the time it needs to fill in all items). In the open text field, write which video you have seen. In the group some should use smartphones, others tablets, other different browsers on desktop/laptop.\n\n\nHomework 2 (in groups): Fill in the preregistration\nFill in the PRP-QUANT preregistration template. For that purpose, create a copy of the template file “PRP_QUANT_Awe_template” in our Google drive (into the same folder), and name it after your group ID (i.e., PRP_QUANT_Awe_A, PRP_QUANT_Awe_B, etc.).\nSome notes:\n\nRemember: We only focus on Study 3 of the original paper.\nAs we do a direct replication, we aim for the same procedure as in the original study (unless there are good reasons to deviate). Explicitly mention where we have (a) planned deviations and (b) where the original instructions were so unclear that we had to fill in the gaps with reasonable assumptions.\nIn some places you will be unsure what to fill in. Try to come up with reasonable guesses; we will create an improved consensus version in the next step.\nIf you absolutely have no clue, write that into the field; we will discuss it in the next session.\nBe concise, no need to write a novel.\nYou do not need to fill in:\n\nT1 to T8\nThe entire section on “Abstract” (A1 to A4)\nI1\n“M3 Sample size, power and precision”: We do this together later\n“AP4 Reliability analysis (if applicable)”: You have not learned how to do this yet.\n\nIn section I3 Hypothesis (H1, H2, …), …\n\n… fill in the hypotheses on the conceptual/theoretical level. The operationalization is then specified in section M12 Measured variables, manipulated variables, covariates.\n… specify the control group (e.g., “X increases compared to what?”)\n\n\nThe learning goal is that engage with the template and understand its components. You do no need to provide perfect answers to each field.\n\n\nHomework 3 (individually): Do the Quarto tutorial\nDo the LMU OSC Quarto Tutorial. Work through sections 1 (“Welcome to Quarto”) and 2 (“Quarto Tutorials”, up to and including the last section “Tutorial: Authoring”). It certainly makes sense to read the short “3. Tips and Comments” section.\n(Note: If you are interested, you can go on with the Advanced Exercises. But we will do the “APA 7 Manuscripts” chapter later together.)\nDeliverable: Now we combine our git skills and the new Quarto skills.\n\nCreate a new Github project, clone it to your local computer.\nWithin the local project, create a Quarto document (with .qmd extension and format: html) that has at least one R chunk with a computation.\nRender it to PDF.\nCommit and push your changes to the remote repository.\nVerify online: Go to the project website on Github and see if the new files appeared.\n\nThis is a challenging combination of tasks. If you don’t manage to do all steps, don’t panic. After reasonable efforts to solve the problems yourself, you can write an email to the instructor (with a specific explanation of the issues you encountered; e.g. the exact error messages), or we solve remaining issues together in the next session."
   },
   {
     "objectID": "slides/Causality/Causality.html#from-correlation-to-causality",
@@ -5093,7 +5093,7 @@
     "href": "slides/Preregistration/Prereg.html#threats-to-research-validity-1",
     "title": "Introduction to Preregistration",
     "section": "Threats to research validity …",
-    "text": "Threats to research validity …\n\nBiases\n\n\n\n\n\n\n\n\nThreat label\nExplanation\nRemedy\n\n\n\n\nHindsight bias\nTendency to frame previous decisions or events as more predictable after the outcome is known (“I knew it all along”)\nWrite down your hypotheses and analysis plans before you see the data\n\n\nConfirmation bias\nTendency to seek out, interpret, favor and recall information in a way that supports one’s prior expectations\nWrite down your decision rules before you see the data"
+    "text": "Threats to research validity …\n\nBiases\n\n\n\n\n\n\n\n\nThreat label\nExplanation\nRemedy\n\n\n\n\nHindsight bias\nTendency to frame previous decisions or events as more predictable after the outcome is known (“I knew it all along”)\nWrite down your hypotheses and analysis plans before you see the data\n\n\nConfirmation bias\nTendency to seek out, interpret, favor and recall information in a way that supports one’s prior expectations\nWrite down your decision rules and analysis plan before you see the data"
   },
   {
     "objectID": "slides/Preregistration/Prereg.html#what-is-a-preregistration",
@@ -5114,7 +5114,7 @@
     "href": "slides/Preregistration/Prereg.html#convince-others-that-you-did-not-engage-in-qrps",
     "title": "Introduction to Preregistration",
     "section": "Convince others that you did not engage in QRPs",
-    "text": "Convince others that you did not engage in QRPs\n\nHow can you convince a skeptical reader?\n\nPublish your preregistration openly\nUse a third-party platform that freezes the file (so that you cannot edit it later) with a timestamp\nNullius in verba: The less trust is necessary, the more convincing.\n\n. . .\n Discuss: What challenge does a secondary data analysis (from an existing dataset) pose?"
+    "text": "Convince others that you did not engage in QRPs\n\nHow can you convince a skeptical reader?\n\nPublish your preregistration openly\nUse a third-party platform that freezes the file (so that you cannot edit it later) with a timestamp\nNullius in verba: The less trust is necessary, the more convincing.\n\n\n Discuss: What challenge does a secondary data analysis (from an existing dataset) pose?"
   },
   {
     "objectID": "slides/Preregistration/Prereg.html#why-do-we-preregister",
@@ -5149,49 +5149,49 @@
     "href": "slides/Preregistration/Prereg.html#elements-of-a-preregistration-1",
     "title": "Introduction to Preregistration",
     "section": "Elements of a preregistration",
-    "text": "Elements of a preregistration\n1. Hypotheses\n\n\n\n\n\nDescribe hypotheses as relationships between variables\nDescribe shape of interaction effects\nDescribe manipulation checks (or why they are not included)\n\n\n\n\n\n\n\nFigures / tables to describe interaction effects\nRationales / theoretical frameworks to justify the hypotheses\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
+    "text": "Elements of a preregistration\n\n1. Hypotheses\n✅ Essential:\n\n\nDescribe hypotheses as relationships between variables\nDescribe shape of interaction effects\nDescribe manipulation checks (or why they are not included)\n\n\n☑️ Recommended:\n\n\nFigures / tables to describe interaction effects\nRationales / theoretical frameworks to justify the hypotheses\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration/Prereg.html#elements-of-a-preregistration-2",
     "href": "slides/Preregistration/Prereg.html#elements-of-a-preregistration-2",
     "title": "Introduction to Preregistration",
     "section": "Elements of a preregistration",
-    "text": "Elements of a preregistration\n2. Design\n\n\n\n\n\nList, based on your hypotheses,\n\nIndependent variables (describe variable, all levels, between- or within-person?)\nDependent variables\nThird variables (covariates, moderators, control variables etc.)\n\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
+    "text": "Elements of a preregistration\n\n2. Operationalizations\n✅ Essential:\n\n\nList, based on your hypotheses,\n\nIndependent variables (describe variable, all levels, between- or within-person?)\nDependent variables\nThird variables (covariates, moderators, control variables etc.)\n\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration/Prereg.html#elements-of-a-preregistration-3",
     "href": "slides/Preregistration/Prereg.html#elements-of-a-preregistration-3",
     "title": "Introduction to Preregistration",
     "section": "Elements of a preregistration",
-    "text": "Elements of a preregistration\n3. Planned sample\n\n\n\n\n\nPre-selection rules (e.g., age limits)\nWhere, from whom, and how will the data be collected?\nJustify planned sample size (power analysis or Bayesia design analysis)\nDescribe data collection termination rule\n\n\n\nvan t‘Veer & Giner-Sorolla (2016), Schönbrodt & Wagenmakers (2017)"
+    "text": "Elements of a preregistration\n\n3. Planned sample\n✅ Essential:\n\n\nPre-selection rules (e.g., age limits)\nWhere, from whom, and how will the data be collected?\nJustify planned sample size (power analysis or Bayesia design analysis)\nDescribe data collection termination rule\n\n\n\nvan t‘Veer & Giner-Sorolla (2016), Schönbrodt & Wagenmakers (2017)"
   },
   {
     "objectID": "slides/Preregistration/Prereg.html#elements-of-a-preregistration-4",
     "href": "slides/Preregistration/Prereg.html#elements-of-a-preregistration-4",
     "title": "Introduction to Preregistration",
     "section": "Elements of a preregistration",
-    "text": "Elements of a preregistration\n4. Exclusion criteria\n\n\n\n\n\n\nDescribe all anticipated exclusion criteria, e.g.\n\nMissing, erroneous, overly consistent responses\nFailing check-tests or suspicion probes\nDemographic exclusions\nData-based outlier criteria\nMethod-based outlier criteria (e.g., too long response times)\n\n\n\n\n\n\n\n\n\nSet fail-save levels of exclusion at which whole study needs to be stopped, altered, and restarted\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
+    "text": "Elements of a preregistration\n\n4. Exclusion criteria\n✅ Essential:\n\n\n\nDescribe all anticipated exclusion criteria, e.g.\n\nMissing, erroneous, overly consistent responses\nFailing check-tests or suspicion probes\nDemographic exclusions\nData-based outlier criteria\nMethod-based outlier criteria (e.g., too long response times)\n\n\n\n\n☑️ Recommended:\n\n\nSet fail-save levels of exclusion at which whole study needs to be stopped, altered, and restarted\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration/Prereg.html#elements-of-a-preregistration-5",
     "href": "slides/Preregistration/Prereg.html#elements-of-a-preregistration-5",
     "title": "Introduction to Preregistration",
     "section": "Elements of a preregistration",
-    "text": "Elements of a preregistration\n5. Analysis plan\n\n\n\n\n\nDescribe statistical analyses that test hypotheses. For each, include\n\nRelevant variables and how they are calculated\nStatistical technique\nEach variable‘s role in the technique (e.g., IV, DV, covariate, …)\nIf covariates are used: Rationale for using them\nIf using techniques other than NHST, describe criteria and inputs toward making conclusions about your hypotheses\n\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
+    "text": "Elements of a preregistration\n\n5. Analysis plan\n✅ Essential:\n\n\nDescribe statistical analyses that test hypotheses. For each, include\n\nRelevant variables and how they are calculated\nStatistical technique\nEach variable‘s role in the technique (e.g., IV, DV, covariate, …)\nIf covariates are used: Rationale for using them\nDescribe inferential criteria (i.e., when will you accept or reject a hypothesis?). This is typically the \\(\\alpha\\) level and whether you test one- or two-sided.\n\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration/Prereg.html#elements-of-a-preregistration-6",
     "href": "slides/Preregistration/Prereg.html#elements-of-a-preregistration-6",
     "title": "Introduction to Preregistration",
     "section": "Elements of a preregistration",
-    "text": "Elements of a preregistration\n5. Analysis plan\n\n\n\n\n\nSpecify contingencies and assumptions, such as\n\nMethod of correcting for multiple testing\nMethod of missing data handling\nAnticipated data transformations\nAssumptions and assumption checks for analyses and alternative plans for data analysis if assumptions are not met\n\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
+    "text": "Elements of a preregistration\n\n5. Analysis plan\n☑️ Recommended:\n\n\nSpecify contingencies and assumptions, such as\n\nMethod of correcting for multiple testing\nMethod of missing data handling\nAnticipated data transformations\nAssumptions and assumption checks for analyses and alternative plans for data analysis if assumptions are not met\n\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration/Prereg.html#elements-of-a-preregistration-7",
     "href": "slides/Preregistration/Prereg.html#elements-of-a-preregistration-7",
     "title": "Introduction to Preregistration",
     "section": "Elements of a preregistration",
-    "text": "Elements of a preregistration\n6. Additional stuff\n\n\n\n\n\nFor exploratory analyses: “We don‘t have any hypotheses”\nTransparency statement: How will research output be shared?\nConditional safeguards: What will happen if…?\n\n\n\nLin & Green (2016)"
+    "text": "Elements of a preregistration\n\n6. Additional stuff\n☑️ Recommended:\n\n\nFor exploratory analyses: “We don‘t have any hypotheses”\nTransparency statement: How will research output be shared?\nConditional safeguards: What will happen if…?\n\n\n\nLin & Green (2016)"
   },
   {
     "objectID": "slides/Preregistration/Prereg.html#preregistration-templates",
@@ -5324,14 +5324,14 @@
     "href": "slides/Preregistration/Prereg.slide.html#elements-of-a-preregistration-5",
     "title": "Introduction to Preregistration",
     "section": "Elements of a preregistration",
-    "text": "Elements of a preregistration\n5. Analysis plan\n✅ Essential:\n\n\nDescribe statistical analyses that test hypotheses. For each, include\n\nRelevant variables and how they are calculated\nStatistical technique\nEach variable‘s role in the technique (e.g., IV, DV, covariate, …)\nIf covariates are used: Rationale for using them\nIf using techniques other than NHST, describe criteria and inputs toward making conclusions about your hypotheses\n\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
+    "text": "Elements of a preregistration\n5. Analysis plan\n✅ Essential:\n\n\nDescribe statistical analyses that test hypotheses. For each, include\n\nRelevant variables and how they are calculated\nStatistical technique\nEach variable‘s role in the technique (e.g., IV, DV, covariate, …)\nIf covariates are used: Rationale for using them\nDescribe inferential criteria (i.e., when will you accept or reject a hypothesis?). This is typically the \\(\\alpha\\) level and whether you test one- or two-sided.\n\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration/Prereg.slide.html#elements-of-a-preregistration-6",
     "href": "slides/Preregistration/Prereg.slide.html#elements-of-a-preregistration-6",
     "title": "Introduction to Preregistration",
     "section": "Elements of a preregistration",
-    "text": "Elements of a preregistration"
+    "text": "Elements of a preregistration\n5. Analysis plan\n☑️ Recommended:\n\n\nSpecify contingencies and assumptions, such as\n\nMethod of correcting for multiple testing\nMethod of missing data handling\nAnticipated data transformations\nAssumptions and assumption checks for analyses and alternative plans for data analysis if assumptions are not met\n\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration/Prereg.slide.html#elements-of-a-preregistration-7",
@@ -5920,5 +5920,75 @@
     "title": "Introduction to Preregistration",
     "section": "",
     "text": "Preregistration =\nThe specification of …\n\nthe research design (including sample size planning),\noperationalizations,\nhypotheses,\nanalysis plan, and\ninferential criteria\n\n… prior to observing the outcomes of a study.\n\n\nadapted from Nosek & Lindsay (2018), PRP-QUANT template, and RESQUE."
+  },
+  {
+    "objectID": "sessions/S6-Good_coding.html",
+    "href": "sessions/S6-Good_coding.html",
+    "title": "Session 06 - Preregistration 2; Good coding practices",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up Homework “Prereg”\n10\nWill discuss in detail with the consensus prereg\n\n\nPrereg Intro\n30\nSlides\n\n\nAdvocatus Diaboli Game\n20\n\n\n\nGood coding practices\n45\nSlides\n\n\nCausality\n45\nSlides\n\n\n\n\n\n\nGroup 1: Text for SONA\nGroup 2: Flyer, Text for Social Media\nGroup 3: Werbekanäle überlegen: Social Media, Whatsapp-Gruppen, andere Empras, Freundeskreis/Familie, nicht nur Studenten, wo bekommt man Männer her?\n\nDo this in our Google Drive so that you can see the texts/progress of the other groups.\n\n\n\nSet up the folder structure as explained in the Good Coding Practices presentation (slides )\nImport the data - the data files is all you have. Find out from software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the analyses? What do their values mean?).\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\nThis is an SPSS data file. You can import it as a data frame with:\n# install.packages(\"rio\")\nlibrary(rio)\ndat &lt;- import(\"raw_data/RRBehavioralHumility_Deidentified.sav\")\nIn SPSS data files, meta-data about the variables (i.e., the columns) can be stored in the data file itself. This sometimes functions as a (often incomplete) codebook. When you import the .sav file, these meta-data are stored as so-called attributes of columns in the data frame. You see a preview of them if you print the structure of the data frame with str(dat):\n'data.frame':   104 obs. of  28 variables:\n\n[...]\n\n$ Cond                  : num  0 0 0 0 0 0 1 1 1 1 ...\n  ..- attr(*, \"label\")= chr \"Condition\"\n  ..- attr(*, \"format.spss\")= chr \"F11.0\"\n  ..- attr(*, \"display_width\")= int 11\n  ..- attr(*, \"labels\")= Named num [1:2] 0 1\n  .. ..- attr(*, \"names\")= chr [1:2] \"Control\" \"Awe\"\n\n [...]\n\n $ SelectOut             : num  2 2 2 2 2 2 2 2 2 2 ...\n  ..- attr(*, \"label\")= chr \"1= outlier (&gt;3SD), 2=didn't follow instructions to talk about weaknesses\"\n  ..- attr(*, \"format.spss\")= chr \"F8.2\"\n  ..- attr(*, \"display_width\")= int 15\nSo, the variable $Cond has the label Condition, and the values 0 and 1 are mapped to \"Control\" and \"Awe\".\nYou can directly access the attributes with this R command:\nattr(dat$Cond, which=\"labels\")\n\n\n\n\nWhen you found out which variables are relevant, compute some descriptive statistics and compare them to the paper. Optionally, try to reproduce the t-test that tested the main hypothesis in the paper.\n\n\n\n\n\nRead Ch. 1 of the online book “Experimentology” and answer the following questions. You can answer in English or in German.\nDeliverable: Write the answers directly into the answer field in the Moodle task. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references in addition, just refer to the chapter itself.\n\nQ1: Summarize the logic of randomization.\nQ2: Imagine that you run a survey and find that people who spend more time playing violent video games tend to be more aggressive (i.e., that there is a positive correlation between violent video games and aggression). Following Figure 1.2, list three reasons why these variables may be correlated.\nQ3: Suppose you wanted to run an experiment testing whether playing violent video games causes increases in aggression. What would be your manipulation and what would be your measure? How would you deal with potential confounding by variables like age?\nQ4: Consider an experiment designed to test people’s food preferences. The experimenter randomly assigns 30 U.S. preschoolers to be served either asparagus or chicken tenders and then asks them how much they enjoyed their meal. Overall, children enjoyed the meat more; the experimenter writes a paper claiming that humans prefer meat over vegetables. List some constraints on the generalizability of this study. In light of these constraints, is this study (or some modification) worth doing at all?"
+  },
+  {
+    "objectID": "sessions/S6-Good_coding.html#homework-1-prepare-participant-acquisition",
+    "href": "sessions/S6-Good_coding.html#homework-1-prepare-participant-acquisition",
+    "title": "Session 06 - Preregistration 2; Good coding practices",
+    "section": "",
+    "text": "Group 1: Text for SONA\nGroup 2: Flyer, Text for Social Media\nGroup 3: Werbekanäle überlegen: Social Media, Whatsapp-Gruppen, andere Empras, Freundeskreis/Familie, nicht nur Studenten, wo bekommt man Männer her?\n\nDo this in our Google Drive so that you can see the texts/progress of the other groups.\n\n\n\nRead Ch. 1 of the online book “Experimentology” and answer the following questions. You can answer in English or in German.\nDeliverable: Write the answers directly into the answer field in the Moodle task. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references in addition, just refer to the chapter itself.\n\nQ1: Summarize the logic of randomization.\nQ2: Imagine that you run a survey and find that people who spend more time playing violent video games tend to be more aggressive (i.e., that there is a positive correlation between violent video games and aggression). Following Figure 1.2, list three reasons why these variables may be correlated.\nQ3: Suppose you wanted to run an experiment testing whether playing violent video games causes increases in aggression. What would be your manipulation and what would be your measure? How would you deal with potential confounding by variables like age?\nQ4: Consider an experiment designed to test people’s food preferences. The experimenter randomly assigns 30 U.S. preschoolers to be served either asparagus or chicken tenders and then asks them how much they enjoyed their meal. Overall, children enjoyed the meat more; the experimenter writes a paper claiming that humans prefer meat over vegetables. List some constraints on the generalizability of this study. In light of these constraints, is this study (or some modification) worth doing at all?"
+  },
+  {
+    "objectID": "slides/Preregistration/Prereg.html#section",
+    "href": "slides/Preregistration/Prereg.html#section",
+    "title": "Introduction to Preregistration",
+    "section": "",
+    "text": "Preregistration =\nThe specification of …\n\nthe research design (including sample size planning),\noperationalizations,\nhypotheses,\nanalysis plan, and\ninferential criteria\n\n… prior to observing the outcomes of a study.\n\n\nadapted from Nosek & Lindsay (2018), PRP-QUANT template, and RESQUE."
+  },
+  {
+    "objectID": "slides/Preregistration/Prereg.html#preregistration-platforms",
+    "href": "slides/Preregistration/Prereg.html#preregistration-platforms",
+    "title": "Introduction to Preregistration",
+    "section": "Preregistration platforms",
+    "text": "Preregistration platforms\nTODO"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#mistakes-lurk-everywhere-2",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#mistakes-lurk-everywhere-2",
+    "title": "How to minimize mistakes",
+    "section": "Mistakes lurk everywhere",
+    "text": "Mistakes lurk everywhere\nExamples: Miscoding Missing Values\n\nJasso (1985) ASR: coital frequency increases with wife’s age\n\nKahn/Udry (1986): 4 observations had value 88; Jasso treated these as valid values; treating these as missing, the effect of wife’s age becomes non-significant\n\nHerring (2009) ASR: diversity increases firm revenue\n\nStojmenovska/Bol/Leopold (2017): 206 firms had values 88,888,888,888; Herring treated these as valid values; treating these as missing, the effect of diversity becomes non-significant\n\nMunsch (2015) ASR: marital infidelity is at 10 %\n\nMunsch (2018): 246 missings were miscoded as “infidelity” (Stata .-problem); with correct coding marital infidelity is at 6%\n\n\n\nTaken from a presentation from Katrin Auspurg & Josef Brüderl"
+  },
+  {
+    "objectID": "sessions/S6-Good_coding.html#homework-1-in-groups-prepare-participant-acquisition",
+    "href": "sessions/S6-Good_coding.html#homework-1-in-groups-prepare-participant-acquisition",
+    "title": "Session 06 - Preregistration 2; Good coding practices",
+    "section": "",
+    "text": "Group 1: Text for SONA\nGroup 2: Flyer, Text for Social Media\nGroup 3: Werbekanäle überlegen: Social Media, Whatsapp-Gruppen, andere Empras, Freundeskreis/Familie, nicht nur Studenten, wo bekommt man Männer her?\n\nDo this in our Google Drive so that you can see the texts/progress of the other groups.\n\n\n\nSet up the folder structure as explained in the Good Coding Practices presentation (slides )\nImport the data - the data files is all you have. Find out from software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the analyses? What do their values mean?).\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\nThis is an SPSS data file. You can import it as a data frame with:\n# install.packages(\"rio\")\nlibrary(rio)\ndat &lt;- import(\"raw_data/RRBehavioralHumility_Deidentified.sav\")\nIn SPSS data files, meta-data about the variables (i.e., the columns) can be stored in the data file itself. This sometimes functions as a (often incomplete) codebook. When you import the .sav file, these meta-data are stored as so-called attributes of columns in the data frame. You see a preview of them if you print the structure of the data frame with str(dat):\n'data.frame':   104 obs. of  28 variables:\n\n[...]\n\n$ Cond                  : num  0 0 0 0 0 0 1 1 1 1 ...\n  ..- attr(*, \"label\")= chr \"Condition\"\n  ..- attr(*, \"format.spss\")= chr \"F11.0\"\n  ..- attr(*, \"display_width\")= int 11\n  ..- attr(*, \"labels\")= Named num [1:2] 0 1\n  .. ..- attr(*, \"names\")= chr [1:2] \"Control\" \"Awe\"\n\n [...]\n\n $ SelectOut             : num  2 2 2 2 2 2 2 2 2 2 ...\n  ..- attr(*, \"label\")= chr \"1= outlier (&gt;3SD), 2=didn't follow instructions to talk about weaknesses\"\n  ..- attr(*, \"format.spss\")= chr \"F8.2\"\n  ..- attr(*, \"display_width\")= int 15\nSo, the variable $Cond has the label Condition, and the values 0 and 1 are mapped to \"Control\" and \"Awe\".\nYou can directly access the attributes with this R command:\nattr(dat$Cond, which=\"labels\")\n\n\n\n\nWhen you found out which variables are relevant, compute some descriptive statistics and compare them to the paper. Optionally, try to reproduce the t-test that tested the main hypothesis in the paper.\n\n\n\n\n\nRead Ch. 1 of the online book “Experimentology” and answer the following questions. You can answer in English or in German.\nDeliverable: Write the answers directly into the answer field in the Moodle task. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references in addition, just refer to the chapter itself.\n\nQ1: Summarize the logic of randomization.\nQ2: Imagine that you run a survey and find that people who spend more time playing violent video games tend to be more aggressive (i.e., that there is a positive correlation between violent video games and aggression). Following Figure 1.2, list three reasons why these variables may be correlated.\nQ3: Suppose you wanted to run an experiment testing whether playing violent video games causes increases in aggression. What would be your manipulation and what would be your measure? How would you deal with potential confounding by variables like age?\nQ4: Consider an experiment designed to test people’s food preferences. The experimenter randomly assigns 30 U.S. preschoolers to be served either asparagus or chicken tenders and then asks them how much they enjoyed their meal. Overall, children enjoyed the meat more; the experimenter writes a paper claiming that humans prefer meat over vegetables. List some constraints on the generalizability of this study. In light of these constraints, is this study (or some modification) worth doing at all?"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#mistakes-lurk-everywhere-2",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#mistakes-lurk-everywhere-2",
+    "title": "How to minimize mistakes",
+    "section": "Mistakes lurk everywhere",
+    "text": "Mistakes lurk everywhere\n\nExamples: Miscoding Missing Values\n\n\nJasso (1985) ASR: coital frequency increases with wife’s age\n\nKahn/Udry (1986): 4 observations had value 88; Jasso treated these as valid values; treating these as missing, the effect of wife’s age becomes non-significant\n\nHerring (2009) ASR: diversity increases firm revenue\n\nStojmenovska/Bol/Leopold (2017): 206 firms had values 88,888,888,888; Herring treated these as valid values; treating these as missing, the effect of diversity becomes non-significant\n\nMunsch (2015) ASR: marital infidelity is at 10 %\n\nMunsch (2018): 246 missings were miscoded as “infidelity” (Stata .-problem); with correct coding marital infidelity is at 6%\n\n\n\n\nTaken from a presentation from Katrin Auspurg & Josef Brüderl"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#section",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#section",
+    "title": "How to minimize mistakes",
+    "section": "",
+    "text": "Where can errors happen during data collection or data analysis? Be creative!"
+  },
+  {
+    "objectID": "slides/Preregistration/Prereg.slide.html#preregistration-platforms",
+    "href": "slides/Preregistration/Prereg.slide.html#preregistration-platforms",
+    "title": "Introduction to Preregistration",
+    "section": "Preregistration platforms",
+    "text": "Preregistration platforms\nTODO"
+  },
+  {
+    "objectID": "slides/Preregistration/Prereg.slide.html#preregistration-is-the-specification-of",
+    "href": "slides/Preregistration/Prereg.slide.html#preregistration-is-the-specification-of",
+    "title": "Introduction to Preregistration",
+    "section": "Preregistration is the specification of …",
+    "text": "Preregistration is the specification of …\n\nthe research design (including sample size planning),\noperationalizations,\nhypotheses,\nanalysis plan, and\ninferential criteria\n\n… prior to observing the outcomes of a study.\n\nadapted from Nosek & Lindsay (2018), PRP-QUANT template, and RESQUE."
   }
 ]

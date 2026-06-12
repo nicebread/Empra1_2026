@@ -54,17 +54,22 @@ In the group some should use smartphones, others tablets, other different browse
 Fill in the PRP-QUANT preregistration template.
 For that purpose, create a copy of the template file ["PRP_QUANT_Awe_template"](https://docs.google.com/document/d/1svcn9GxWzxYW7MN7sdL5_zQvb5qCo6DnQC_YAuIHMMM/edit?usp=sharing) in our Google drive (into the same folder), and name it after your group ID (i.e., `PRP_QUANT_Awe_A`, `PRP_QUANT_Awe_B`, etc.).
 
+Some notes:
+
 - Remember: We only focus on Study 3 of the original paper.
 - As we do a direct replication, we aim for the same procedure as in the original study (unless there are good reasons to deviate). Explicitly mention where we have (a) planned deviations and (b) where the original instructions were so unclear that we had to fill in the gaps with reasonable assumptions.
+- In some places you will be unsure what to fill in. Try to come up with reasonable guesses; we will create an improved consensus version in the next step.
+- If you absolutely have no clue, write that into the field; we will discuss it in the next session.
+- Be concise, no need to write a novel.
 - You do **not** need to fill in: 
   - *T1* to *T8*
   - The entire section on "Abstract" (*A1* to *A4*)
   - *I1*
   - "*M3* Sample size, power and precision": We do this together later
   - "*AP4* Reliability analysis (if applicable)": You have not learned how to do this yet.
-- In some places you will be unsure what to fill in. Try to come up with reasonable guesses; we will create an improved consensus version in the next step.
-- If you absolutely have no clue, write that into the field; we will discuss it in the next session.
-- Be concise, no need to write a novel.
+- In section *I3 Hypothesis (H1, H2, …)*, ...
+  - ... fill in the hypotheses on the conceptual/theoretical level. The operationalization is then specified in section *M12 Measured variables, manipulated variables, covariates*.
+  - ... specify the control group (e.g., "X increases *compared to what*?")
 
 The learning goal is that engage with the template and understand its components.
 You do no need to provide perfect answers to each field.
