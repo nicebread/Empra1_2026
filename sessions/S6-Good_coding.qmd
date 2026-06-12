@@ -10,8 +10,9 @@ description: We learn more about preregistration and how to set up a code reposi
 | :------------------------ | :------: | ------------------------------------------------------------------- |
 | Wrap-up Homework "Prereg" |    10    | Will discuss in detail with the consensus prereg                    |
 | Prereg Intro              |    30    | [Slides](../slides/Preregistration/Prereg.qmd)                      |
-| Advocatus Diaboli Game    |    20    |                                                                     |
-| Good coding practices     |    45    | [Slides](../slides/Good_coding_practices/Good_coding_practices.qmd) |
+| Advocatus Diaboli Game    |    40    |                                                                     |
+| Good coding practices     |    60    | [Slides](../slides/Good_coding_practices/Good_coding_practices.qmd) |
+| Explain Homework          |    20    |                                                                     |
 
 
 : {.striped}
@@ -32,9 +33,16 @@ See [https://www.oer.psy.lmu.de/R_Tutorial/Teil4_tidyverse.html](https://www.oer
 
 `dplyr` is an R package for data manipulation, providing a consistent set of verbs — `filter()`, `select()`, `mutate()`, `summarise()`, and `arrange()` — to transform and summarize data frames. It is very convenient to clean and generally preprocess raw data.
 
-### Homework 3 (in groups): Dig into original data set
+### Homework 3 (in groups): Dig into original data set / Prepare the reproducibility check
 
-(1) Set up the folder structure as explained in the [Good Coding Practices](../slides/Good_coding_practices/Good_coding_practices.qmd) presentation (slides 12ff.). Create all folders (even if they are currently empty). Place the raw data file (see Moodle) into the `raw_data` subfolder (the data files is all you have).
+(1) Set up the folder structure as explained in the [Good Coding Practices](../slides/Good_coding_practices/Good_coding_practices.qmd) presentation (slides 12ff.): 
+
+- Create all folders, even if they are currently empty. Note: Git does not include empty folders to the repository. If you still want them to show up, add an empty file called `.gitkeep` to the otherwise empty folder. Files with a name starting with a dot are hidden files that do not show up in the Explorer/Finder (but still are there).
+- Place the raw data file (see Moodle) into the `raw_data` subfolder (the data files is all you have)
+- Create an R-Studio project in the top level folder
+- Create a file called `.gitignore` in the root folder, and add a line "*.sav" to it. This tells git to ignore all files with a `.sav` file extension.
+- Put everything under `git` version control.
+- **Important**: Really make sure that you do *not* share the raw data file on GitHub. If you are unsure how to proceed, do not push yet to GitHub; we'll do it together next session.
 
 (2) Import the data in R. Find out from which software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the main analyses of the original paper? What do their values mean?).
 
@@ -93,5 +101,5 @@ view(dfSummary(dat))
   a) compute some descriptive statistics and compare them to the paper.
   b) Optionally, try to reproduce the t-test that tested the main hypothesis in the paper
   
-Make a note of any problems and inconsistencies you discover. You can use your new dplyr skills, or stay at base R.
+Make a note of any problems and inconsistencies you discover. You can use your new `dplyr` skills, or stay at base R.
 
