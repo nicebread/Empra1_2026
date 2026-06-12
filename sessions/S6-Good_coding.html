@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="We learn more about preregistration and how to set up a code repository">
+<meta name="description" content="We learn more about preregistration and how to set up a code repository that facilitates reproducibility">
 
 <title>Session 06 - Preregistration 2; Good coding practices – Robust Evidence(Forschungsorientiertes Praktikum I)</title>
 <style>
@@ -165,10 +165,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
   <ul class="collapse">
-  <li><a href="#homework-1-in-groups-prepare-participant-acquisition" id="toc-homework-1-in-groups-prepare-participant-acquisition" class="nav-link" data-scroll-target="#homework-1-in-groups-prepare-participant-acquisition">Homework 1 (in groups): Prepare participant acquisition</a>
+  <li><a href="#homework-1-in-groups-prepare-participant-recruitment" id="toc-homework-1-in-groups-prepare-participant-recruitment" class="nav-link" data-scroll-target="#homework-1-in-groups-prepare-participant-recruitment">Homework 1 (in groups): Prepare participant recruitment</a>
   <ul class="collapse">
   <li><a href="#homework-2-in-groups-dig-into-original-data-set" id="toc-homework-2-in-groups-dig-into-original-data-set" class="nav-link" data-scroll-target="#homework-2-in-groups-dig-into-original-data-set">Homework 2 (in groups): Dig into original data set</a></li>
-  <li><a href="#homework-2-individually-read-chapter-1-of-experimentology" id="toc-homework-2-individually-read-chapter-1-of-experimentology" class="nav-link" data-scroll-target="#homework-2-individually-read-chapter-1-of-experimentology">Homework 2 (individually): Read Chapter 1 of “Experimentology”</a></li>
+  <li><a href="#homework-3-individually-read-chapter-1-of-experimentology" id="toc-homework-3-individually-read-chapter-1-of-experimentology" class="nav-link" data-scroll-target="#homework-3-individually-read-chapter-1-of-experimentology">Homework 3 (individually): Read Chapter 1 of “Experimentology”</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -184,7 +184,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div>
   <div class="description">
-    We learn more about preregistration and how to set up a code repository
+    We learn more about preregistration and how to set up a code repository that facilitates reproducibility
   </div>
 </div>
 
@@ -239,19 +239,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 </tbody>
 </table>
-<section id="homework-1-in-groups-prepare-participant-acquisition" class="level2">
-<h2 class="anchored" data-anchor-id="homework-1-in-groups-prepare-participant-acquisition">Homework 1 (in groups): Prepare participant acquisition</h2>
+<section id="homework-1-in-groups-prepare-participant-recruitment" class="level2">
+<h2 class="anchored" data-anchor-id="homework-1-in-groups-prepare-participant-recruitment">Homework 1 (in groups): Prepare participant recruitment</h2>
 <ul>
-<li>Group 1: Text for SONA</li>
-<li>Group 2: Flyer, Text for Social Media</li>
-<li>Group 3: Werbekanäle überlegen: Social Media, Whatsapp-Gruppen, andere Empras, Freundeskreis/Familie, nicht nur Studenten, wo bekommt man Männer her?</li>
+<li>Group 1: Create text for SONA and text snippets for social media</li>
+<li>Group 2: Create visual flyers to share on social media</li>
+<li>Group 3: Think about channels for recruitment: Social Media, Whatsapp groups, other Empras, friends/family, not just students, how to get more male participants?</li>
 </ul>
 <p>Do this in our <a href="https://drive.google.com/drive/folders/1pI7tT6rnoCVOo-ScwjkcAfLPOoHIlw2z?usp=share_link">Google Drive</a> so that you can see the texts/progress of the other groups.</p>
 <section id="homework-2-in-groups-dig-into-original-data-set" class="level3">
 <h3 class="anchored" data-anchor-id="homework-2-in-groups-dig-into-original-data-set">Homework 2 (in groups): Dig into original data set</h3>
 <ol type="1">
-<li><p>Set up the folder structure as explained in the <a href="../slides/Good_coding_practices/Good_coding_practices.html">Good Coding Practices</a> presentation (slides 12ff.). Create all folders (even if they are currently empty).</p></li>
-<li><p>Import the data - the data files is all you have. Find out from software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the analyses? What do their values mean?).</p></li>
+<li><p>Set up the folder structure as explained in the <a href="../slides/Good_coding_practices/Good_coding_practices.html">Good Coding Practices</a> presentation (slides 12ff.). Create all folders (even if they are currently empty). Place the raw data file (see Moodle) into the <code>raw_data</code> subfolder (the data files is all you have).</p></li>
+<li><p>Import the data in R. Find out from which software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the main analyses of the original paper? What do their values mean?).</p></li>
 </ol>
 <div class="callout callout-style-default callout-tip callout-titled" title="Hint">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -269,7 +269,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("rio")</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rio)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">&lt;-</span> <span class="fu">import</span>(<span class="st">"raw_data/RRBehavioralHumility_Deidentified.sav"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>In SPSS data files, meta-data about the variables (i.e., the columns) can be stored in the data file itself. This sometimes functions as a (often incomplete) codebook. When you import the <code>.sav</code> file, these meta-data are stored as so-called <code>attributes</code> of columns in the data frame. You see a preview of them if you print the structure of the data frame with <code>str(dat)</code>:</p>
+<p>In SPSS data files, meta-data about the variables (i.e., the columns) can be stored in the data file itself. This sometimes functions as an (often incomplete) codebook. When you import the <code>.sav</code> file, these meta-data are stored as so-called <code>attributes</code> of columns in the data frame. You see a preview of them if you print the structure of the data frame with <code>str(dat)</code>:</p>
 <pre class="text"><code>'data.frame':   104 obs. of  28 variables:
 
 [...]
@@ -315,11 +315,11 @@ $ Cond                  : num  0 0 0 0 0 0 1 1 1 1 ...
 </div>
 </div>
 <ol start="4" type="1">
-<li>When you found out which variables are relevant for us, compute some descriptive statistics and compare them to the paper. Optionally, try to reproduce the t-test that tested the main hypothesis in the paper.</li>
+<li>When you found out which variables are relevant for us, compute some descriptive statistics and compare them to the paper. Optionally, try to reproduce the t-test that tested the main hypothesis in the paper. Make a note of any problems and inconsistencies you discover.</li>
 </ol>
 </section>
-<section id="homework-2-individually-read-chapter-1-of-experimentology" class="level3">
-<h3 class="anchored" data-anchor-id="homework-2-individually-read-chapter-1-of-experimentology">Homework 2 (individually): Read Chapter 1 of “Experimentology”</h3>
+<section id="homework-3-individually-read-chapter-1-of-experimentology" class="level3">
+<h3 class="anchored" data-anchor-id="homework-3-individually-read-chapter-1-of-experimentology">Homework 3 (individually): Read Chapter 1 of “Experimentology”</h3>
 <!-- Note: This homework needs to come *after* the Causality presentation -->
 <p>Read Ch. 1 of the online book “<a href="https://experimentology.io/">Experimentology</a>” and answer the following questions. You can answer in English or in German.</p>
 <p><strong>Deliverable</strong>: Write the answers directly into the answer field in the Moodle task. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references in addition, just refer to the chapter itself.</p>
