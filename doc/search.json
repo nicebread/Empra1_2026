@@ -2202,7 +2202,7 @@
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-2",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 2",
-    "text": "Balancing values 2\n\n\n\n\n\n\nflowchart LR\n\nC[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Right of first usage, &lt;br&gt; incentives to collect data in the first place&lt;/div&gt;\"] &lt;--&gt; D[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Optimal and efficient gain of &lt;br&gt; knowledge by data reuse&lt;/div&gt;\"]\n\n\n\n\n\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
+    "text": "Balancing values 2\n\n\n\n\n\n\nflowchart LR\n\nC[\"Right of first usage,\\nincentives to collect data\\nin the first place\"] &lt;--&gt; D[\"Optimal and efficient gain of\\nknowledge by data reuse\"]\n\nstyle C fill:#add8e6,stroke:#000,font-size:24px\nstyle D fill:#90ee90,stroke:#000,font-size:24px\n\n\n\n\n\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-3",
@@ -6011,5 +6011,26 @@
     "title": "How to minimize mistakes",
     "section": "",
     "text": "Where can errors happen during data collection or data analysis? Be creative!"
+  },
+  {
+    "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#section-1",
+    "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#section-1",
+    "title": "Research Data Management & Open Data",
+    "section": "-",
+    "text": "-"
+  },
+  {
+    "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#practical-considerations",
+    "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#practical-considerations",
+    "title": "Research Data Management & Open Data",
+    "section": "Practical considerations",
+    "text": "Practical considerations\nWhen are you allowed to share the data?\n\n\n\n\n\n\nNote\n\n\n(German slide, as this refers to German rules. Things might be different in other countries and other institutions!)"
+  },
+  {
+    "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#when-are-you-allowed-to-share-the-data",
+    "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#when-are-you-allowed-to-share-the-data",
+    "title": "Research Data Management & Open Data",
+    "section": "When are you allowed to share the data?",
+    "text": "When are you allowed to share the data?\nConsider both: Privacy & Research Ethics\n\n\n\n\n\n\nNote\n\n\n(German slide, as this refers to German rules. Things might be different in other countries and other institutions!)"
   }
 ]

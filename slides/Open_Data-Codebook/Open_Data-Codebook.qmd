@@ -22,7 +22,6 @@ revealjs-plugins:
   - attribution 
 ---
 
-![](img/Datenbereitstellung.png){fig-align="center" width="70%"}
 
 # How to Codebook
 

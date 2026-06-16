@@ -257,14 +257,16 @@ flowchart LR
 
 flowchart LR
 
-C["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'>Right of first usage, <br> incentives to collect data in the first place</div>"] <--> D["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'>Optimal and efficient gain of <br> knowledge by data reuse</div>"]
+C["Right of first usage,\nincentives to collect data\nin the first place"] <--> D["Optimal and efficient gain of\nknowledge by data reuse"]
+
+style C fill:#add8e6,stroke:#000,font-size:24px
+style D fill:#90ee90,stroke:#000,font-size:24px
 ``` 
 </div>
 
 - Right of first usage, possibility of embargo
 - At the end of the day (resp., the embargo), all data are as open as possible
 - Incentivize data sharing
-
 
 
 ## 
@@ -274,7 +276,7 @@ C["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;bor
 
 </div>
 
-## 
+## -
 
 <div style="text-align: center;">
 ![](img/Story_2.jpg){width=750px}
@@ -341,24 +343,15 @@ E["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;bor
 :::
 
 
+## When are you allowed to share the data?
+### Consider both: Privacy & Research Ethics
 
-## Resources
-
-<!-- Insert blank lines -->
-<br>
-
-<div style="text-align: center; margin-top: -40px;">
-![](img/Resources.jpg){width=700px}
-</div>
-
-::: footer
-[https://www.osc.uni-muenchen.de/toolbox/index.html](https://www.osc.uni-muenchen.de/toolbox/index.html)
+::: {.callout-note}
+(German slide, as this refers to German rules. Things might be different in other countries and other institutions!)
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
+![](img/Datenbereitstellung.png){fig-align="center" width="80%"}
+
 
 <!-- Footer insert below -->
 ```{r child="../../common/lastslide.qmd"}
