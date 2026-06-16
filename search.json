@@ -2202,7 +2202,14 @@
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-2",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 2",
-    "text": "Balancing values 2\n\n\n\n\n\n\nflowchart LR\n\nC[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Right of first usage, &lt;br&gt; incentives to collect data in the first place&lt;/div&gt;\"] &lt;--&gt; D[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Optimal and efficient gain of &lt;br&gt; knowledge by data reuse&lt;/div&gt;\"]\n\n\n\n\n\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
+    "text": "Balancing values 2\n\n\n\n\n\n\nflowchart LR\n\nC[\"Right of first usage,\\nincentives to collect data\\nin the first place\"] &lt;--&gt; D[\"Optimal and efficient gain of\\nknowledge by data reuse\"]\n\nstyle C fill:#add8e6,stroke:#000,font-size:24px\nstyle D fill:#90ee90,stroke:#000,font-size:24px\n\n\n\n\n\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
+  },
+  {
+    "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#section-1",
+    "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#section-1",
+    "title": "Research Data Management & Open Data",
+    "section": "-",
+    "text": "-"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-3",
@@ -2226,11 +2233,11 @@
     "text": "Success stories\n\n\n\n\n\n\nhttps://www.cell.com/action/showPdf?pii=S0969-2126%2812%2900018-4"
   },
   {
-    "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#resources",
-    "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#resources",
+    "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#when-are-you-allowed-to-share-the-data",
+    "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#when-are-you-allowed-to-share-the-data",
     "title": "Research Data Management & Open Data",
-    "section": "Resources",
-    "text": "Resources\n\n\n\n\n\n\nhttps://www.osc.uni-muenchen.de/toolbox/index.html"
+    "section": "When are you allowed to share the data?",
+    "text": "When are you allowed to share the data?\nConsider both: Privacy & Research Ethics\n\n\n\n\n\n\nNote\n\n\n(German slide, as this refers to German rules. Things might be different in other countries and other institutions!)"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#contact",
@@ -2335,7 +2342,14 @@
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-2",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 2",
-    "text": "Balancing values 2\n\n\n\n\n\n\nflowchart LR\n\nC[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Right of first usage, &lt;br&gt; incentives to collect data in the first place&lt;/div&gt;\"] &lt;--&gt; D[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Optimal and efficient gain of &lt;br&gt; knowledge by data reuse&lt;/div&gt;\"]\n\n\n\n\n\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
+    "text": "Balancing values 2\n\n\n\n\n\n\nflowchart LR\n\nC[\"Right of first usage,\\nincentives to collect data\\nin the first place\"] &lt;--&gt; D[\"Optimal and efficient gain of\\nknowledge by data reuse\"]\n\nstyle C fill:#add8e6,stroke:#000,font-size:24px\nstyle D fill:#90ee90,stroke:#000,font-size:24px\n\n\n\n\n\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
+  },
+  {
+    "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#section-1",
+    "href": "slides/Open_Data_Primer/Open_Data_Primer.html#section-1",
+    "title": "Research Data Management & Open Data",
+    "section": "-",
+    "text": "-"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-3",
@@ -2359,11 +2373,11 @@
     "text": "Success stories\n\n\n\n\n\n\nhttps://www.cell.com/action/showPdf?pii=S0969-2126%2812%2900018-4"
   },
   {
-    "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#resources",
-    "href": "slides/Open_Data_Primer/Open_Data_Primer.html#resources",
+    "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#when-are-you-allowed-to-share-the-data",
+    "href": "slides/Open_Data_Primer/Open_Data_Primer.html#when-are-you-allowed-to-share-the-data",
     "title": "Research Data Management & Open Data",
-    "section": "Resources",
-    "text": "Resources\n\n\n\n\n\n\nhttps://www.osc.uni-muenchen.de/toolbox/index.html"
+    "section": "When are you allowed to share the data?",
+    "text": "When are you allowed to share the data?\n\nConsider both: Privacy & Research Ethics\n\n\n\n\n\n\nNote\n\n\n\n(German slide, as this refers to German rules. Things might be different in other countries and other institutions!)"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#contact",
@@ -4774,67 +4788,60 @@
     "text": "Troubleshooting\nSome general pointers on where learners could run into issues:\n\nMistyping the Git commands: Correct spelling (including spaces) matters, else Git will not recognize the command"
   },
   {
+    "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html",
+    "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html",
+    "title": "How to Codebook",
+    "section": "",
+    "text": "See the D-Psy-FAIR standard (developed by Blask et al from the Leibniz-Institute Psychology)\n\n\n\nSave in a human-readable (e.g., .csv) and in a machine-readable (e.g., .json) format!\n\n\n\n\nExcel file:\nHuman-readable: ✅ ✅\nMachine-readabe: ~\nAccessible: 👎\n\n\n\n\ncsv file:\nHuman-readable: ~ (raw) ✅ (after import)\nMachine-readable: ✅  Accessible: ✅\n\n\n\n\n\n\njson file:\nHuman-readable: ~ (raw)\nMachine-readable: ✅ ✅\nAccessible: ✅\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStep 1: Create your codebook as a csv file\n– e.g., create it in Excel first, then export as .csv file\nStep 2: Import into R and convert it to a json file\n\n\nlibrary(jsonlite)\ndf &lt;- read.csv(\"codebook.csv\")\njson &lt;- toJSON(df, pretty = TRUE)\nwrite_json(json,\"codebook.json\")\n\n\nStep 3: Save both codebook files in the /doc subfolder of your project\nStep 4: Upload both the .csv and the .json-file to the repository\n\n\n\n\n\n\nhttps://datawiz2.dev.zpid.de\n\n\n\n\n\nResources:\nVideo (51 min.): “PTOS 9: Einführung in das Forschungsdatenmanagement mit D-Psy_FAIR“\n– siehe v.a.: „Schritt 2: Ein Codebuch erstellen“ ab 29:27"
+  },
+  {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-1",
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-1",
     "title": "How to Codebook",
-    "section": "How to Codebook",
-    "text": "How to Codebook\n\nSee the D-Psy-FAIR standard (developed by Blask et al from the Leibniz-Institute Psychology)\n\n\n\nSave in a human-readable (e.g., .csv) and in a machine-readable (e.g., .json) format!"
+    "section": "",
+    "text": "See the D-Psy-FAIR standard (developed by Blask et al from the Leibniz-Institute Psychology)\n\n\n\nSave in a human-readable (e.g., .csv) and in a machine-readable (e.g., .json) format!"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-2",
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-2",
     "title": "How to Codebook",
-    "section": "How to Codebook",
-    "text": "How to Codebook\nExcel file:\nHuman-readable: ✅ ✅\nMachine-readabe: ~\nAccessible: 👎"
+    "section": "",
+    "text": "Excel file:\nHuman-readable: ✅ ✅\nMachine-readabe: ~\nAccessible: 👎"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-3",
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-3",
     "title": "How to Codebook",
-    "section": "How to Codebook",
-    "text": "How to Codebook\ncsv file:\nHuman-readable: ~ (raw) ✅ (after import)\nMachine-readable: ✅  Accessible: ✅"
+    "section": "",
+    "text": "csv file:\nHuman-readable: ~ (raw) ✅ (after import)\nMachine-readable: ✅  Accessible: ✅"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-4",
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-4",
     "title": "How to Codebook",
-    "section": "How to Codebook",
-    "text": "How to Codebook\n\n\njson file:\nHuman-readable: ~ (raw)\nMachine-readable: ✅ ✅\nAccessible: ✅"
-  },
-  {
-    "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#excursus-json-file-format",
-    "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#excursus-json-file-format",
-    "title": "How to Codebook",
-    "section": "Excursus: json file format",
-    "text": "Excursus: json file format"
-  },
-  {
-    "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#excursus-json-file-format-1",
-    "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#excursus-json-file-format-1",
-    "title": "How to Codebook",
-    "section": "Excursus: json file format",
-    "text": "Excursus: json file format"
+    "section": "",
+    "text": "json file:\nHuman-readable: ~ (raw)\nMachine-readable: ✅ ✅\nAccessible: ✅"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-manual",
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-manual",
     "title": "How to Codebook",
-    "section": "How to Codebook: Manual",
-    "text": "How to Codebook: Manual\n\nStep 1: Create your codebook as a csv file\n– e.g., create it in Excel first, then export as .csv file\nStep 2: Import into R and convert it to a json file\n\n\nlibrary(jsonlite)\ndf &lt;- read.csv(\"codebook.csv\")\njson &lt;- toJSON(df, pretty = TRUE)\nwrite_json(json,\"codebook.json\")\n\n\nStep 3: Save both codebook files in the /doc subfolder of your project\nStep 4: Upload both the .csv and the .json-file to the repository"
+    "section": "",
+    "text": "Step 1: Create your codebook as a csv file\n– e.g., create it in Excel first, then export as .csv file\nStep 2: Import into R and convert it to a json file\n\n\nlibrary(jsonlite)\ndf &lt;- read.csv(\"codebook.csv\")\njson &lt;- toJSON(df, pretty = TRUE)\nwrite_json(json,\"codebook.json\")\n\n\nStep 3: Save both codebook files in the /doc subfolder of your project\nStep 4: Upload both the .csv and the .json-file to the repository"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-datawiz2",
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-datawiz2",
     "title": "How to Codebook",
-    "section": "How to Codebook: DataWiz2",
-    "text": "How to Codebook: DataWiz2\n\n\nhttps://datawiz2.dev.zpid.de"
+    "section": "",
+    "text": "https://datawiz2.dev.zpid.de"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-5",
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-5",
     "title": "How to Codebook",
-    "section": "How to Codebook",
-    "text": "How to Codebook\n\nResources:\nVideo (51 min.): “PTOS 9: Einführung in das Forschungsdatenmanagement mit D-Psy_FAIR“\n– siehe v.a.: „Schritt 2: Ein Codebuch erstellen“ ab 29:27"
+    "section": "",
+    "text": "Resources:\nVideo (51 min.): “PTOS 9: Einführung in das Forschungsdatenmanagement mit D-Psy_FAIR“\n– siehe v.a.: „Schritt 2: Ein Codebuch erstellen“ ab 29:27"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#contact",
