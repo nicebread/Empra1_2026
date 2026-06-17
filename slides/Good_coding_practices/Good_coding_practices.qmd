@@ -177,6 +177,33 @@ Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-repro
 :::
 :::
 
+## File name and path conventions
+
+**Which is an example of a sensible file naming convention?**
+
+- [ ] `final_FINAL_v3_new_final.docx`
+- [ ] `2024-03-15_Projectname_Dataset_v01.csv` 
+- [ ] `Document1.docx`
+- [ ] `data (copy).xlsx`
+
+
+## File name and path conventions
+
+::: {.smaller}
+- Use descriptive and consistent names for files and directories.
+- For dates always use ISO dates: `YYYY-MM-DD`.
+- Use paths relative to the project root instead of absolute paths:
+
+<span style="color: darkblue;">Absolute path:<br>C:/Users/felix/Empra_Project/raw_data/study1.csv</span>
+<br><br>
+<span style="color: darkred;">Relative path:</span><span style="color: darkgrey;"> relative to the </span><span style="color: darkgreen;">root folder:</span><br>
+<span style="color: darkgreen;">C:/Users/felix/Empra_Project/<span style="color: darkred;">raw_data/study1.csv</span><br>
+
+- Set the project root as working directory in `R` by creating a `.Rproj` file in `C:/Users/felix/Empra_Project/`
+- In scripts, only use relative paths: `read.csv("raw_data/study1.csv")`
+:::
+
+
 
 ## File organization
 
@@ -191,7 +218,6 @@ Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-repro
     person can reproduce the full analytical pipeline.
 - Use a consistent, self-explanatory subdirectory structure
 - Number script files in execution order (see next slide)
-- Use paths relative to the project root instead of absolute paths (e.g., `raw_data/study1/` instead of `C:/Users/felix/Empra_Project/raw_data/study1/`).
 
 
 
@@ -287,8 +313,6 @@ x
 ::: {.column width="40%"}
 
 ::: {.smaller}
-<br>
-
 - At the start of each script file: Author, license, purpose of the file.
 - Load packages all at once at the beginning of the file
 - Rule of thumb: At least 1 comment per 3 lines of code
@@ -298,7 +322,28 @@ x
 :::
 
 ::: {.column width="60%"}
-![](img/Code_Commenting.jpg)
+```r
+## This source code is licensed under the FreeBSD License (see ...)
+## (c) 2017 Felix Schönbrodt
+
+## This file runs the Monte-Carlo simulations reported
+## in Schönbrodt & Perugini (2013). doi:10.1016/j.jrp.2013.05.009
+
+library(dplyr)
+library(doParallel)
+
+# Register multicore
+nCore <- 10
+registerDoParallel(cores=nCore)
+
+# Load Ruscio's function for inducing a correlation into an
+# existing empirical marginal distributions
+source("00-Ruscio_GenData.R")
+
+## Simulation parameters
+popsize <- 1000000 # size of population from which samples are drawn
+n.max <- 1000 # maximum sample size
+```
 :::
 ::::
 

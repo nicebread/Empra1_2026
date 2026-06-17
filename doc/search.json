@@ -2433,7 +2433,7 @@
     "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#file-organization",
     "title": "How to minimize mistakes",
     "section": "File organization",
-    "text": "File organization\n\n(The following guidelines apply to many, but not all possible types of projects)\nAll files that are necessary for reproducing the results should be bundled in one directory\n\nIncluding: primary unprocessed data files, scripts for data preprocessing, cached intermediate data objects, scripts for hypothesis testing, generated result plots, …\nGoal: You zip the directory, send it to somebody, and the person can reproduce the full analytical pipeline.\n\nUse a consistent, self-explanatory subdirectory structure\nNumber script files in execution order (see next slide)\nUse paths relative to the project root instead of absolute paths (e.g., raw_data/study1/ instead of C:/Users/felix/Empra_Project/raw_data/study1/)."
+    "text": "File organization\n\n(The following guidelines apply to many, but not all possible types of projects)\nAll files that are necessary for reproducing the results should be bundled in one directory\n\nIncluding: primary unprocessed data files, scripts for data preprocessing, cached intermediate data objects, scripts for hypothesis testing, generated result plots, …\nGoal: You zip the directory, send it to somebody, and the person can reproduce the full analytical pipeline.\n\nUse a consistent, self-explanatory subdirectory structure\nNumber script files in execution order (see next slide)"
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#directory-organization",
@@ -2475,7 +2475,7 @@
     "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#code-commenting-1",
     "title": "How to minimize mistakes",
     "section": "Code commenting 1",
-    "text": "Code commenting 1\n\n\n\n\n\nAt the start of each script file: Author, license, purpose of the file.\nLoad packages all at once at the beginning of the file\nRule of thumb: At least 1 comment per 3 lines of code\nSeparate chunks of code with comment lines\nUse English variable names and comments from the beginning (you don‘t want to translate everything before dissemination)"
+    "text": "Code commenting 1\n\n\n\n\n\nAt the start of each script file: Author, license, purpose of the file.\nLoad packages all at once at the beginning of the file\nRule of thumb: At least 1 comment per 3 lines of code\nSeparate chunks of code with comment lines\nUse English variable names and comments from the beginning (you don‘t want to translate everything before dissemination)\n\n\n\n## This source code is licensed under the FreeBSD License (see ...)\n## (c) 2017 Felix Schönbrodt\n\n## This file runs the Monte-Carlo simulations reported\n## in Schönbrodt & Perugini (2013). doi:10.1016/j.jrp.2013.05.009\n\nlibrary(dplyr)\nlibrary(doParallel)\n\n# Register multicore\nnCore - 10\nregisterDoParallel(cores=nCore)\nprint(paste( \"Registered multicores: \", getDoParWorkers()))\n\n# Load Ruscio's function for inducing a correlation into an\n# existing empirical marginal distributions\nsource(\"00-Ruscio_GenData.R\")\n\n## Simulation parameters\npopsize &lt;- 1000000 # size of population from which samples\nn.max &lt;- 1000 # maximum sample size\nn.min &lt;- 20 # minimum sample size\nn.boot &lt;- 100000 # number of bootstrapped trajectories\nrs &lt;- seq(.1, .7, by=.1) # which correlations should be induced"
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#code-commenting-2",
@@ -6032,5 +6032,19 @@
     "title": "Research Data Management & Open Data",
     "section": "When are you allowed to share the data?",
     "text": "When are you allowed to share the data?\nConsider both: Privacy & Research Ethics\n\n\n\n\n\n\nNote\n\n\n(German slide, as this refers to German rules. Things might be different in other countries and other institutions!)"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#file-name-and-path-conventions",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#file-name-and-path-conventions",
+    "title": "How to minimize mistakes",
+    "section": "File name and path conventions",
+    "text": "File name and path conventions\nWhich is an example of a sensible file naming convention?\n\nfinal_FINAL_v3_new_final.docx\n2024-03-15_Projectname_Dataset_v01.csv\nDocument1.docx\ndata (copy).xlsx"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#file-name-and-path-conventions-1",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#file-name-and-path-conventions-1",
+    "title": "How to minimize mistakes",
+    "section": "File name and path conventions",
+    "text": "File name and path conventions\n\n\nUse descriptive and consistent names for files and directories.\nFor dates always use ISO dates: YYYY-MM-DD.\nUse paths relative to the project root instead of absolute paths:\n\nAbsolute path:C:/Users/felix/Empra_Project/raw_data/study1.csv  Relative path: relative to the root folder: C:/Users/felix/Empra_Project/raw_data/study1.csv\n\nSet the project root as working directory in R by creating a .Rproj file in C:/Users/felix/Empra_Project/\nIn scripts, only use relative paths: read.csv(\"raw_data/study1.csv\")"
   }
 ]
