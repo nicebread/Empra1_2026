@@ -6951,7 +6951,6 @@ Caroline Zygar-Hoffmann <a href="https://orcid.org/0000-0002-8677-2276" class="q
 <div class="columns">
 <div class="column" style="width:40%;">
 <div class="smaller">
-<p><br></p>
 <ul>
 <li>At the start of each script file: Author, license, purpose of the file.</li>
 <li>Load packages all at once at the beginning of the file</li>
@@ -6971,20 +6970,16 @@ Caroline Zygar-Hoffmann <a href="https://orcid.org/0000-0002-8677-2276" class="q
 <span id="cb4-8"><a></a><span class="fu">library</span>(doParallel)</span>
 <span id="cb4-9"><a></a></span>
 <span id="cb4-10"><a></a><span class="co"># Register multicore</span></span>
-<span id="cb4-11"><a></a>nCore <span class="sc">-</span> <span class="dv">10</span></span>
+<span id="cb4-11"><a></a>nCore <span class="ot">&lt;-</span> <span class="dv">10</span></span>
 <span id="cb4-12"><a></a><span class="fu">registerDoParallel</span>(<span class="at">cores=</span>nCore)</span>
-<span id="cb4-13"><a></a><span class="fu">print</span>(<span class="fu">paste</span>( <span class="st">&quot;Registered multicores: &quot;</span>, <span class="fu">getDoParWorkers</span>()))</span>
-<span id="cb4-14"><a></a></span>
-<span id="cb4-15"><a></a><span class="co"># Load Ruscio&#39;s function for inducing a correlation into an</span></span>
-<span id="cb4-16"><a></a><span class="co"># existing empirical marginal distributions</span></span>
-<span id="cb4-17"><a></a><span class="fu">source</span>(<span class="st">&quot;00-Ruscio_GenData.R&quot;</span>)</span>
-<span id="cb4-18"><a></a></span>
-<span id="cb4-19"><a></a><span class="do">## Simulation parameters</span></span>
-<span id="cb4-20"><a></a>popsize <span class="ot">&lt;-</span> <span class="dv">1000000</span> <span class="co"># size of population from which samples</span></span>
-<span id="cb4-21"><a></a>n.max <span class="ot">&lt;-</span> <span class="dv">1000</span> <span class="co"># maximum sample size</span></span>
-<span id="cb4-22"><a></a>n.min <span class="ot">&lt;-</span> <span class="dv">20</span> <span class="co"># minimum sample size</span></span>
-<span id="cb4-23"><a></a>n.boot <span class="ot">&lt;-</span> <span class="dv">100000</span> <span class="co"># number of bootstrapped trajectories</span></span>
-<span id="cb4-24"><a></a>rs <span class="ot">&lt;-</span> <span class="fu">seq</span>(.<span class="dv">1</span>, .<span class="dv">7</span>, <span class="at">by=</span>.<span class="dv">1</span>) <span class="co"># which correlations should be induced</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb4-13"><a></a></span>
+<span id="cb4-14"><a></a><span class="co"># Load Ruscio&#39;s function for inducing a correlation into an</span></span>
+<span id="cb4-15"><a></a><span class="co"># existing empirical marginal distributions</span></span>
+<span id="cb4-16"><a></a><span class="fu">source</span>(<span class="st">&quot;00-Ruscio_GenData.R&quot;</span>)</span>
+<span id="cb4-17"><a></a></span>
+<span id="cb4-18"><a></a><span class="do">## Simulation parameters</span></span>
+<span id="cb4-19"><a></a>popsize <span class="ot">&lt;-</span> <span class="dv">1000000</span> <span class="co"># size of population from which samples are drawn</span></span>
+<span id="cb4-20"><a></a>n.max <span class="ot">&lt;-</span> <span class="dv">1000</span> <span class="co"># maximum sample size</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div></div>
 </section>
 <section id="code-commenting-2" class="slide level2">

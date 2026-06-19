@@ -1,0 +1,43 @@
+---
+title: Session 07 - Reproduction of original results
+number-sections: false
+description: We try to reproduce the original results with the original data set (no code provided). We finalize and submit the preregistration.
+---
+
+
+::: {.callout-note collapse="true" title="Instructor notes"}
+- Change the password for formr so that students cannot access raw data before the instructor did an anonymity check.
+:::
+
+## Overview
+
+| Topic                                                                                                    | Duration | Notes |
+| :------------------------------------------------------------------------------------------------------- | :------: | ----- |
+| Show [FLoRA data base](https://forrt.org/flora-replication-atlas) - do you find an existing replication? |    10    |       |
+| Go through preregistration, submit at OSF; final test of study                                           |    60    |       |
+| Instructor: Change password in formr                                                                     |    5     |       |
+| Finalize advertisement material & SONA; activate at SONA                                                 |    30    |       |
+| Do a reproduction of the original results, combining your skills in Quarto, git, and tidyverse           |    60    |       |
+
+: {.striped}
+
+
+## Homework 1
+
+- Find participants: 
+  - Target: n = 150 analyzable participants. 
+  - Stellar et al. had 17% dropout, so we should aim for n=180.
+  - 180/12 = 15 per Empra participant.
+- (ongoing task for the next weeks): Monitor the email address.
+
+## Homework 2 (individually)
+
+Bitte lesen Sie die DGPs-Empfehlungen "Management und Bereitstellung von Forschungsdaten in der Psychologie" ([Gollwitzer et al., 2020](https://psyarxiv.com/hcxtm)) und beantworten Sie die folgenden Leitfragen kurz und präzise in Moodle.
+
+1. Ein Autor veröffentlicht vollständig Mittelwerte und SDs aller Variablen in einer Tabelle im Ergebnisteil. Sind damit die Primärdaten publiziert und der Dokumentationspflicht entsprochen worden? Wenn nein, warum nicht?
+2. Nennen Sie drei Beispiele für Metadaten eines Datensatzes.
+3. Was sind "personenbezogene Daten"? Ist das Geschlecht und Alter einer Person ein personenbezogenes Datum?
+4. Welche dieser Orte sind geeignet als Repositorium für die langfristige Archivierung und Bereitstellung von Daten? Wenn "Nein", warum nicht?. (a) Die persönliche Webseite der Forscherin an ihrer Universität; (b) das "Online Supplemental Material (OSM)" einer wissenschaftlichen Zeitschrift des Elsevier Verlags; (c) in einem öffentlichen Projekt des Open Science Frameworks (https://osf.io); (d) bei Figshare (https://figshare.com); (e) bei Zenodo (https://zenodo.org)
+5. Beschreiben Sie in jeweils einem Satz die "Datenbereitstellung Typ 1" und die "Datenbereitstellung Typ 2".
+6. Was bedeutet ein "Nutzungsembargo"? Wie lange sollte es maximal sein?
+7. Welche Zugriffsklassen gelten als "open data"?

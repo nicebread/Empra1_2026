@@ -6,115 +6,58 @@ description: We try to get the study ready to run, so that it can be tested.
 
 # Overview
 
-| Topic                                       | Duration | Notes |
-| :------------------------------------------ | :------: | ----- |
-| Work on finalizing the study                |   180    |       |
-| Homework: Test the study on your smartphone |    5     |       |
+| Topic                                | Duration | Notes                                                                             |
+| :----------------------------------- | :------: | --------------------------------------------------------------------------------- |
+| Power analysis Intro                 |    60    | [Slides](../slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.qmd) |
+| Do a power analysis in practice      |    50    |                                                                                   |
+| How (not) to report a power analysis |    15    | [Slides](../slides/Power-Analysis Reporting/How-to-report-a-power-analysis.qmd)   |
 
 : {.striped}
 
 
 
-## Finalize Study
-
-### Intervention
-
-Wir haben 6-7 Kategorien von Interventionen. Jede Person macht 3 Kategorien (3 Kategorien * 3 Ausprägungen = 9 Interventionen = 9 Tage).
-Alles auf deutsch.
-
-- Eigene Fotos (Elisa, Anne, Leonie)
-  - [ ] Instruktion fehlt noch (3 Varianten)
-  - [ ] Negativ-Variante fehlt noch
-- Audioimagination (Antonia, Maria, Elina, Elena, Theresa, Ann-Sophie, Paula)
-  - [X] Audio fehlt noch (3 Varianten)
-  - [X] Instruktion fehlt noch
-  - [ ] Parallisierung: ähnlicher Stil, Instruktion, Länge, Aufbau
-- Podcasts (Clara, Laura)
-  - [X] Audio fehlt noch (3 Varianten)
-  - [ ] evtl. neue Neutralbedingung
-  - [ ] Instruktion fehlt noch
-  - [ ] Nach Möglichkeit fragen, das in einem Forschungsprojekt zu benutzen
-- Gemeinsamen Events (Oceane, Samuel, Estelle)
-  - [ ] Instruktion fehlt noch (3 Varianten)
-  - [ ] Events fehlen noch
-- Filmausschnitte (Emma, Madeleine, Lily)
-  - [ ] Video Kontrollgruppe fehlt noch: Natur
-  - [ ] Alle drei Gruppen sollten möglichst gleich in Valenz und Arousal sein. (Ist bei den Filmausschnitten nicht der Fall. --> idealerweise selber Film, selbe Valenz, aber unterschiedliche motivationale Ausrichtung). Bei Up wird das nicht klappen.
-  - [X] Instruktion von Nensy
-  - Screencapture: Google Chrome + Einstellungen ändern. Alles auf deutsch. Ohne Untertitel.
-
-In Kombi:
-
-- Suchsel (Mashek Replikation: Xinyi, Evelyn)
-  - [X] motivationsanhebende Wörter fehlen noch (neutral und negativ wird von Mashek übernommen)
-  - [ ] 3 Gitter erstellen (12x12 Buchstaben), wo die Wörter horizontal und vertikal versteckt sind (Onlinetools)
-  - [ ] "csomfjfreundvf/fobkolnqltdujw/wzobeziehungur/miqwvnydzjudfm/uahtflpartnerr/nlikcvkrbpfueh/ryapyejwollqil/kunterstützung/lhcnwpcmfsrxha/tzzusammenhmbp/eexhenicrikuse/aqyfcwhemqwkrq/mcgesellschaft/tdfjklrcdmnjqs"
-  - [X] Instruktion fehlt noch
-- Wortketten (gleiche Wörter wie Mashek) --> Als Backup
-
-Kontrollgruppe: Natur?
-
-Generell darauf achten:
-- [ ] Gogle drive umstrukturieren: Ein Unterordner für jede Intervention; Dateinamen einheitlich:
-  - "INTERVENTIONSNAME_Instruktion.pdf"
-  - "INTERVENTIONSNAME_Material.pdf" --> sinnvollen Namen finden
-- [ ] Man kann die Intervention auch später machen
 
 
 
-::: {.callout-tip}
-# Wie Bildschirmaufnahmen machen für die Videoausschnitte? 
+| Causality                 |    45    | [Slides](../slides/Causality/Causality.qmd)                         |
 
-Das sind die Schritte, die auf dem Windows Laptop funktioniert haben. Hier eine Anleitung zum Deaktivieren der Hardwarebeschleunigung:
 
-- Schritt 1. Suchen Sie das Dreipunktsymbol oben rechts auf Ihrem Google Chrome-Bildschirm. Klicken Sie mit der rechten Maustaste darauf und wählen Sie Einstellungen.
-- Schritt 2. Gehen Sie anschließend zum Systemabschnitt.
-- Schritt 3: Deaktivieren Sie die Option „ Hardwarebeschleunigung verwenden, wenn verfügbar“ auf der rechten Seite.
-- Schritt 4. Klicken Sie nun auf „Neu starten“, um Ihren Chrome-Browser neu zu starten.
-- Schritt 5. Öffnen Sie nun Ihr Netflix und machen Sie einen Screenshot. Wenn der schwarze Bildschirm nicht angezeigt wird, ist Ihre Arbeit erledigt.
-:::
+### Homework 3 (individually): Read Chapter 1 of "Experimentology"
 
-### Experimental Design
+<!-- Note: This homework needs to come *after* the Causality presentation -->
 
-9 Interventionstage: Pro sample drei Konditionen in 3 Ausprägungen = 9 Interventionen +
-prä/post Befragung
+Read Ch. 1 of the online book "[Experimentology](https://experimentology.io/)" and answer the following questions. You can answer in English or in German. 
 
-- [ ] Welche 3 Kategorien bekommt jede Person? Randomisiert oder feste Bundles?
-- [ ] Wie werden die 9 Interventionen auf die 9 Tage verteilt? Randomisiert oder feste Reihenfolge?
-- [X] Qualitative Fragen.
+**Deliverable**: Write the answers directly into the answer field in the Moodle task. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references in addition, just refer to the chapter itself.
 
-### App programmierung
+- Q1: Summarize the logic of randomization.
+- Q2: Imagine that you run a survey and find that people who spend more time playing violent video games tend to be more aggressive (i.e., that there is a positive correlation between violent video games and aggression). Following Figure [1.2](https://experimentology.io/1-experiments.html#fig:experiments-money2), list three reasons why these variables may be correlated.
+- Q3: Suppose you wanted to run an experiment testing whether playing violent video games causes increases in aggression. What would be your manipulation and what would be your measure? How would you deal with potential confounding by variables like age?
+- Q4: Consider an experiment designed to test people’s food preferences. The experimenter randomly assigns 30 U.S. preschoolers to be served either asparagus or chicken tenders and then asks them how much they enjoyed their meal. Overall, children enjoyed the meat more; the experimenter writes a paper claiming that humans prefer meat over vegetables. List some constraints on the generalizability of this study. In light of these constraints, is this study (or some modification) worth doing at all?
 
-How to JSON
+<!-- Answers:
 
-- [ ] Du / Sie anpassen: Parallele Elemente beachten!
+Q1: When we want to find causal relations, we want to go from “seeing” to “doing”, i.e., we want to control the situation instead of just observing it. We have to make sure, that we only manipulate a single parameter, which is also the parameter we want to observe the effect of. In order to make sure that other parameters are kept constant, we use randomization to distribute participants to groups randomly.
 
-- [ ] ECR in PreQ (ansonsten ist alles da)
-- [ ] Morgenbefragung
-- [ ] Interventionsanzeige + Prä/Post Befragung
-- [ ] Abendbefragung
-- [ ] PostQ: Qualitative Fragen, globale RS, trait Motive
+Q2: 
+1. Playing violent could indeed cause increased aggressivity and hence be responsible for the correlation. 
+2. Conversely it could be possible that people who tend to be more aggressive are more inclined to play violent video games as well. 
+3. One could argue that gender confounds the correlation: Men tend to be more aggressive and to be more in playing violent video games.
 
-### Recruitment etc.
+Q3:
+**Manipulation:** Both the control group and the experimental group play video games. Control group plays a non-violent game, while the experimental group plays a violent game.
+**An idea:** Ideally, we’d try to keep other factors (like time pressure in the game / logic / the gameplay in general) constant in both groups, since those other factors might also influence aggression. We could take a “normal” game and extend it to include violent aspects. We could, for example, take Minecraft and write an extension, where players must kill villagers to stay alive. (Reduce number of spawned animals / any other food sources and make it possible for players to kill villagers and get their food. Players should also see blood when they kill a villager or an animal.) This modified version of Minecraft does not change anything in the game except introducing violence to the game.
+**Measure:** Participants fill out aggression questionnaires before and after the gaming period.
+**Dealing with confounders:** Randomization
 
-- Gruppe 1: Webseite überarbeiten
-  - [ ] Peer Review
-- Gruppe 2: Flyer/Aushänge, Werbetexte für Social Media
-- Gruppe 3: Werbekanäle überlegen
-- Gruppe 4: Vergütung
 
-**Geplanter Studienstart: 17.06.2024**
+Q4:
+We can not generalize the results to all “people”, all vegetables and meat, because: 
+- Only preschoolers from the U.S. as participants
+- Enjoyment != preference (?)
+- Asparagus is not the only vegetable
+- There are other types of meat
 
-## Homework (individually)
+From this study, we only learn that U.S. preschoolers enjoy eating chicken tenders more, compared to asparagus. It is still worth doing this study and variants of this study, we can have different groups of participants or different food each time. Over time, we would be able to generalize the effect after conducting many studies.
 
-- Test the study yourself (when the app is ready; we send an email)
-- Turn your instructions and follow-up questions into JSON snippets (see examples [here](https://codefile.io/f/Nz7Jnjiksp)) and upload your snippets in Moodle --> Until Tuesday evening
-- Bitte lesen Sie die DGPs-Empfehlungen "Management und Bereitstellung von Forschungsdaten in der Psychologie" ([Gollwitzer et al., 2020](https://psyarxiv.com/hcxtm)) und beantworten Sie die folgenden Leitfragen kurz und präzise in Moodle.
-
-1. Ein Autor veröffentlicht vollständig Mittelwerte und SDs aller Variablen in einer Tabelle im Ergebnisteil. Sind damit die Primärdaten publiziert und der Dokumentationspflicht entsprochen worden? Wenn nein, warum nicht?
-2. Nennen Sie drei Beispiele für Metadaten eines Datensatzes.
-3. Was sind "personenbezogene Daten"? Ist das Geschlecht und Alter einer Person ein personenbezogenes Datum?
-4. Welche dieser Orte sind geeignet als Repositorium für die langfristige Archivierung und Bereitstellung von Daten? Wenn "Nein", warum nicht?. (a) Die persönliche Webseite der Forscherin an ihrer Universität; (b) das "Online Supplemental Material (OSM)" einer wissenschaftlichen Zeitschrift des Elsevier Verlags; (c) in einem öffentlichen Projekt des Open Science Frameworks (https://osf.io); (d) bei Figshare (https://figshare.com); (e) bei Zenodo (https://zenodo.org)
-5. Beschreiben Sie in jeweils einem Satz die "Datenbereitstellung Typ 1" und die "Datenbereitstellung Typ 2".
-6. Was bedeutet ein "Nutzungsembargo"? Wie lange sollte es maximal sein?
-7. Welche Zugriffsklassen gelten als "open data"?
+ -->
