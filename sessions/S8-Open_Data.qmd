@@ -1,0 +1,26 @@
+---
+title: Session 08 - Open Data
+number-sections: false
+description: We talk about how to publish open data and how to create a codebook.
+---
+
+# Overview
+
+| Topic                                                            | Duration | Notes                                                                                                              |
+| :--------------------------------------------------------------- | :------: | ------------------------------------------------------------------------------------------------------------------ |
+| Introduction Open Data                                           |    20    | [Slides](../slides/Open_Data_Primer/Open_Data_Primer.qmd)                                                          |
+| Wrap up homework 1: Recommendations RDM                          |    30    |                                                                                                                    |
+| Presentation: How to creeate a data dictionary                   |    30    | [Slides](../slides/Open_Data-Codebook/Open_Data-Codebook.qmd)                                                      |
+| In class: Jointly Create Codebook for pre-questionnaire          |    30    | [Google doc](https://docs.google.com/spreadsheets/d/18XBXqum75saHRPWJa3S7CN8RtD3wQOndkxcoWzFrLEA/edit?usp=sharing) |
+| Start the analysis (data preprocessing) in pair programming mode |    60    |                                                                                                                    |
+
+: {.striped}
+
+
+## Optional: Create the codebook in DataWiz2
+
+You can also use [DataWiz2](https://datawiz2.beta.zpid.org) for this (see the instructions in the video "- [PTOS 9: Introduction to Research Data Management with D-Psy_FAIR](https://zpid.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a8a6b29f-959e-44b2-b829-af5500be5bc7)", starting at minute 29:27).
+In DataWiz2, you only need the sections "2. Upload and describe datasets" and then "5. Export".
+You then upload our data set.
+When exporting, please select "Export as JSON" and in "Include datasets" select all datasets.
+

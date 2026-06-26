@@ -2188,35 +2188,35 @@
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values",
-    "text": "Balancing values\n\n  \n\n\n\n\n\n\nflowchart LR\n    A[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'&gt;Open Data, public interest &lt;br&gt; entitlement to publicly funded data&lt;/div&gt;\"] &lt;--&gt; B[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'&gt;Privacy rights of &lt;br&gt; research subjects&lt;/div&gt;\"]\n    C[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'&gt;Right of first usage, &lt;br&gt; incentives to collect data in the first place&lt;/div&gt;\"] &lt;--&gt; D[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'&gt;Optimal and efficient gain of &lt;br&gt; knowledge by data reuse&lt;/div&gt;\"]\n    E[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'&gt;Reproducibility and verifiability of &lt;br&gt; published analyses&lt;/div&gt;\"] &lt;--&gt; F[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'&gt;Protect original authors against &lt;br&gt; inadequate burden and potential attacks&lt;/div&gt;\"]"
+    "text": "Balancing values\n\n  \n\n\n&lt;div style=\"background:#add8e6; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;\"&gt;Open Data, public interest, entitlement to publicly funded data&lt;/div&gt;\n&lt;div style=\"font-size:40px;\"&gt;↔&lt;/div&gt;\n&lt;div style=\"background:#90ee90; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;\"&gt;Privacy rights of research subjects&lt;/div&gt;\n\n\n&lt;div style=\"background:#add8e6; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;\"&gt;Right of first usage, incentives to collect data in the first place&lt;/div&gt;\n&lt;div style=\"font-size:40px;\"&gt;↔&lt;/div&gt;\n&lt;div style=\"background:#90ee90; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;\"&gt;Optimal and efficient gain of knowledge by data reuse&lt;/div&gt;\n\n\n&lt;div style=\"background:#add8e6; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;\"&gt;Reproducibility and verifiability of published analyses&lt;/div&gt;\n&lt;div style=\"font-size:40px;\"&gt;↔&lt;/div&gt;\n&lt;div style=\"background:#90ee90; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;\"&gt;Protect original authors against inadequate burden and potential attacks&lt;/div&gt;"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-1",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-1",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 1",
-    "text": "Balancing values 1\n\n\n\n\n\n\nflowchart LR\n\n    A[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Open Data, public interest &lt;br&gt; entitlement to publicly funded data&lt;/div&gt;\"] &lt;--&gt; B[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Privacy rights of &lt;br&gt; research subjects&lt;/div&gt;\"]\n    \n\n\n\n\n\n\n\n\nPrivacy rights &gt; openness; but also: “legitimate interest” of research\nAsk participants for a broad consent of open reuse\nRestrict access with “scientific use files”; publish aggregated data (e.g., ratings of videos) without the primary data (videos)\nSharing something &gt; sharing nothing\nAs open as possible, as restricted as necessary"
+    "text": "Balancing values 1\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\nPrivacy rights &gt; openness; but also: “legitimate interest” of research\nAsk participants for a broad consent of open reuse\nRestrict access with “scientific use files”; publish aggregated data (e.g., ratings of videos) without the primary data (videos)\nSharing something &gt; sharing nothing\nAs open as possible, as restricted as necessary"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-2",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-2",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 2",
-    "text": "Balancing values 2\n\n\n\n\n\n\nflowchart LR\n\nC[\"Right of first usage,\\nincentives to collect data\\nin the first place\"] &lt;--&gt; D[\"Optimal and efficient gain of\\nknowledge by data reuse\"]\n\nstyle C fill:#add8e6,stroke:#000,font-size:24px\nstyle D fill:#90ee90,stroke:#000,font-size:24px\n\n\n\n\n\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
+    "text": "Balancing values 2\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-3",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-3",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
-    "text": "Balancing values 3\n\n\n\n\n\n\nflowchart LR\n\nE[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Reproducibility and verifiability of &lt;br&gt; published analyses&lt;/div&gt;\"] &lt;--&gt; F[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Protect original authors against &lt;br&gt; inadequate burden and potential attacks&lt;/div&gt;\"]\n\n\n\n\n\n\n\n\nPrimary focus: openness and transparency. Correcting errors is painful, but a necessary condition for doing science\nData providers should be informed if their data are going to be reused or reanalyzed ➙ allows to prepare a reaction"
+    "text": "Balancing values 3\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nPrimary focus: openness and transparency. Correcting errors is painful, but a necessary condition for doing science\nData providers should be informed if their data are going to be reused or reanalyzed ➙ allows to prepare a reaction"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-3-1",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-3-1",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
-    "text": "Balancing values 3\n\n\n\n\n\n\nflowchart LR\n\nE[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Reproducibility and verifiability of &lt;br&gt; published analyses&lt;/div&gt;\"] &lt;--&gt; F[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Protect original authors against &lt;br&gt; inadequate burden and potential attacks&lt;/div&gt;\"]\n\n\n\n\n\n\n\n\nProblematic asymmetry:\n\nData provided ➙ often errors get detected\nNo data provided ➙ no errors are detected (because not possible). Default assumption: “Everything is OK. Perfect paper, because no errors are spotted!”\n\nMaking oneself vulnerable is good for science, and should also be good for reputation!\nChange default assumption? “No data ➙ Probably erroneous analysis.”"
+    "text": "Balancing values 3\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nProblematic asymmetry:\n\nData provided ➙ often errors get detected\nNo data provided ➙ no errors are detected (because not possible). Default assumption: “Everything is OK. Perfect paper, because no errors are spotted!”\n\nMaking oneself vulnerable is good for science, and should also be good for reputation!\nChange default assumption? “No data ➙ Probably erroneous analysis.”"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#success-stories",
@@ -4834,28 +4834,28 @@
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#how-to-codebook-1",
     "title": "How to Codebook",
     "section": "How to Codebook",
-    "text": "How to Codebook\n\nSee the D-Psy-FAIR standard (developed by Blask et al from the Leibniz-Institute Psychology)\n\n\n\nSave in a human-readable (e.g., .csv) and in a machine-readable (e.g., .json) format!"
+    "text": "How to Codebook\n\nResources:\nVideo (51 min.): “PTOS 9: Einführung in das Forschungsdatenmanagement mit D-Psy_FAIR“\n– siehe v.a.: „Schritt 2: Ein Codebuch erstellen“ ab 29:27"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#how-to-codebook-2",
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#how-to-codebook-2",
     "title": "How to Codebook",
     "section": "How to Codebook",
-    "text": "How to Codebook\nExcel file:\nHuman-readable: ✅ ✅\nMachine-readabe: ~\nAccessible: 👎"
+    "text": "How to Codebook\ncsv file:\nHuman-readable: ~ (raw) ✅ (after import)\nMachine-readable: ✅  Accessible: ✅"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#how-to-codebook-3",
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#how-to-codebook-3",
     "title": "How to Codebook",
     "section": "How to Codebook",
-    "text": "How to Codebook\ncsv file:\nHuman-readable: ~ (raw) ✅ (after import)\nMachine-readable: ✅  Accessible: ✅"
+    "text": "How to Codebook\n\n\njson file:\nHuman-readable: ~ (raw)\nMachine-readable: ✅ ✅\nAccessible: ✅"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#how-to-codebook-4",
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#how-to-codebook-4",
     "title": "How to Codebook",
     "section": "How to Codebook",
-    "text": "How to Codebook\n\n\njson file:\nHuman-readable: ~ (raw)\nMachine-readable: ✅ ✅\nAccessible: ✅"
+    "text": "How to Codebook\n\nResources:\nVideo (51 min.): “PTOS 9: Einführung in das Forschungsdatenmanagement mit D-Psy_FAIR“\n– siehe v.a.: „Schritt 2: Ein Codebuch erstellen“ ab 29:27"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#excursus-json-file-format",
@@ -4876,14 +4876,14 @@
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#how-to-codebook-manual",
     "title": "How to Codebook",
     "section": "How to Codebook: Manual",
-    "text": "How to Codebook: Manual\n\nStep 1: Create your codebook as a csv file\n– e.g., create it in Excel first, then export as .csv file\nStep 2: Import into R and convert it to a json file\n\n\nlibrary(jsonlite)\ndf &lt;- read.csv(\"codebook.csv\")\njson &lt;- toJSON(df, pretty = TRUE)\nwrite_json(json,\"codebook.json\")\n\n\nStep 3: Save both codebook files in the /doc subfolder of your project\nStep 4: Upload both the .csv and the .json-file to the repository"
+    "text": "How to Codebook: Manual\n\nStep 1: Create your codebook as an Excel or LibreOffice spreadsheet file\n\nStep 2: Export it as a .csv file\nStep 3: Import into R and convert it to a .json file\n\n\nlibrary(jsonlite)\ndf &lt;- read.csv(\"codebook.csv\")\njson &lt;- toJSON(df, pretty = TRUE)\nwrite_json(json,\"codebook.json\")\n\n\nStep 4: Save both codebook files in the /doc subfolder of your project\nStep 5: Upload both the .csv and the .json-file to the repository"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#how-to-codebook-datawiz2",
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#how-to-codebook-datawiz2",
     "title": "How to Codebook",
     "section": "How to Codebook: DataWiz2",
-    "text": "How to Codebook: DataWiz2\n\n\nhttps://datawiz2.dev.zpid.de"
+    "text": "How to Codebook: DataWiz2\n\n\nhttps://datawiz2.beta.zpid.org"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#how-to-codebook-5",
@@ -6046,5 +6046,33 @@
     "title": "How to minimize mistakes",
     "section": "File name and path conventions",
     "text": "File name and path conventions\n\n\nUse descriptive and consistent names for files and directories.\nFor dates always use ISO dates: YYYY-MM-DD.\nUse paths relative to the project root instead of absolute paths:\n\nAbsolute path:C:/Users/felix/Empra_Project/raw_data/study1.csv  Relative path: relative to the root folder: C:/Users/felix/Empra_Project/raw_data/study1.csv\n\nSet the project root as working directory in R by creating a .Rproj file in C:/Users/felix/Empra_Project/\nIn scripts, only use relative paths: read.csv(\"raw_data/study1.csv\")"
+  },
+  {
+    "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#how-to-codebook",
+    "href": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#how-to-codebook",
+    "title": "How to Codebook",
+    "section": "How to Codebook",
+    "text": "How to Codebook\n\nSee the D-Psy-FAIR standard (developed by Blask et al from the Leibniz-Institute Psychology)\n\n\n\nSave in a human-readable (e.g., .csv) and in a machine-readable (e.g., .json) format!"
+  },
+  {
+    "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#codebook-which-file-format",
+    "href": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#codebook-which-file-format",
+    "title": "How to Codebook",
+    "section": "Codebook: Which file format?",
+    "text": "Codebook: Which file format?\nExcel file:\nHuman-readable: ✅ ✅\nMachine-readabe: ~\nAccessible: ~\n\n\n(Note re: “Accessible”: Proprietary file format; but as it is a widely used format, there are multiple open source apps which can open it). A better alternative is the open .ods spreadsheet format (e.g. from LibreOffice)"
+  },
+  {
+    "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#codebook-which-file-format-1",
+    "href": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#codebook-which-file-format-1",
+    "title": "How to Codebook",
+    "section": "Codebook: Which file format?",
+    "text": "Codebook: Which file format?\ncsv file:\nHuman-readable: ~ (raw) ✅ (after import)\nMachine-readable: ✅  Accessible: ✅"
+  },
+  {
+    "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#codebook-which-file-format-2",
+    "href": "slides/Open_Data-Codebook/Open_Data-Codebook.slide.html#codebook-which-file-format-2",
+    "title": "How to Codebook",
+    "section": "Codebook: Which file format?",
+    "text": "Codebook: Which file format?\n\n\njson file:\nHuman-readable: ~ (raw)\nMachine-readable: ✅ ✅\nAccessible: ✅"
   }
 ]

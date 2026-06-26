@@ -23,7 +23,7 @@ revealjs-plugins:
 ---
 
 
-# How to Codebook
+# How to create a codebook aka. data dictionary
 
 ## How to Codebook
 
@@ -37,31 +37,38 @@ See the [D-Psy-FAIR](https://psycharchives.org/en/item/fe055282-d722-4468-8a8f-0
 Save in a human-readable (e.g., .csv) and in a machine-readable (e.g., .json) format!
 :::
 
-## How to Codebook
+## Codebook: Which file format?
 
 **Excel file:**  
 Human-readable: :white_check_mark: :white_check_mark:  
-Machine-readabe: <span style="color: orange;">~</span>  
-Accessible: :thumbsdown:
+Machine-readabe: <span style="color: orange; font-weight: bold;">~</span>  
+Accessible: <span style="color: orange; font-weight: bold;">~</span>
 
 ![](img/Excel-file.png)
 
-## How to Codebook
+::: {.smallest}
+(Note re: "Accessible": Proprietary file format; but as it is a widely used format, there are multiple open source apps which can open it).
+A better alternative is the open `.ods` spreadsheet format (e.g. from LibreOffice)
+:::
+
+
+## Codebook: Which file format?
 
 **csv file:**  
-Human-readable: <span style="color: orange;">~ (raw)</span> :white_check_mark: (after import)  
+Human-readable: <span style="color: orange; font-weight: bold;">~ (raw)</span>  :white_check_mark: (after import)  
 Machine-readable: :white_check_mark: <br>
 Accessible: :white_check_mark:
 
 ![](img/CSV-file.png)
 
-## How to Codebook
+
+## Codebook: Which file format?
 
 :::: {.columns}
 
 ::: {.column width="45%"}
 **json file:**  
-Human-readable: <span style="color: orange;">~ (raw)</span>  
+Human-readable: <span style="color: orange; font-weight: bold;">~ (raw)</span>  
 Machine-readable: :white_check_mark: :white_check_mark:  
 Accessible: :white_check_mark:
 :::
@@ -82,18 +89,18 @@ Accessible: :white_check_mark:
 
 ## How to Codebook: Manual
 
-* Step 1: Create your codebook as a csv file  
-[– e.g., create it in Excel first, then export as .csv file]{.smaller}
-* Step 2: Import into R and convert it to a json file
+* Step 1: Create your codebook as an Excel or LibreOffice spreadsheet file  
+* Step 2: Export it as a `.csv` file
+* Step 3: Import into R and convert it to a `.json` file
 ```{r, eval=FALSE, echo=TRUE}
 library(jsonlite)
 df <- read.csv("codebook.csv")
 json <- toJSON(df, pretty = TRUE)
 write_json(json,"codebook.json")
 ```
-* Step 3: Save both codebook files in the /doc subfolder of 
+* Step 4: Save both codebook files in the `/doc` subfolder of 
 your project
-* Step 4: Upload both the .csv and the .json-file to the 
+* Step 5: Upload both the `.csv` and the `.json`-file to the 
 repository
 
 ## How to Codebook: DataWiz2
@@ -101,7 +108,7 @@ repository
 ![](img/DataWiz2.png)
 
 <div style="text-align: center;">
-<https://datawiz2.dev.zpid.de>
+<https://datawiz2.beta.zpid.org>
 </div>
 
 ## How to Codebook

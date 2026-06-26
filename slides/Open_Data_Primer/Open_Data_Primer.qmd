@@ -213,31 +213,31 @@ Icon from [flaticon.com](https://www.flaticon.com/) by freepic, mynamepong, monk
 <br>
 <br>
 
-<div style="text-align: center;">
-
-```{mermaid}
-
-flowchart LR
-    A["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'>Open Data, public interest <br> entitlement to publicly funded data</div>"] <--> B["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'>Privacy rights of <br> research subjects</div>"]
-    C["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'>Right of first usage, <br> incentives to collect data in the first place</div>"] <--> D["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'>Optimal and efficient gain of <br> knowledge by data reuse</div>"]
-    E["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'>Reproducibility and verifiability of <br> published analyses</div>"] <--> F["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'>Protect original authors against <br> inadequate burden and potential attacks</div>"]
-
-    
-```
+<div style="display:flex; flex-direction:column; align-items:center; gap:20px; margin-top:20px;">
+  <div style="display:flex; justify-content:center; align-items:center; gap:30px;">
+    <div style="background:#add8e6; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;">Open Data, public interest, entitlement to publicly funded data</div>
+    <div style="font-size:40px;">↔</div>
+    <div style="background:#90ee90; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;">Privacy rights of research subjects</div>
+  </div>
+  <div style="display:flex; justify-content:center; align-items:center; gap:30px;">
+    <div style="background:#add8e6; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;">Right of first usage, incentives to collect data in the first place</div>
+    <div style="font-size:40px;">↔</div>
+    <div style="background:#90ee90; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;">Optimal and efficient gain of knowledge by data reuse</div>
+  </div>
+  <div style="display:flex; justify-content:center; align-items:center; gap:30px;">
+    <div style="background:#add8e6; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;">Reproducibility and verifiability of published analyses</div>
+    <div style="font-size:40px;">↔</div>
+    <div style="background:#90ee90; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;">Protect original authors against inadequate burden and potential attacks</div>
+  </div>
 </div>
 
 
 ## Balancing values 1
 
-<div style="text-align: center;">
-
-```{mermaid}
-
-flowchart LR
-
-    A["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'>Open Data, public interest <br> entitlement to publicly funded data</div>"] <--> B["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'>Privacy rights of <br> research subjects</div>"]
-    
-```
+<div style="display:flex; justify-content:center; align-items:center; gap:30px; margin-top:20px;">
+  <div style="background:#add8e6; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:24px;">Open Data, public interest, entitlement to publicly funded data</div>
+  <div style="font-size:40px;">↔</div>
+  <div style="background:#90ee90; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:24px;">Privacy rights of research subjects</div>
 </div>
 
 
@@ -252,16 +252,14 @@ flowchart LR
 
 ## Balancing values 2
 
-<div style="text-align: center;">
-```{mermaid}
-
-flowchart LR
-
-C["Right of first usage,\nincentives to collect data\nin the first place"] <--> D["Optimal and efficient gain of\nknowledge by data reuse"]
-
-style C fill:#add8e6,stroke:#000,font-size:24px
-style D fill:#90ee90,stroke:#000,font-size:24px
-``` 
+<div style="display:flex; justify-content:center; align-items:center; gap:30px; margin-top:20px;">
+  <div style="background:#add8e6; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:24px;">
+    Right of first usage, incentives to collect data in the first place
+  </div>
+  <div style="font-size:40px;">↔</div>
+  <div style="background:#90ee90; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:24px;">
+    Optimal and efficient gain of knowledge by data reuse
+  </div>
 </div>
 
 - Right of first usage, possibility of embargo
@@ -285,14 +283,10 @@ style D fill:#90ee90,stroke:#000,font-size:24px
 
 ## Balancing values 3
 
-<div style="text-align: center;">
-```{mermaid}
-
-flowchart LR
-
-E["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'>Reproducibility and verifiability of <br> published analyses</div>"] <--> F["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'>Protect original authors against <br> inadequate burden and potential attacks</div>"]
-``` 
-
+<div style="display:flex; justify-content:center; align-items:center; gap:30px; margin-top:20px;">
+  <div style="background:#add8e6; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:24px;">Reproducibility and verifiability of published analyses</div>
+  <div style="font-size:40px;">↔</div>
+  <div style="background:#90ee90; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:24px;">Protect original authors against inadequate burden and potential attacks</div>
 </div>
 
 - Primary focus: openness and transparency. Correcting
@@ -306,14 +300,10 @@ E["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;bor
 
 ## Balancing values 3
 
-<div style="text-align: center;">
-```{mermaid}
-
-flowchart LR
-
-E["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'>Reproducibility and verifiability of <br> published analyses</div>"] <--> F["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'>Protect original authors against <br> inadequate burden and potential attacks</div>"]
-``` 
-
+<div style="display:flex; justify-content:center; align-items:center; gap:30px; margin-top:20px;">
+  <div style="background:#add8e6; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:24px;">Reproducibility and verifiability of published analyses</div>
+  <div style="font-size:40px;">↔</div>
+  <div style="background:#90ee90; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:24px;">Protect original authors against inadequate burden and potential attacks</div>
 </div>
 
 - Problematic asymmetry:
