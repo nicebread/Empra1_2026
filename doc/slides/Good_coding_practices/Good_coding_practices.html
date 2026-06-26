@@ -207,6 +207,8 @@ window.Quarto = {
   <li><a href="#unit-tests-sanity-checks" id="toc-unit-tests-sanity-checks" class="nav-link" data-scroll-target="#unit-tests-sanity-checks">Unit tests / sanity checks</a></li>
   <li><a href="#unit-tests-sanity-checks-1" id="toc-unit-tests-sanity-checks-1" class="nav-link" data-scroll-target="#unit-tests-sanity-checks-1">Unit tests / sanity checks</a></li>
   <li><a href="#technical-reproducibility" id="toc-technical-reproducibility" class="nav-link" data-scroll-target="#technical-reproducibility">Technical reproducibility</a></li>
+  <li><a href="#file-name-and-path-conventions" id="toc-file-name-and-path-conventions" class="nav-link" data-scroll-target="#file-name-and-path-conventions">File name and path conventions</a></li>
+  <li><a href="#file-name-and-path-conventions-1" id="toc-file-name-and-path-conventions-1" class="nav-link" data-scroll-target="#file-name-and-path-conventions-1">File name and path conventions</a></li>
   <li><a href="#file-organization" id="toc-file-organization" class="nav-link" data-scroll-target="#file-organization">File organization</a></li>
   <li><a href="#directory-organization" id="toc-directory-organization" class="nav-link" data-scroll-target="#directory-organization">Directory organization</a></li>
   <li><a href="#subdirectory-organization" id="toc-subdirectory-organization" class="nav-link" data-scroll-target="#subdirectory-organization">Subdirectory organization</a></li>
@@ -426,6 +428,31 @@ window.Quarto = {
 </div>
 </div>
 </section>
+<section id="file-name-and-path-conventions" class="level2">
+<h2 class="anchored" data-anchor-id="file-name-and-path-conventions">File name and path conventions</h2>
+<p><strong>Which is an example of a sensible file naming convention?</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox"><code>final_FINAL_v3_new_final.docx</code></label></li>
+<li><label><input type="checkbox"><code>2024-03-15_Projectname_Dataset_v01.csv</code></label></li>
+<li><label><input type="checkbox"><code>Document1.docx</code></label></li>
+<li><label><input type="checkbox"><code>data (copy).xlsx</code></label></li>
+</ul>
+</section>
+<section id="file-name-and-path-conventions-1" class="level2">
+<h2 class="anchored" data-anchor-id="file-name-and-path-conventions-1">File name and path conventions</h2>
+<div class="smaller">
+<ul>
+<li>Use descriptive and consistent names for files and directories.</li>
+<li>For dates always use ISO dates: <code>YYYY-MM-DD</code>.</li>
+<li>Use paths relative to the project root instead of absolute paths:</li>
+</ul>
+<p><span style="color: darkblue;">Absolute path:<br>C:/Users/felix/Empra_Project/raw_data/study1.csv</span> <br><br> <span style="color: darkred;">Relative path:</span><span style="color: darkgrey;"> relative to the </span><span style="color: darkgreen;">root folder:</span><br> <span style="color: darkgreen;">C:/Users/felix/Empra_Project/<span style="color: darkred;">raw_data/study1.csv</span><br></span></p>
+<ul>
+<li>Set the project root as working directory in <code>R</code> by creating a <code>.Rproj</code> file in <code>C:/Users/felix/Empra_Project/</code></li>
+<li>In scripts, only use relative paths: <code>read.csv("raw_data/study1.csv")</code></li>
+</ul>
+</div>
+</section>
 <section id="file-organization" class="level2">
 <h2 class="anchored" data-anchor-id="file-organization">File organization</h2>
 <ul>
@@ -437,7 +464,6 @@ window.Quarto = {
 </ul></li>
 <li>Use a consistent, self-explanatory subdirectory structure</li>
 <li>Number script files in execution order (see next slide)</li>
-<li>Use paths relative to the project root instead of absolute paths (e.g., <code>raw_data/study1/</code> instead of <code>C:/Users/felix/Empra_Project/raw_data/study1/</code>).</li>
 </ul>
 </section>
 <section id="directory-organization" class="level2">
@@ -529,7 +555,6 @@ window.Quarto = {
 <div class="columns">
 <div class="column" style="width:40%;">
 <div class="smaller">
-<p><br></p>
 <ul>
 <li>At the start of each script file: Author, license, purpose of the file.</li>
 <li>Load packages all at once at the beginning of the file</li>
@@ -539,7 +564,26 @@ window.Quarto = {
 </ul>
 </div>
 </div><div class="column" style="width:60%;">
-<p><img src="img/Code_Commenting.jpg" class="img-fluid"></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="do">## This source code is licensed under the FreeBSD License (see ...)</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="do">## (c) 2017 Felix Schönbrodt</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="do">## This file runs the Monte-Carlo simulations reported</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="do">## in Schönbrodt &amp; Perugini (2013). doi:10.1016/j.jrp.2013.05.009</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(doParallel)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Register multicore</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>nCore <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="fu">registerDoParallel</span>(<span class="at">cores=</span>nCore)</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Load Ruscio's function for inducing a correlation into an</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="co"># existing empirical marginal distributions</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"00-Ruscio_GenData.R"</span>)</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="do">## Simulation parameters</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>popsize <span class="ot">&lt;-</span> <span class="dv">1000000</span> <span class="co"># size of population from which samples are drawn</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>n.max <span class="ot">&lt;-</span> <span class="dv">1000</span> <span class="co"># maximum sample size</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </section>

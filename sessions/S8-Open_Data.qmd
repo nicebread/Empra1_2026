@@ -10,8 +10,8 @@ description: We talk about how to publish open data and how to create a codebook
 | :-------------------------------------------------------- | :------: | ------------------------------------------------------------------------------------------------------------------ |
 | Introduction Open Data                                    |    60    | [Slides](../slides/Open_Data_Primer/Open_Data_Primer.qmd)                                                          |
 | Wrap up homework 1: Recommendations RDM                   |    20    |                                                                                                                    |
-| Presentation: How to creeate a data dictionary            |    15    | [Slides](../slides/Open_Data-Codebook/Open_Data-Codebook.qmd)                                                      |
-| In class: Jointly Create Codebook for pre-questionnaire   |    45    | [Google doc](https://docs.google.com/spreadsheets/d/18XBXqum75saHRPWJa3S7CN8RtD3wQOndkxcoWzFrLEA/edit?usp=sharing) |
+| Presentation: How to create a data dictionary             |    15    | [Slides](../slides/Open_Data-Codebook/Open_Data-Codebook.qmd)                                                      |
+| In class: Jointly create codebook for our data set        |    45    | [Google doc](https://docs.google.com/spreadsheets/d/18XBXqum75saHRPWJa3S7CN8RtD3wQOndkxcoWzFrLEA/edit?usp=sharing) |
 | Start the analysis / prepare the project folder structure |    ??    |                                                                                                                    |
 
 : {.striped}
@@ -40,3 +40,4 @@ When exporting, please select "Export as JSON" and in "Include datasets" select 
     -  "AP1 Criteria for post-data collection exclusion of participants, if any"
     -  "AP2 Criteria for post-data collection exclusions on trial level (if applicable)"
  -  At the end of the script, you should have a cleaned data set which is ready for data analysis. Save the cleaned data frames as new `.csv` data files in `/processed_data`.
+-  

@@ -2321,35 +2321,35 @@
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values",
-    "text": "Balancing values\n\n  \n\n\n\n\n\n\nflowchart LR\n    A[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'&gt;Open Data, public interest &lt;br&gt; entitlement to publicly funded data&lt;/div&gt;\"] &lt;--&gt; B[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'&gt;Privacy rights of &lt;br&gt; research subjects&lt;/div&gt;\"]\n    C[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'&gt;Right of first usage, &lt;br&gt; incentives to collect data in the first place&lt;/div&gt;\"] &lt;--&gt; D[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'&gt;Optimal and efficient gain of &lt;br&gt; knowledge by data reuse&lt;/div&gt;\"]\n    E[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'&gt;Reproducibility and verifiability of &lt;br&gt; published analyses&lt;/div&gt;\"] &lt;--&gt; F[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'&gt;Protect original authors against &lt;br&gt; inadequate burden and potential attacks&lt;/div&gt;\"]"
+    "text": "Balancing values\n\n  \n\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-1",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-1",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 1",
-    "text": "Balancing values 1\n\n\n\n\n\n\nflowchart LR\n\n    A[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Open Data, public interest &lt;br&gt; entitlement to publicly funded data&lt;/div&gt;\"] &lt;--&gt; B[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Privacy rights of &lt;br&gt; research subjects&lt;/div&gt;\"]\n    \n\n\n\n\n\n\n\n\nPrivacy rights &gt; openness; but also: “legitimate interest” of research\nAsk participants for a broad consent of open reuse\nRestrict access with “scientific use files”; publish aggregated data (e.g., ratings of videos) without the primary data (videos)\nSharing something &gt; sharing nothing\nAs open as possible, as restricted as necessary"
+    "text": "Balancing values 1\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\nPrivacy rights &gt; openness; but also: “legitimate interest” of research\nAsk participants for a broad consent of open reuse\nRestrict access with “scientific use files”; publish aggregated data (e.g., ratings of videos) without the primary data (videos)\nSharing something &gt; sharing nothing\nAs open as possible, as restricted as necessary"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-2",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-2",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 2",
-    "text": "Balancing values 2\n\n\n\n\n\n\nflowchart LR\n\nC[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Right of first usage, &lt;br&gt; incentives to collect data in the first place&lt;/div&gt;\"] &lt;--&gt; D[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Optimal and efficient gain of &lt;br&gt; knowledge by data reuse&lt;/div&gt;\"]\n\n\n\n\n\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
+    "text": "Balancing values 2\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-3",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-3",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
-    "text": "Balancing values 3\n\n\n\n\n\n\nflowchart LR\n\nE[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Reproducibility and verifiability of &lt;br&gt; published analyses&lt;/div&gt;\"] &lt;--&gt; F[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Protect original authors against &lt;br&gt; inadequate burden and potential attacks&lt;/div&gt;\"]\n\n\n\n\n\n\n\n\nPrimary focus: openness and transparency. Correcting errors is painful, but a necessary condition for doing science\nData providers should be informed if their data are going to be reused or reanalyzed ➙ allows to prepare a reaction"
+    "text": "Balancing values 3\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nPrimary focus: openness and transparency. Correcting errors is painful, but a necessary condition for doing science\nData providers should be informed if their data are going to be reused or reanalyzed ➙ allows to prepare a reaction"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-3-1",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-3-1",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
-    "text": "Balancing values 3\n\n\n\n\n\n\nflowchart LR\n\nE[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Reproducibility and verifiability of &lt;br&gt; published analyses&lt;/div&gt;\"] &lt;--&gt; F[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Protect original authors against &lt;br&gt; inadequate burden and potential attacks&lt;/div&gt;\"]\n\n\n\n\n\n\n\n\nProblematic asymmetry:\n\nData provided ➙ often errors get detected\nNo data provided ➙ no errors are detected (because not possible). Default assumption: “Everything is OK. Perfect paper, because no errors are spotted!”\n\nMaking oneself vulnerable is good for science, and should also be good for reputation!\nChange default assumption? “No data ➙ Probably erroneous analysis.”"
+    "text": "Balancing values 3\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nProblematic asymmetry:\n\nData provided ➙ often errors get detected\nNo data provided ➙ no errors are detected (because not possible). Default assumption: “Everything is OK. Perfect paper, because no errors are spotted!”\n\nMaking oneself vulnerable is good for science, and should also be good for reputation!\nChange default assumption? “No data ➙ Probably erroneous analysis.”"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#success-stories",
@@ -2573,7 +2573,7 @@
     "href": "slides/Good_coding_practices/Good_coding_practices.html#file-organization",
     "title": "How to minimize mistakes",
     "section": "File organization",
-    "text": "File organization\n\n(The following guidelines apply to many, but not all possible types of projects)\nAll files that are necessary for reproducing the results should be bundled in one directory\n\nIncluding: primary unprocessed data files, scripts for data preprocessing, cached intermediate data objects, scripts for hypothesis testing, generated result plots, …\nGoal: You zip the directory, send it to somebody, and the person can reproduce the full analytical pipeline.\n\nUse a consistent, self-explanatory subdirectory structure\nNumber script files in execution order (see next slide)\nUse paths relative to the project root instead of absolute paths (e.g., raw_data/study1/ instead of C:/Users/felix/Empra_Project/raw_data/study1/)."
+    "text": "File organization\n\n(The following guidelines apply to many, but not all possible types of projects)\nAll files that are necessary for reproducing the results should be bundled in one directory\n\nIncluding: primary unprocessed data files, scripts for data preprocessing, cached intermediate data objects, scripts for hypothesis testing, generated result plots, …\nGoal: You zip the directory, send it to somebody, and the person can reproduce the full analytical pipeline.\n\nUse a consistent, self-explanatory subdirectory structure\nNumber script files in execution order (see next slide)"
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.html#directory-organization",
@@ -2615,7 +2615,7 @@
     "href": "slides/Good_coding_practices/Good_coding_practices.html#code-commenting-1",
     "title": "How to minimize mistakes",
     "section": "Code commenting 1",
-    "text": "Code commenting 1\n\n\n\n\n\nAt the start of each script file: Author, license, purpose of the file.\nLoad packages all at once at the beginning of the file\nRule of thumb: At least 1 comment per 3 lines of code\nSeparate chunks of code with comment lines\nUse English variable names and comments from the beginning (you don‘t want to translate everything before dissemination)"
+    "text": "Code commenting 1\n\n\n\n\nAt the start of each script file: Author, license, purpose of the file.\nLoad packages all at once at the beginning of the file\nRule of thumb: At least 1 comment per 3 lines of code\nSeparate chunks of code with comment lines\nUse English variable names and comments from the beginning (you don‘t want to translate everything before dissemination)\n\n\n\n## This source code is licensed under the FreeBSD License (see ...)\n## (c) 2017 Felix Schönbrodt\n\n## This file runs the Monte-Carlo simulations reported\n## in Schönbrodt & Perugini (2013). doi:10.1016/j.jrp.2013.05.009\n\nlibrary(dplyr)\nlibrary(doParallel)\n\n# Register multicore\nnCore &lt;- 10\nregisterDoParallel(cores=nCore)\n\n# Load Ruscio's function for inducing a correlation into an\n# existing empirical marginal distributions\nsource(\"00-Ruscio_GenData.R\")\n\n## Simulation parameters\npopsize &lt;- 1000000 # size of population from which samples are drawn\nn.max &lt;- 1000 # maximum sample size"
   },
   {
     "objectID": "slides/Good_coding_practices/Good_coding_practices.html#code-commenting-2",
@@ -4763,8 +4763,8 @@
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-1",
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-1",
     "title": "How to Codebook",
-    "section": "How to Codebook",
-    "text": "How to Codebook\n\nSee the D-Psy-FAIR standard (developed by Blask et al from the Leibniz-Institute Psychology)\n\n\n\nSave in a human-readable (e.g., .csv) and in a machine-readable (e.g., .json) format!"
+    "section": "",
+    "text": "Resources:\nVideo (51 min.): “PTOS 9: Einführung in das Forschungsdatenmanagement mit D-Psy_FAIR“\n– siehe v.a.: „Schritt 2: Ein Codebuch erstellen“ ab 29:27"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-2",
@@ -4805,15 +4805,15 @@
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-manual",
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-manual",
     "title": "How to Codebook",
-    "section": "How to Codebook: Manual",
-    "text": "How to Codebook: Manual\n\nStep 1: Create your codebook as a csv file\n– e.g., create it in Excel first, then export as .csv file\nStep 2: Import into R and convert it to a json file\n\n\nlibrary(jsonlite)\ndf &lt;- read.csv(\"codebook.csv\")\njson &lt;- toJSON(df, pretty = TRUE)\nwrite_json(json,\"codebook.json\")\n\n\nStep 3: Save both codebook files in the /doc subfolder of your project\nStep 4: Upload both the .csv and the .json-file to the repository"
+    "section": "",
+    "text": "Step 1: Create your codebook as an Excel or LibreOffice spreadsheet file\n\nStep 2: Export it as a .csv file\nStep 3: Import into R and convert it to a .json file\n\n\nlibrary(jsonlite)\ndf &lt;- read.csv(\"codebook.csv\")\njson &lt;- toJSON(df, pretty = TRUE)\nwrite_json(json,\"codebook.json\")\n\n\nStep 4: Save both codebook files in the /doc subfolder of your project\nStep 5: Upload both the .csv and the .json-file to the repository"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-datawiz2",
     "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-datawiz2",
     "title": "How to Codebook",
-    "section": "How to Codebook: DataWiz2",
-    "text": "How to Codebook: DataWiz2\n\n\nhttps://datawiz2.dev.zpid.de"
+    "section": "",
+    "text": "https://datawiz2.beta.zpid.org"
   },
   {
     "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook-5",
@@ -5926,7 +5926,7 @@
     "href": "sessions/S6-Good_coding.html",
     "title": "Session 06 - Preregistration 2; Good coding practices",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up Homework “Prereg”\n10\nWill discuss in detail with the consensus prereg\n\n\nPrereg Intro\n30\nSlides\n\n\nAdvocatus Diaboli Game\n20\n\n\n\nGood coding practices\n45\nSlides\n\n\n\n\n\n\nGroup 1: Create text for SONA and text snippets for social media\nGroup 2: Create visual flyers to share on social media\nGroup 3: Think about channels for recruitment: Social Media, Whatsapp groups, other Empras, friends/family, not just students, how to get more male participants?\n\nDo this in our Google Drive so that you can see the texts/progress of the other groups.\n\n\nSee https://www.oer.psy.lmu.de/R_Tutorial/Teil4_tidyverse.html.\n\n\n\n\nSet up the folder structure as explained in the Good Coding Practices presentation (slides 12ff.). Create all folders (even if they are currently empty). Place the raw data file (see Moodle) into the raw_data subfolder (the data files is all you have).\nImport the data in R. Find out from which software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the main analyses of the original paper? What do their values mean?).\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\nThis is an SPSS data file. You can import it as a data frame with:\n# install.packages(\"rio\")\nlibrary(rio)\ndat &lt;- import(\"raw_data/RRBehavioralHumility_Deidentified.sav\")\nIn SPSS data files, meta-data about the variables (i.e., the columns) can be stored in the data file itself. This sometimes functions as an (often incomplete) codebook. When you import the .sav file, these meta-data are stored as so-called attributes of columns in the data frame. You see a preview of them if you print the structure of the data frame with str(dat):\n'data.frame':   104 obs. of  28 variables:\n\n[...]\n\n$ Cond                  : num  0 0 0 0 0 0 1 1 1 1 ...\n  ..- attr(*, \"label\")= chr \"Condition\"\n  ..- attr(*, \"format.spss\")= chr \"F11.0\"\n  ..- attr(*, \"display_width\")= int 11\n  ..- attr(*, \"labels\")= Named num [1:2] 0 1\n  .. ..- attr(*, \"names\")= chr [1:2] \"Control\" \"Awe\"\n\n [...]\n\n $ SelectOut             : num  2 2 2 2 2 2 2 2 2 2 ...\n  ..- attr(*, \"label\")= chr \"1= outlier (&gt;3SD), 2=didn't follow instructions to talk about weaknesses\"\n  ..- attr(*, \"format.spss\")= chr \"F8.2\"\n  ..- attr(*, \"display_width\")= int 15\nSo, the variable $Cond has the label Condition, and the values 0 and 1 are mapped to \"Control\" and \"Awe\".\nYou can directly access the attributes with this R command:\nattr(dat$Cond, which=\"labels\")\n\n\n\n\nGet an overview of the data set with the summarytools package.\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\n# install.packages(\"summarytools\")\nlibrary(summarytools)\nview(dfSummary(dat))\n\n\n\n\nWhen you found out which variables are relevant for us, …\n\n\ncompute some descriptive statistics and compare them to the paper.\nOptionally, try to reproduce the t-test that tested the main hypothesis in the paper\n\nMake a note of any problems and inconsistencies you discover. You can use your new dplyr skills, or stay at base R."
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up Homework “Prereg”\n10\nWill discuss in detail with the consensus prereg\n\n\nPrereg Intro\n30\nSlides\n\n\nAdvocatus Diaboli Game\n40\n\n\n\nGood coding practices\n60\nSlides\n\n\nExplain Homework\n20\n\n\n\n\n\n\n\nGroup 1: Create text for SONA and text snippets for social media\nGroup 2: Create visual flyers to share on social media\nGroup 3: Think about channels for recruitment: Social Media, Whatsapp groups, other Empras, friends/family, not just students, how to get more male participants?\n\nDo this in our Google Drive so that you can see the texts/progress of the other groups.\n\n\nSee https://www.oer.psy.lmu.de/R_Tutorial/Teil4_tidyverse.html.\ndplyr is an R package for data manipulation, providing a consistent set of verbs — filter(), select(), mutate(), summarise(), and arrange() — to transform and summarize data frames. It is very convenient to clean and generally preprocess raw data.\n\n\n\n\nSet up the folder structure as explained in the Good Coding Practices presentation (slides 12ff.):\n\n\nCreate all folders, even if they are currently empty. Note: Git does not include empty folders to the repository. If you still want them to show up, add an empty file called .gitkeep to the otherwise empty folder. Files with a name starting with a dot are hidden files that do not show up in the Explorer/Finder (but still are there).\nPlace the raw data file (see Moodle) into the raw_data subfolder (the data files is all you have)\nCreate an R-Studio project in the top level folder\nCreate a file called .gitignore in the root folder, and add a line “*.sav” to it. This tells git to ignore all files with a .sav file extension.\nPut everything under git version control.\nImportant: Really make sure that you do not share the raw data file on GitHub. If you are unsure how to proceed, do not push yet to GitHub; we’ll do it together next session.\n\n\nImport the data in R. Find out from which software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the main analyses of the original paper? What do their values mean?).\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\nThis is an SPSS data file. You can import it as a data frame with:\n# install.packages(\"rio\")\nlibrary(rio)\ndat &lt;- import(\"raw_data/RRBehavioralHumility_Deidentified.sav\")\nIn SPSS data files, meta-data about the variables (i.e., the columns) can be stored in the data file itself. This sometimes functions as an (often incomplete) codebook. When you import the .sav file, these meta-data are stored as so-called attributes of columns in the data frame. You see a preview of them if you print the structure of the data frame with str(dat):\n'data.frame':   104 obs. of  28 variables:\n\n[...]\n\n$ Cond                  : num  0 0 0 0 0 0 1 1 1 1 ...\n  ..- attr(*, \"label\")= chr \"Condition\"\n  ..- attr(*, \"format.spss\")= chr \"F11.0\"\n  ..- attr(*, \"display_width\")= int 11\n  ..- attr(*, \"labels\")= Named num [1:2] 0 1\n  .. ..- attr(*, \"names\")= chr [1:2] \"Control\" \"Awe\"\n\n [...]\n\n $ SelectOut             : num  2 2 2 2 2 2 2 2 2 2 ...\n  ..- attr(*, \"label\")= chr \"1= outlier (&gt;3SD), 2=didn't follow instructions to talk about weaknesses\"\n  ..- attr(*, \"format.spss\")= chr \"F8.2\"\n  ..- attr(*, \"display_width\")= int 15\nSo, the variable $Cond has the label Condition, and the values 0 and 1 are mapped to \"Control\" and \"Awe\".\nYou can directly access the attributes with this R command:\nattr(dat$Cond, which=\"labels\")\n\n\n\n\nGet an overview of the data set with the summarytools package.\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\n# install.packages(\"summarytools\")\nlibrary(summarytools)\nview(dfSummary(dat))\n\n\n\n\nWhen you found out which variables are relevant for us, …\n\n\ncompute some descriptive statistics and compare them to the paper.\nOptionally, try to reproduce the t-test that tested the main hypothesis in the paper\n\nMake a note of any problems and inconsistencies you discover. You can use your new dplyr skills, or stay at base R."
   },
   {
     "objectID": "sessions/S6-Good_coding.html#homework-1-prepare-participant-acquisition",
@@ -5996,7 +5996,7 @@
     "href": "sessions/S6-Good_coding.html#homework-1-in-groups-prepare-participant-recruitment",
     "title": "Session 06 - Preregistration 2; Good coding practices",
     "section": "",
-    "text": "Group 1: Create text for SONA and text snippets for social media\nGroup 2: Create visual flyers to share on social media\nGroup 3: Think about channels for recruitment: Social Media, Whatsapp groups, other Empras, friends/family, not just students, how to get more male participants?\n\nDo this in our Google Drive so that you can see the texts/progress of the other groups.\n\n\nSee https://www.oer.psy.lmu.de/R_Tutorial/Teil4_tidyverse.html.\n\n\n\n\nSet up the folder structure as explained in the Good Coding Practices presentation (slides 12ff.). Create all folders (even if they are currently empty). Place the raw data file (see Moodle) into the raw_data subfolder (the data files is all you have).\nImport the data in R. Find out from which software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the main analyses of the original paper? What do their values mean?).\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\nThis is an SPSS data file. You can import it as a data frame with:\n# install.packages(\"rio\")\nlibrary(rio)\ndat &lt;- import(\"raw_data/RRBehavioralHumility_Deidentified.sav\")\nIn SPSS data files, meta-data about the variables (i.e., the columns) can be stored in the data file itself. This sometimes functions as an (often incomplete) codebook. When you import the .sav file, these meta-data are stored as so-called attributes of columns in the data frame. You see a preview of them if you print the structure of the data frame with str(dat):\n'data.frame':   104 obs. of  28 variables:\n\n[...]\n\n$ Cond                  : num  0 0 0 0 0 0 1 1 1 1 ...\n  ..- attr(*, \"label\")= chr \"Condition\"\n  ..- attr(*, \"format.spss\")= chr \"F11.0\"\n  ..- attr(*, \"display_width\")= int 11\n  ..- attr(*, \"labels\")= Named num [1:2] 0 1\n  .. ..- attr(*, \"names\")= chr [1:2] \"Control\" \"Awe\"\n\n [...]\n\n $ SelectOut             : num  2 2 2 2 2 2 2 2 2 2 ...\n  ..- attr(*, \"label\")= chr \"1= outlier (&gt;3SD), 2=didn't follow instructions to talk about weaknesses\"\n  ..- attr(*, \"format.spss\")= chr \"F8.2\"\n  ..- attr(*, \"display_width\")= int 15\nSo, the variable $Cond has the label Condition, and the values 0 and 1 are mapped to \"Control\" and \"Awe\".\nYou can directly access the attributes with this R command:\nattr(dat$Cond, which=\"labels\")\n\n\n\n\nGet an overview of the data set with the summarytools package.\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\n# install.packages(\"summarytools\")\nlibrary(summarytools)\nview(dfSummary(dat))\n\n\n\n\nWhen you found out which variables are relevant for us, …\n\n\ncompute some descriptive statistics and compare them to the paper.\nOptionally, try to reproduce the t-test that tested the main hypothesis in the paper\n\nMake a note of any problems and inconsistencies you discover. You can use your new dplyr skills, or stay at base R."
+    "text": "Group 1: Create text for SONA and text snippets for social media\nGroup 2: Create visual flyers to share on social media\nGroup 3: Think about channels for recruitment: Social Media, Whatsapp groups, other Empras, friends/family, not just students, how to get more male participants?\n\nDo this in our Google Drive so that you can see the texts/progress of the other groups.\n\n\nSee https://www.oer.psy.lmu.de/R_Tutorial/Teil4_tidyverse.html.\ndplyr is an R package for data manipulation, providing a consistent set of verbs — filter(), select(), mutate(), summarise(), and arrange() — to transform and summarize data frames. It is very convenient to clean and generally preprocess raw data.\n\n\n\n\nSet up the folder structure as explained in the Good Coding Practices presentation (slides 12ff.):\n\n\nCreate all folders, even if they are currently empty. Note: Git does not include empty folders to the repository. If you still want them to show up, add an empty file called .gitkeep to the otherwise empty folder. Files with a name starting with a dot are hidden files that do not show up in the Explorer/Finder (but still are there).\nPlace the raw data file (see Moodle) into the raw_data subfolder (the data files is all you have)\nCreate an R-Studio project in the top level folder\nCreate a file called .gitignore in the root folder, and add a line “*.sav” to it. This tells git to ignore all files with a .sav file extension.\nPut everything under git version control.\nImportant: Really make sure that you do not share the raw data file on GitHub. If you are unsure how to proceed, do not push yet to GitHub; we’ll do it together next session.\n\n\nImport the data in R. Find out from which software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the main analyses of the original paper? What do their values mean?).\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\nThis is an SPSS data file. You can import it as a data frame with:\n# install.packages(\"rio\")\nlibrary(rio)\ndat &lt;- import(\"raw_data/RRBehavioralHumility_Deidentified.sav\")\nIn SPSS data files, meta-data about the variables (i.e., the columns) can be stored in the data file itself. This sometimes functions as an (often incomplete) codebook. When you import the .sav file, these meta-data are stored as so-called attributes of columns in the data frame. You see a preview of them if you print the structure of the data frame with str(dat):\n'data.frame':   104 obs. of  28 variables:\n\n[...]\n\n$ Cond                  : num  0 0 0 0 0 0 1 1 1 1 ...\n  ..- attr(*, \"label\")= chr \"Condition\"\n  ..- attr(*, \"format.spss\")= chr \"F11.0\"\n  ..- attr(*, \"display_width\")= int 11\n  ..- attr(*, \"labels\")= Named num [1:2] 0 1\n  .. ..- attr(*, \"names\")= chr [1:2] \"Control\" \"Awe\"\n\n [...]\n\n $ SelectOut             : num  2 2 2 2 2 2 2 2 2 2 ...\n  ..- attr(*, \"label\")= chr \"1= outlier (&gt;3SD), 2=didn't follow instructions to talk about weaknesses\"\n  ..- attr(*, \"format.spss\")= chr \"F8.2\"\n  ..- attr(*, \"display_width\")= int 15\nSo, the variable $Cond has the label Condition, and the values 0 and 1 are mapped to \"Control\" and \"Awe\".\nYou can directly access the attributes with this R command:\nattr(dat$Cond, which=\"labels\")\n\n\n\n\nGet an overview of the data set with the summarytools package.\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\n# install.packages(\"summarytools\")\nlibrary(summarytools)\nview(dfSummary(dat))\n\n\n\n\nWhen you found out which variables are relevant for us, …\n\n\ncompute some descriptive statistics and compare them to the paper.\nOptionally, try to reproduce the t-test that tested the main hypothesis in the paper\n\nMake a note of any problems and inconsistencies you discover. You can use your new dplyr skills, or stay at base R."
   },
   {
     "objectID": "slides/Preregistration/Prereg.html#preregistration-is-the-specification-of",
@@ -6074,5 +6074,117 @@
     "title": "How to Codebook",
     "section": "Codebook: Which file format?",
     "text": "Codebook: Which file format?\n\n\njson file:\nHuman-readable: ~ (raw)\nMachine-readable: ✅ ✅\nAccessible: ✅"
+  },
+  {
+    "objectID": "sessions/S8-Open_Data.html",
+    "href": "sessions/S8-Open_Data.html",
+    "title": "Session 08 - Open Data",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nIntroduction Open Data\n60\nSlides\n\n\nWrap up homework 1: Recommendations RDM\n20\n\n\n\nPresentation: How to creeate a data dictionary\n15\nSlides\n\n\nIn class: Jointly Create Codebook for pre-questionnaire\n45\nGoogle doc\n\n\nStart the analysis / prepare the project folder structure\n??\n\n\n\n\n\n\nYou can also use DataWiz2 for this (see the instructions in the video “- PTOS 9: Introduction to Research Data Management with D-Psy_FAIR”, starting at minute 29:27). In DataWiz2, you only need the sections “2. Upload and describe datasets” and then “5. Export”. You then upload our data set. When exporting, please select “Export as JSON” and in “Include datasets” select all datasets.\n\n\n\n\nPrepare the folder structure as outlined in the “Good coding practice” slides\nAdd our data dictionaries (both the human-readable xlsx or ods or pdf, and the machine-readable json file) to the /doc folder\nAdd the (preliminary) raw data files to the /raw_data folder\nAdd a README file\nTurn the folder into a git repository and sync to Github (as data are anonymous, it can be public)\nCreate a script 01-preprocessing.R and start cleaning the data set. Things to do:\n\nRemove obvious “zombie rows” (i.e., all-NA rows, or rows where participants dropped out at the second question)\nApply the inclusion/exclusion rules of our preregistration. See sections:\n\n“M4 Participant recruitment, selection, and compensation”\n“M5 How will participant drop-out be handled?”\n“M7 Data cleaning and screening”\n“AP1 Criteria for post-data collection exclusion of participants, if any”\n“AP2 Criteria for post-data collection exclusions on trial level (if applicable)”\n\n\nAt the end of the script, you should have a cleaned data set which is ready for data analysis. Save the cleaned data frames as new .csv data files in /processed_data."
+  },
+  {
+    "objectID": "sessions/S8-Open_Data.html#optional-create-the-codebook-in-datawiz2",
+    "href": "sessions/S8-Open_Data.html#optional-create-the-codebook-in-datawiz2",
+    "title": "Session 08 - Open Data",
+    "section": "",
+    "text": "You can also use DataWiz2 for this (see the instructions in the video “- PTOS 9: Introduction to Research Data Management with D-Psy_FAIR”, starting at minute 29:27). In DataWiz2, you only need the sections “2. Upload and describe datasets” and then “5. Export”. You then upload our data set. When exporting, please select “Export as JSON” and in “Include datasets” select all datasets."
+  },
+  {
+    "objectID": "sessions/S8-Open_Data.html#homework-in-groups",
+    "href": "sessions/S8-Open_Data.html#homework-in-groups",
+    "title": "Session 08 - Open Data",
+    "section": "",
+    "text": "Prepare the folder structure as outlined in the “Good coding practice” slides\nAdd our data dictionaries (both the human-readable xlsx or ods or pdf, and the machine-readable json file) to the /doc folder\nAdd the (preliminary) raw data files to the /raw_data folder\nAdd a README file\nTurn the folder into a git repository and sync to Github (as data are anonymous, it can be public)\nCreate a script 01-preprocessing.R and start cleaning the data set. Things to do:\n\nRemove obvious “zombie rows” (i.e., all-NA rows, or rows where participants dropped out at the second question)\nApply the inclusion/exclusion rules of our preregistration. See sections:\n\n“M4 Participant recruitment, selection, and compensation”\n“M5 How will participant drop-out be handled?”\n“M7 Data cleaning and screening”\n“AP1 Criteria for post-data collection exclusion of participants, if any”\n“AP2 Criteria for post-data collection exclusions on trial level (if applicable)”\n\n\nAt the end of the script, you should have a cleaned data set which is ready for data analysis. Save the cleaned data frames as new .csv data files in /processed_data."
+  },
+  {
+    "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#section-1",
+    "href": "slides/Open_Data_Primer/Open_Data_Primer.html#section-1",
+    "title": "Research Data Management & Open Data",
+    "section": "-",
+    "text": "-"
+  },
+  {
+    "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#when-are-you-allowed-to-share-the-data",
+    "href": "slides/Open_Data_Primer/Open_Data_Primer.html#when-are-you-allowed-to-share-the-data",
+    "title": "Research Data Management & Open Data",
+    "section": "When are you allowed to share the data?",
+    "text": "When are you allowed to share the data?\n\nConsider both: Privacy & Research Ethics\n\n\n\n\n\n\nNote\n\n\n\n(German slide, as this refers to German rules. Things might be different in other countries and other institutions!)"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#file-name-and-path-conventions",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#file-name-and-path-conventions",
+    "title": "How to minimize mistakes",
+    "section": "File name and path conventions",
+    "text": "File name and path conventions\nWhich is an example of a sensible file naming convention?\n\nfinal_FINAL_v3_new_final.docx\n2024-03-15_Projectname_Dataset_v01.csv\nDocument1.docx\ndata (copy).xlsx"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#file-name-and-path-conventions-1",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#file-name-and-path-conventions-1",
+    "title": "How to minimize mistakes",
+    "section": "File name and path conventions",
+    "text": "File name and path conventions\n\n\nUse descriptive and consistent names for files and directories.\nFor dates always use ISO dates: YYYY-MM-DD.\nUse paths relative to the project root instead of absolute paths:\n\nAbsolute path:C:/Users/felix/Empra_Project/raw_data/study1.csv  Relative path: relative to the root folder: C:/Users/felix/Empra_Project/raw_data/study1.csv\n\nSet the project root as working directory in R by creating a .Rproj file in C:/Users/felix/Empra_Project/\nIn scripts, only use relative paths: read.csv(\"raw_data/study1.csv\")"
+  },
+  {
+    "objectID": "sessions/S7-Reproduction.html",
+    "href": "sessions/S7-Reproduction.html",
+    "title": "Session 07 - Reproduction of original results",
+    "section": "",
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nChange the password for formr so that students cannot access raw data before the instructor did an anonymity check."
+  },
+  {
+    "objectID": "sessions/S7-Reproduction.html#overview",
+    "href": "sessions/S7-Reproduction.html#overview",
+    "title": "Session 07 - Reproduction of original results",
+    "section": "Overview",
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nShow FLoRA data base - do you find an existing replication?\n10\n\n\n\nGo through preregistration, submit at OSF; final test of study\n60\n\n\n\nInstructor: Change password in formr\n5\n\n\n\nFinalize advertisement material & SONA; activate at SONA\n30\n\n\n\nDo a reproduction of the original results, combining your skills in Quarto, git, and tidyverse\n60"
+  },
+  {
+    "objectID": "sessions/S7-Reproduction.html#homework-1",
+    "href": "sessions/S7-Reproduction.html#homework-1",
+    "title": "Session 07 - Reproduction of original results",
+    "section": "Homework 1",
+    "text": "Homework 1\n\nFind participants:\n\nTarget: n = 150 analyzable participants.\nStellar et al. had 17% dropout, so we should aim for n=180.\n180/12 = 15 per Empra participant.\n\n(ongoing task for the next weeks): Monitor the email address."
+  },
+  {
+    "objectID": "sessions/S7-Reproduction.html#homework-2-individually",
+    "href": "sessions/S7-Reproduction.html#homework-2-individually",
+    "title": "Session 07 - Reproduction of original results",
+    "section": "Homework 2 (individually)",
+    "text": "Homework 2 (individually)\nBitte lesen Sie die DGPs-Empfehlungen “Management und Bereitstellung von Forschungsdaten in der Psychologie” (Gollwitzer et al., 2020) und beantworten Sie die folgenden Leitfragen kurz und präzise in Moodle.\n1. Ein Autor veröffentlicht vollständig Mittelwerte und SDs aller Variablen in einer Tabelle im Ergebnisteil. Sind damit die Primärdaten publiziert und der Dokumentationspflicht entsprochen worden? Wenn nein, warum nicht?\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\nNein - das sind nicht die Primärdaten. Hinter einem Mittelwert und SD können sich verschiedenste Rohdaten verbergen, mit Ausreißern, umplausiblen Werten, etc. Manche Reanalysen sind nur mit den Rohdaten möglich.\n\n\n\n2. Nennen Sie drei Beispiele für Metadaten eines Datensatzes.\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\n\nErhebungsdatum/-zeitraum der Daten\nOrt der Erhebung\nLizenz zur Nachnutzung\nKontaktdaten der Ansprechperson, die Auskunft über die Daten(erhebung) geben kann\nZitationsinformationen: Wie soll man diesen Datensatz korrekt zitieren?\nCodebook / Beschreibung der Variablen\nGeldgeber\n\n\n\n\n3. Was sind “personenbezogene Daten”? Ist das Geschlecht und Alter einer Person ein personenbezogenes Datum?\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\nPersonenbezogene Daten sind „alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen“ (Art 4 Zif. 1 DSGVO)\nOb das Geschlecht und Alter einer Person ein personenbezogenes Datum ist, kommt darauf an: Wenn in dem Datensatz noch hinreichend viele andere (z.B. k &gt;= 5) Personen dieses Geschlecht und Alter haben, dann sind diese Daten nicht auf eine konkrete Person rückführbar. Kann man mit dieser Kombination an Daten jedoch eine konkrete Person identifizieren („der einzige 42-jährige Mann, der gerade Psychologie an der LMU studiert“), dann sind sie personenbeziehbar.\n\n\n\n4. Welche dieser Orte sind geeignet als Repositorium für die langfristige Archivierung und Bereitstellung von Daten? Wenn “Nein”, warum nicht?\n\nDie persönliche Webseite der Forscherin an ihrer Universität\nDas “Online Supplemental Material (OSM)” einer wissenschaftlichen Zeitschrift des Elsevier Verlags\nIn einem öffentlichen Projekt des Open Science Frameworks (https://osf.io)\nBei Figshare (https://figshare.com)\nBei Zenodo (https://zenodo.org)\npsychArchives beim ZPID\n\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\n\nDie persönliche Webseite der Forscherin an ihrer Universität: Nein, da nicht persistent; kein doi.\nDas “Online Supplemental Material (OSM)” einer wissenschaftlichen Zeitschrift des Elsevier Verlags: Nein, da hinter paywall; Verlag kann jederzeit den Service einstellen.\nIn einem öffentlichen Projekt des Open Science Frameworks (https://osf.io): Ja (non-profit; hat eine „long-term preservation strategy“). Aber besser einen europäischen/deutschen Service nutzen.\nBei Figshare (https://figshare.com): Jein -&gt; eher Nein: Die Nutzungsbedingung sind zwar aktuell kompatibel mit „open-science-Anforderungen“, das Repositorium ist jedoch kommerziell; Nutzungsbedingungen können sich jederzeit ändern.\nBei Zenodo (https://zenodo.org): Ja (wird bei CERN betrieben, öffentlich finanziert ohne Gewinnerzielungsabsicht).\nAktuell optimal: psychArchives beim ZPID.\n\n\n\n\n5. Beschreiben Sie in jeweils einem Satz die “Datenbereitstellung Typ 1” und die “Datenbereitstellung Typ 2”.\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\n\nDatenbereitstellung Typ 1: „Mit Erscheinen einer Publikation sollen alle Primärdaten sowie die dazugehörigen Metadaten bereitgestellt werden, die zur Reproduktion der publizierten Ergebnisse notwendig sind (unabhängig davon, in welchem Kontext (bspw. drittmittelfinanziertes Forschungsprojekt oder studentische Abschlussarbeit) diese entstanden sind).\nDatenbereitstellung Typ 2: „Gemäß den Empfehlungen der DFG soll der Gesamtdatensatz eines Projekts „unmittelbar nach Abschluss der Forschungen oder nach wenigen Monaten der Öffentlichkeit frei zur Verfügung gestellt werden“. Das beinhaltet auch alle relevanten Daten des Projekts, die zu diesem Zeitpunkt noch nicht Bestandteil einer Publikation sind, einschließlich der entsprechenden Metadaten.\n\n\n\n\n6. Was bedeutet ein “Nutzungsembargo”? Wie lange sollte es maximal sein?\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\n\nDie Daten liegen bereits dokumentiert in einem Repositorium, können aber noch nicht von anderen Forschenden (für alle Zwecke) nachgenutzt werden. D.h., die Datenbereitstellenden haben noch eine zeitlang das exklusive Nachnutzungsrecht.\nDie Freischaltung hängt nicht am Gutdünken der Datenbereitstellenden, sondern wird automatisch vom Repositorium nach Ablauf des Embargos vorgenommen.\nDas Embargo soll nicht länger als 5 Jahre nach Projektabschluss gelten (und es muss immer begründet werden).\n\n\n\n\n7. Welche Zugriffsklassen gelten als “open data“?\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\nZK 0 und ZK 1. Alle restriktiveren Zugriffsklassen sind nicht mehr „open data“."
+  },
+  {
+    "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html",
+    "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html",
+    "title": "How to Codebook",
+    "section": "",
+    "text": "See the D-Psy-FAIR standard (developed by Blask et al from the Leibniz-Institute Psychology)\n\n\n\nSave in a human-readable (e.g., .csv) and in a machine-readable (e.g., .json) format!\n\n\n\n\nExcel file:\nHuman-readable: ✅ ✅\nMachine-readabe: ~\nAccessible: ~\n\n\n(Note re: “Accessible”: Proprietary file format; but as it is a widely used format, there are multiple open source apps which can open it). A better alternative is the open .ods spreadsheet format (e.g. from LibreOffice)\n\n\n\n\ncsv file:\nHuman-readable: ~ (raw) ✅ (after import)\nMachine-readable: ✅  Accessible: ✅\n\n\n\n\n\n\njson file:\nHuman-readable: ~ (raw)\nMachine-readable: ✅ ✅\nAccessible: ✅\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStep 1: Create your codebook as an Excel or LibreOffice spreadsheet file\n\nStep 2: Export it as a .csv file\nStep 3: Import into R and convert it to a .json file\n\n\nlibrary(jsonlite)\ndf &lt;- read.csv(\"codebook.csv\")\njson &lt;- toJSON(df, pretty = TRUE)\nwrite_json(json,\"codebook.json\")\n\n\nStep 4: Save both codebook files in the /doc subfolder of your project\nStep 5: Upload both the .csv and the .json-file to the repository\n\n\n\n\n\n\nhttps://datawiz2.beta.zpid.org\n\n\n\n\n\nResources:\nVideo (51 min.): “PTOS 9: Einführung in das Forschungsdatenmanagement mit D-Psy_FAIR“\n– siehe v.a.: „Schritt 2: Ein Codebuch erstellen“ ab 29:27"
+  },
+  {
+    "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook",
+    "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#how-to-codebook",
+    "title": "How to Codebook",
+    "section": "",
+    "text": "See the D-Psy-FAIR standard (developed by Blask et al from the Leibniz-Institute Psychology)\n\n\n\nSave in a human-readable (e.g., .csv) and in a machine-readable (e.g., .json) format!"
+  },
+  {
+    "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#codebook-which-file-format",
+    "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#codebook-which-file-format",
+    "title": "How to Codebook",
+    "section": "",
+    "text": "Excel file:\nHuman-readable: ✅ ✅\nMachine-readabe: ~\nAccessible: ~\n\n\n(Note re: “Accessible”: Proprietary file format; but as it is a widely used format, there are multiple open source apps which can open it). A better alternative is the open .ods spreadsheet format (e.g. from LibreOffice)"
+  },
+  {
+    "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#codebook-which-file-format-1",
+    "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#codebook-which-file-format-1",
+    "title": "How to Codebook",
+    "section": "",
+    "text": "csv file:\nHuman-readable: ~ (raw) ✅ (after import)\nMachine-readable: ✅  Accessible: ✅"
+  },
+  {
+    "objectID": "slides/Open_Data-Codebook/Open_Data-Codebook.html#codebook-which-file-format-2",
+    "href": "slides/Open_Data-Codebook/Open_Data-Codebook.html#codebook-which-file-format-2",
+    "title": "How to Codebook",
+    "section": "",
+    "text": "json file:\nHuman-readable: ~ (raw)\nMachine-readable: ✅ ✅\nAccessible: ✅"
   }
 ]
