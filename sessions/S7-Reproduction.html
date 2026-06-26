@@ -233,15 +233,156 @@ ul.task-list li input[type="checkbox"] {
 <section id="homework-2-individually" class="level2">
 <h2 class="anchored" data-anchor-id="homework-2-individually">Homework 2 (individually)</h2>
 <p>Bitte lesen Sie die DGPs-Empfehlungen “Management und Bereitstellung von Forschungsdaten in der Psychologie” (<a href="https://psyarxiv.com/hcxtm">Gollwitzer et al., 2020</a>) und beantworten Sie die folgenden Leitfragen kurz und präzise in Moodle.</p>
-<ol type="1">
-<li>Ein Autor veröffentlicht vollständig Mittelwerte und SDs aller Variablen in einer Tabelle im Ergebnisteil. Sind damit die Primärdaten publiziert und der Dokumentationspflicht entsprochen worden? Wenn nein, warum nicht?</li>
-<li>Nennen Sie drei Beispiele für Metadaten eines Datensatzes.</li>
-<li>Was sind “personenbezogene Daten”? Ist das Geschlecht und Alter einer Person ein personenbezogenes Datum?</li>
-<li>Welche dieser Orte sind geeignet als Repositorium für die langfristige Archivierung und Bereitstellung von Daten? Wenn “Nein”, warum nicht?. (a) Die persönliche Webseite der Forscherin an ihrer Universität; (b) das “Online Supplemental Material (OSM)” einer wissenschaftlichen Zeitschrift des Elsevier Verlags; (c) in einem öffentlichen Projekt des Open Science Frameworks (https://osf.io); (d) bei Figshare (https://figshare.com); (e) bei Zenodo (https://zenodo.org)</li>
-<li>Beschreiben Sie in jeweils einem Satz die “Datenbereitstellung Typ 1” und die “Datenbereitstellung Typ 2”.</li>
-<li>Was bedeutet ein “Nutzungsembargo”? Wie lange sollte es maximal sein?</li>
-<li>Welche Zugriffsklassen gelten als “open data”?</li>
-</ol>
+<p><strong>1. Ein Autor veröffentlicht vollständig Mittelwerte und SDs aller Variablen in einer Tabelle im Ergebnisteil. Sind damit die Primärdaten publiziert und der Dokumentationspflicht entsprochen worden? Wenn nein, warum nicht?</strong></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Antwort anzeigen
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Nein - das sind nicht die Primärdaten. Hinter einem Mittelwert und SD können sich verschiedenste Rohdaten verbergen, mit Ausreißern, umplausiblen Werten, etc. Manche Reanalysen sind nur mit den Rohdaten möglich.</p>
+</div>
+</div>
+</div>
+<p><strong>2. Nennen Sie drei Beispiele für Metadaten eines Datensatzes.</strong></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Antwort anzeigen
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Erhebungsdatum/-zeitraum der Daten</li>
+<li>Ort der Erhebung</li>
+<li>Lizenz zur Nachnutzung</li>
+<li>Kontaktdaten der Ansprechperson, die Auskunft über die Daten(erhebung) geben kann</li>
+<li>Zitationsinformationen: Wie soll man diesen Datensatz korrekt zitieren?</li>
+<li>Codebook / Beschreibung der Variablen</li>
+<li>Geldgeber</li>
+</ul>
+</div>
+</div>
+</div>
+<p><strong>3. Was sind “personenbezogene Daten”? Ist das Geschlecht und Alter einer Person ein personenbezogenes Datum?</strong></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Antwort anzeigen
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Personenbezogene Daten sind „alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen“ (Art 4 Zif. 1 DSGVO)</p>
+<p>Ob das Geschlecht und Alter einer Person ein personenbezogenes Datum ist, kommt darauf an: Wenn in dem Datensatz noch hinreichend viele andere (z.B. k &gt;= 5) Personen dieses Geschlecht und Alter haben, dann sind diese Daten nicht auf eine konkrete Person rückführbar. Kann man mit dieser Kombination an Daten jedoch eine konkrete Person identifizieren („der einzige 42-jährige Mann, der gerade Psychologie an der LMU studiert“), dann sind sie personenbeziehbar.</p>
+</div>
+</div>
+</div>
+<p><strong>4. Welche dieser Orte sind geeignet als Repositorium für die langfristige Archivierung und Bereitstellung von Daten? Wenn “Nein”, warum nicht?</strong></p>
+<ul>
+<li>Die persönliche Webseite der Forscherin an ihrer Universität</li>
+<li>Das “Online Supplemental Material (OSM)” einer wissenschaftlichen Zeitschrift des Elsevier Verlags</li>
+<li>In einem öffentlichen Projekt des Open Science Frameworks (https://osf.io)</li>
+<li>Bei Figshare (https://figshare.com)</li>
+<li>Bei Zenodo (https://zenodo.org)</li>
+<li>psychArchives beim ZPID</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Antwort anzeigen
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Die persönliche Webseite der Forscherin an ihrer Universität: <strong>Nein</strong>, da nicht persistent; kein doi.</li>
+<li>Das “Online Supplemental Material (OSM)” einer wissenschaftlichen Zeitschrift des Elsevier Verlags: <strong>Nein</strong>, da hinter paywall; Verlag kann jederzeit den Service einstellen.</li>
+<li>In einem öffentlichen Projekt des Open Science Frameworks (https://osf.io): <strong>Ja</strong> (non-profit; hat eine „long-term preservation strategy“). Aber besser einen europäischen/deutschen Service nutzen.</li>
+<li>Bei Figshare (https://figshare.com): <strong>Jein -&gt; eher Nein</strong>: Die Nutzungsbedingung sind zwar aktuell kompatibel mit „open-science-Anforderungen“, das Repositorium ist jedoch kommerziell; Nutzungsbedingungen können sich jederzeit ändern.</li>
+<li>Bei Zenodo (https://zenodo.org): <strong>Ja</strong> (wird bei CERN betrieben, öffentlich finanziert ohne Gewinnerzielungsabsicht).</li>
+<li><strong>Aktuell optimal</strong>: psychArchives beim ZPID.</li>
+</ul>
+</div>
+</div>
+</div>
+<p><strong>5. Beschreiben Sie in jeweils einem Satz die “Datenbereitstellung Typ 1” und die “Datenbereitstellung Typ 2”.</strong></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Antwort anzeigen
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Datenbereitstellung Typ 1: „Mit Erscheinen einer Publikation sollen alle Primärdaten sowie die dazugehörigen Metadaten bereitgestellt werden, die zur Reproduktion der publizierten Ergebnisse notwendig sind (unabhängig davon, in welchem Kontext (bspw. drittmittelfinanziertes Forschungsprojekt oder studentische Abschlussarbeit) diese entstanden sind).</li>
+<li>Datenbereitstellung Typ 2: „Gemäß den Empfehlungen der DFG soll der Gesamtdatensatz eines Projekts „unmittelbar nach Abschluss der Forschungen oder nach wenigen Monaten der Öffentlichkeit frei zur Verfügung gestellt werden“. Das beinhaltet auch alle relevanten Daten des Projekts, die zu diesem Zeitpunkt noch nicht Bestandteil einer Publikation sind, einschließlich der entsprechenden Metadaten.</li>
+</ul>
+</div>
+</div>
+</div>
+<p><strong>6. Was bedeutet ein “Nutzungsembargo”? Wie lange sollte es maximal sein?</strong></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Antwort anzeigen
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Die Daten liegen bereits dokumentiert in einem Repositorium, können aber noch nicht von anderen Forschenden (für alle Zwecke) nachgenutzt werden. D.h., die Datenbereitstellenden haben noch eine zeitlang das exklusive Nachnutzungsrecht.</li>
+<li>Die Freischaltung hängt nicht am Gutdünken der Datenbereitstellenden, sondern wird automatisch vom Repositorium nach Ablauf des Embargos vorgenommen.</li>
+<li>Das Embargo soll nicht länger als 5 Jahre nach Projektabschluss gelten (und es muss immer begründet werden).</li>
+</ul>
+</div>
+</div>
+</div>
+<p><strong>7. Welche Zugriffsklassen gelten als “open data“?</strong></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Antwort anzeigen
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>ZK 0 und ZK 1. Alle restriktiveren Zugriffsklassen sind nicht mehr „open data“.</p>
+</div>
+</div>
+</div>
 
 
 </section>
