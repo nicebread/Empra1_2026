@@ -131,6 +131,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
   <ul class="collapse">
   <li><a href="#optional-create-the-codebook-in-datawiz2" id="toc-optional-create-the-codebook-in-datawiz2" class="nav-link" data-scroll-target="#optional-create-the-codebook-in-datawiz2">Optional: Create the codebook in DataWiz2</a></li>
+  <li><a href="#homework-in-groups" id="toc-homework-in-groups" class="nav-link" data-scroll-target="#homework-in-groups">Homework (in groups)</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -175,27 +176,27 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Introduction Open Data</td>
-<td style="text-align: center;">20</td>
+<td style="text-align: center;">60</td>
 <td><a href="../slides/Open_Data_Primer/Open_Data_Primer.html">Slides</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Wrap up homework 1: Recommendations RDM</td>
-<td style="text-align: center;">30</td>
+<td style="text-align: center;">20</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Presentation: How to creeate a data dictionary</td>
-<td style="text-align: center;">30</td>
+<td style="text-align: center;">15</td>
 <td><a href="../slides/Open_Data-Codebook/Open_Data-Codebook.html">Slides</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">In class: Jointly Create Codebook for pre-questionnaire</td>
-<td style="text-align: center;">30</td>
+<td style="text-align: center;">45</td>
 <td><a href="https://docs.google.com/spreadsheets/d/18XBXqum75saHRPWJa3S7CN8RtD3wQOndkxcoWzFrLEA/edit?usp=sharing">Google doc</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Start the analysis (data preprocessing) in pair programming mode</td>
-<td style="text-align: center;">60</td>
+<td style="text-align: left;">Start the analysis / prepare the project folder structure</td>
+<td style="text-align: center;">??</td>
 <td></td>
 </tr>
 </tbody>
@@ -203,6 +204,29 @@ ul.task-list li input[type="checkbox"] {
 <section id="optional-create-the-codebook-in-datawiz2" class="level2">
 <h2 class="anchored" data-anchor-id="optional-create-the-codebook-in-datawiz2">Optional: Create the codebook in DataWiz2</h2>
 <p>You can also use <a href="https://datawiz2.beta.zpid.org">DataWiz2</a> for this (see the instructions in the video “- <a href="https://zpid.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a8a6b29f-959e-44b2-b829-af5500be5bc7">PTOS 9: Introduction to Research Data Management with D-Psy_FAIR</a>”, starting at minute 29:27). In DataWiz2, you only need the sections “2. Upload and describe datasets” and then “5. Export”. You then upload our data set. When exporting, please select “Export as JSON” and in “Include datasets” select all datasets.</p>
+</section>
+<section id="homework-in-groups" class="level2">
+<h2 class="anchored" data-anchor-id="homework-in-groups">Homework (in groups)</h2>
+<ul>
+<li>Prepare the folder structure as outlined in the “Good coding practice” <a href="../slides/Good_coding_practices/Good_coding_practices.html">slides</a></li>
+<li>Add our data dictionaries (both the human-readable <code>xlsx</code> or <code>ods</code> or <code>pdf</code>, and the machine-readable <code>json</code> file) to the <code>/doc</code> folder</li>
+<li>Add the (preliminary) raw data files to the <code>/raw_data</code> folder</li>
+<li>Add a README file</li>
+<li>Turn the folder into a git repository and sync to Github (as data are anonymous, it can be public)</li>
+<li>Create a script <code>01-preprocessing.R</code> and start cleaning the data set. Things to do:
+<ul>
+<li>Remove obvious “zombie rows” (i.e., all-NA rows, or rows where participants dropped out at the second question)</li>
+<li>Apply the inclusion/exclusion rules of our preregistration. See sections:
+<ul>
+<li>“M4 Participant recruitment, selection, and compensation”</li>
+<li>“M5 How will participant drop-out be handled?”</li>
+<li>“M7 Data cleaning and screening”</li>
+<li>“AP1 Criteria for post-data collection exclusion of participants, if any”</li>
+<li>“AP2 Criteria for post-data collection exclusions on trial level (if applicable)”</li>
+</ul></li>
+</ul></li>
+<li>At the end of the script, you should have a cleaned data set which is ready for data analysis. Save the cleaned data frames as new <code>.csv</code> data files in <code>/processed_data</code>.</li>
+</ul>
 
 
 </section>
