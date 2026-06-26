@@ -6,13 +6,13 @@ description: We talk about how to publish open data and how to create a codebook
 
 # Overview
 
-| Topic                                                            | Duration | Notes                                                                                                              |
-| :--------------------------------------------------------------- | :------: | ------------------------------------------------------------------------------------------------------------------ |
-| Introduction Open Data                                           |    20    | [Slides](../slides/Open_Data_Primer/Open_Data_Primer.qmd)                                                          |
-| Wrap up homework 1: Recommendations RDM                          |    30    |                                                                                                                    |
-| Presentation: How to creeate a data dictionary                   |    30    | [Slides](../slides/Open_Data-Codebook/Open_Data-Codebook.qmd)                                                      |
-| In class: Jointly Create Codebook for pre-questionnaire          |    30    | [Google doc](https://docs.google.com/spreadsheets/d/18XBXqum75saHRPWJa3S7CN8RtD3wQOndkxcoWzFrLEA/edit?usp=sharing) |
-| Start the analysis (data preprocessing) in pair programming mode |    60    |                                                                                                                    |
+| Topic                                                     | Duration | Notes                                                                                                              |
+| :-------------------------------------------------------- | :------: | ------------------------------------------------------------------------------------------------------------------ |
+| Introduction Open Data                                    |    60    | [Slides](../slides/Open_Data_Primer/Open_Data_Primer.qmd)                                                          |
+| Wrap up homework 1: Recommendations RDM                   |    20    |                                                                                                                    |
+| Presentation: How to creeate a data dictionary            |    15    | [Slides](../slides/Open_Data-Codebook/Open_Data-Codebook.qmd)                                                      |
+| In class: Jointly Create Codebook for pre-questionnaire   |    45    | [Google doc](https://docs.google.com/spreadsheets/d/18XBXqum75saHRPWJa3S7CN8RtD3wQOndkxcoWzFrLEA/edit?usp=sharing) |
+| Start the analysis / prepare the project folder structure |    ??    |                                                                                                                    |
 
 : {.striped}
 
@@ -24,3 +24,19 @@ In DataWiz2, you only need the sections "2. Upload and describe datasets" and th
 You then upload our data set.
 When exporting, please select "Export as JSON" and in "Include datasets" select all datasets.
 
+## Homework (in groups)
+
+- Prepare the folder structure as outlined in the "Good coding practice" [slides](../slides/Good_coding_practices/Good_coding_practices.qmd)
+- Add our data dictionaries (both the human-readable `xlsx` or `ods` or `pdf`, and  the machine-readable `json` file) to the `/doc` folder
+- Add the (preliminary) raw data files to the `/raw_data` folder
+- Add a README file
+- Turn the folder into a git repository and sync to Github (as data are anonymous, it can be public)
+- Create a script `01-preprocessing.R` and start cleaning the data set. Things to do:
+  - Remove obvious "zombie rows" (i.e., all-NA rows, or rows where participants dropped out at the second question)
+  - Apply the inclusion/exclusion rules of our preregistration. See sections:
+    -  "M4 Participant recruitment, selection, and compensation"
+    -  "M5 How will participant drop-out be handled?"
+    -  "M7 Data cleaning and screening"
+    -  "AP1 Criteria for post-data collection exclusion of participants, if any"
+    -  "AP2 Criteria for post-data collection exclusions on trial level (if applicable)"
+ -  At the end of the script, you should have a cleaned data set which is ready for data analysis. Save the cleaned data frames as new `.csv` data files in `/processed_data`.
