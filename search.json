@@ -2188,21 +2188,21 @@
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values",
-    "text": "Balancing values\n\n  \n\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks"
+    "text": "Balancing values\n\n\n\n\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-1",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-1",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 1",
-    "text": "Balancing values 1\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\nPrivacy rights &gt; openness; but also: “legitimate interest” of research\nAsk participants for a broad consent of open reuse\nRestrict access with “scientific use files”; publish aggregated data (e.g., ratings of videos) without the primary data (videos)\nSharing something &gt; sharing nothing\nAs open as possible, as restricted as necessary"
+    "text": "Balancing values 1\n\n\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\nPrivacy rights &gt; openness; but also: “legitimate interest” of research\nAsk participants for a broad consent of open reuse\nRestrict access with “scientific use files”; publish aggregated data (e.g., ratings of videos) without the primary data (videos)\nSharing something &gt; sharing nothing\nAs open as possible, as restricted as necessary"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-2",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-2",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 2",
-    "text": "Balancing values 2\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
+    "text": "Balancing values 2\n\n\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#section-1",
@@ -2216,14 +2216,14 @@
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-3",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
-    "text": "Balancing values 3\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nPrimary focus: openness and transparency. Correcting errors is painful, but a necessary condition for doing science\nData providers should be informed if their data are going to be reused or reanalyzed ➙ allows to prepare a reaction"
+    "text": "Balancing values 3\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nPrimary focus: openness and transparency. Correcting errors is painful, but a necessary condition for doing science\nData providers should be informed if their data are going to be reused or reanalyzed ➙ allows to prepare a reaction"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-3-1",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-3-1",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
-    "text": "Balancing values 3\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nProblematic asymmetry:\n\nData provided ➙ often errors get detected\nNo data provided ➙ no errors are detected (because not possible). Default assumption: “Everything is OK. Perfect paper, because no errors are spotted!”\n\nMaking oneself vulnerable is good for science, and should also be good for reputation!\nChange default assumption? “No data ➙ Probably erroneous analysis.”"
+    "text": "Balancing values 3\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nProblematic asymmetry:\n\nData provided ➙ often errors get detected\nNo data provided ➙ no errors are detected (because not possible). Default assumption: “Everything is OK. Perfect paper, because no errors are spotted!”\n\nMaking oneself vulnerable is good for science, and should also be good for reputation!\nChange default assumption? “No data ➙ Probably erroneous analysis.”"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#success-stories",
@@ -2328,21 +2328,21 @@
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values",
-    "text": "Balancing values\n\n  \n\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks"
+    "text": "Balancing values\n\n\n\n\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-1",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-1",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 1",
-    "text": "Balancing values 1\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\nPrivacy rights &gt; openness; but also: “legitimate interest” of research\nAsk participants for a broad consent of open reuse\nRestrict access with “scientific use files”; publish aggregated data (e.g., ratings of videos) without the primary data (videos)\nSharing something &gt; sharing nothing\nAs open as possible, as restricted as necessary"
+    "text": "Balancing values 1\n\n\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\nPrivacy rights &gt; openness; but also: “legitimate interest” of research\nAsk participants for a broad consent of open reuse\nRestrict access with “scientific use files”; publish aggregated data (e.g., ratings of videos) without the primary data (videos)\nSharing something &gt; sharing nothing\nAs open as possible, as restricted as necessary"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-2",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-2",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 2",
-    "text": "Balancing values 2\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
+    "text": "Balancing values 2\n\n\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#section-1",
@@ -2356,14 +2356,14 @@
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-3",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
-    "text": "Balancing values 3\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nPrimary focus: openness and transparency. Correcting errors is painful, but a necessary condition for doing science\nData providers should be informed if their data are going to be reused or reanalyzed ➙ allows to prepare a reaction"
+    "text": "Balancing values 3\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nPrimary focus: openness and transparency. Correcting errors is painful, but a necessary condition for doing science\nData providers should be informed if their data are going to be reused or reanalyzed ➙ allows to prepare a reaction"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-3-1",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-3-1",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
-    "text": "Balancing values 3\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nProblematic asymmetry:\n\nData provided ➙ often errors get detected\nNo data provided ➙ no errors are detected (because not possible). Default assumption: “Everything is OK. Perfect paper, because no errors are spotted!”\n\nMaking oneself vulnerable is good for science, and should also be good for reputation!\nChange default assumption? “No data ➙ Probably erroneous analysis.”"
+    "text": "Balancing values 3\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nProblematic asymmetry:\n\nData provided ➙ often errors get detected\nNo data provided ➙ no errors are detected (because not possible). Default assumption: “Everything is OK. Perfect paper, because no errors are spotted!”\n\nMaking oneself vulnerable is good for science, and should also be good for reputation!\nChange default assumption? “No data ➙ Probably erroneous analysis.”"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#success-stories",
