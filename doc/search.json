@@ -1411,14 +1411,14 @@
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#power-is-a-frequentist-property---beware-of-fallacies",
     "title": "Power Analysis: Introduction",
     "section": "Power is a frequentist property - beware of fallacies!",
-    "text": "Power is a frequentist property - beware of fallacies!\nPower is a pre-data measure (i.e., before data are collected) that averages over infinite hypothetical experiments\n\nOnly one of these hypothetical experiments will actually be observed\nPower is a property of the test procedure/ the design – not of a single study’s outcome!\n\nPower is conditional on a hypothetical effect size – not conditional on the actual data obtained\n\n“Once the actual data are available, a power calculation is no longer conditioned on what is known, no longer corresponds to a valid inference, and may now be misleading.” ➙ for inference better use likelihood ratios or Bayes factors. Then pre-data power considerations are irrelevant.\n\n\nWagenmakers, E.-J., Verhagen, J., Ly, A., Bakker, M., Lee, M. D., Matzke, D., Rouder, J. N., et al. (2014). A power fallacy.Behavior Research Methods, 47, 913–917. doi:10.3758/s13428-014-0517-4"
+    "text": "Power is a frequentist property - beware of fallacies!\nPower is a pre-data measure (i.e., before data are collected) that averages over infinite hypothetical experiments\n\nOnly one of these hypothetical experiments will actually be observed\nPower is a property of the test procedure/ the design – not of a single study’s outcome!\n\nPower is conditional on a hypothetical effect size – not conditional on the actual data obtained\n\n“Once the actual data are available, a power calculation is no longer conditioned on what is known, no longer corresponds to a valid inference, and may now be misleading.” ➙ for inference better use likelihood ratios or Bayes factors. Then pre-data power considerations are irrelevant.\n\n\nWagenmakers et al. (2014). A power fallacy. Behavior Research Methods, 47, 913–917. doi:10.3758/s13428-014-0517-4"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#post-hoc-power-considerations",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#post-hoc-power-considerations",
     "title": "Power Analysis: Introduction",
     "section": "Post hoc power considerations",
-    "text": "Post hoc power considerations\n\nUsing the observed effect size to calculate „post hoc power“ is meaningless (it‘s just a transformation of the p- value)\nIt is however meaningful to estimate the power you have achieved with your collected sample size and the a priori assumed effect size („sensitivity power analysis“)\n\n\nhttps://daniellakens.blogspot.com/2014/12/observed-power-and-what-to-do-if-your.html Gelman, A. (2019). Don’t calculate post-hoc power using observed estimate of effect size. Ann. Surg, 269, e9-e10"
+    "text": "Post hoc power considerations\n\nUsing the observed effect size to calculate “post hoc power” is meaningless (it‘s just a transformation of the p-value)\nIt is however meaningful to estimate the power you have achieved with your collected sample size and the a priori assumed effect size (“sensitivity power analysis”)\n\n\nhttps://daniellakens.blogspot.com/2014/12/observed-power-and-what-to-do-if-your.html Gelman, A. (2019). Don’t calculate post-hoc power using observed estimate of effect size. Ann. Surg, 269, e9-e10"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#exercise-given-that-p-.05-what-is-the-probability-that-a-real-effect-exists-in-the-population-probh₁d",
@@ -1453,7 +1453,7 @@
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-7",
     "title": "Power Analysis: Introduction",
     "section": "",
-    "text": "Assumed that our tested hypothesis are true in 30% of all cases (which is a not too risky research scenario):\n\nA typical neuroscience study must “fail” (p &gt; α) in 90% of all cases\nIn the most likely outcome of p &gt; .05, we have no idea whether a) the effect does not exist, or b) we simply missed the effect. Virtually no knowledge has been gained.\n\n\nButton, K. S., Ioannidis, J. P. A., Mokrysz, C., Nosek, B. A., Flint, J., Robinson, E. S. J., & Munafò, M. R. (2013). Power failure: why small sample size undermines the reliability of neuroscience. Nat Rev Neurosci, 14(5), 365–376. doi:10.1038/nrn3475"
+    "text": "Assumed that our tested hypothesis are true in 30% of all cases (which is a not too risky research scenario):\n\nA typical neuroscience study must “fail” (p &gt; \\(\\alpha\\)) in 90% of all cases\nIn the most likely outcome of p &gt; .05, we have no idea whether a) the effect does not exist, or b) we simply missed the effect. Virtually no knowledge has been gained.\n\n\nButton, K. S., Ioannidis, J. P. A., Mokrysz, C., Nosek, B. A., Flint, J., Robinson, E. S. J., & Munafò, M. R. (2013). Power failure: why small sample size undermines the reliability of neuroscience. Nat Rev Neurosci, 14(5), 365–376. doi:10.1038/nrn3475"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-9",
@@ -1600,7 +1600,7 @@
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#understanding-effect-sizes",
     "title": "Power Analysis: Introduction",
     "section": "Understanding effect sizes",
-    "text": "Understanding effect sizes\n\nMore understandable metrics: „Common Language Effect Size“, CLES:\n\n…the probability that a randomly sampled person from one group will have a higher observed measurement than a randomly sampled person from the other group (for between designs)\n…or (for within-designs) the probability that an individual has a higher value on one measurement than the other.\n\n\nMcGraw, K. O., & Wong, S. P. (1992). A common language effect size statistic. Psychological Bulletin, 111(2), 361–365. https://doi.org/10.1037/0033-2909.111.2.361 Lakens, D. (2013). Calculating and reporting effect sizes to facilitate cumulative science: A practical primer for t-tests and ANOVAs. Frontiers in Psychology, 4. https://doi.org/10.3389/fpsyg.2013.00863"
+    "text": "Understanding effect sizes\n\n\n\n\n\nMore understandable metrics: „Common Language Effect Size“, CLES:\n\n…the probability that a randomly sampled person from one group will have a higher observed measurement than a randomly sampled person from the other group (for between designs)\n…or (for within-designs) the probability that an individual has a higher value on one measurement than the other.\n\n\nMcGraw & Wong (1992). A common language effect size statistic. https://doi.org/10.1037/0033-2909.111.2.361"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#understanding-effect-sizes-1",
@@ -2188,35 +2188,35 @@
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values",
-    "text": "Balancing values\n\n  \n\n\n&lt;div style=\"background:#add8e6; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;\"&gt;Open Data, public interest, entitlement to publicly funded data&lt;/div&gt;\n&lt;div style=\"font-size:40px;\"&gt;↔&lt;/div&gt;\n&lt;div style=\"background:#90ee90; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;\"&gt;Privacy rights of research subjects&lt;/div&gt;\n\n\n&lt;div style=\"background:#add8e6; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;\"&gt;Right of first usage, incentives to collect data in the first place&lt;/div&gt;\n&lt;div style=\"font-size:40px;\"&gt;↔&lt;/div&gt;\n&lt;div style=\"background:#90ee90; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;\"&gt;Optimal and efficient gain of knowledge by data reuse&lt;/div&gt;\n\n\n&lt;div style=\"background:#add8e6; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;\"&gt;Reproducibility and verifiability of published analyses&lt;/div&gt;\n&lt;div style=\"font-size:40px;\"&gt;↔&lt;/div&gt;\n&lt;div style=\"background:#90ee90; border:2px solid #000; padding:20px; width:300px; text-align:center; font-size:32px;\"&gt;Protect original authors against inadequate burden and potential attacks&lt;/div&gt;"
+    "text": "Balancing values\n\n\n\n\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-1",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-1",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 1",
-    "text": "Balancing values 1\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\nPrivacy rights &gt; openness; but also: “legitimate interest” of research\nAsk participants for a broad consent of open reuse\nRestrict access with “scientific use files”; publish aggregated data (e.g., ratings of videos) without the primary data (videos)\nSharing something &gt; sharing nothing\nAs open as possible, as restricted as necessary"
+    "text": "Balancing values 1\n\n\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\nPrivacy rights &gt; openness; but also: “legitimate interest” of research\nAsk participants for a broad consent of open reuse\nRestrict access with “scientific use files”; publish aggregated data (e.g., ratings of videos) without the primary data (videos)\nSharing something &gt; sharing nothing\nAs open as possible, as restricted as necessary"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-2",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-2",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 2",
-    "text": "Balancing values 2\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
+    "text": "Balancing values 2\n\n\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-3",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-3",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
-    "text": "Balancing values 3\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nPrimary focus: openness and transparency. Correcting errors is painful, but a necessary condition for doing science\nData providers should be informed if their data are going to be reused or reanalyzed ➙ allows to prepare a reaction"
+    "text": "Balancing values 3\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nPrimary focus: openness and transparency. Correcting errors is painful, but a necessary condition for doing science\nData providers should be informed if their data are going to be reused or reanalyzed ➙ allows to prepare a reaction"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-3-1",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#balancing-values-3-1",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
-    "text": "Balancing values 3\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nProblematic asymmetry:\n\nData provided ➙ often errors get detected\nNo data provided ➙ no errors are detected (because not possible). Default assumption: “Everything is OK. Perfect paper, because no errors are spotted!”\n\nMaking oneself vulnerable is good for science, and should also be good for reputation!\nChange default assumption? “No data ➙ Probably erroneous analysis.”"
+    "text": "Balancing values 3\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nProblematic asymmetry:\n\nData provided ➙ often errors get detected\nNo data provided ➙ no errors are detected (because not possible). Default assumption: “Everything is OK. Perfect paper, because no errors are spotted!”\n\nMaking oneself vulnerable is good for science, and should also be good for reputation!\nChange default assumption? “No data ➙ Probably erroneous analysis.”"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.slide.html#success-stories",
@@ -2321,35 +2321,35 @@
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values",
-    "text": "Balancing values\n\n  \n\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks"
+    "text": "Balancing values\n\n\n\n\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-1",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-1",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 1",
-    "text": "Balancing values 1\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\nPrivacy rights &gt; openness; but also: “legitimate interest” of research\nAsk participants for a broad consent of open reuse\nRestrict access with “scientific use files”; publish aggregated data (e.g., ratings of videos) without the primary data (videos)\nSharing something &gt; sharing nothing\nAs open as possible, as restricted as necessary"
+    "text": "Balancing values 1\n\n\n\n\nOpen Data, public interest, entitlement to publicly funded data\n\n\n↔︎\n\n\nPrivacy rights of research subjects\n\n\n\nPrivacy rights &gt; openness; but also: “legitimate interest” of research\nAsk participants for a broad consent of open reuse\nRestrict access with “scientific use files”; publish aggregated data (e.g., ratings of videos) without the primary data (videos)\nSharing something &gt; sharing nothing\nAs open as possible, as restricted as necessary"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-2",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-2",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 2",
-    "text": "Balancing values 2\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
+    "text": "Balancing values 2\n\n\n\n\nRight of first usage, incentives to collect data in the first place\n\n\n↔︎\n\n\nOptimal and efficient gain of knowledge by data reuse\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-3",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-3",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
-    "text": "Balancing values 3\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nPrimary focus: openness and transparency. Correcting errors is painful, but a necessary condition for doing science\nData providers should be informed if their data are going to be reused or reanalyzed ➙ allows to prepare a reaction"
+    "text": "Balancing values 3\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nPrimary focus: openness and transparency. Correcting errors is painful, but a necessary condition for doing science\nData providers should be informed if their data are going to be reused or reanalyzed ➙ allows to prepare a reaction"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-3-1",
     "href": "slides/Open_Data_Primer/Open_Data_Primer.html#balancing-values-3-1",
     "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
-    "text": "Balancing values 3\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nProblematic asymmetry:\n\nData provided ➙ often errors get detected\nNo data provided ➙ no errors are detected (because not possible). Default assumption: “Everything is OK. Perfect paper, because no errors are spotted!”\n\nMaking oneself vulnerable is good for science, and should also be good for reputation!\nChange default assumption? “No data ➙ Probably erroneous analysis.”"
+    "text": "Balancing values 3\n\n\n\n\nReproducibility and verifiability of published analyses\n\n\n↔︎\n\n\nProtect original authors against inadequate burden and potential attacks\n\n\n\nProblematic asymmetry:\n\nData provided ➙ often errors get detected\nNo data provided ➙ no errors are detected (because not possible). Default assumption: “Everything is OK. Perfect paper, because no errors are spotted!”\n\nMaking oneself vulnerable is good for science, and should also be good for reputation!\nChange default assumption? “No data ➙ Probably erroneous analysis.”"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html#success-stories",
@@ -6186,5 +6186,75 @@
     "title": "How to Codebook",
     "section": "",
     "text": "json file:\nHuman-readable: ~ (raw)\nMachine-readable: ✅ ✅\nAccessible: ✅"
+  },
+  {
+    "objectID": "sessions/S9_Data_analysis.html",
+    "href": "sessions/S9_Data_analysis.html",
+    "title": "Session 09 - Data Analysis & Power Analysis",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nDo the preprocessing together\n60\n\n\n\nCreate a codebook for rating strengths and weaknesses\n45\n\n\n\nPower analysis Intro\n45\nSlides\n\n\nHow (not) to report a power analysis\n15\nSlides\n\n\nDo a power analysis in practice\n30"
+  },
+  {
+    "objectID": "sessions/S9_Data_analysis.html#overview",
+    "href": "sessions/S9_Data_analysis.html#overview",
+    "title": "Session 09 - Data Analysis & Power Analysis",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nDo the preprocessing together\n60\n\n\n\nCreate a codebook for rating strengths and weaknesses\n45\n\n\n\nPower analysis Intro\n45\nSlides\n\n\nHow (not) to report a power analysis\n15\nSlides\n\n\nDo a power analysis in practice\n30"
+  },
+  {
+    "objectID": "sessions/S9_Data_analysis.html#preprocessing",
+    "href": "sessions/S9_Data_analysis.html#preprocessing",
+    "title": "Session 09 - Data Analysis & Power Analysis",
+    "section": "Preprocessing",
+    "text": "Preprocessing\nGeneral workflow:\n\nGroups (or individuals) do a coding task on their own (as homework or in class)\nIn class, we discuss and agree on a “best practice” version of the preprocessing steps.\n\nThe instructor live-codes a best-practice version and pushes it to a public repository."
+  },
+  {
+    "objectID": "sessions/S9_Data_analysis.html#general-workflow-of-coding",
+    "href": "sessions/S9_Data_analysis.html#general-workflow-of-coding",
+    "title": "Session 09 - Data Analysis & Power Analysis",
+    "section": "General workflow of coding",
+    "text": "General workflow of coding\n\nGroups (or individuals) do a coding task on their own (as homework or in class)\nIn class, we discuss the approaches and potential problems and agree on a “best practice” version of the coding steps.\n\nThe instructor live-codes a best-practice version and pushes it to a public repository.\nParticipants can keep their own version (if it is functionally equivalent), or pull the joint version into their own script.\nImportantly, at the end all script version should lead to the exactly same result!"
+  },
+  {
+    "objectID": "sessions/S9_Data_analysis.html#coding-instructions-for-counting-the-strengths-and-weaknesses",
+    "href": "sessions/S9_Data_analysis.html#coding-instructions-for-counting-the-strengths-and-weaknesses",
+    "title": "Session 09 - Data Analysis & Power Analysis",
+    "section": "Coding instructions for counting the strengths and weaknesses",
+    "text": "Coding instructions for counting the strengths and weaknesses\nSee Google doc with Coding Instructions.\nTry it out in pairs on the old raw data:\n\nIndependently count strengths and weaknesses, then compare your numbers.\nWhere did you have deviations? What texts are in a grey area?\nMake a suggestion how to improve the codebook so that these ambiguous cases are clearly defined.\n\nWhen finished, convert the Coding Instructions to a PDF, store in the /doc folder, and upload to OSF materials."
+  },
+  {
+    "objectID": "sessions/S9_Data_analysis.html#homework",
+    "href": "sessions/S9_Data_analysis.html#homework",
+    "title": "Session 09 - Data Analysis & Power Analysis",
+    "section": "Homework",
+    "text": "Homework\nDo the coding"
+  },
+  {
+    "objectID": "sessions/S9_Data_analysis.html#homework-1-individual-do-the-coding-of-the-so-far-existing-strengths-and-weaknesses",
+    "href": "sessions/S9_Data_analysis.html#homework-1-individual-do-the-coding-of-the-so-far-existing-strengths-and-weaknesses",
+    "title": "Session 09 - Data Analysis & Power Analysis",
+    "section": "Homework 1 (individual): Do the coding of the (so far existing) strengths and weaknesses",
+    "text": "Homework 1 (individual): Do the coding of the (so far existing) strengths and weaknesses\nTODO Felix: Prepare table\n\nIn the columns labelled XX_strengths and XX_weaknesses, replace XX with your initials (e.g., “FS_strengths”, “FS_weaknesses”)\nCount the strengths and weaknesses in the texts assigned to you. Each text is scored by two coders.\nDo not communicate with anybody about your ratings! The ratings must be strictly independent in order to compute a valid interrater agreement.\nSend the table back to the instructor via email."
+  },
+  {
+    "objectID": "sessions/S9_Data_analysis.html#homework-2-individual-do-the-coding-of-the-so-far-existing-video-content-texts",
+    "href": "sessions/S9_Data_analysis.html#homework-2-individual-do-the-coding-of-the-so-far-existing-video-content-texts",
+    "title": "Session 09 - Data Analysis & Power Analysis",
+    "section": "Homework 2 (individual): Do the coding of the (so far existing) video content texts",
+    "text": "Homework 2 (individual): Do the coding of the (so far existing) video content texts\nFrom the preregistration:\n\nFor E5, we explore the impact of three control items that lead to participant exclusion: “What was the video you watched about? Answer in brief bullet points.” → exclude participants who answered insufficiently\n\n\nCreate coding instructions, equivalent to the strength/weaknesses manual\nIn a new column has_correct_description score TRUE or FALSE\nDo not communicate with anybody about your ratings! The ratings must be strictly independent in order to compute a valid interrater agreement.\nSend the table back to the instructor via email."
+  },
+  {
+    "objectID": "sessions/S9_Data_analysis.html#homework-3-individual-prepare-your-manuscript",
+    "href": "sessions/S9_Data_analysis.html#homework-3-individual-prepare-your-manuscript",
+    "title": "Session 09 - Data Analysis & Power Analysis",
+    "section": "Homework 3 (individual): Prepare your manuscript",
+    "text": "Homework 3 (individual): Prepare your manuscript\nNote: Most of you work in groups on one project folder. When the course is complete, you will make a personal copy of that folder and continue to work in that (and also submit that at the end).\nIn order to be able to prepare your manuscript file, I suggest that you already now create an intermediate local copy of the common folder.\nAdd your manuscript.qmd file in the top level folder. I suggest directly to use the apaquarto extension and start with their template.\nAs homework, prepare the general structure (with L1 headings) and write the Methods section:\n\nMethods\n\nParticipants\n\n\nWhenever you are tempted to type a specific number, such as …\nThe final sample consisted of 95 participants.\n… don’t do it - you would have to update it with every new data download. Instead use dynamic computations:\nThe final sample consisted of `r nrow(dat_final)` participants."
+  },
+  {
+    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-exercise",
+    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-exercise",
+    "title": "Power Analysis: Introduction",
+    "section": " Exercise:",
+    "text": "Exercise:\nGiven that p &lt; .05:  What is the probability that a real effect exists in the population ➙ \\(p(H_1 | D)\\)?"
   }
 ]

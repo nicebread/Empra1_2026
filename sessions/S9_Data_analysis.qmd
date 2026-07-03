@@ -1,0 +1,84 @@
+---
+title: Session 09 - Data Analysis & Power Analysis
+number-sections: false
+description: >
+    We review the data preprocessing and agree on a "best practice" version of it. We create coding instructions for free-text answers. We do a proper power analysis based on the original finding.
+---
+
+## Overview
+
+| Topic                                                 | Duration | Notes                                                                             |
+| :---------------------------------------------------- | :------: | --------------------------------------------------------------------------------- |
+| Do the preprocessing together                         |    60    |                                                                                   |
+| Create a codebook for rating strengths and weaknesses |    45    |                                                                                   |
+| Power analysis Intro                                  |    45    | [Slides](../slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.qmd) |
+| How (not) to report a power analysis                  |    15    | [Slides](../slides/Power-Analysis Reporting/How-to-report-a-power-analysis.qmd)   |
+| Do a power analysis in practice                       |    15    |                                                                                   |
+
+: {.striped}
+
+## General workflow of coding
+
+1. Groups (or individuals) do a coding task on their own (as homework or in class)
+2. In class, we discuss the approaches and potential problems and agree on a "best practice" version of the coding steps. 
+   - The instructor live-codes a best-practice version and pushes it to a public repository.
+   - Participants can keep their own version (if it is functionally equivalent), or pull the joint version into their own script.
+   - Importantly, at the end all script version should lead to the exactly same result!
+
+## Coding instructions for counting the strengths and weaknesses
+
+See Google doc with [Coding Instructions](https://docs.google.com/document/d/1zgu78mYow0swOwEvpZJKAkPR-I1LDykJDfigLJQGSh4/edit?usp=sharing).
+
+Try it out in pairs on the old raw data:
+
+- Independently count strengths and weaknesses, then compare your numbers.
+- Where did you have deviations? What texts are in a grey area?
+- Make a suggestion how to improve the codebook so that these ambiguous cases are clearly defined.
+
+When finished, convert the Coding Instructions to a PDF, store in the `/doc` folder, and upload to OSF materials.
+
+
+## Homework 1 (individual): Do the coding of the (so far existing) strengths and weaknesses
+
+TODO Felix: Prepare table
+
+- In the columns labelled `XX_strengths` and `XX_weaknesses`, replace `XX` with your initials (e.g., "FS_strengths", "FS_weaknesses")
+- Count the strengths and weaknesses in the texts assigned to you. Each text is scored by two coders.
+- **Do not communicate with anybody about your ratings! The ratings must be strictly independent in order to compute a valid interrater agreement.**
+- Send the table back to the instructor via email.
+
+## Homework 2 (individual): Do the coding of the (so far existing) video content texts
+
+From the preregistration:
+
+> For E5, we explore the impact of three control items that lead to participant exclusion:
+> “What was the video you watched about? Answer in brief bullet points.” → exclude participants who answered insufficiently
+
+
+- Create coding instructions, equivalent to the strength/weaknesses manual
+- In a new column `has_correct_description` score `TRUE` or `FALSE`
+- **Do not communicate with anybody about your ratings! The ratings must be strictly independent in order to compute a valid interrater agreement.**
+- Send the table back to the instructor via email.
+
+## Homework 3 (individual): Prepare your manuscript
+
+Note: Most of you work in groups on one project folder. When the course is complete, you will make a personal copy of that folder and continue to work in that (and also submit that at the end).
+
+In order to be able to prepare your manuscript file, I suggest that you already now create an intermediate local copy of the common folder. (For the nerds: Technically, it can be a fork of your group's upstream repository). 
+
+Add your `manuscript.qmd` file in the top level folder. I suggest directly to use the [apaquarto](https://wjschne.github.io/apaquarto/) extension and start with their template.
+
+As homework, prepare the general structure (with L1 headings) and already write the Methods section:
+
+- Methods
+  - Participants
+  - Procedure (<- including measurement instruments)
+  - Statistical Analysis (<- no results here - just describe how we compute the log-transformed etc. variables)
+
+Whenever you are tempted to type a specific number, such as ...
+
+`The final sample consisted of 95 participants.`
+
+... don't do it - you would have to update it with every new data download. Instead use dynamic computations:
+
+``The final sample consisted of `r nrow(dat_final)` participants.``

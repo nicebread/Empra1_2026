@@ -41,7 +41,7 @@ size. But also: Why α=5% Why power = 80%?
 - Power = 80%?
 - One-sided or two-sided test?
 - Expected / Minimally interesting effect size
--The metric of the effect size (*d*? *r*? $f^2$?)
+- The metric of the effect size (*d*? *r*? $f^2$?)
 :::
 
 ## Write-Up
