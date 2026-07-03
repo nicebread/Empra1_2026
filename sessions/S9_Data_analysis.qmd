@@ -40,31 +40,29 @@ When finished, convert the Coding Instructions to a PDF, store in the `/doc` fol
 
 ## Homework 1 (individual): Do the coding of the (so far existing) strengths and weaknesses
 
-TODO Felix: Prepare table
-
-- In the columns labelled `XX_strengths` and `XX_weaknesses`, replace `XX` with your initials (e.g., "FS_strengths", "FS_weaknesses")
-- Count the strengths and weaknesses in the texts assigned to you. Each text is scored by two coders.
+- Download the xlsx file with the strengths and weaknesses data, replace the `XX` in the file name with your own initials. There is an individual file per rater.
+- In the columns labelled `num_strengths_XX` and `num_weaks_XX`, replace `XX` with your initials (e.g., `num_strengths_FS`, `num_weaks_FS`).
+- Count the strengths and weaknesses in the texts assigned to you, according to the coding manual. Each text is scored by two coders.
+- Enter “0” if no are present.
 - **Do not communicate with anybody about your ratings! The ratings must be strictly independent in order to compute a valid interrater agreement.**
 - Send the table back to the instructor via email.
 
-## Homework 2 (individual): Do the coding of the (so far existing) video content texts
+
+<!-- ## Homework 2 (group/individual): Do the coding of the (so far existing) video content texts
 
 From the preregistration:
 
 > For E5, we explore the impact of three control items that lead to participant exclusion:
 > “What was the video you watched about? Answer in brief bullet points.” → exclude participants who answered insufficiently
 
-
 - Create coding instructions, equivalent to the strength/weaknesses manual
 - In a new column `has_correct_description` score `TRUE` or `FALSE`
 - **Do not communicate with anybody about your ratings! The ratings must be strictly independent in order to compute a valid interrater agreement.**
-- Send the table back to the instructor via email.
+- Send the table back to the instructor via email. -->
 
-## Homework 3 (individual): Prepare your manuscript
+## Homework 2 (individual): Prepare your manuscript/course report
 
 Note: Most of you work in groups on one project folder. When the course is complete, you will make a personal copy of that folder and continue to work in that (and also submit that at the end).
-
-In order to be able to prepare your manuscript file, I suggest that you already now create an intermediate local copy of the common folder. (For the nerds: Technically, it can be a fork of your group's upstream repository). 
 
 Add your `manuscript.qmd` file in the top level folder. I suggest directly to use the [apaquarto](https://wjschne.github.io/apaquarto/) extension and start with their template.
 

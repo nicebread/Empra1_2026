@@ -1621,42 +1621,42 @@
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#typical-reported-effect-sizes-i",
     "title": "Power Analysis: Introduction",
     "section": "Typical reported effect sizes I",
-    "text": "Typical reported effect sizes I\nRichard, Bond, & Stokes-Zoota (2003):\n\nMeta-meta-analysis; &gt; 25.000 studies, &gt; 8.000.000 participants\nmean effect r = .21 (across literature SD = .15); median = .18\n\n\n\n\n\n\n\nRichard, F. D., Bond, C. F. J., & Stokes-Zoota, J. J. (2003). One Hundred Years of Social Psychology Quantitatively Described. Review of General Psychology, 7(4), 331–363. doi:10.1037/1089-2680.7.4.331"
+    "text": "Typical reported effect sizes I\nRichard, Bond, & Stokes-Zoota (2003), correlation metric\n\nMeta-meta-analysis; &gt; 25.000 studies, &gt; 8.000.000 participants\nmean effect r = .21 (across literature SD = .15); median = .18\n\n\n\n\n\n\n\nRichard, F. D., Bond, C. F. J., & Stokes-Zoota, J. J. (2003). One Hundred Years of Social Psychology Quantitatively Described. Review of General Psychology, 7(4), 331–363. doi:10.1037/1089-2680.7.4.331"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#typical-reported-effect-sizes-i-1",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#typical-reported-effect-sizes-i-1",
     "title": "Power Analysis: Introduction",
     "section": "Typical reported effect sizes I",
-    "text": "Typical reported effect sizes I\nRichard, Bond, & Stokes-Zoota (2003):"
+    "text": "Typical reported effect sizes I\nRichard, Bond, & Stokes-Zoota (2003), correlation metric"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#typical-reported-effect-sizes-ii",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#typical-reported-effect-sizes-ii",
     "title": "Power Analysis: Introduction",
     "section": "Typical reported effect sizes II",
-    "text": "Typical reported effect sizes II\nBosco et al. (2015):\n\n147,328 correlations from Journal of Applied Psychology and Personnel Psychology\nmedian effect: r = .16, mean effect r = .22 (SD = .20)\n\n\n\nBosco, F. A., Aguinis, H., Singh, K., Field, J. G., & Pierce, C. A. (2015). Correlational effect size benchmarks. Journal of Applied Psychology, 100(2), 431–449. http://doi.org/10.1037/a0038047"
+    "text": "Typical reported effect sizes II\nBosco et al. (2015), correlation metric\n\n147,328 correlations from Journal of Applied Psychology and Personnel Psychology\nmedian effect: r = .16, mean effect r = .22 (SD = .20)\n\n\n\nBosco et al. (2015). Correlational effect size benchmarks. http://doi.org/10.1037/a0038047"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#typical-reported-effect-sizes-iii",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#typical-reported-effect-sizes-iii",
     "title": "Power Analysis: Introduction",
     "section": "Typical reported effect sizes III",
-    "text": "Typical reported effect sizes III\nHill et al. (2008):\n\nHow does the effect of an intervention compare to a typical year of growth in school?\n\n\n\nHill, C. J., Bloom, H. S., Black, A. R., & Lipsey, M. W. (2008). Empirical Benchmarks for Interpreting Effect Sizes in Research. Child Development Perspectives, 2, 172–177. doi:10.1111/j.1750-8606.2008.00061.x"
+    "text": "Typical reported effect sizes III\nHill et al. (2008), Hedge’s g\n\nHow does the effect of an intervention compare to a typical year of growth in school?\n\n\n\nHill et al. (2008). Empirical Benchmarks for Interpreting Effect Sizes in Research. doi:10.1111/j.1750-8606.2008.00061.x"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#typical-reported-effect-sizes-iv",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#typical-reported-effect-sizes-iv",
     "title": "Power Analysis: Introduction",
     "section": "Typical reported effect sizes IV",
-    "text": "Typical reported effect sizes IV\nFunder & Ozer (2019):\n\n\nFunder, D. C., & Ozer, D. J. (2019). Evaluating Effect Size in Psychological Research: Sense and Nonsense. Advances in Methods and Practices in Psychological Science, 2, 156–168. doi:10.1177/2515245919847202"
+    "text": "Typical reported effect sizes IV\nFunder & Ozer (2019), correlation metric\n\n\nFunder, D. C., & Ozer, D. J. (2019). Evaluating Effect Size in Psychological Research: Sense and Nonsense. Advances in Methods and Practices in Psychological Science, 2, 156–168. doi:10.1177/2515245919847202"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#typical-reported-effect-sizes-v",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#typical-reported-effect-sizes-v",
     "title": "Power Analysis: Introduction",
     "section": "Typical reported effect sizes V",
-    "text": "Typical reported effect sizes V\nAguinis, Beaty, Boik, & Pierce (2005):\n\nEffect size of interaction from dichotomous moderator and continuous predictor \n\n\nAguinis, H., Beaty, J. C., Boik, R. J., & Pierce, C. A. (2005). Effect size and power in assessing moderating effects of categorical variables using multiple regression: a 30-year review. Journal of applied psychology, 90(1), 94."
+    "text": "Typical reported effect sizes V\nAguinis, Beaty, Boik, & Pierce (2005), \\(f^2\\)\nEffect size of interaction from dichotomous moderator and continuous predictor\n\n\nAguinis et al. (2005). Effect size and power in assessing moderating effects of categorical variables using multiple regression: a 30-year review. Journal of Applied Psychology, 90(1), 94."
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#other-benchmarks-i",
@@ -1712,7 +1712,7 @@
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#safeguard-power",
     "title": "Power Analysis: Introduction",
     "section": "Safeguard power",
-    "text": "Safeguard power\n(Perugini et al., 2014)\n\nIncorporate uncertainty in original study’s ES estimate\nAim for lower end of 60%-CI\nExample:\n\nOriginal study finds d = 0.5 (n = 30 in each group)\n60% CI = [0.28; 0.72]\nNaive 80% power analysis: n = 64\nSafeguard 80% power analysis: n = 202\n\nRewards precise estimates in original study\n\n\nlibrary(MBESS)\nci.smd(smd=0.5, n.1=30, n.2=30, conf.level=0.60)"
+    "text": "Safeguard power\nPerugini et al., 2014\n\nIncorporate uncertainty in original study’s ES estimate\nAim for lower end of 60%-CI\nExample:\n\nOriginal study finds d = 0.5 (n = 30 in each group)\n60% CI = [0.28; 0.72]\nNaive 80% power analysis: n = 64\nSafeguard 80% power analysis: n = 202\n\nRewards precise estimates in original study\n\n\nlibrary(MBESS)\nci.smd(smd=0.5, n.1=30, n.2=30, conf.level=0.60)"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#write-up",
@@ -1775,14 +1775,14 @@
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#power-is-a-frequentist-property---beware-of-fallacies",
     "title": "Power Analysis: Introduction",
     "section": "Power is a frequentist property - beware of fallacies!",
-    "text": "Power is a frequentist property - beware of fallacies!\n\nPower is a pre-data measure (i.e., before data are collected) that averages over infinite hypothetical experiments\n\nOnly one of these hypothetical experiments will actually be observed\nPower is a property of the test procedure/ the design – not of a single study’s outcome!\n\n\n\nPower is conditional on a hypothetical effect size – not conditional on the actual data obtained\n\n“Once the actual data are available, a power calculation is no longer conditioned on what is known, no longer corresponds to a valid inference, and may now be misleading.” ➙ for inference better use likelihood ratios or Bayes factors. Then pre-data power considerations are irrelevant.\n\n\nWagenmakers, E.-J., Verhagen, J., Ly, A., Bakker, M., Lee, M. D., Matzke, D., Rouder, J. N., et al. (2014). A power fallacy.Behavior Research Methods, 47, 913–917. doi:10.3758/s13428-014-0517-4"
+    "text": "Power is a frequentist property - beware of fallacies!\n\nPower is a pre-data measure (i.e., before data are collected) that averages over infinite hypothetical experiments\n\nOnly one of these hypothetical experiments will actually be observed\nPower is a property of the test procedure/ the design – not of a single study’s outcome!\n\n\n\nPower is conditional on a hypothetical effect size – not conditional on the actual data obtained\n\n“Once the actual data are available, a power calculation is no longer conditioned on what is known, no longer corresponds to a valid inference, and may now be misleading.” ➙ for inference better use likelihood ratios or Bayes factors. Then pre-data power considerations are irrelevant.\n\n\nWagenmakers et al. (2014). A power fallacy. Behavior Research Methods, 47, 913–917. doi:10.3758/s13428-014-0517-4"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#post-hoc-power-considerations",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#post-hoc-power-considerations",
     "title": "Power Analysis: Introduction",
     "section": "Post hoc power considerations",
-    "text": "Post hoc power considerations\n\nUsing the observed effect size to calculate „post hoc power“ is meaningless (it‘s just a transformation of the p- value)\nIt is however meaningful to estimate the power you have achieved with your collected sample size and the a priori assumed effect size („sensitivity power analysis“)\n\n\nhttps://daniellakens.blogspot.com/2014/12/observed-power-and-what-to-do-if-your.html Gelman, A. (2019). Don’t calculate post-hoc power using observed estimate of effect size. Ann. Surg, 269, e9-e10"
+    "text": "Post hoc power considerations\n\nUsing the observed effect size to calculate “post hoc power” is meaningless (it‘s just a transformation of the p-value)\nIt is however meaningful to estimate the power you have achieved with your collected sample size and the a priori assumed effect size (“sensitivity power analysis”)\n\n\nhttps://daniellakens.blogspot.com/2014/12/observed-power-and-what-to-do-if-your.html Gelman, A. (2019). Don’t calculate post-hoc power using observed estimate of effect size. Ann. Surg, 269, e9-e10"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#exercise-given-that-p-.05-what-is-the-probability-that-a-real-effect-exists-in-the-population-probh₁d",
@@ -1824,7 +1824,7 @@
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-7",
     "title": "Power Analysis: Introduction",
     "section": "",
-    "text": "Assumed that our tested hypothesis are true in 30% of all cases (which is a not too risky research scenario):\n\nA typical neuroscience study must “fail” (p &gt; α) in 90% of all cases\nIn the most likely outcome of p &gt; .05, we have no idea whether a) the effect does not exist, or b) we simply missed the effect. Virtually no knowledge has been gained.\n\n\nButton, K. S., Ioannidis, J. P. A., Mokrysz, C., Nosek, B. A., Flint, J., Robinson, E. S. J., & Munafò, M. R. (2013). Power failure: why small sample size undermines the reliability of neuroscience. Nat Rev Neurosci, 14(5), 365–376. doi:10.1038/nrn3475"
+    "text": "Assumed that our tested hypothesis are true in 30% of all cases (which is a not too risky research scenario):\n\nA typical neuroscience study must “fail” (p &gt; \\(\\alpha\\)) in 90% of all cases\nIn the most likely outcome of p &gt; .05, we have no idea whether a) the effect does not exist, or b) we simply missed the effect. Virtually no knowledge has been gained.\n\n\nButton, K. S., Ioannidis, J. P. A., Mokrysz, C., Nosek, B. A., Flint, J., Robinson, E. S. J., & Munafò, M. R. (2013). Power failure: why small sample size undermines the reliability of neuroscience. Nat Rev Neurosci, 14(5), 365–376. doi:10.1038/nrn3475"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-8",
@@ -1978,7 +1978,7 @@
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#understanding-effect-sizes",
     "title": "Power Analysis: Introduction",
     "section": "Understanding effect sizes",
-    "text": "Understanding effect sizes\n\n\n\n\n\nMore understandable metrics: „Common Language Effect Size“, CLES:\n\n…the probability that a randomly sampled person from one group will have a higher observed measurement than a randomly sampled person from the other group (for between designs)\n…or (for within-designs) the probability that an individual has a higher value on one measurement than the other.\n\n\nMcGraw, K. O., & Wong, S. P. (1992). A common language effect size statistic. Psychological Bulletin, 111(2), 361–365. https://doi.org/10.1037/0033-2909.111.2.361 Lakens, D. (2013). Calculating and reporting effect sizes to facilitate cumulative science: A practical primer for t-tests and ANOVAs. Frontiers in Psychology, 4. https://doi.org/10.3389/fpsyg.2013.00863"
+    "text": "Understanding effect sizes\n\n\n\n\n\nMore understandable metrics: „Common Language Effect Size“, CLES:\n\n…the probability that a randomly sampled person from one group will have a higher observed measurement than a randomly sampled person from the other group (for between designs)\n…or (for within-designs) the probability that an individual has a higher value on one measurement than the other.\n\n\nMcGraw & Wong (1992). A common language effect size statistic. https://doi.org/10.1037/0033-2909.111.2.361"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#understanding-effect-sizes-1",
@@ -1999,42 +1999,42 @@
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#typical-reported-effect-sizes-i",
     "title": "Power Analysis: Introduction",
     "section": "Typical reported effect sizes I",
-    "text": "Typical reported effect sizes I\n\nRichard, Bond, & Stokes-Zoota (2003):\n\nMeta-meta-analysis; &gt; 25.000 studies, &gt; 8.000.000 participants\nmean effect r = .21 (across literature SD = .15); median = .18\n\n\n\n\n\n\n\nRichard, F. D., Bond, C. F. J., & Stokes-Zoota, J. J. (2003). One Hundred Years of Social Psychology Quantitatively Described. Review of General Psychology, 7(4), 331–363. doi:10.1037/1089-2680.7.4.331"
+    "text": "Typical reported effect sizes I\n\nRichard, Bond, & Stokes-Zoota (2003), correlation metric\n\nMeta-meta-analysis; &gt; 25.000 studies, &gt; 8.000.000 participants\nmean effect r = .21 (across literature SD = .15); median = .18\n\n\n\n\n\n\n\nRichard, F. D., Bond, C. F. J., & Stokes-Zoota, J. J. (2003). One Hundred Years of Social Psychology Quantitatively Described. Review of General Psychology, 7(4), 331–363. doi:10.1037/1089-2680.7.4.331"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#typical-reported-effect-sizes-i-1",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#typical-reported-effect-sizes-i-1",
     "title": "Power Analysis: Introduction",
     "section": "Typical reported effect sizes I",
-    "text": "Typical reported effect sizes I\n\nRichard, Bond, & Stokes-Zoota (2003):"
+    "text": "Typical reported effect sizes I\n\nRichard, Bond, & Stokes-Zoota (2003), correlation metric"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#typical-reported-effect-sizes-ii",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#typical-reported-effect-sizes-ii",
     "title": "Power Analysis: Introduction",
     "section": "Typical reported effect sizes II",
-    "text": "Typical reported effect sizes II\n\nBosco et al. (2015):\n\n147,328 correlations from Journal of Applied Psychology and Personnel Psychology\nmedian effect: r = .16, mean effect r = .22 (SD = .20)\n\n\n\n\n\n\n\nBosco, F. A., Aguinis, H., Singh, K., Field, J. G., & Pierce, C. A. (2015). Correlational effect size benchmarks. Journal of Applied Psychology, 100(2), 431–449. http://doi.org/10.1037/a0038047"
+    "text": "Typical reported effect sizes II\n\nBosco et al. (2015), correlation metric\n\n147,328 correlations from Journal of Applied Psychology and Personnel Psychology\nmedian effect: r = .16, mean effect r = .22 (SD = .20)\n\n\n\n\n\n\n\nBosco et al. (2015). Correlational effect size benchmarks. http://doi.org/10.1037/a0038047"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#typical-reported-effect-sizes-iii",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#typical-reported-effect-sizes-iii",
     "title": "Power Analysis: Introduction",
     "section": "Typical reported effect sizes III",
-    "text": "Typical reported effect sizes III\n\nHill et al. (2008):\n\nHow does the effect of an intervention compare to a typical year of growth in school?\n\n\n\n\n\n\n\nHill, C. J., Bloom, H. S., Black, A. R., & Lipsey, M. W. (2008). Empirical Benchmarks for Interpreting Effect Sizes in Research. Child Development Perspectives, 2, 172–177. doi:10.1111/j.1750-8606.2008.00061.x"
+    "text": "Typical reported effect sizes III\n\nHill et al. (2008), Hedge’s g\n\nHow does the effect of an intervention compare to a typical year of growth in school?\n\n\n\n\n\n\n\nHill et al. (2008). Empirical Benchmarks for Interpreting Effect Sizes in Research. doi:10.1111/j.1750-8606.2008.00061.x"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#typical-reported-effect-sizes-iv",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#typical-reported-effect-sizes-iv",
     "title": "Power Analysis: Introduction",
     "section": "Typical reported effect sizes IV",
-    "text": "Typical reported effect sizes IV\n\nFunder & Ozer (2019):\n\n\n\n\n\n\nFunder, D. C., & Ozer, D. J. (2019). Evaluating Effect Size in Psychological Research: Sense and Nonsense. Advances in Methods and Practices in Psychological Science, 2, 156–168. doi:10.1177/2515245919847202"
+    "text": "Typical reported effect sizes IV\n\nFunder & Ozer (2019), correlation metric\n\n\n\n\n\n\nFunder, D. C., & Ozer, D. J. (2019). Evaluating Effect Size in Psychological Research: Sense and Nonsense. Advances in Methods and Practices in Psychological Science, 2, 156–168. doi:10.1177/2515245919847202"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#typical-reported-effect-sizes-v",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#typical-reported-effect-sizes-v",
     "title": "Power Analysis: Introduction",
     "section": "Typical reported effect sizes V",
-    "text": "Typical reported effect sizes V\n\nAguinis, Beaty, Boik, & Pierce (2005):\n\nEffect size of interaction from dichotomous moderator and continuous predictor \n\n\nAguinis, H., Beaty, J. C., Boik, R. J., & Pierce, C. A. (2005). Effect size and power in assessing moderating effects of categorical variables using multiple regression: a 30-year review. Journal of applied psychology, 90(1), 94."
+    "text": "Typical reported effect sizes V\n\nAguinis, Beaty, Boik, & Pierce (2005), \\(f^2\\)\nEffect size of interaction from dichotomous moderator and continuous predictor\n\n\n\n\n\n\nAguinis et al. (2005). Effect size and power in assessing moderating effects of categorical variables using multiple regression: a 30-year review. Journal of Applied Psychology, 90(1), 94."
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#other-benchmarks-i",
@@ -2090,7 +2090,7 @@
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#safeguard-power",
     "title": "Power Analysis: Introduction",
     "section": "Safeguard power",
-    "text": "Safeguard power\n(Perugini et al., 2014)\n\nIncorporate uncertainty in original study’s ES estimate\nAim for lower end of 60%-CI\nExample:\n\nOriginal study finds d = 0.5 (n = 30 in each group)\n60% CI = [0.28; 0.72]\nNaive 80% power analysis: n = 64\nSafeguard 80% power analysis: n = 202\n\nRewards precise estimates in original study\n\n\nlibrary(MBESS)\nci.smd(smd=0.5, n.1=30, n.2=30, conf.level=0.60)"
+    "text": "Safeguard power\n\nPerugini et al., 2014\n\nIncorporate uncertainty in original study’s ES estimate\nAim for lower end of 60%-CI\nExample:\n\nOriginal study finds d = 0.5 (n = 30 in each group)\n60% CI = [0.28; 0.72]\nNaive 80% power analysis: n = 64\nSafeguard 80% power analysis: n = 202\n\nRewards precise estimates in original study\n\n\nlibrary(MBESS)\nci.smd(smd=0.5, n.1=30, n.2=30, conf.level=0.60)"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#write-up",
@@ -4904,14 +4904,14 @@
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html",
     "title": "How (not) to report a power analysis",
     "section": "",
-    "text": "Minimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\n\n\n\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size -The metric of the effect size (d? r? \\(f^2\\)?)"
+    "text": "Minimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\n\n\n\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size\nThe metric of the effect size (d? r? \\(f^2\\)?)"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#reproducibility-justification",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#reproducibility-justification",
     "title": "How (not) to report a power analysis",
     "section": "",
-    "text": "Minimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\n\n\n\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size -The metric of the effect size (d? r? \\(f^2\\)?)"
+    "text": "Minimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\n\n\n\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size\nThe metric of the effect size (d? r? \\(f^2\\)?)"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#write-up",
@@ -4981,7 +4981,7 @@
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#reproducibility-justification",
     "title": "How (not) to report a power analysis",
     "section": "Reproducibility & Justification",
-    "text": "Reproducibility & Justification\nA well reported power analysis means:\n\n\nMinimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\nWhat information do you need to compute a power analysis?\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size -The metric of the effect size (d? r? \\(f^2\\)?)"
+    "text": "Reproducibility & Justification\nA well reported power analysis means:\n\n\nMinimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\nWhat information do you need to compute a power analysis?\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size\nThe metric of the effect size (d? r? \\(f^2\\)?)"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#write-up",
@@ -6192,14 +6192,14 @@
     "href": "sessions/S9_Data_analysis.html",
     "title": "Session 09 - Data Analysis & Power Analysis",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nDo the preprocessing together\n60\n\n\n\nCreate a codebook for rating strengths and weaknesses\n45\n\n\n\nPower analysis Intro\n45\nSlides\n\n\nHow (not) to report a power analysis\n15\nSlides\n\n\nDo a power analysis in practice\n30"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nDo the preprocessing together\n60\n\n\n\nCreate a codebook for rating strengths and weaknesses\n45\n\n\n\nPower analysis Intro\n45\nSlides\n\n\nHow (not) to report a power analysis\n15\nSlides\n\n\nDo a power analysis in practice\n15"
   },
   {
     "objectID": "sessions/S9_Data_analysis.html#overview",
     "href": "sessions/S9_Data_analysis.html#overview",
     "title": "Session 09 - Data Analysis & Power Analysis",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nDo the preprocessing together\n60\n\n\n\nCreate a codebook for rating strengths and weaknesses\n45\n\n\n\nPower analysis Intro\n45\nSlides\n\n\nHow (not) to report a power analysis\n15\nSlides\n\n\nDo a power analysis in practice\n30"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nDo the preprocessing together\n60\n\n\n\nCreate a codebook for rating strengths and weaknesses\n45\n\n\n\nPower analysis Intro\n45\nSlides\n\n\nHow (not) to report a power analysis\n15\nSlides\n\n\nDo a power analysis in practice\n15"
   },
   {
     "objectID": "sessions/S9_Data_analysis.html#preprocessing",
@@ -6248,11 +6248,18 @@
     "href": "sessions/S9_Data_analysis.html#homework-3-individual-prepare-your-manuscript",
     "title": "Session 09 - Data Analysis & Power Analysis",
     "section": "Homework 3 (individual): Prepare your manuscript",
-    "text": "Homework 3 (individual): Prepare your manuscript\nNote: Most of you work in groups on one project folder. When the course is complete, you will make a personal copy of that folder and continue to work in that (and also submit that at the end).\nIn order to be able to prepare your manuscript file, I suggest that you already now create an intermediate local copy of the common folder.\nAdd your manuscript.qmd file in the top level folder. I suggest directly to use the apaquarto extension and start with their template.\nAs homework, prepare the general structure (with L1 headings) and write the Methods section:\n\nMethods\n\nParticipants\n\n\nWhenever you are tempted to type a specific number, such as …\nThe final sample consisted of 95 participants.\n… don’t do it - you would have to update it with every new data download. Instead use dynamic computations:\nThe final sample consisted of `r nrow(dat_final)` participants."
+    "text": "Homework 3 (individual): Prepare your manuscript\nNote: Most of you work in groups on one project folder. When the course is complete, you will make a personal copy of that folder and continue to work in that (and also submit that at the end).\nIn order to be able to prepare your manuscript file, I suggest that you already now create an intermediate local copy of the common folder. (For the nerds: Technically, it can be a fork of your group’s upstream repository).\nAdd your manuscript.qmd file in the top level folder. I suggest directly to use the apaquarto extension and start with their template.\nAs homework, prepare the general structure (with L1 headings) and already write the Methods section:\n\nMethods\n\nParticipants\nProcedure (&lt;- including measurement instruments)\nStatistical Analysis (&lt;- no results here - just describe how we compute the log-transformed etc. variables)\n\n\nWhenever you are tempted to type a specific number, such as …\nThe final sample consisted of 95 participants.\n… don’t do it - you would have to update it with every new data download. Instead use dynamic computations:\nThe final sample consisted of `r nrow(dat_final)` participants."
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-exercise",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-exercise",
+    "title": "Power Analysis: Introduction",
+    "section": " Exercise:",
+    "text": "Exercise:\nGiven that p &lt; .05:  What is the probability that a real effect exists in the population ➙ \\(p(H_1 | D)\\)?"
+  },
+  {
+    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-exercise",
+    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-exercise",
     "title": "Power Analysis: Introduction",
     "section": " Exercise:",
     "text": "Exercise:\nGiven that p &lt; .05:  What is the probability that a real effect exists in the population ➙ \\(p(H_1 | D)\\)?"
