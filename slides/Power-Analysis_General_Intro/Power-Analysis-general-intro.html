@@ -203,10 +203,9 @@ window.Quarto = {
   <li><a href="#what-is-statistical-power" id="toc-what-is-statistical-power" class="nav-link" data-scroll-target="#what-is-statistical-power">What is statistical power?</a>
   <ul class="collapse">
   <li><a href="#a-2x2-classification-matrix" id="toc-a-2x2-classification-matrix" class="nav-link" data-scroll-target="#a-2x2-classification-matrix">A 2x2 classification matrix</a></li>
-  <li><a href="#a-2x2-classification-matrix-1" id="toc-a-2x2-classification-matrix-1" class="nav-link" data-scroll-target="#a-2x2-classification-matrix-1">A 2x2 classification matrix</a></li>
   <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
-  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"></a></li>
+  <li><a href="#a-priori-power-analysis" id="toc-a-priori-power-analysis" class="nav-link" data-scroll-target="#a-priori-power-analysis">A priori power analysis</a></li>
   <li><a href="#how-to-do-a-power-analysis" id="toc-how-to-do-a-power-analysis" class="nav-link" data-scroll-target="#how-to-do-a-power-analysis">How to do a power analysis</a></li>
   <li><a href="#power-is-a-frequentist-property---beware-of-fallacies" id="toc-power-is-a-frequentist-property---beware-of-fallacies" class="nav-link" data-scroll-target="#power-is-a-frequentist-property---beware-of-fallacies">Power is a frequentist property - beware of fallacies!</a>
   <ul class="collapse">
@@ -218,13 +217,13 @@ window.Quarto = {
   <li><a href="#why-power-is-important" id="toc-why-power-is-important" class="nav-link" data-scroll-target="#why-power-is-important">Why power is important</a>
   <ul class="collapse">
   <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-exercise" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-exercise" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-exercise"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Exercise:</a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"></a></li>
   <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3"></a></li>
   <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4"></a></li>
   <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5"></a></li>
   <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6"></a></li>
   <li><a href="#section-7" id="toc-section-7" class="nav-link" data-scroll-target="#section-7"></a></li>
   <li><a href="#section-8" id="toc-section-8" class="nav-link" data-scroll-target="#section-8"></a></li>
-  <li><a href="#section-9" id="toc-section-9" class="nav-link" data-scroll-target="#section-9"></a></li>
   <li><a href="#a-power-analysis-helps-you-to-find-a-balance-between" id="toc-a-power-analysis-helps-you-to-find-a-balance-between" class="nav-link" data-scroll-target="#a-power-analysis-helps-you-to-find-a-balance-between">A power analysis helps you to find a balance between…</a></li>
   </ul></li>
   <li><a href="#researchers-intuitions-about-power" id="toc-researchers-intuitions-about-power" class="nav-link" data-scroll-target="#researchers-intuitions-about-power">Researcher‘s intuitions about power</a>
@@ -293,8 +292,8 @@ window.Quarto = {
   </ul></li>
   <li><a href="#the-trustworthiness-of-effect-sizes-in-the-literature" id="toc-the-trustworthiness-of-effect-sizes-in-the-literature" class="nav-link" data-scroll-target="#the-trustworthiness-of-effect-sizes-in-the-literature">The trustworthiness of effect sizes in the literature</a>
   <ul class="collapse">
+  <li><a href="#section-9" id="toc-section-9" class="nav-link" data-scroll-target="#section-9"></a></li>
   <li><a href="#section-10" id="toc-section-10" class="nav-link" data-scroll-target="#section-10"></a></li>
-  <li><a href="#section-11" id="toc-section-11" class="nav-link" data-scroll-target="#section-11"></a></li>
   <li><a href="#can-we-base-our-power-analyses-on-published-effect-sizes" id="toc-can-we-base-our-power-analyses-on-published-effect-sizes" class="nav-link" data-scroll-target="#can-we-base-our-power-analyses-on-published-effect-sizes">Can we base our power analyses on published effect sizes?</a></li>
   <li><a href="#can-we-base-our-power-analyses-on-published-effect-sizes-1" id="toc-can-we-base-our-power-analyses-on-published-effect-sizes-1" class="nav-link" data-scroll-target="#can-we-base-our-power-analyses-on-published-effect-sizes-1">Can we base our power analyses on published effect sizes?</a></li>
   <li><a href="#can-we-base-our-power-analyses-on-published-effect-sizes-2" id="toc-can-we-base-our-power-analyses-on-published-effect-sizes-2" class="nav-link" data-scroll-target="#can-we-base-our-power-analyses-on-published-effect-sizes-2">Can we base our power analyses on published effect sizes?</a></li>
@@ -357,38 +356,39 @@ window.Quarto = {
 </section>
 <section id="what-is-statistical-power" class="level1">
 <h1>What is statistical power?</h1>
-<section id="a-2x2-classification-matrix" class="level2" data-visibility="hidden">
-<h2 data-visibility="hidden" class="anchored" data-anchor-id="a-2x2-classification-matrix">A 2x2 classification matrix</h2>
+<section id="a-2x2-classification-matrix" class="level2">
+<h2 class="anchored" data-anchor-id="a-2x2-classification-matrix">A 2x2 classification matrix</h2>
+<style>
+.left-table table { margin-left: 0 !important; }
+</style>
+<div class="left-table" style="margin-top: 3em;">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 39%">
-<col style="width: 27%">
-<col style="width: 32%">
+<col style="width: 34%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
 <th></th>
-<th style="text-align: left;">Reality: Effect present</th>
-<th style="text-align: left;">Reality: No effect present</th>
+<th style="text-align: center;">Reality:<br>Effect present</th>
+<th style="text-align: center;">Reality:<br>No effect present</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Test indicates: Effect present</strong></td>
-<td style="text-align: left;">True Positive</td>
-<td style="text-align: left;">False Positive</td>
+<td><strong>Test indicates:<br>Effect present</strong></td>
+<td style="text-align: center;">True Positive</td>
+<td style="text-align: center;">False Positive</td>
 </tr>
 <tr class="even">
-<td><strong>Test indicates: No effect present</strong></td>
-<td style="text-align: left;">False Negative</td>
-<td style="text-align: left;">True Negative</td>
+<td><strong>Test indicates:<br>No effect present</strong></td>
+<td style="text-align: center;">False Negative</td>
+<td style="text-align: center;">True Negative</td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="a-2x2-classification-matrix-1" class="level2">
-<h2 class="anchored" data-anchor-id="a-2x2-classification-matrix-1">A 2x2 classification matrix</h2>
-<p><img src="img/matrix1.png" class="img-fluid"></p>
+</div>
 </section>
 <section id="section" class="level2">
 <h2 class="anchored" data-anchor-id="section"></h2>
@@ -404,9 +404,62 @@ window.Quarto = {
 <p><a href="https://effectsizefaq.files.wordpress.com/2010/05/type-i-and-type-ii-errors.jpg">https://effectsizefaq.files.wordpress.com/2010/05/type-i-and-type-ii-errors.jpg</a></p>
 </div>
 </section>
-<section id="section-2" class="level2">
-<h2 class="anchored" data-anchor-id="section-2"></h2>
-<p><img src="img/matrix2.png" class="img-fluid"></p>
+<section id="a-priori-power-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="a-priori-power-analysis">A priori power analysis</h2>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>A priori power analysis:</strong> We assume that the effect exists in reality. <br> → <em>We focus on the left column (“Reality: Effect present”)</em></p>
+</div>
+</div>
+<div class="left-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">Reality:<br>Effect present</th>
+<th style="text-align: center;">Reality:<br>No effect present</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Test indicates:<br>p &lt; .05</strong></td>
+<td style="text-align: center;"><span style="color:blue; font-size:1.2em"><strong>Power = 1-β</strong></span><br>True Positive</td>
+<td style="text-align: center;"><span style="color:blue; font-size:1.2em"><strong>α = 5%</strong></span><br>False Positive</td>
+</tr>
+<tr class="even">
+<td><strong>Test indicates:<br>p &gt; .05</strong></td>
+<td style="text-align: center;"><span style="color:blue; font-size:1.2em"><strong>β = 20%</strong></span><br>False Negative</td>
+<td style="text-align: center;"><br>True Negative</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Power:</strong> The probability to detect an effect if an effect is present.</p>
+</div>
+</div>
 </section>
 <section id="how-to-do-a-power-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-do-a-power-analysis">How to do a power analysis</h2>
@@ -417,19 +470,14 @@ window.Quarto = {
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart LR
-    E[" Effect Size 
-    (see Part II of the workshop)"]
-    D[" Desired Power
-     usually 80%, 90% recommended for critical
-studies (Bondavera, 2013)"]
-    L[" Significance Level
-    0.05? 0.005 (Benjamin et al., 2018)? justify
-your alpha (Lakens et al., 2018)? "]
-    S[Sample Size]
+    L["&lt;b&gt;Significance Level&lt;/b&gt;&lt;br&gt;0.05? 0.005 (Benjamin et al., 2018)?&lt;br&gt;justify your alpha (Lakens et al., 2018)?"]
+    D["&lt;b&gt;Desired Power&lt;/b&gt;&lt;br&gt;usually 80%, 90% recommended for&lt;br&gt;critical studies (Bondavera, 2013)"]
+    E["&lt;b&gt;Effect Size&lt;/b&gt;&lt;br&gt;(see Part II of the workshop)"]
+    S["&lt;b&gt;Sample Size&lt;/b&gt;"]
+    
     L --&gt; S
     D --&gt; S
     E --&gt; S
-
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -479,8 +527,8 @@ your alpha (Lakens et al., 2018)? "]
 <h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-exercise"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Exercise:</h2>
 <p>Given that <em>p</em> &lt; .05: <br> What is the probability that a real effect exists in the population ➙ <span class="math inline">\(p(H_1 | D)\)</span>?</p>
 </section>
-<section id="section-3" class="level2" data-visibility="hidden">
-<h2 data-visibility="hidden" class="anchored" data-anchor-id="section-3"></h2>
+<section id="section-2" class="level2" data-visibility="hidden">
+<h2 data-visibility="hidden" class="anchored" data-anchor-id="section-2"></h2>
 <p>this part is not finished as I was unable to find a way to include the text outside the box while not putting another box around it -&gt; see code below</p>
 <div class="r-stretch">
 <div class="cell" data-layout-align="default">
@@ -508,29 +556,29 @@ your alpha (Lakens et al., 2018)? "]
 </div>
 </div>
 </section>
+<section id="section-3" class="level2">
+<h2 class="anchored" data-anchor-id="section-3"></h2>
+<p><img src="img/graph1.png" class="img-fluid"></p>
+<div class="footer">
+<p>Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. <a href="http://doi.org/10.1073/pnas.1313476110">http://doi.org/10.1073/pnas.1313476110</a></p>
+</div>
+</section>
 <section id="section-4" class="level2">
 <h2 class="anchored" data-anchor-id="section-4"></h2>
-<p><img src="img/graph1.png" class="img-fluid"></p>
+<p><img src="img/graph2.png" class="img-fluid"></p>
 <div class="footer">
 <p>Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. <a href="http://doi.org/10.1073/pnas.1313476110">http://doi.org/10.1073/pnas.1313476110</a></p>
 </div>
 </section>
 <section id="section-5" class="level2">
 <h2 class="anchored" data-anchor-id="section-5"></h2>
-<p><img src="img/graph2.png" class="img-fluid"></p>
+<p><img src="img/graph3.png" class="img-fluid"></p>
 <div class="footer">
 <p>Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. <a href="http://doi.org/10.1073/pnas.1313476110">http://doi.org/10.1073/pnas.1313476110</a></p>
 </div>
 </section>
 <section id="section-6" class="level2">
 <h2 class="anchored" data-anchor-id="section-6"></h2>
-<p><img src="img/graph3.png" class="img-fluid"></p>
-<div class="footer">
-<p>Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. <a href="http://doi.org/10.1073/pnas.1313476110">http://doi.org/10.1073/pnas.1313476110</a></p>
-</div>
-</section>
-<section id="section-7" class="level2">
-<h2 class="anchored" data-anchor-id="section-7"></h2>
 <p><img src="img/article1.png" class="img-fluid"></p>
 <p>Assumed that our tested hypothesis are true in 30% of all cases (which is a not too risky research scenario):</p>
 <ul>
@@ -541,15 +589,15 @@ your alpha (Lakens et al., 2018)? "]
 <p>Button, K. S., Ioannidis, J. P. A., Mokrysz, C., Nosek, B. A., Flint, J., Robinson, E. S. J., &amp; Munafò, M. R. (2013). Power failure: why small sample size undermines the reliability of neuroscience. Nat Rev Neurosci, 14(5), 365–376. doi:10.1038/nrn3475</p>
 </div>
 </section>
-<section id="section-8" class="level2" data-visibility="hidden">
-<h2 data-visibility="hidden" class="anchored" data-anchor-id="section-8"></h2>
+<section id="section-7" class="level2" data-visibility="hidden">
+<h2 data-visibility="hidden" class="anchored" data-anchor-id="section-7"></h2>
 <p><img src="img/graph4.jpg" class="img-fluid"></p>
 <div class="footer">
 <p>Smaldino, P. E., &amp; McElreath, R. (2016). The natural selection of bad science. arXiv:1605.09511 [physics, stat]. Retrieved from <a href="http://arxiv.org/abs/1605.09511">http://arxiv.org/abs/1605.09511</a></p>
 </div>
 </section>
-<section id="section-9" class="level2">
-<h2 class="anchored" data-anchor-id="section-9"></h2>
+<section id="section-8" class="level2">
+<h2 class="anchored" data-anchor-id="section-8"></h2>
 <blockquote class="blockquote">
 <p>When a study is underpowered it most likely provides only weak inference. Even before a single participant is assessed, it is highly unlikely that an underpowered study provides an informative result.</p>
 <p>Consequently, research unlikely to produce diagnostic outcomes is inefficient and can even be considered unethical. Why sacrifice people’s time, animals’ lives, and societies’ resources on an experiment that is highly unlikely to be informative?</p>
@@ -871,7 +919,7 @@ your alpha (Lakens et al., 2018)? "]
 <section id="other-benchmarks-i" class="level2">
 <h2 class="anchored" data-anchor-id="other-benchmarks-i">Other benchmarks I</h2>
 <div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -880,7 +928,7 @@ your alpha (Lakens et al., 2018)? "]
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><em>d</em> = 0.24 [0.17; 0.31]!</p>
 </div>
@@ -904,8 +952,8 @@ your alpha (Lakens et al., 2018)? "]
 </section>
 <section id="the-trustworthiness-of-effect-sizes-in-the-literature" class="level1">
 <h1>The trustworthiness of effect sizes in the literature</h1>
-<section id="section-10" class="level2">
-<h2 class="anchored" data-anchor-id="section-10"></h2>
+<section id="section-9" class="level2">
+<h2 class="anchored" data-anchor-id="section-9"></h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/sampletopower.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
@@ -915,8 +963,8 @@ your alpha (Lakens et al., 2018)? "]
 <p>Bakker, M., van Dijk, A., &amp; Wicherts, J. M. (2012). The Rules of the Game Called Psychological Science. Perspectives on Psychological Science, 7(6), 543–554.</p>
 </div>
 </section>
-<section id="section-11" class="level2">
-<h2 class="anchored" data-anchor-id="section-11"></h2>
+<section id="section-10" class="level2">
+<h2 class="anchored" data-anchor-id="section-10"></h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/graph12.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>

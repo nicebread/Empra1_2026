@@ -1379,11 +1379,11 @@
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
-    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#a-2x2-classification-matrix-1",
-    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#a-2x2-classification-matrix-1",
+    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#a-2x2-classification-matrix",
+    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#a-2x2-classification-matrix",
     "title": "Power Analysis: Introduction",
     "section": "A 2x2 classification matrix",
-    "text": "A 2x2 classification matrix"
+    "text": "A 2x2 classification matrix\n\n\n\n\n\n\n\n\n\n\n\nReality:Effect present\nReality:No effect present\n\n\n\n\nTest indicates:Effect present\nTrue Positive\nFalse Positive\n\n\nTest indicates:No effect present\nFalse Negative\nTrue Negative"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section",
@@ -1400,11 +1400,18 @@
     "text": "https://effectsizefaq.files.wordpress.com/2010/05/type-i-and-type-ii-errors.jpg"
   },
   {
+    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#a-priori-power-analysis",
+    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#a-priori-power-analysis",
+    "title": "Power Analysis: Introduction",
+    "section": "A priori power analysis",
+    "text": "A priori power analysis\n\n\n\nNote\n\n\nA priori power analysis: We assume that the effect exists in reality.  → We focus on the left column (“Reality: Effect present”)\n\n\n\n\n\n\n\n\n\n\n\n\n\nReality:Effect present\nReality:No effect present\n\n\n\n\nTest indicates:p &lt; .05\nPower = 1-βTrue Positive\nα = 5%False Positive\n\n\nTest indicates:p &gt; .05\nβ = 20%False Negative\nTrue Negative\n\n\n\n\n\n\n\nNote\n\n\nPower: The probability to detect an effect if an effect is present."
+  },
+  {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#how-to-do-a-power-analysis",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#how-to-do-a-power-analysis",
     "title": "Power Analysis: Introduction",
     "section": "How to do a power analysis",
-    "text": "How to do a power analysis\n\n\n\n\n\n\nflowchart LR\n    E[\" Effect Size \n    (see Part II of the workshop)\"]\n    D[\" Desired Power\n     usually 80%, 90% recommended for critical\nstudies (Bondavera, 2013)\"]\n    L[\" Significance Level\n    0.05? 0.005 (Benjamin et al., 2018)? justify\nyour alpha (Lakens et al., 2018)? \"]\n    S[Sample Size]\n    L --&gt; S\n    D --&gt; S\n    E --&gt; S\n\n\n\n\n\n\n\n\n\n\nBenjamin et al. (2018). Redefine statistical significance. doi:10.1038/s41562-017-0189-z; Lakens et al. (2018). Justify your alpha. doi:10.1038/s41562-018-0311-x"
+    "text": "How to do a power analysis\n\n\n\n\n\n\nflowchart LR\n    L[\"&lt;b&gt;Significance Level&lt;/b&gt;&lt;br&gt;0.05? 0.005 (Benjamin et al., 2018)?&lt;br&gt;justify your alpha (Lakens et al., 2018)?\"]\n    D[\"&lt;b&gt;Desired Power&lt;/b&gt;&lt;br&gt;usually 80%, 90% recommended for&lt;br&gt;critical studies (Bondavera, 2013)\"]\n    E[\"&lt;b&gt;Effect Size&lt;/b&gt;&lt;br&gt;(see Part II of the workshop)\"]\n    S[\"&lt;b&gt;Sample Size&lt;/b&gt;\"]\n    \n    L --&gt; S\n    D --&gt; S\n    E --&gt; S\n\n\n\n\n\n\n\n\n\nBenjamin et al. (2018). Redefine statistical significance. doi:10.1038/s41562-017-0189-z; Lakens et al. (2018). Justify your alpha. doi:10.1038/s41562-018-0311-x"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#power-is-a-frequentist-property---beware-of-fallacies",
@@ -1428,6 +1435,13 @@
     "text": "Exercise:\nGiven that p &lt; .05:  What is the probability that a real effect exists in the population ➙ \\(p(H_1 | D)\\)?"
   },
   {
+    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-3",
+    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-3",
+    "title": "Power Analysis: Introduction",
+    "section": "",
+    "text": "Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. http://doi.org/10.1073/pnas.1313476110"
+  },
+  {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-4",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-4",
     "title": "Power Analysis: Introduction",
@@ -1446,18 +1460,11 @@
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-6",
     "title": "Power Analysis: Introduction",
     "section": "",
-    "text": "Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. http://doi.org/10.1073/pnas.1313476110"
-  },
-  {
-    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-7",
-    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-7",
-    "title": "Power Analysis: Introduction",
-    "section": "",
     "text": "Assumed that our tested hypothesis are true in 30% of all cases (which is a not too risky research scenario):\n\nA typical neuroscience study must “fail” (p &gt; \\(\\alpha\\)) in 90% of all cases\nIn the most likely outcome of p &gt; .05, we have no idea whether a) the effect does not exist, or b) we simply missed the effect. Virtually no knowledge has been gained.\n\n\nButton, K. S., Ioannidis, J. P. A., Mokrysz, C., Nosek, B. A., Flint, J., Robinson, E. S. J., & Munafò, M. R. (2013). Power failure: why small sample size undermines the reliability of neuroscience. Nat Rev Neurosci, 14(5), 365–376. doi:10.1038/nrn3475"
   },
   {
-    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-9",
-    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-9",
+    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-8",
+    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-8",
     "title": "Power Analysis: Introduction",
     "section": "",
     "text": "When a study is underpowered it most likely provides only weak inference. Even before a single participant is assessed, it is highly unlikely that an underpowered study provides an informative result.\nConsequently, research unlikely to produce diagnostic outcomes is inefficient and can even be considered unethical. Why sacrifice people’s time, animals’ lives, and societies’ resources on an experiment that is highly unlikely to be informative?\n\n\nSchönbrodt, F. D. & Wagenmakers, E.-J. (2018). Bayes Factor Design Analysis: Planning for compelling evidence. Psychonomic Bulletin & Review, 25, 128-142. doi:10.3758/s13423-017-1230-y"
@@ -1673,15 +1680,15 @@
     "text": "Other benchmarks II (ES: d)\n\n\nLuhmann, M., Hofmann, W., Eid, M., & Lucas, R. E. (2012). Subjective well-being and adaptation to life events: a meta-analysis. Journal of Personality and Social Psychology, 102(3), 592–615. http://doi.org/10.1037/a0025948"
   },
   {
-    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-10",
-    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-10",
+    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-9",
+    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-9",
     "title": "Power Analysis: Introduction",
     "section": "",
     "text": "Bakker, M., van Dijk, A., & Wicherts, J. M. (2012). The Rules of the Game Called Psychological Science. Perspectives on Psychological Science, 7(6), 543–554."
   },
   {
-    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-11",
-    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-11",
+    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-10",
+    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.slide.html#section-10",
     "title": "Power Analysis: Introduction",
     "section": "",
     "text": "Fanelli, D. (2011). Negative results are disappearing from most disciplines and countries. Scientometrics, 90(3), 891–904. doi:10.1007/s11192-011-0494-7"
@@ -1726,14 +1733,7 @@
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#a-2x2-classification-matrix",
     "title": "Power Analysis: Introduction",
     "section": "A 2x2 classification matrix",
-    "text": "A 2x2 classification matrix\n\n\n\n\n\n\n\n\n\nReality: Effect present\nReality: No effect present\n\n\n\n\nTest indicates: Effect present\nTrue Positive\nFalse Positive\n\n\nTest indicates: No effect present\nFalse Negative\nTrue Negative"
-  },
-  {
-    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#a-2x2-classification-matrix-1",
-    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#a-2x2-classification-matrix-1",
-    "title": "Power Analysis: Introduction",
-    "section": "A 2x2 classification matrix",
-    "text": "A 2x2 classification matrix"
+    "text": "A 2x2 classification matrix\n\n\n\n\n\n\n\n\n\n\n\nReality:Effect present\nReality:No effect present\n\n\n\n\nTest indicates:Effect present\nTrue Positive\nFalse Positive\n\n\nTest indicates:No effect present\nFalse Negative\nTrue Negative"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section",
@@ -1750,11 +1750,18 @@
     "text": "https://effectsizefaq.files.wordpress.com/2010/05/type-i-and-type-ii-errors.jpg"
   },
   {
+    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#a-priori-power-analysis",
+    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#a-priori-power-analysis",
+    "title": "Power Analysis: Introduction",
+    "section": "A priori power analysis",
+    "text": "A priori power analysis\n\n\n\n\n\n\nNote\n\n\n\nA priori power analysis: We assume that the effect exists in reality.  → We focus on the left column (“Reality: Effect present”)\n\n\n\n\n\n\n\n\n\n\n\n\nReality:Effect present\nReality:No effect present\n\n\n\n\nTest indicates:p &lt; .05\nPower = 1-βTrue Positive\nα = 5%False Positive\n\n\nTest indicates:p &gt; .05\nβ = 20%False Negative\nTrue Negative\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPower: The probability to detect an effect if an effect is present."
+  },
+  {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#how-to-do-a-power-analysis",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#how-to-do-a-power-analysis",
     "title": "Power Analysis: Introduction",
     "section": "How to do a power analysis",
-    "text": "How to do a power analysis\n\n\n\n\n\n\nflowchart LR\n    E[\" Effect Size \n    (see Part II of the workshop)\"]\n    D[\" Desired Power\n     usually 80%, 90% recommended for critical\nstudies (Bondavera, 2013)\"]\n    L[\" Significance Level\n    0.05? 0.005 (Benjamin et al., 2018)? justify\nyour alpha (Lakens et al., 2018)? \"]\n    S[Sample Size]\n    L --&gt; S\n    D --&gt; S\n    E --&gt; S\n\n\n\n\n\n\n\n\n\n\nBenjamin et al. (2018). Redefine statistical significance. doi:10.1038/s41562-017-0189-z; Lakens et al. (2018). Justify your alpha. doi:10.1038/s41562-018-0311-x"
+    "text": "How to do a power analysis\n\n\n\n\n\n\nflowchart LR\n    L[\"&lt;b&gt;Significance Level&lt;/b&gt;&lt;br&gt;0.05? 0.005 (Benjamin et al., 2018)?&lt;br&gt;justify your alpha (Lakens et al., 2018)?\"]\n    D[\"&lt;b&gt;Desired Power&lt;/b&gt;&lt;br&gt;usually 80%, 90% recommended for&lt;br&gt;critical studies (Bondavera, 2013)\"]\n    E[\"&lt;b&gt;Effect Size&lt;/b&gt;&lt;br&gt;(see Part II of the workshop)\"]\n    S[\"&lt;b&gt;Sample Size&lt;/b&gt;\"]\n    \n    L --&gt; S\n    D --&gt; S\n    E --&gt; S\n\n\n\n\n\n\n\n\n\nBenjamin et al. (2018). Redefine statistical significance. doi:10.1038/s41562-017-0189-z; Lakens et al. (2018). Justify your alpha. doi:10.1038/s41562-018-0311-x"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#power-is-a-frequentist-property---beware-of-fallacies",
@@ -1778,11 +1785,18 @@
     "text": "Exercise:\nGiven that p &lt; .05:  What is the probability that a real effect exists in the population ➙ \\(p(H_1 | D)\\)?"
   },
   {
+    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-2",
+    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-2",
+    "title": "Power Analysis: Introduction",
+    "section": "",
+    "text": "this part is not finished as I was unable to find a way to include the text outside the box while not putting another box around it -&gt; see code below\n\n\n\n\n\n\nflowchart TB\n    c1--&gt;a2\n    subgraph one\n    a2\n    end\n    subgraph two\n    b1--&gt;b2\n    end\n    subgraph three\n    c1--&gt;c2\n    end"
+  },
+  {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-3",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-3",
     "title": "Power Analysis: Introduction",
     "section": "",
-    "text": "this part is not finished as I was unable to find a way to include the text outside the box while not putting another box around it -&gt; see code below\n\n\n\n\n\n\nflowchart TB\n    c1--&gt;a2\n    subgraph one\n    a2\n    end\n    subgraph two\n    b1--&gt;b2\n    end\n    subgraph three\n    c1--&gt;c2\n    end"
+    "text": "Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. http://doi.org/10.1073/pnas.1313476110"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-4",
@@ -1803,25 +1817,18 @@
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-6",
     "title": "Power Analysis: Introduction",
     "section": "",
-    "text": "Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. http://doi.org/10.1073/pnas.1313476110"
+    "text": "Assumed that our tested hypothesis are true in 30% of all cases (which is a not too risky research scenario):\n\nA typical neuroscience study must “fail” (p &gt; \\(\\alpha\\)) in 90% of all cases\nIn the most likely outcome of p &gt; .05, we have no idea whether a) the effect does not exist, or b) we simply missed the effect. Virtually no knowledge has been gained.\n\n\nButton, K. S., Ioannidis, J. P. A., Mokrysz, C., Nosek, B. A., Flint, J., Robinson, E. S. J., & Munafò, M. R. (2013). Power failure: why small sample size undermines the reliability of neuroscience. Nat Rev Neurosci, 14(5), 365–376. doi:10.1038/nrn3475"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-7",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-7",
     "title": "Power Analysis: Introduction",
     "section": "",
-    "text": "Assumed that our tested hypothesis are true in 30% of all cases (which is a not too risky research scenario):\n\nA typical neuroscience study must “fail” (p &gt; \\(\\alpha\\)) in 90% of all cases\nIn the most likely outcome of p &gt; .05, we have no idea whether a) the effect does not exist, or b) we simply missed the effect. Virtually no knowledge has been gained.\n\n\nButton, K. S., Ioannidis, J. P. A., Mokrysz, C., Nosek, B. A., Flint, J., Robinson, E. S. J., & Munafò, M. R. (2013). Power failure: why small sample size undermines the reliability of neuroscience. Nat Rev Neurosci, 14(5), 365–376. doi:10.1038/nrn3475"
+    "text": "Smaldino, P. E., & McElreath, R. (2016). The natural selection of bad science. arXiv:1605.09511 [physics, stat]. Retrieved from http://arxiv.org/abs/1605.09511"
   },
   {
     "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-8",
     "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-8",
-    "title": "Power Analysis: Introduction",
-    "section": "",
-    "text": "Smaldino, P. E., & McElreath, R. (2016). The natural selection of bad science. arXiv:1605.09511 [physics, stat]. Retrieved from http://arxiv.org/abs/1605.09511"
-  },
-  {
-    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-9",
-    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-9",
     "title": "Power Analysis: Introduction",
     "section": "",
     "text": "When a study is underpowered it most likely provides only weak inference. Even before a single participant is assessed, it is highly unlikely that an underpowered study provides an informative result.\nConsequently, research unlikely to produce diagnostic outcomes is inefficient and can even be considered unethical. Why sacrifice people’s time, animals’ lives, and societies’ resources on an experiment that is highly unlikely to be informative?\n\n\nSchönbrodt, F. D. & Wagenmakers, E.-J. (2018). Bayes Factor Design Analysis: Planning for compelling evidence. Psychonomic Bulletin & Review, 25, 128-142. doi:10.3758/s13423-017-1230-y"
@@ -2037,15 +2044,15 @@
     "text": "Other benchmarks II (ES: d)\n\n\n\n\n\n\nLuhmann, M., Hofmann, W., Eid, M., & Lucas, R. E. (2012). Subjective well-being and adaptation to life events: a meta-analysis. Journal of Personality and Social Psychology, 102(3), 592–615. http://doi.org/10.1037/a0025948"
   },
   {
-    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-10",
-    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-10",
+    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-9",
+    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-9",
     "title": "Power Analysis: Introduction",
     "section": "",
     "text": "Bakker, M., van Dijk, A., & Wicherts, J. M. (2012). The Rules of the Game Called Psychological Science. Perspectives on Psychological Science, 7(6), 543–554."
   },
   {
-    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-11",
-    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-11",
+    "objectID": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-10",
+    "href": "slides/Power-Analysis_General_Intro/Power-Analysis-general-intro.html#section-10",
     "title": "Power Analysis: Introduction",
     "section": "",
     "text": "Fanelli, D. (2011). Negative results are disappearing from most disciplines and countries. Scientometrics, 90(3), 891–904. doi:10.1007/s11192-011-0494-7"
