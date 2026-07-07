@@ -20,15 +20,19 @@ revealjs-plugins:
 
 # What is statistical power?
 
-## A 2x2 classification matrix {visibility="hidden"}
-
-|                                  |Reality: Effect present | Reality: No effect present | 
-|----------------------------------|:-----------------------|:---------------------------|
-| **Test indicates: Effect present**  | True Positive          | False Positive             |
-| **Test indicates: No effect present**| False Negative         | True Negative              |
-
 ## A 2x2 classification matrix
-![](img/matrix1.png)
+
+<style>
+.left-table table { margin-left: 0 !important; }
+</style>
+
+::: {.left-table style="margin-top: 3em;"}
+| | Reality:<br>Effect present | Reality:<br>No effect present | 
+|---|:---:|:---:|
+| **Test indicates:<br>Effect present** | True Positive | False Positive |
+| **Test indicates:<br>No effect present** | False Negative | True Negative |
+: {tbl-colwidths="[34, 33, 33]"}
+:::
 
 ##
 ![](img/meme1.png)
@@ -44,8 +48,24 @@ revealjs-plugins:
 [https://effectsizefaq.files.wordpress.com/2010/05/type-i-and-type-ii-errors.jpg](https://effectsizefaq.files.wordpress.com/2010/05/type-i-and-type-ii-errors.jpg)
 ::: 
 
-##
-![](img/matrix2.png)
+## A priori power analysis
+
+::: {.callout-note icon=false}
+**A priori power analysis:** We assume that the effect exists in reality. <br>
+&rarr; *We focus on the left column ("Reality: Effect present")*
+:::
+
+::: {.left-table}
+| | Reality:<br>Effect present | Reality:<br>No effect present | 
+|---|:---:|:---:|
+| **Test indicates:<br>p < .05** | <span style="color:blue; font-size:1.2em">**Power = 1-β**</span><br>True Positive | <span style="color:blue; font-size:1.2em">**α = 5%**</span><br>False Positive |
+| **Test indicates:<br>p > .05** | <span style="color:blue; font-size:1.2em">**β = 20%**</span><br>False Negative | <br>True Negative |
+: {tbl-colwidths="[34, 33, 33]"}
+:::
+
+::: {.callout-note icon=false}
+**Power:** The probability to detect an effect if an effect is present.
+:::
 
 
 
@@ -54,22 +74,15 @@ revealjs-plugins:
 ::: {.r-stretch}
 
 ```{mermaid}
-
 flowchart LR
-    E[" Effect Size 
-    (see Part II of the workshop)"]
-    D[" Desired Power
-     usually 80%, 90% recommended for critical
-studies (Bondavera, 2013)"]
-    L[" Significance Level
-    0.05? 0.005 (Benjamin et al., 2018)? justify
-your alpha (Lakens et al., 2018)? "]
-    S[Sample Size]
+    L["<b>Significance Level</b><br>0.05? 0.005 (Benjamin et al., 2018)?<br>justify your alpha (Lakens et al., 2018)?"]
+    D["<b>Desired Power</b><br>usually 80%, 90% recommended for<br>critical studies (Bondavera, 2013)"]
+    E["<b>Effect Size</b><br>(see Part II of the workshop)"]
+    S["<b>Sample Size</b>"]
+    
     L --> S
     D --> S
     E --> S
-
-
 ```
 
 :::
