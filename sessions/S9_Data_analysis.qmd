@@ -66,17 +66,35 @@ Note: Most of you work in groups on one project folder. When the course is compl
 
 Add your `manuscript.qmd` file in the top level folder. I suggest directly to use the [apaquarto](https://wjschne.github.io/apaquarto/) extension and start with their template.
 
-As homework, prepare the general structure (with L1 headings) and already write the Methods section:
+As homework, prepare the general structure of a scientific paper. 
+Add all section headings; "Methods", "Results", "Discussion" should be Level 1 (with `#`).
 
-- Methods
-  - Participants
-  - Procedure (<- including measurement instruments)
-  - Statistical Analysis (<- no results here - just describe how we compute the log-transformed etc. variables)
+Next, write the Methods section (see details in next [Session Overview](S10-How_to_Hausarbeit.qmd)).
 
 Whenever you are tempted to type a specific number, such as ...
 
 `The final sample consisted of 95 participants.`
 
-... don't do it - you would have to update it with every new data download. Instead use dynamic computations:
+... don't do it - you would have to update it with every new data download. Instead use dynamic computations, either with inline computations:
 
 ``The final sample consisted of `r nrow(dat_final)` participants.``
+
+Or use longer `R` chunks for multiline computations:
+
+````md
+```r
+# This is a longer R chunk
+# The apaquarto extension automatically sets `#| echo: false` 
+# so that the code is not shown in the output
+
+dat <- read.csv("data.csv")
+# do some data preprocessing ...
+```
+````
+
+Look at some of the APA's [sample papers](https://apastyle.apa.org/style-grammar-guidelines/paper-format/sample-papers), and read the respective sections in a couple of papers from our literature list.
+
+**Some notes:**
+
+- The questionnaire scales were computed as the mean of all items.
+- You do not have to report reliability statistics (you did not learn this yet).

@@ -6234,7 +6234,7 @@
     "href": "sessions/S9_Data_analysis.html#homework-1-individual-do-the-coding-of-the-so-far-existing-strengths-and-weaknesses",
     "title": "Session 09 - Data Analysis & Power Analysis",
     "section": "Homework 1 (individual): Do the coding of the (so far existing) strengths and weaknesses",
-    "text": "Homework 1 (individual): Do the coding of the (so far existing) strengths and weaknesses\nTODO Felix: Prepare table\n\nIn the columns labelled XX_strengths and XX_weaknesses, replace XX with your initials (e.g., “FS_strengths”, “FS_weaknesses”)\nCount the strengths and weaknesses in the texts assigned to you. Each text is scored by two coders.\nDo not communicate with anybody about your ratings! The ratings must be strictly independent in order to compute a valid interrater agreement.\nSend the table back to the instructor via email."
+    "text": "Homework 1 (individual): Do the coding of the (so far existing) strengths and weaknesses\n\nDownload the xlsx file with the strengths and weaknesses data, replace the XX in the file name with your own initials. There is an individual file per rater.\nIn the columns labelled num_strengths_XX and num_weaks_XX, replace XX with your initials (e.g., num_strengths_FS, num_weaks_FS).\nCount the strengths and weaknesses in the texts assigned to you, according to the coding manual. Each text is scored by two coders.\nEnter “0” if no are present.\nDo not communicate with anybody about your ratings! The ratings must be strictly independent in order to compute a valid interrater agreement.\nSend the table back to the instructor via email."
   },
   {
     "objectID": "sessions/S9_Data_analysis.html#homework-2-individual-do-the-coding-of-the-so-far-existing-video-content-texts",
@@ -6263,5 +6263,47 @@
     "title": "Power Analysis: Introduction",
     "section": " Exercise:",
     "text": "Exercise:\nGiven that p &lt; .05:  What is the probability that a real effect exists in the population ➙ \\(p(H_1 | D)\\)?"
+  },
+  {
+    "objectID": "sessions/S9_Data_analysis.html#homework-2-individual-prepare-your-manuscriptcourse-report",
+    "href": "sessions/S9_Data_analysis.html#homework-2-individual-prepare-your-manuscriptcourse-report",
+    "title": "Session 09 - Data Analysis & Power Analysis",
+    "section": "Homework 2 (individual): Prepare your manuscript/course report",
+    "text": "Homework 2 (individual): Prepare your manuscript/course report\nNote: Most of you work in groups on one project folder. When the course is complete, you will make a personal copy of that folder and continue to work in that (and also submit that at the end).\nAdd your manuscript.qmd file in the top level folder. I suggest directly to use the apaquarto extension and start with their template.\nAs homework, prepare the general structure of a scientific paper. Add all section headings; “Methods”, “Results”, “Discussion” should be Level 1 (with #).\nNext, write the Methods section:\n\nMethods\n\nIn the first paragraph (without separate heading), report the links to preregistration, open material, open data: “The hypotheses, operationalizations, analysis plan, inference criteria, and sample size justification have been preregistered at [OSF link]. Open material and data are available at [OSF link].”., Then 5 subsections on Level 2 (##) follow:\nParticipants\nMaterials\nProcedure\nStatistical Analysis (&lt;- no results here - just describe how we compute the log-transformed etc. variables)\nDeviations from preregistration\n\n\nWhenever you are tempted to type a specific number, such as …\nThe final sample consisted of 95 participants.\n… don’t do it - you would have to update it with every new data download. Instead use dynamic computations:\nThe final sample consisted of &grave;r nrow(dat_final)&grave; participants.\nUse longer R chunks for multiline computations:\n\n::: {.cell}\n\n```{.r .cell-code}\n# This is a longer R chunk\n# The apaquarto extension automatically sets `#| echo: false` so that the code is not shown in the output\n\ndat &lt;- read.csv(\"data.csv\")\n# do some data preprocessing ...\n```\n:::\n\nUse inline R chunks to weave single numbers into continuous text:\nThe mean age of the participants was &grave;r round(mean(dat$age), 1)&grave;.\nLook at some of the APA’s sample papers, and read the respective sections in a couple of papers from our literature list.\nSome notes:\n\nThe questionnaire scales were computed as the mean of all items.\nYou do not have to report reliability statistics (you did not learn this yet)."
+  },
+  {
+    "objectID": "sessions/S10-How_to_Hausarbeit.html",
+    "href": "sessions/S10-How_to_Hausarbeit.html",
+    "title": "Session 10 - How to Hausarbeit",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nHow to Hausarbeit\n45\nSlides\n\n\nPrepare an apaquarto manuscript together / troubleshooting\n45\n\n\n\n\n\n\n\n\n\n\nImportantReminder: Formalia of the final report\n\n\n\nFor the formalia of the final report, please consult the slides from session 1!"
+  },
+  {
+    "objectID": "sessions/S10-How_to_Hausarbeit.html#homework-1-individually-write-reproducible-manuscript-in-apa-7-format---descriptive-statistics",
+    "href": "sessions/S10-How_to_Hausarbeit.html#homework-1-individually-write-reproducible-manuscript-in-apa-7-format---descriptive-statistics",
+    "title": "Session 12 - How to Hausarbeit",
+    "section": "",
+    "text": "The goal of this homework is to get you started with writing your final report. Please consult the apaquarto documentation.\nAdd all section headings. “Methods”, “Results”, “Discussion” should be Level 1 (with #), and so on.\nWrite the following sections as a computable manuscript (i.e., all numbers should be computed dynamically in R chunks, no hard-coded numbers):\n\nMethods -&gt; Participants\nResults -&gt; Descriptive Statistics -&gt; A descriptive table for the Pre-Questionnaire in APA format. Show the mean, standard deviation, min, max and sample size for each scale.\n\nUse longer R chunks for multiline computations:\n```{r}\n# This is a longer R chunk\n# The apaquarto extension automatically sets `#| echo: false` so that the code is not shown in the output\n\ndat &lt;- read.csv(\"data.csv\")\n# do some data preprocessing ...\n```\nUse inline R chunks to weave single numbers into continuous text:\nThe mean age of the participants was `r round(mean(dat$age), 1)`.\nLook at some of the APA’s sample papers, and read the respective sections in a couple of papers from our literature list.\nSome notes:\n\nThe questionnaire scales were computed as the mean of all items.\nYou do not have to report reliability statistics (you did not learn this yet)."
+  },
+  {
+    "objectID": "sessions/S10-How_to_Hausarbeit.html#overview",
+    "href": "sessions/S10-How_to_Hausarbeit.html#overview",
+    "title": "Session 10 - How to Hausarbeit",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nHow to Hausarbeit\n45\nSlides\n\n\nPrepare an apaquarto manuscript together / troubleshooting\n45\n\n\n\n\n\n\n\n\n\n\nImportantReminder: Formalia of the final report\n\n\n\nFor the formalia of the final report, please consult the slides from session 1!"
+  },
+  {
+    "objectID": "sessions/S10-How_to_Hausarbeit.html#some-notes-for-the-course-report",
+    "href": "sessions/S10-How_to_Hausarbeit.html#some-notes-for-the-course-report",
+    "title": "Session 10 - How to Hausarbeit",
+    "section": "Some notes for the course report",
+    "text": "Some notes for the course report\n\nMethods\nIn the first paragraph (without separate heading), report the links to preregistration, open material, open data: “The hypotheses, operationalizations, analysis plan, inference criteria, and sample size justification have been preregistered at [OSF link]. Open material and data are available at [OSF link].”.\nThen 5 subsections on Level 2 (##) follow:\n\nParticipants:\n\nDescribe the initial sample size (not including “zombie rows”), the count of all preregistered data exclusions, and the final sample size after exclusions. Report demographics for the final sample.\nWhen some analyses require more exclusions (which lead to a further reduction of the sample), report those in the context of that specific analysis.\n\nMaterials\nProcedure\nStatistical Analysis (&lt;- no results here - just describe how we compute the log-transformed etc. variables)\nDeviations from preregistration\n\n\n\nDiscussion\n(beyond the standard sections):\n\nClearly state the replication success (or failure).\nDiscuss the results in comparison to the original study: What are known difference between original and replication? What are unknown differences (i.e., aspects where differences could or could not occur, but we don’t know)?\nDiscuss the achieved power: Did we reach the planned sample size? If not: re-compute the achieved power with the actual sample size (after exclusions) and the originally assumed effect size."
+  },
+  {
+    "objectID": "sessions/S10-How_to_Hausarbeit.html#homework-1-individual-prepare-one-exploratory-analysis",
+    "href": "sessions/S10-How_to_Hausarbeit.html#homework-1-individual-prepare-one-exploratory-analysis",
+    "title": "Session 10 - How to Hausarbeit",
+    "section": "Homework 1 (individual): Prepare one exploratory analysis",
+    "text": "Homework 1 (individual): Prepare one exploratory analysis\nSee our preregistration for our ideas about exploratory analyses. Pick one and implement it in R (e.g., in file 4-exploratory_analyses.R)"
   }
 ]

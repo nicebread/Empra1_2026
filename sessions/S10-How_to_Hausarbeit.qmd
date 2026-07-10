@@ -1,0 +1,66 @@
+---
+title: Session 10 - How to Hausarbeit
+number-sections: false
+description: The structure of the final report; apaquarto; confirmatory analyses; (maybe) detect p-hacking
+---
+
+## Overview
+
+| Topic                                                      | Duration | Notes                                                                                                                                                     |
+| :--------------------------------------------------------- | :------: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| How to Hausarbeit                                          |    45    | [Slides](../slides/pdfs/Artikel_schreiben_und_formatieren.pdf)                                                                                            |
+| Prepare an apaquarto manuscript together / troubleshooting |    45    |                                                                                                                                                           |
+| Make consensus rating of strenghts/weaknesses              |    15    | See [Google Doc](https://docs.google.com/spreadsheets/d/1QPbqPkyeuHc6YxQLDHeB_EmzqVYrwhC_/edit?usp=sharing&ouid=108982640291853577145&rtpof=true&sd=true) |
+| Do the confirmatory analyses together                      |    45    |                                                                                                                                                           |
+
+: {.striped}
+
+
+::: {.callout-note title="Reminder: Formalia of the final report"}
+For the formalia of the final report, please consult the [slides from session 1](../slides/Empra-Orga/Empra-Orga.qmd#hausarbeit)!
+:::
+
+
+## Some notes for the course report
+
+### Introduction
+
+- Give a very short introduction into the research question ("Awe and humility").Give only as much information as is needed to understand our replication study.  For details, refer readers to the original publication. 
+- Mention that we are part of the larger CREP replication effort.
+- Summarize the main points of our known deviations from the original study and refer to the online document for a full list
+- We follow a "direct replication and extension" approach. Describe the extension (new video condition) and one exploratory analysis.
+  - Note: Although we listed multiple possible exploratory analyses in the preregistration, only introduce the one exploratory analysis in the introduction that you actually analysed. For transparency, you can still mention that more exploratory analyses are listed in the prereg, and that you did not cherry pick this specific exploratory analysis based on its (favorable) result.
+
+
+### Methods
+
+In the first paragraph (without separate heading), report the links to preregistration, open material, open data: "The hypotheses, operationalizations, analysis plan, inference criteria, and sample size justification have been preregistered at [OSF link]. Open material and data are available at [OSF link].".
+
+Then 5 subsections on Level 2 (`##`) follow:
+
+- *Participants*: 
+  - Describe the initial sample size (not including "zombie rows"), the count of all preregistered data exclusions, and the final sample size after exclusions. Report demographics for the final sample. 
+  - As we do not have the final data files yet, do this with dynamic computations!
+  - When some analyses require more exclusions (which lead to a further reduction of the sample), report those in the context of that specific analysis.
+- *Materials*
+- *Procedure*
+- *Statistical Analysis* (← no results here - just describe how we compute the log-transformed etc. variables)
+- *Deviations from preregistration*
+
+### Discussion
+
+(beyond the [standard sections](../slides/pdfs/Artikel_schreiben_und_formatieren.pdf) in a Discussion):
+
+- Clearly state the replication success (or failure).
+- Discuss the results in comparison to the original study: What are known difference between original and replication? What are unknown differences (i.e., aspects where differences could or could not occur, but we don't know)?
+- Discuss the achieved power: Did we reach the planned sample size? If not: re-compute the achieved power with the actual sample size (after exclusions) and the *originally assumed effect size* (not with the observed effect size -- this flawed version of post-hoc power is meaningless).
+
+
+## Homework 1 (individual): Prepare one exploratory analysis
+
+Rate the new writing assignments that came in (see coding2_XX.xlsx in the Google Drive).
+
+## Homework 2 (individual): Prepare one exploratory analysis
+
+See our preregistration for our ideas about exploratory analyses. Pick one and implement it in R (e.g., in file `4-exploratory_analyses.R`)
+
