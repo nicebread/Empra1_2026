@@ -1,7 +1,7 @@
 ---
 title: Session 10 - How to Hausarbeit
 number-sections: false
-description: The structure of the final report; apaquarto; confirmatory analyses; (maybe) detect p-hacking
+description: The structure of the final report; apaquarto; confirmatory analyses
 ---
 
 ## Overview
@@ -56,11 +56,15 @@ Then 5 subsections on Level 2 (`##`) follow:
 - Discuss the achieved power: Did we reach the planned sample size? If not: re-compute the achieved power with the actual sample size (after exclusions) and the *originally assumed effect size* (not with the observed effect size -- this flawed version of post-hoc power is meaningless).
 
 
-## Homework 1 (individual): Prepare one exploratory analysis
+## Homework 1 (individual): Rate the new writing assignments
 
 Rate the new writing assignments that came in (see coding2_XX.xlsx in the Google Drive).
+See our central [Google Doc](https://docs.google.com/document/d/1FHMhznSNv7LFh7bAYn8D4FOcYZ88LGSq-40wLTmytYI/edit?tab=t.0) for instructions.
 
-## Homework 2 (individual): Prepare one exploratory analysis
+Please send your xlsx file via email until next Thursday.
 
-See our preregistration for our ideas about exploratory analyses. Pick one and implement it in R (e.g., in file `4-exploratory_analyses.R`)
+## Homework 2 (individual, optional): Prepare one exploratory analysis
+
+See our preregistration for our ideas about exploratory analyses. Pick one and implement it in R (e.g., in file `4-exploratory_analyses.R`).
+We can discuss your approaches next session.
 
