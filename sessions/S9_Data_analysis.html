@@ -24,6 +24,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -251,19 +286,27 @@ From the preregistration:
 <h2 class="anchored" data-anchor-id="homework-2-individual-prepare-your-manuscriptcourse-report">Homework 2 (individual): Prepare your manuscript/course report</h2>
 <p>Note: Most of you work in groups on one project folder. When the course is complete, you will make a personal copy of that folder and continue to work in that (and also submit that at the end).</p>
 <p>Add your <code>manuscript.qmd</code> file in the top level folder. I suggest directly to use the <a href="https://wjschne.github.io/apaquarto/">apaquarto</a> extension and start with their template.</p>
-<p>As homework, prepare the general structure (with L1 headings) and already write the Methods section:</p>
-<ul>
-<li>Methods
-<ul>
-<li>Participants</li>
-<li>Procedure (&lt;- including measurement instruments)</li>
-<li>Statistical Analysis (&lt;- no results here - just describe how we compute the log-transformed etc. variables)</li>
-</ul></li>
-</ul>
+<p>As homework, prepare the general structure of a scientific paper. Add all section headings; “Methods”, “Results”, “Discussion” should be Level 1 (with <code>#</code>).</p>
+<p>Next, write the Methods section (see details in next <a href="../sessions/S10-How_to_Hausarbeit.html">Session Overview</a>).</p>
 <p>Whenever you are tempted to type a specific number, such as …</p>
 <p><code>The final sample consisted of 95 participants.</code></p>
-<p>… don’t do it - you would have to update it with every new data download. Instead use dynamic computations:</p>
+<p>… don’t do it - you would have to update it with every new data download. Instead use dynamic computations, either with inline computations:</p>
 <p><code>The final sample consisted of `r nrow(dat_final)` participants.</code></p>
+<p>Or use longer <code>R</code> chunks for multiline computations:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode md code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```r</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># This is a longer R chunk</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># The apaquarto extension automatically sets `#| echo: false` </span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># so that the code is not shown in the output</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data.csv"</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># do some data preprocessing ...</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Look at some of the APA’s <a href="https://apastyle.apa.org/style-grammar-guidelines/paper-format/sample-papers">sample papers</a>, and read the respective sections in a couple of papers from our literature list.</p>
+<p><strong>Some notes:</strong></p>
+<ul>
+<li>The questionnaire scales were computed as the mean of all items.</li>
+<li>You do not have to report reliability statistics (you did not learn this yet).</li>
+</ul>
 
 
 </section>

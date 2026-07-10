@@ -2916,7 +2916,7 @@
     "href": "sessions/sessions_overview.html",
     "title": "Overview of sessions",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nThreats to credible research; choice of replication target\n\n\n\n\n\n\nSession 02 - Threats part 2, ethics approval, Git\n\n\nContinuing the discussion on threats to credible research; introducing ethics approval; intro to Git.\n\n\n\n\n\n\nSession 03 - Preparing the study material\n\n\nWe follow the steps of CREP and prepare our study material\n\n\n\n\n\n\nSession 04 - Finalize study material\n\n\nWe finalize all study material\n\n\n\n\n\n\nSession 05 - Finalize Study & Prereg\n\n\nWe do the last finetuning of the study; intro to preregistration\n\n\n\n\n\n\nSession 06 - Preregistration 2; Good coding practices\n\n\nWe learn more about preregistration and how to set up a code repository that facilitates reproducibility\n\n\n\n\n\n\nSession 07 - Reproduction of original results\n\n\nWe try to reproduce the original results with the original data set (no code provided). We finalize and submit the preregistration.\n\n\n\n\n\n\nSession 08 - Open Data\n\n\nWe talk about how to publish open data and how to create a codebook.\n\n\n\n\n\n\nSession 09 - Data Analysis & Power Analysis\n\n\nWe review the data preprocessing and agree on a “best practice” version of it. We create coding instructions for free-text answers. We do a proper power analysis based on the original finding. \n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nThreats to credible research; choice of replication target\n\n\n\n\n\n\nSession 02 - Threats part 2, ethics approval, Git\n\n\nContinuing the discussion on threats to credible research; introducing ethics approval; intro to Git.\n\n\n\n\n\n\nSession 03 - Preparing the study material\n\n\nWe follow the steps of CREP and prepare our study material\n\n\n\n\n\n\nSession 04 - Finalize study material\n\n\nWe finalize all study material\n\n\n\n\n\n\nSession 05 - Finalize Study & Prereg\n\n\nWe do the last finetuning of the study; intro to preregistration\n\n\n\n\n\n\nSession 06 - Preregistration 2; Good coding practices\n\n\nWe learn more about preregistration and how to set up a code repository that facilitates reproducibility\n\n\n\n\n\n\nSession 07 - Reproduction of original results\n\n\nWe try to reproduce the original results with the original data set (no code provided). We finalize and submit the preregistration.\n\n\n\n\n\n\nSession 08 - Open Data\n\n\nWe talk about how to publish open data and how to create a codebook.\n\n\n\n\n\n\nSession 09 - Data Analysis & Power Analysis\n\n\nWe review the data preprocessing and agree on a “best practice” version of it. We create coding instructions for free-text answers. We do a proper power analysis based on the original finding. \n\n\n\n\n\n\nSession 10 - How to Hausarbeit\n\n\nThe structure of the final report; apaquarto; confirmatory analyses; (maybe) detect p-hacking\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/S8-Open_Data.html",
@@ -3017,48 +3017,6 @@
     "text": "Homework for the next two weeks\n\nHomework 1 (individual): Practice p-hacking\n🔗 P-Hacker App\nTask: Hack at least 5 studies towards significance with \\(\\alpha = .05\\) (keep the true effect at 0). Whenever you achieved a significant result, click on “Save” in the results table to store your result in the study stack on the right side. Once you achieved 5 significant studies, copy and paste the study stack into a text document.\nNext, try the same for \\(\\alpha = .005\\) (if it takes too long, there’s no need to achieve 5 significant studies).\nDeliverable: Copy both sets of significant studies (one for \\(\\alpha = .05\\), one for \\(\\alpha = .005\\)) into the textfield in the Moodle task.\n\n\nHomework 2 (individual): Read our target paper\nRead the target paper: Stellar, J. E., Gordon, A., Anderson, C. L., Piff, P. K., McNeil, G. D., & Keltner, D. (2018). Awe and humility. Journal of Personality and Social Psychology, 114(2), 258–269. https://doi.org/10.1037/pspi0000109\nYou can find the PDF in Moodle.\nFocus on the introduction, our target Study 3, and the discussion. Skim the other studies. Then write short replies to these guiding questions:\n\nIn the literature are several definitions of “Humility”, and they assign it to different classes of psychological constructs (e.g., a trait, a state). List at least 4 different classes.\n\n\n\nHow do the authors treat humility conceptually?\n\n\n\nWhat is the definition of “awe”?\n\n\n\nIn Study 3: Compute the effect size (i.e., the standardized mean difference) between the control and the experimental group concerning strength of elicited awe.\n\n\n\nWhich limitations / contraints on generality (see definition CoG) do the authors discuss in the General Discussion?\n\n\n\nBonus question: There is an objective error concerning the sample size in Study 3. Can you spot it?\n\n\nDeliverable:\n\nPlease write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here).\nYou can answer in English or in German.\nMost questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper.\nIf you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\n\n\n\nHomework 3 (individual): Fill out the CREP survey (3 min)\nSee link in Moodle.\n\n\nHomework 4 (individual): Complete the Git tutorial.\nComplete and/or re-do the Git Tutorial. You should be able to initialize a local repository and commit to it, connect it to a remote repository on Github, and push, pull to it. All of these actions are covered in the tutorial.\nDeliverables: Create a Github repository (you can call it whatever you like), push at least least two local commits to it and copy the link to the repo to the Moodle task."
   },
   {
-    "objectID": "orga_material/instructions_before_course.html",
-    "href": "orga_material/instructions_before_course.html",
-    "title": "Instructions before course",
-    "section": "",
-    "text": "Betreff: Instruktionen Empra\nLiebe Studierende,\nich freue mich schon auf unser Empra. Hier kommen einige Hinweise für den Start am Freitag:\n\nIch würde gerne den Start von 10:15 auf 10:00 verlegen. Die Sitzung geht dann in der Regel bis 13:00, so dass man noch sinnvoll in die Mensa gehen kann. Wir starten also am Freitag gleich um 10:00!\nWir werden in fast jeder Sitzung am Computer arbeiten - z.B. Code schreiben, Diagramme zeichnen, oder Dateien in git einchecken. Daher wäre es gut, wenn Sie, wenn möglich, immer ihren Laptop mitbringen. Wenn Sie keinen Laptop haben, können Sie auch bei Kommilitonen reinschauen und im “pair programming” Modus arbeiten.\nSie haben ja im Seminar von Statistik 1 schon einige Kenntnisse in R erworben. Ich gehe davon aus, dass Sie diese Kenntnisse mitbringen, wir werden sie hier nicht noch einmal wiederholen. Falls Sie Ihre R-Kenntnisse auffrischen möchten, finden Sie hier einige Ressourcen. Das bedeutet nicht, dass Sie all diese Ressourcen durcharbeiten müssen. Wenn Sie auf dem Stand der beiden R-Tutorials (siehe 3.1) sind, sind Sie hinreichend vorbereitet:\n\nDie R-Tutorials aus Statistik 1: Teil 1 - Grundlagen und Teil 2 - Workflows bei der Arbeit mit Datensätzen\nMoodle Kurs “R Tutorials”: Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR\nYouTube-Video: “Want to learn R (#rstats) in 4 hours with NO programming experience?”\nhttps://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf (12 page PDF document)\nhttps://github.com/jobreu/r-intro-gesis-2021 (5 day course: slides & exercises)\n\nDie Kommunikation wird ab jetzt über den Moodle-Kurs laufen. Der Einschreibeschlüssel lautet: “replikation”. Bitte schreiben Sie sich zeitnah ein; ich verschicke ab jetzt die Emails über den Moodle-Kurs.\nDas Kursmaterial wird sich alles auf Github finden: https://nicebread.github.io/Empra1_2026/.\n\nDann sehen wir uns am Freitag, 17.04.26, um 10:00 in Raum 2301 zur ersten Sitzung! Bei Fragen können Sie sich gerne auch vorab schon bei mir melden.\nViele Grüße, Felix Schönbrodt"
-  },
-  {
-    "objectID": "common/lastslide.html",
-    "href": "common/lastslide.html",
-    "title": "End",
-    "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
-  },
-  {
-    "objectID": "common/lastslide.html#contact",
-    "href": "common/lastslide.html#contact",
-    "title": "End",
-    "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Das ist das Kursmaterial für das “Forschungsorientierte Praktikum I – Grundlagen der Forschung” im BSc Psychologie der Ludwig-Maximilians-Universität München. Der Kurs wurde im Sommersemester 2024 von Prof. Dr. Felix Schönbrodt gegeben.\nAlles Material ist - soweit nicht anders gekennzeichnet - unter CC-BY4.0 Lizenz."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Robust Evidence: A Workflow for Reproducible, Collaborative, and Transparent Research",
-    "section": "",
-    "text": "Note: This project is a mixture of English and German text. Sorry for that.\nThis course is held in the 2nd semester of the BSc. Psychology at the Department Psychology, Ludwig-Maximilians-Universität München. See the Sessions section for a description of each session. In these sessions, sometimes lecture slides are linked."
-  },
-  {
-    "objectID": "index.html#course-announcement",
-    "href": "index.html#course-announcement",
-    "title": "Robust Evidence: A Workflow for Reproducible, Collaborative, and Transparent Research",
-    "section": "Course Announcement",
-    "text": "Course Announcement\nThe focus of this empirical psychology research practicum is less on a specific subject area but more on acquiring solid research methodology, both conceptually and practically. The aim is to develop professional and efficient working practices that will support you throughout your studies and beyond.\nYou will learn key tools and standards of scientific work, including:\n\nFile versioning and collaborative work with Git\nReproducible notebooks and manuscripts using Quarto\nBest practices in data analysis (folder structure, code commenting, reflective use and integration of AI)\nStrategies for systematic error prevention\n\nIn the area of research methods, you will gain knowledge in:\n\nPreregistration of hypotheses and analysis plans\nPreparing data for scientific publication (“Open Data”; anonymization, documentation using a codebook)\nReproducible statistical analysis in R, ensuring results are fully traceable for others\nSample size planning to ensure sufficiently strong evidence for or against a hypothesis\n\nIn terms of content, we will join a global replication project (CREP; https://www.crep-psych.org) and participate in a “ManyLabs” study. As one of several sites, we will replicate an existing experiment; our data will then be incorporated into a cross-site meta-analysis. Data collection will take place as a joint online study conducted by the entire group.\nThis research practicum places higher demands on mathematical and formal thinking as well as on your programming skills. At minimum, knowledge of R as taught in Statistics I and II is required. In addition, a willingness is expected to independently work through more advanced programming content using the provided materials."
-  },
-  {
     "objectID": "sessions/S1-Introduction.html",
     "href": "sessions/S1-Introduction.html",
     "title": "Session 01 - Introduction",
@@ -3099,6 +3057,83 @@
     "title": "Session 01 - Introduction",
     "section": "Homework",
     "text": "Homework\n\n“individual” means: Everybody does the task on their own and uploads an individual report/result.\n“group” means: The working group submits a joint document.\n“collaborative” means: Everybody contributes to a single joint online document, or the group makes a joint decision.\n\n\nHomework 1 (collaborative; 5 min each)\nCan I trust the quality of product (when I do not have access to all information)?\nTake the strategies from both buyers and sellers from the “Used Car Exercise” and transfer them to scientific publications as the product of which the quality should be checked. Maybe not all strategies can be transferred, and probably not all possible strategies do exist yet. Be creative!\nExample:\n\n\n\n\n\n\n\nUsed Cars\nScientific publications\n\n\n\n\nDo a test drive to check whether the claim of the seller (“no noise”) is correct\nDo a reproduction to check whether the claim of the authors is (numerically) correct\n\n\n\n\n\n\n\nDo this in the collaborative Etherpad in Moodle.\n\n\nHomework 2 (individual)\n\nCreate an ORCID ID. Use your real name. You can use “Ludwig-Maximilians-Universität München” as affiliation.\nCreate an OSF account. Use your real name; link your ORCID ID.\nCreate a GitHub account. You can use your real name or any pseudonym.\n\n\n\nHomework 3 (collaborative)\nDecide which study we want to replicate."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Robust Evidence: A Workflow for Reproducible, Collaborative, and Transparent Research",
+    "section": "",
+    "text": "Note: This project is a mixture of English and German text. Sorry for that.\nThis course is held in the 2nd semester of the BSc. Psychology at the Department Psychology, Ludwig-Maximilians-Universität München. See the Sessions section for a description of each session. In these sessions, sometimes lecture slides are linked."
+  },
+  {
+    "objectID": "index.html#course-announcement",
+    "href": "index.html#course-announcement",
+    "title": "Robust Evidence: A Workflow for Reproducible, Collaborative, and Transparent Research",
+    "section": "Course Announcement",
+    "text": "Course Announcement\nThe focus of this empirical psychology research practicum is less on a specific subject area but more on acquiring solid research methodology, both conceptually and practically. The aim is to develop professional and efficient working practices that will support you throughout your studies and beyond.\nYou will learn key tools and standards of scientific work, including:\n\nFile versioning and collaborative work with Git\nReproducible notebooks and manuscripts using Quarto\nBest practices in data analysis (folder structure, code commenting, reflective use and integration of AI)\nStrategies for systematic error prevention\n\nIn the area of research methods, you will gain knowledge in:\n\nPreregistration of hypotheses and analysis plans\nPreparing data for scientific publication (“Open Data”; anonymization, documentation using a codebook)\nReproducible statistical analysis in R, ensuring results are fully traceable for others\nSample size planning to ensure sufficiently strong evidence for or against a hypothesis\n\nIn terms of content, we will join a global replication project (CREP; https://www.crep-psych.org) and participate in a “ManyLabs” study. As one of several sites, we will replicate an existing experiment; our data will then be incorporated into a cross-site meta-analysis. Data collection will take place as a joint online study conducted by the entire group.\nThis research practicum places higher demands on mathematical and formal thinking as well as on your programming skills. At minimum, knowledge of R as taught in Statistics I and II is required. In addition, a willingness is expected to independently work through more advanced programming content using the provided materials."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Das ist das Kursmaterial für das “Forschungsorientierte Praktikum I – Grundlagen der Forschung” im BSc Psychologie der Ludwig-Maximilians-Universität München. Der Kurs wurde im Sommersemester 2024 von Prof. Dr. Felix Schönbrodt gegeben.\nAlles Material ist - soweit nicht anders gekennzeichnet - unter CC-BY4.0 Lizenz."
+  },
+  {
+    "objectID": "common/lastslide.html",
+    "href": "common/lastslide.html",
+    "title": "End",
+    "section": "",
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+  },
+  {
+    "objectID": "common/lastslide.html#contact",
+    "href": "common/lastslide.html#contact",
+    "title": "End",
+    "section": "",
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+  },
+  {
+    "objectID": "orga_material/instructions_before_course.html",
+    "href": "orga_material/instructions_before_course.html",
+    "title": "Instructions before course",
+    "section": "",
+    "text": "Betreff: Instruktionen Empra\nLiebe Studierende,\nich freue mich schon auf unser Empra. Hier kommen einige Hinweise für den Start am Freitag:\n\nIch würde gerne den Start von 10:15 auf 10:00 verlegen. Die Sitzung geht dann in der Regel bis 13:00, so dass man noch sinnvoll in die Mensa gehen kann. Wir starten also am Freitag gleich um 10:00!\nWir werden in fast jeder Sitzung am Computer arbeiten - z.B. Code schreiben, Diagramme zeichnen, oder Dateien in git einchecken. Daher wäre es gut, wenn Sie, wenn möglich, immer ihren Laptop mitbringen. Wenn Sie keinen Laptop haben, können Sie auch bei Kommilitonen reinschauen und im “pair programming” Modus arbeiten.\nSie haben ja im Seminar von Statistik 1 schon einige Kenntnisse in R erworben. Ich gehe davon aus, dass Sie diese Kenntnisse mitbringen, wir werden sie hier nicht noch einmal wiederholen. Falls Sie Ihre R-Kenntnisse auffrischen möchten, finden Sie hier einige Ressourcen. Das bedeutet nicht, dass Sie all diese Ressourcen durcharbeiten müssen. Wenn Sie auf dem Stand der beiden R-Tutorials (siehe 3.1) sind, sind Sie hinreichend vorbereitet:\n\nDie R-Tutorials aus Statistik 1: Teil 1 - Grundlagen und Teil 2 - Workflows bei der Arbeit mit Datensätzen\nMoodle Kurs “R Tutorials”: Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR\nYouTube-Video: “Want to learn R (#rstats) in 4 hours with NO programming experience?”\nhttps://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf (12 page PDF document)\nhttps://github.com/jobreu/r-intro-gesis-2021 (5 day course: slides & exercises)\n\nDie Kommunikation wird ab jetzt über den Moodle-Kurs laufen. Der Einschreibeschlüssel lautet: “replikation”. Bitte schreiben Sie sich zeitnah ein; ich verschicke ab jetzt die Emails über den Moodle-Kurs.\nDas Kursmaterial wird sich alles auf Github finden: https://nicebread.github.io/Empra1_2026/.\n\nDann sehen wir uns am Freitag, 17.04.26, um 10:00 in Raum 2301 zur ersten Sitzung! Bei Fragen können Sie sich gerne auch vorab schon bei mir melden.\nViele Grüße, Felix Schönbrodt"
+  },
+  {
+    "objectID": "sessions/S10-How_to_Hausarbeit.html",
+    "href": "sessions/S10-How_to_Hausarbeit.html",
+    "title": "Session 10 - How to Hausarbeit",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nHow to Hausarbeit\n45\nSlides\n\n\nPrepare an apaquarto manuscript together / troubleshooting\n45\n\n\n\nMake consensus rating of strenghts/weaknesses\n15\nSee Google Doc\n\n\nDo the confirmatory analyses together\n45\n\n\n\n\n\n\n\n\n\n\nNoteReminder: Formalia of the final report\n\n\n\nFor the formalia of the final report, please consult the slides from session 1!"
+  },
+  {
+    "objectID": "sessions/S10-How_to_Hausarbeit.html#overview",
+    "href": "sessions/S10-How_to_Hausarbeit.html#overview",
+    "title": "Session 10 - How to Hausarbeit",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nHow to Hausarbeit\n45\nSlides\n\n\nPrepare an apaquarto manuscript together / troubleshooting\n45\n\n\n\nMake consensus rating of strenghts/weaknesses\n15\nSee Google Doc\n\n\nDo the confirmatory analyses together\n45\n\n\n\n\n\n\n\n\n\n\nNoteReminder: Formalia of the final report\n\n\n\nFor the formalia of the final report, please consult the slides from session 1!"
+  },
+  {
+    "objectID": "sessions/S10-How_to_Hausarbeit.html#some-notes-for-the-course-report",
+    "href": "sessions/S10-How_to_Hausarbeit.html#some-notes-for-the-course-report",
+    "title": "Session 10 - How to Hausarbeit",
+    "section": "Some notes for the course report",
+    "text": "Some notes for the course report\n\nIntroduction\n\nGive a very short introduction into the research question (“Awe and humility”).Give only as much information as is needed to understand our replication study. For details, refer readers to the original publication.\nMention that we are part of the larger CREP replication effort.\nSummarize the main points of our known deviations from the original study and refer to the online document for a full list\nWe follow a “direct replication and extension” approach. Describe the extension (new video condition) and one exploratory analysis.\n\nNote: Although we listed multiple possible exploratory analyses in the preregistration, only introduce the one exploratory analysis in the introduction that you actually analysed. For transparency, you can still mention that more exploratory analyses are listed in the prereg, and that you did not cherry pick this specific exploratory analysis based on its (favorable) result.\n\n\n\n\nMethods\nIn the first paragraph (without separate heading), report the links to preregistration, open material, open data: “The hypotheses, operationalizations, analysis plan, inference criteria, and sample size justification have been preregistered at [OSF link]. Open material and data are available at [OSF link].”.\nThen 5 subsections on Level 2 (##) follow:\n\nParticipants:\n\nDescribe the initial sample size (not including “zombie rows”), the count of all preregistered data exclusions, and the final sample size after exclusions. Report demographics for the final sample.\nAs we do not have the final data files yet, do this with dynamic computations!\nWhen some analyses require more exclusions (which lead to a further reduction of the sample), report those in the context of that specific analysis.\n\nMaterials\nProcedure\nStatistical Analysis (← no results here - just describe how we compute the log-transformed etc. variables)\nDeviations from preregistration\n\n\n\nDiscussion\n(beyond the standard sections in a Discussion):\n\nClearly state the replication success (or failure).\nDiscuss the results in comparison to the original study: What are known difference between original and replication? What are unknown differences (i.e., aspects where differences could or could not occur, but we don’t know)?\nDiscuss the achieved power: Did we reach the planned sample size? If not: re-compute the achieved power with the actual sample size (after exclusions) and the originally assumed effect size (not with the observed effect size – this flawed version of post-hoc power is meaningless)."
+  },
+  {
+    "objectID": "sessions/S10-How_to_Hausarbeit.html#homework-1-individual-prepare-one-exploratory-analysis",
+    "href": "sessions/S10-How_to_Hausarbeit.html#homework-1-individual-prepare-one-exploratory-analysis",
+    "title": "Session 10 - How to Hausarbeit",
+    "section": "Homework 1 (individual): Prepare one exploratory analysis",
+    "text": "Homework 1 (individual): Prepare one exploratory analysis\nRate the new writing assignments that came in (see coding2_XX.xlsx in the Google Drive)."
+  },
+  {
+    "objectID": "sessions/S10-How_to_Hausarbeit.html#homework-2-individual-prepare-one-exploratory-analysis",
+    "href": "sessions/S10-How_to_Hausarbeit.html#homework-2-individual-prepare-one-exploratory-analysis",
+    "title": "Session 10 - How to Hausarbeit",
+    "section": "Homework 2 (individual): Prepare one exploratory analysis",
+    "text": "Homework 2 (individual): Prepare one exploratory analysis\nSee our preregistration for our ideas about exploratory analyses. Pick one and implement it in R (e.g., in file 4-exploratory_analyses.R)"
   },
   {
     "objectID": "sessions/S3-Study_preparation.html",
@@ -3231,7 +3266,7 @@
     "href": "sessions/S9_Data_analysis.html#homework-2-individual-prepare-your-manuscriptcourse-report",
     "title": "Session 09 - Data Analysis & Power Analysis",
     "section": "Homework 2 (individual): Prepare your manuscript/course report",
-    "text": "Homework 2 (individual): Prepare your manuscript/course report\nNote: Most of you work in groups on one project folder. When the course is complete, you will make a personal copy of that folder and continue to work in that (and also submit that at the end).\nAdd your manuscript.qmd file in the top level folder. I suggest directly to use the apaquarto extension and start with their template.\nAs homework, prepare the general structure (with L1 headings) and already write the Methods section:\n\nMethods\n\nParticipants\nProcedure (&lt;- including measurement instruments)\nStatistical Analysis (&lt;- no results here - just describe how we compute the log-transformed etc. variables)\n\n\nWhenever you are tempted to type a specific number, such as …\nThe final sample consisted of 95 participants.\n… don’t do it - you would have to update it with every new data download. Instead use dynamic computations:\nThe final sample consisted of `r nrow(dat_final)` participants."
+    "text": "Homework 2 (individual): Prepare your manuscript/course report\nNote: Most of you work in groups on one project folder. When the course is complete, you will make a personal copy of that folder and continue to work in that (and also submit that at the end).\nAdd your manuscript.qmd file in the top level folder. I suggest directly to use the apaquarto extension and start with their template.\nAs homework, prepare the general structure of a scientific paper. Add all section headings; “Methods”, “Results”, “Discussion” should be Level 1 (with #).\nNext, write the Methods section (see details in next Session Overview).\nWhenever you are tempted to type a specific number, such as …\nThe final sample consisted of 95 participants.\n… don’t do it - you would have to update it with every new data download. Instead use dynamic computations, either with inline computations:\nThe final sample consisted of `r nrow(dat_final)` participants.\nOr use longer R chunks for multiline computations:\n```r\n# This is a longer R chunk\n# The apaquarto extension automatically sets `#| echo: false` \n# so that the code is not shown in the output\n\ndat &lt;- read.csv(\"data.csv\")\n# do some data preprocessing ...\n```\nLook at some of the APA’s sample papers, and read the respective sections in a couple of papers from our literature list.\nSome notes:\n\nThe questionnaire scales were computed as the mean of all items.\nYou do not have to report reliability statistics (you did not learn this yet)."
   },
   {
     "objectID": "slides/Causality/Causality.html#from-correlation-to-causality",
