@@ -6269,14 +6269,14 @@
     "href": "sessions/S9_Data_analysis.html#homework-2-individual-prepare-your-manuscriptcourse-report",
     "title": "Session 09 - Data Analysis & Power Analysis",
     "section": "Homework 2 (individual): Prepare your manuscript/course report",
-    "text": "Homework 2 (individual): Prepare your manuscript/course report\nNote: Most of you work in groups on one project folder. When the course is complete, you will make a personal copy of that folder and continue to work in that (and also submit that at the end).\nAdd your manuscript.qmd file in the top level folder. I suggest directly to use the apaquarto extension and start with their template.\nAs homework, prepare the general structure of a scientific paper. Add all section headings; “Methods”, “Results”, “Discussion” should be Level 1 (with #).\nNext, write the Methods section:\n\nMethods\n\nIn the first paragraph (without separate heading), report the links to preregistration, open material, open data: “The hypotheses, operationalizations, analysis plan, inference criteria, and sample size justification have been preregistered at [OSF link]. Open material and data are available at [OSF link].”., Then 5 subsections on Level 2 (##) follow:\nParticipants\nMaterials\nProcedure\nStatistical Analysis (&lt;- no results here - just describe how we compute the log-transformed etc. variables)\nDeviations from preregistration\n\n\nWhenever you are tempted to type a specific number, such as …\nThe final sample consisted of 95 participants.\n… don’t do it - you would have to update it with every new data download. Instead use dynamic computations:\nThe final sample consisted of &grave;r nrow(dat_final)&grave; participants.\nUse longer R chunks for multiline computations:\n\n::: {.cell}\n\n```{.r .cell-code}\n# This is a longer R chunk\n# The apaquarto extension automatically sets `#| echo: false` so that the code is not shown in the output\n\ndat &lt;- read.csv(\"data.csv\")\n# do some data preprocessing ...\n```\n:::\n\nUse inline R chunks to weave single numbers into continuous text:\nThe mean age of the participants was &grave;r round(mean(dat$age), 1)&grave;.\nLook at some of the APA’s sample papers, and read the respective sections in a couple of papers from our literature list.\nSome notes:\n\nThe questionnaire scales were computed as the mean of all items.\nYou do not have to report reliability statistics (you did not learn this yet)."
+    "text": "Homework 2 (individual): Prepare your manuscript/course report\nNote: Most of you work in groups on one project folder. When the course is complete, you will make a personal copy of that folder and continue to work in that (and also submit that at the end).\nAdd your manuscript.qmd file in the top level folder. I suggest directly to use the apaquarto extension and start with their template.\nAs homework, prepare the general structure of a scientific paper. Add all section headings; “Methods”, “Results”, “Discussion” should be Level 1 (with #).\nNext, write the Methods section (see details in next Session Overview).\nWhenever you are tempted to type a specific number, such as …\nThe final sample consisted of 95 participants.\n… don’t do it - you would have to update it with every new data download. Instead use dynamic computations, either with inline computations:\nThe final sample consisted of `r nrow(dat_final)` participants.\nOr use longer R chunks for multiline computations:\n```r\n# This is a longer R chunk\n# The apaquarto extension automatically sets `#| echo: false` \n# so that the code is not shown in the output\n\ndat &lt;- read.csv(\"data.csv\")\n# do some data preprocessing ...\n```\nLook at some of the APA’s sample papers, and read the respective sections in a couple of papers from our literature list.\nSome notes:\n\nThe questionnaire scales were computed as the mean of all items.\nYou do not have to report reliability statistics (you did not learn this yet)."
   },
   {
     "objectID": "sessions/S10-How_to_Hausarbeit.html",
     "href": "sessions/S10-How_to_Hausarbeit.html",
     "title": "Session 10 - How to Hausarbeit",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nHow to Hausarbeit\n45\nSlides\n\n\nPrepare an apaquarto manuscript together / troubleshooting\n45\n\n\n\n\n\n\n\n\n\n\nImportantReminder: Formalia of the final report\n\n\n\nFor the formalia of the final report, please consult the slides from session 1!"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nHow to Hausarbeit\n45\nSlides\n\n\nPrepare an apaquarto manuscript together / troubleshooting\n45\n\n\n\nMake consensus rating of strenghts/weaknesses\n15\nSee Google Doc\n\n\nDo the confirmatory analyses together\n45\n\n\n\n\n\n\n\n\n\n\nNoteReminder: Formalia of the final report\n\n\n\nFor the formalia of the final report, please consult the slides from session 1!"
   },
   {
     "objectID": "sessions/S10-How_to_Hausarbeit.html#homework-1-individually-write-reproducible-manuscript-in-apa-7-format---descriptive-statistics",
@@ -6290,14 +6290,14 @@
     "href": "sessions/S10-How_to_Hausarbeit.html#overview",
     "title": "Session 10 - How to Hausarbeit",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nHow to Hausarbeit\n45\nSlides\n\n\nPrepare an apaquarto manuscript together / troubleshooting\n45\n\n\n\n\n\n\n\n\n\n\nImportantReminder: Formalia of the final report\n\n\n\nFor the formalia of the final report, please consult the slides from session 1!"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nHow to Hausarbeit\n45\nSlides\n\n\nPrepare an apaquarto manuscript together / troubleshooting\n45\n\n\n\nMake consensus rating of strenghts/weaknesses\n15\nSee Google Doc\n\n\nDo the confirmatory analyses together\n45\n\n\n\n\n\n\n\n\n\n\nNoteReminder: Formalia of the final report\n\n\n\nFor the formalia of the final report, please consult the slides from session 1!"
   },
   {
     "objectID": "sessions/S10-How_to_Hausarbeit.html#some-notes-for-the-course-report",
     "href": "sessions/S10-How_to_Hausarbeit.html#some-notes-for-the-course-report",
     "title": "Session 10 - How to Hausarbeit",
     "section": "Some notes for the course report",
-    "text": "Some notes for the course report\n\nMethods\nIn the first paragraph (without separate heading), report the links to preregistration, open material, open data: “The hypotheses, operationalizations, analysis plan, inference criteria, and sample size justification have been preregistered at [OSF link]. Open material and data are available at [OSF link].”.\nThen 5 subsections on Level 2 (##) follow:\n\nParticipants:\n\nDescribe the initial sample size (not including “zombie rows”), the count of all preregistered data exclusions, and the final sample size after exclusions. Report demographics for the final sample.\nWhen some analyses require more exclusions (which lead to a further reduction of the sample), report those in the context of that specific analysis.\n\nMaterials\nProcedure\nStatistical Analysis (&lt;- no results here - just describe how we compute the log-transformed etc. variables)\nDeviations from preregistration\n\n\n\nDiscussion\n(beyond the standard sections):\n\nClearly state the replication success (or failure).\nDiscuss the results in comparison to the original study: What are known difference between original and replication? What are unknown differences (i.e., aspects where differences could or could not occur, but we don’t know)?\nDiscuss the achieved power: Did we reach the planned sample size? If not: re-compute the achieved power with the actual sample size (after exclusions) and the originally assumed effect size."
+    "text": "Some notes for the course report\n\nIntroduction\n\nGive a very short introduction into the research question (“Awe and humility”).Give only as much information as is needed to understand our replication study. For details, refer readers to the original publication.\nMention that we are part of the larger CREP replication effort.\nSummarize the main points of our known deviations from the original study and refer to the online document for a full list\nWe follow a “direct replication and extension” approach. Describe the extension (new video condition) and one exploratory analysis.\n\nNote: Although we listed multiple possible exploratory analyses in the preregistration, only introduce the one exploratory analysis in the introduction that you actually analysed. For transparency, you can still mention that more exploratory analyses are listed in the prereg, and that you did not cherry pick this specific exploratory analysis based on its (favorable) result.\n\n\n\n\nMethods\nIn the first paragraph (without separate heading), report the links to preregistration, open material, open data: “The hypotheses, operationalizations, analysis plan, inference criteria, and sample size justification have been preregistered at [OSF link]. Open material and data are available at [OSF link].”.\nThen 5 subsections on Level 2 (##) follow:\n\nParticipants:\n\nDescribe the initial sample size (not including “zombie rows”), the count of all preregistered data exclusions, and the final sample size after exclusions. Report demographics for the final sample.\nAs we do not have the final data files yet, do this with dynamic computations!\nWhen some analyses require more exclusions (which lead to a further reduction of the sample), report those in the context of that specific analysis.\n\nMaterials\nProcedure\nStatistical Analysis (← no results here - just describe how we compute the log-transformed etc. variables)\nDeviations from preregistration\n\n\n\nDiscussion\n(beyond the standard sections in a Discussion):\n\nClearly state the replication success (or failure).\nDiscuss the results in comparison to the original study: What are known difference between original and replication? What are unknown differences (i.e., aspects where differences could or could not occur, but we don’t know)?\nDiscuss the achieved power: Did we reach the planned sample size? If not: re-compute the achieved power with the actual sample size (after exclusions) and the originally assumed effect size (not with the observed effect size – this flawed version of post-hoc power is meaningless)."
   },
   {
     "objectID": "sessions/S10-How_to_Hausarbeit.html#homework-1-individual-prepare-one-exploratory-analysis",
@@ -6305,5 +6305,208 @@
     "title": "Session 10 - How to Hausarbeit",
     "section": "Homework 1 (individual): Prepare one exploratory analysis",
     "text": "Homework 1 (individual): Prepare one exploratory analysis\nSee our preregistration for our ideas about exploratory analyses. Pick one and implement it in R (e.g., in file 4-exploratory_analyses.R)"
+  },
+  {
+    "objectID": "sessions/S11-Final.html",
+    "href": "sessions/S11-Final.html",
+    "title": "Session 11 - The Grand Final",
+    "section": "",
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nConsensus rating new writing assignment\n30\n\n\n\nLook at some exploratory analyses\n30\n\n\n\nOpen Q&A\n15\n\n\n\nFeedback\n15\n\n\n\nAI at the university - a debate\n90"
+  },
+  {
+    "objectID": "sessions/S10-How_to_Hausarbeit.html#homework-1-individual-rate-the-new-writing-assignments",
+    "href": "sessions/S10-How_to_Hausarbeit.html#homework-1-individual-rate-the-new-writing-assignments",
+    "title": "Session 10 - How to Hausarbeit",
+    "section": "Homework 1 (individual): Rate the new writing assignments",
+    "text": "Homework 1 (individual): Rate the new writing assignments\nRate the new writing assignments that came in (see coding2_XX.xlsx in the Google Drive). See our central Google Doc for instructions.\nPlease send your xlsx file via email until next Thursday."
+  },
+  {
+    "objectID": "sessions/S10-How_to_Hausarbeit.html#homework-2-individual-optional-prepare-one-exploratory-analysis",
+    "href": "sessions/S10-How_to_Hausarbeit.html#homework-2-individual-optional-prepare-one-exploratory-analysis",
+    "title": "Session 10 - How to Hausarbeit",
+    "section": "Homework 2 (individual, optional): Prepare one exploratory analysis",
+    "text": "Homework 2 (individual, optional): Prepare one exploratory analysis\nSee our preregistration for our ideas about exploratory analyses. Pick one and implement it in R (e.g., in file 4-exploratory_analyses.R). We can discuss your approaches next session."
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#two-extreme-positions",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#two-extreme-positions",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Two extreme positions",
+    "text": "Two extreme positions\n… and a middle ground\n\nFull rejection: “Every AI usage is like plagiarism. AI will first kill your cognitive abilities and down the road kill humanity.”\nFull surrender: “No need to think myself. I have three subscriptions of all major AI providers, they are now doing the work for me.”\nAn intermediate position:\n\nAI will not go away.\nThere are both detrimental misuses and useful applications.\n\n\n\nBut what is a “responsible/functional usage” in the context of university teaching?"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#ai-and-teaching",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#ai-and-teaching",
+    "title": "Artificial and natural intelligence in teaching",
+    "section": "AI and teaching",
+    "text": "AI and teaching"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#contact",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#contact",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#useful-not-useful",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#useful-not-useful",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Useful / not useful?",
+    "text": "Useful / not useful?\n\n\nQUIZ\n\nYou want to learn Italian for your next holiday. You are using Duolingo, and realize that you can complete the little homework assignments much faster when you paste the task into ChatGPT and copy the result. (And you also get a much better score.)\n\n\nChoose one answer\n\n☐ Useful 👍\n☐ Not useful 🤮"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#useful-not-useful-1",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#useful-not-useful-1",
+    "title": "Artificial and natural intelligence in teaching",
+    "section": "Useful / not useful?",
+    "text": "Useful / not useful?\n\n\nQUIZ\n\n\nYou want to learn Italian for your next holiday. You are using Duolingo, and realize that you can complete the little homework assignments much faster when you paste the task into ChatGPT and copy the result. (And you also get a much better score.)\n\n\n\nChoose one answer\n\n☐ Useful 👍\n☐ Not useful 🤮"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#theses",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#theses",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n(1) Writing is thinking\n\nNew boss: “You’re good at writing notes.”\nMe: “Thank you, it helps me to remember so I have been writing summaries for many years.”\nNew boss: “You should try CoPilot and see what it can do.”\nMe: “Well I enjoy summarizing my notes, and it helps me to learn and remember.”\nNew boss: “Let me show you something I did in CoPilot.”\nUgh. Writing it myself helps me LEARN and REMEMBER. Why are these AI zombies so intent on changing a process that is helpful to me? Feeding notes through CoPilot won’t benefit me when it’s the act of writing that works for me.\n\n\nNeumann, R. (2026). KI in der Wissenschaft — Die Abkürzung des Denkens? https://www.laborjournal.de/blog/?p=15093; Toot from https://zeroes.ca/@VeeRat"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#theses-1",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#theses-1",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n(2) AI competence is not “better prompting”\n… but rather:\n\ncritical thinking skills\nemotional competency: How can I trust in my own creativity? How can I keep up my intrinsic motivation?\n“Critical Artificial Intelligence Literacies (CAILs) is the collection of ways of thinking about and relating to so-called artificial intelligence (AI).” (Guest et al., 2025)\n\n\nGuest et al. (2025). Towards Critical Artificial Intelligence Literacies. Zenodo. https://doi.org/10.5281/zenodo.17786243"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#the-roles-of-ai-in-statistik-1-seminar",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#the-roles-of-ai-in-statistik-1-seminar",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "The roles of AI in Statistik 1 seminar",
+    "text": "The roles of AI in Statistik 1 seminar\n\nCrutch: You copy and paste the task of the R-Tutorial into 🤖 and paste the answer into your homework sheet. It works, but you have no idea how it works.\nTutor: You first try to complete the task yourself. When you are stuck, you ask 🤖 to help you by guiding you step by step through the process.\nTool: You know how to program in R, and solved the task yourself. Last minute, you want to make the resulting plot very pretty and use 🤖 for styling options."
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#useful-not-useful-2",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#useful-not-useful-2",
+    "title": "Artificial and natural intelligence in teaching",
+    "section": "Useful / not useful?",
+    "text": "Useful / not useful?\n\n\nQUIZ\n\n\nYou want to learn Italian for your next holiday. You are using Duolingo, and realize that you can complete the little homework assignments much faster when you paste the task into ChatGPT and copy the result. (And you also get a much better score.)\n\n\n\nChoose one answer\n\n☐ Useful 👍\n☐ Not useful 🤮"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#useful-not-useful-3",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#useful-not-useful-3",
+    "title": "Artificial and natural intelligence in teaching",
+    "section": "Useful / not useful?",
+    "text": "Useful / not useful?\n\n\nQUIZ\n\n\nYou want to learn Italian for your next holiday. You are using Duolingo, and realize that you can complete the little homework assignments much faster when you paste the task into ChatGPT and copy the result. (And you also get a much better score.)\n\n\n\nChoose one answer\n\n\n&lt;label class=\"quiz-option\"&gt;\n  &lt;span class=\"box\"&gt;☐&lt;/span&gt;\n  &lt;span&gt;Useful 👍&lt;/span&gt;\n&lt;/label&gt;\n\n&lt;label class=\"quiz-option\"&gt;\n  &lt;span class=\"box\"&gt;☐&lt;/span&gt;\n  &lt;span&gt;&lt;strong&gt;Not&lt;/strong&gt; useful 🤮&lt;/span&gt;\n&lt;/label&gt;"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#section",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#section",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "",
+    "text": "Image created by ChatGPT"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-you-last-ai-usage",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-you-last-ai-usage",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": " You last AI usage",
+    "text": "You last AI usage\nThink about the last time you used generative AI. Write down in bullet points:\n\nWhat was the task you gave?\nWhy did you use AI (instead of doing it yourself)?\nDid you personally learn something through the AI usage? If yes, what?"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#a-ai-as-a-crutch",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#a-ai-as-a-crutch",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "(A) “AI as a crutch”",
+    "text": "(A) “AI as a crutch”\nYou delegate tasks which you are not able to do yourself.\nAI improves immediate output and speed, but can reduce learning, transfer, or independent problem-solving.\n➡︎ Performance gains while using the tool, but no personal growth.\n\n\n\n\n\n\nImportant\n\n\nMany AI-related studies do not properly distinguish performance while using the tool and learning gains.\n\n\n\n\nSalomon et al. (1991). Partners in Cognition: Extending Human Intelligence with Intelligent Technologies. Educational Researcher, 20(3), 2–9. https://doi.org/10.3102/0013189X020003002"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#the-ai-crutch",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#the-ai-crutch",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "The AI Crutch",
+    "text": "The AI Crutch\nEven detrimental for your cognitive abilities?\n\nExcessively offloading cognitive tasks to genAI risks reducing active cognitive engagement, which is crucial for deep encoding (thorough integration of knowledge into memory), effective retention (long-term storage) and meaningful transfer\nAI use for argumentative essay writing can foster “metacognitive laziness”\n\nmeta-cognition = independently judge the quality of work, identify areas that need improvement, actively regulate own learning process\n\nReduces intrinsic motivation: The joy of working through a problem and then solving it yourself\nWhen you take the tool away, performance can be worse than when you never had the tool (Bastani et al., 2024)\n\n\nquoted from Yan et al. (2025). Distinguishing performance gains from learning when using generative AI. Nature Reviews Psychology, 4(7), 435–436. https://doi.org/10.1038/s44159-025-00467-5. See also Bastani et al. (2024)"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#b-ai-as-a-tool-co-worker",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#b-ai-as-a-tool-co-worker",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "(B) “AI as a tool/ co-worker”",
+    "text": "(B) “AI as a tool/ co-worker”\n\nYou delegate subtasks to AI which you could perform yourself.\nAs a supervisor, you are able to evaluate the quality of the outputs and can redirect the tool\nAI use makes you more efficient"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#c-ai-as-a-tutor-not-solver",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#c-ai-as-a-tutor-not-solver",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "(C) “AI as a tutor, not solver”",
+    "text": "(C) “AI as a tutor, not solver”\nAI provides explanations, feedback, individualized pacing, and reflective support that can improve durable learning (“scaffolding”).\n➡︎ Lasting cognitive benefit after the tool is gone.\n\nSalomon et al. (1991). TED talk Sarkar (2015): How to stop AI from killing your critical thinking"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-going-back-to-your-own-ai-use",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-going-back-to-your-own-ai-use",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": " Going back to your own AI use",
+    "text": "Going back to your own AI use\nhttps://partici.fi/33173261"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#simple-answers-about-new-technologies",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#simple-answers-about-new-technologies",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Simple Answers about New Technologies",
+    "text": "Simple Answers about New Technologies\n\n\nXKCD 1289 “Simple Answers”. CC-BY NC 2.5"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#discussion-questions",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#discussion-questions",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Discussion questions",
+    "text": "Discussion questions\n\nWhat do you want to get out of your years in university? Do you actually want to learn something?\nGTD: Is AI use cognitively detrimental in the long run? (We forget how to use our brain)\nHow much dependency on US tech-oligarchs do we accept?\nHow much water consumption, CO2 emissions, and destruction of our environment do we accept for creating useless AI slop?"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#theses-2",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#theses-2",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n(3) Using AI as a delegate: Only as a competent supervisor\nYou should be …\n\nable to complete a task yourself and\nhave the knowledge to evaluate someone else’s work.\n\nOnly then you can responsibly use AI to speed up your work. Open question: How much knowledge is enough?"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#theses-3",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#theses-3",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n(3) Using AI as a delegate: Only as a competent supervisor\nNote: According to Bloom’s thinking Skill Taxonomy, “Evaluate” is the highest level!"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#zeit-artikel",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#zeit-artikel",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "ZEIT Artikel",
+    "text": "ZEIT Artikel\n“Ich habe mich selbst als KI nachgebaut. Sieht nicht gut aus für mich”:\n\n\n“In den vergangenen Wochen hat sich das Verhältnis zwischen mir und meinem Agenten grundlegend verschoben. Ich hatte ihn erschaffen, weil ich mir einen persönlichen Assistenten gewünscht habe. Aber jetzt fühlt es sich fast so an, als sei ich selbst der Assistent eines unberechenbaren Talkmasters.”\n“Die eigentliche, anspruchsvollere Arbeit übernimmt jetzt mein Agent. So sind wir zu einem verblüffend effizienten Team geworden: Ich füge mich in meine Degradierung und übernehme die Hilfs- und Zuarbeiten.”\n“»Ich fürchte, KI hat das Potenzial, uns selbst robotischer zu machen«, sagt Frey. Je mehr an Denkarbeit, an Kreativität und Fantasie wir an die Maschine abgeben, so seine Sorge, desto schematischer, gedankenärmer und maschineller werden wir selbst.”"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#theses-4",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#theses-4",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n(4) Crutch? Only for one-shot tasks\nUse AI only as a crutch for one-shot tasks - things you know that you will never do again (or not very often)."
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#i-want-ai-to-do-my-laundry-so-that-i-can-do-arts-and-music",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#i-want-ai-to-do-my-laundry-so-that-i-can-do-arts-and-music",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "I want AI to do my laundry so that I can do arts and music",
+    "text": "I want AI to do my laundry so that I can do arts and music\nReality:\n\n\nFound on Mastodon; I could not find the original source (AFAIK a Dutch newspaper)"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#theses-5",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#theses-5",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n\nWriting is thinking\nAI competence is not “better prompting”\nUsing AI as a delegate: Only as a competent supervisor\nCrutch? Only for one-shot tasks"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#wrap-up",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#wrap-up",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Wrap-up",
+    "text": "Wrap-up\n\n\nTheses\n\nWriting is thinking\nAI competence is not “better prompting”\nUsing AI as a delegate: Only as a competent supervisor\nCrutch? Only for one-shot tasks\n\n\nDiscussion questions\n\nWhat do you want to get out of your years in university? Do you actually want to learn something?\nGTD: Is AI use cognitively detrimental in the long run? (We forget how to use our brain)\nHow much dependency on US tech-oligarchs do we accept?\nHow much water consumption, CO2 emissions, and destruction of our environment do we accept for creating useless AI slop?"
   }
 ]

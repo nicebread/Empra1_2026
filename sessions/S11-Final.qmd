@@ -1,0 +1,53 @@
+---
+title: Session 11 - The Grand Final
+number-sections: false
+description: Wrapping it all up. Discussing AI use in university teaching.
+---
+
+## Overview
+
+| Topic                                                           | Duration | Notes                                           |
+| :-------------------------------------------------------------- | :------: | ----------------------------------------------- |
+| Consensus rating new writing assignment                         |    30    |                                                 |
+| Look at some exploratory analyses                               |    20    |                                                 |
+| Wrap-up / Final steps                                           |    10    |                                                 |
+| Open Q&A                                                        |    15    |                                                 |
+| Feedback                                                        |    15    |                                                 |
+| From shortcut to scaffold: AI use for learning, not just output |    90    | [Slides](../slides/AI_teaching/AI_teaching.qmd) |
+
+: {.striped}
+
+## Final steps 
+
+- Upload videos to OSF? --> licence unclear. Define instructor as contact person.
+- Upload data & scripts to OSF? When the data set is complete. Instructor will do it.
+
+## Wrap-up
+
+What have we done?
+
+- Replication crisis & learned how to p-hack
+- Doing a reproducibility check with the original data
+- Doing a direct replication, including participant acquisition and creating a coding manual
+- Actually reading a consent form; enabling open data
+- Writing a preregistration with a good template
+
+Skills:
+
+- File versioning in git
+- Collaboratively working in Github
+- Work in OSF: Projects, open material, preregistration
+- Doing a *realistic* power analysis (divide by 2 approach) 
+- Using formr to create an online study
+- Good coding practices + file organization
+- Writing reproducible, dynamic manuscripts in Quarto
+- Creating a state-of-the-art data dictionary (codebook)
+
+## Course report
+
+- Today's data set version, as uploaded in my [template repository](https://github.com/nicebread/Stellar_Rep_01/) is defined as the final version for your report. (For submitting our data to CREP, we will probably have a larger data set.)
+- Create your individual Github repository with your data analysis. This can be based on my [template](https://github.com/nicebread/Stellar_Rep_01/). 
+  - Can be public or private. If private, invite the instructor as collaborator.
+  - It should contain an individualized README with your contact information.
+  - It should contain one individual (exploratory) analysis, which also is described in the course report.
+  - Link to your repository at the beginning of the Methods section.
