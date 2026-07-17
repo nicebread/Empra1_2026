@@ -2912,109 +2912,487 @@
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
-    "objectID": "sessions/sessions_overview.html",
-    "href": "sessions/sessions_overview.html",
-    "title": "Overview of sessions",
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#section",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#section",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nThreats to credible research; choice of replication target\n\n\n\n\n\n\nSession 02 - Threats part 2, ethics approval, Git\n\n\nContinuing the discussion on threats to credible research; introducing ethics approval; intro to Git.\n\n\n\n\n\n\nSession 03 - Preparing the study material\n\n\nWe follow the steps of CREP and prepare our study material\n\n\n\n\n\n\nSession 04 - Finalize study material\n\n\nWe finalize all study material\n\n\n\n\n\n\nSession 05 - Finalize Study & Prereg\n\n\nWe do the last finetuning of the study; intro to preregistration\n\n\n\n\n\n\nSession 06 - Preregistration 2; Good coding practices\n\n\nWe learn more about preregistration and how to set up a code repository that facilitates reproducibility\n\n\n\n\n\n\nSession 07 - Reproduction of original results\n\n\nWe try to reproduce the original results with the original data set (no code provided). We finalize and submit the preregistration.\n\n\n\n\n\n\nSession 08 - Open Data\n\n\nWe talk about how to publish open data and how to create a codebook.\n\n\n\n\n\n\nSession 09 - Data Analysis & Power Analysis\n\n\nWe review the data preprocessing and agree on a “best practice” version of it. We create coding instructions for free-text answers. We do a proper power analysis based on the original finding. \n\n\n\n\n\n\nSession 10 - How to Hausarbeit\n\n\nThe structure of the final report; apaquarto; confirmatory analyses\n\n\n\n\n\n\nNo matching items"
+    "text": "Image created by ChatGPT"
   },
   {
-    "objectID": "sessions/S8-Open_Data.html",
-    "href": "sessions/S8-Open_Data.html",
-    "title": "Session 08 - Open Data",
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-you-last-ai-usage",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-you-last-ai-usage",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": " You last AI usage",
+    "text": "You last AI usage\nThink about the last time you used generative AI. Write down in bullet points:\n\nWhat was the task you gave?\nWhy did you use AI (instead of doing it yourself)?\nDid you personally learn something through the AI usage? If yes, what?"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#two-extreme-positions",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#two-extreme-positions",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Two extreme positions",
+    "text": "Two extreme positions\n… and a middle ground\n\nFull rejection: “Every AI usage is like plagiarism. AI will first kill your cognitive abilities and down the road kill humanity.”\nFull surrender: “No need to think myself. I have three subscriptions of all major AI providers, they are now doing the work for me.”\nAn intermediate position:\n\nAI will not go away.\nThere are both detrimental misuses and useful applications.\n\n\n\nBut what is a “responsible/functional usage” in the context of university teaching?"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#useful-not-useful",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#useful-not-useful",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Useful / not useful?",
+    "text": "Useful / not useful?\n\n\nQUIZ\n\nYou want to learn Italian for your next holiday. You are using Duolingo, and realize that you can complete the little homework assignments much faster when you paste the task into ChatGPT and copy the result. (And you also get a much better score.)\n\n\nChoose one answer\n\n☐ Useful 👍\n☐ Not useful 🤮"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#a-ai-as-a-crutch",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#a-ai-as-a-crutch",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "(A) “AI as a crutch”",
+    "text": "(A) “AI as a crutch”\nYou delegate tasks which you are not able to do yourself.\nAI improves immediate output and speed, but can reduce learning, transfer, or independent problem-solving.\n➡︎ Performance gains while using the tool, but no personal growth.\n\n\n\n\n\n\nImportant\n\n\nMany AI-related studies do not properly distinguish performance while using the tool and learning gains.\n\n\n\n\nSalomon et al. (1991). Partners in Cognition: Extending Human Intelligence with Intelligent Technologies. Educational Researcher, 20(3), 2–9. https://doi.org/10.3102/0013189X020003002"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#the-ai-crutch",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#the-ai-crutch",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "The AI Crutch",
+    "text": "The AI Crutch\nEven detrimental for your cognitive abilities?\n\nExcessively offloading cognitive tasks to genAI risks reducing active cognitive engagement, which is crucial for deep encoding (thorough integration of knowledge into memory), effective retention (long-term storage) and meaningful transfer\nAI use for argumentative essay writing can foster “metacognitive laziness”\n\nmeta-cognition = independently judge the quality of work, identify areas that need improvement, actively regulate own learning process\n\nReduces intrinsic motivation: The joy of working through a problem and then solving it yourself\nWhen you take the tool away, performance can be worse than when you never had the tool (Bastani et al., 2024)\n\n\nquoted from Yan et al. (2025). Distinguishing performance gains from learning when using generative AI. Nature Reviews Psychology, 4(7), 435–436. https://doi.org/10.1038/s44159-025-00467-5. See also Bastani et al. (2024)"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#zeit-artikel",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#zeit-artikel",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "ZEIT Artikel",
+    "text": "ZEIT Artikel\n“Ich habe mich selbst als KI nachgebaut. Sieht nicht gut aus für mich”:\n\n\n“In den vergangenen Wochen hat sich das Verhältnis zwischen mir und meinem Agenten grundlegend verschoben. Ich hatte ihn erschaffen, weil ich mir einen persönlichen Assistenten gewünscht habe. Aber jetzt fühlt es sich fast so an, als sei ich selbst der Assistent eines unberechenbaren Talkmasters.”\n“Die eigentliche, anspruchsvollere Arbeit übernimmt jetzt mein Agent. So sind wir zu einem verblüffend effizienten Team geworden: Ich füge mich in meine Degradierung und übernehme die Hilfs- und Zuarbeiten.”\n“»Ich fürchte, KI hat das Potenzial, uns selbst robotischer zu machen«, sagt Frey. Je mehr an Denkarbeit, an Kreativität und Fantasie wir an die Maschine abgeben, so seine Sorge, desto schematischer, gedankenärmer und maschineller werden wir selbst.”"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#b-ai-as-a-tool-co-worker",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#b-ai-as-a-tool-co-worker",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "(B) “AI as a tool/ co-worker”",
+    "text": "(B) “AI as a tool/ co-worker”\n\nYou delegate subtasks to AI which you could perform yourself.\nAs a supervisor, you are able to evaluate the quality of the outputs and can redirect the tool\nAI use makes you more efficient"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#b-ai-as-a-tool-co-worker-1",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#b-ai-as-a-tool-co-worker-1",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "(B) “AI as a tool/ co-worker”",
+    "text": "(B) “AI as a tool/ co-worker”\n“Intellektuelle Souvernänität”\n\nIntellektuelle Souveränität ist die Fähigkeit zum freien und selbstbestimmten Handeln in der Wissensaneignung und Wissensproduktion sowie die Fähigkeit, autonom zu denken und Entscheidungen selbst argumentativ zu begründen.\n\n\nWissenschaftsrat (2026): Intellektuelle Souveränität: Empfehlungen für die Hochschulbildung in Zeiten von generativer KI; Köln. https://doi.org/10.57674/1evx-t906"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#c-ai-as-a-tutor-not-solver",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#c-ai-as-a-tutor-not-solver",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "(C) “AI as a tutor, not solver”",
+    "text": "(C) “AI as a tutor, not solver”\nAI provides explanations, feedback, individualized pacing, and reflective support that can improve durable learning (“scaffolding”).\n➡︎ Lasting cognitive benefit after the tool is gone.\n\nSalomon et al. (1991). TED talk Sarkar (2015): How to stop AI from killing your critical thinking"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#the-roles-of-ai-in-statistik-1-seminar",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#the-roles-of-ai-in-statistik-1-seminar",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "The roles of AI in Statistik 1 seminar",
+    "text": "The roles of AI in Statistik 1 seminar\n\nCrutch: You copy and paste the task of the R-Tutorial into 🤖 and paste the answer into your homework sheet. It works, but you have no idea how it works.\nTutor: You first try to complete the task yourself. When you are stuck, you ask 🤖 to help you by guiding you step by step through the process.\nTool: You know how to program in R, and solved the task yourself. Last minute, you want to make the resulting plot very pretty and use 🤖 for styling options."
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-going-back-to-your-own-ai-use",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-going-back-to-your-own-ai-use",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": " Going back to your own AI use",
+    "text": "Going back to your own AI use\nhttps://partici.fi/33173261"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#simple-answers-about-new-technologies",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#simple-answers-about-new-technologies",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Simple Answers about New Technologies",
+    "text": "Simple Answers about New Technologies\n\n\nXKCD 1289 “Simple Answers”. CC-BY NC 2.5"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#theses",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#theses",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n(1) Writing is thinking\n\nNew boss: “You’re good at writing notes.”\nMe: “Thank you, it helps me to remember so I have been writing summaries for many years.”\nNew boss: “You should try CoPilot and see what it can do.”\nMe: “Well I enjoy summarizing my notes, and it helps me to learn and remember.”\nNew boss: “Let me show you something I did in CoPilot.”\nUgh. Writing it myself helps me LEARN and REMEMBER. Why are these AI zombies so intent on changing a process that is helpful to me? Feeding notes through CoPilot won’t benefit me when it’s the act of writing that works for me.\n\n\nNeumann, R. (2026). KI in der Wissenschaft — Die Abkürzung des Denkens? https://www.laborjournal.de/blog/?p=15093; Toot from https://zeroes.ca/@VeeRat"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#theses-1",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#theses-1",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n(2) AI competence is not “better prompting”\n… but rather:\n\ncritical thinking skills\nemotional competency: How can I trust in my own creativity? How can I keep up my intrinsic motivation?\n“Critical Artificial Intelligence Literacies (CAILs) is the collection of ways of thinking about and relating to so-called artificial intelligence (AI).” (Guest et al., 2025)\n\n\nGuest et al. (2025). Towards Critical Artificial Intelligence Literacies. Zenodo. https://doi.org/10.5281/zenodo.17786243"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#theses-2",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#theses-2",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n(3) Using AI as a delegate: Only as a competent supervisor\nYou should be …\n\nable to complete a task yourself and\nhave the knowledge to evaluate someone else’s work.\n\nOnly then you can responsibly use AI to speed up your work. Open question: How much knowledge is enough?"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#theses-3",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#theses-3",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n(3) Using AI as a delegate: Only as a competent supervisor\nNote: According to Bloom’s thinking Skill Taxonomy, “Evaluate” is the highest level!"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#theses-4",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#theses-4",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n(4) Crutch? Only for one-shot tasks\nUse AI only as a crutch for one-shot tasks - things you know that you will never do again (or not very often)."
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#wrap-up",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#wrap-up",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Wrap-up",
+    "text": "Wrap-up\n\n\nTheses\n\nWriting is thinking\nAI competence is not “better prompting”\nUsing AI as a delegate: Only as a competent supervisor\nCrutch? Only for one-shot tasks\n\n\nDiscussion questions\n\nWhat do you want to get out of your years in university? Do you actually want to learn something?\nGTD: Is AI use cognitively detrimental in the long run? (We forget how to use our brain)\nHow much dependency on US tech-oligarchs do we accept?\nHow much water consumption, CO2 emissions, and destruction of our environment do we accept for creating useless AI slop?"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#i-want-ai-to-do-my-laundry-so-that-i-can-do-arts-and-music",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#i-want-ai-to-do-my-laundry-so-that-i-can-do-arts-and-music",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "I want AI to do my laundry so that I can do arts and music",
+    "text": "I want AI to do my laundry so that I can do arts and music\nReality:\n\n\nFound on Mastodon; I could not find the original source (AFAIK a Dutch newspaper)"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#resources",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#resources",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Resources",
+    "text": "Resources\n\n23 TrainingThings for AI-assisted instructional design"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#contact",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#contact",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html",
+    "href": "slides/AI_teaching/AI_teaching.html",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nIntroduction Open Data\n60\nSlides\n\n\nWrap up homework 1: Recommendations RDM\n20\n\n\n\nPresentation: How to create a data dictionary\n15\nSlides\n\n\nIn class: Jointly create codebook for our data set\n45\nGoogle doc\n\n\nStart the analysis / prepare the project folder structure\n??\n\n\n\n\n\n\nYou can also use DataWiz2 for this (see the instructions in the video “- PTOS 9: Introduction to Research Data Management with D-Psy_FAIR”, starting at minute 29:27). In DataWiz2, you only need the sections “2. Upload and describe datasets” and then “5. Export”. You then upload our data set. When exporting, please select “Export as JSON” and in “Include datasets” select all datasets.\n\n\n\n\nPrepare the folder structure as outlined in the “Good coding practice” slides\nAdd our data dictionaries (both the human-readable xlsx or ods or pdf, and the machine-readable json file) to the /doc folder\nAdd the (preliminary) raw data files to the /raw_data folder\nAdd a README file\nTurn the folder into a git repository and sync to Github (as data are anonymous, it can be public)\nCreate a script 01-preprocessing.R and start cleaning the data set. Things to do:\n\nRemove obvious “zombie rows” (i.e., all-NA rows, or rows where participants dropped out at the second question)\nApply the inclusion/exclusion rules of our preregistration. See sections:\n\n“M4 Participant recruitment, selection, and compensation”\n“M5 How will participant drop-out be handled?”\n“M7 Data cleaning and screening”\n“AP1 Criteria for post-data collection exclusion of participants, if any”\n“AP2 Criteria for post-data collection exclusions on trial level (if applicable)”\n\n\nAt the end of the script, you should have a cleaned data set which is ready for data analysis. Save the cleaned data frames as new .csv data files in /processed_data."
+    "text": "Image created by ChatGPT"
   },
   {
-    "objectID": "sessions/S8-Open_Data.html#optional-create-the-codebook-in-datawiz2",
-    "href": "sessions/S8-Open_Data.html#optional-create-the-codebook-in-datawiz2",
-    "title": "Session 08 - Open Data",
+    "objectID": "slides/AI_teaching/AI_teaching.html#section",
+    "href": "slides/AI_teaching/AI_teaching.html#section",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
     "section": "",
-    "text": "You can also use DataWiz2 for this (see the instructions in the video “- PTOS 9: Introduction to Research Data Management with D-Psy_FAIR”, starting at minute 29:27). In DataWiz2, you only need the sections “2. Upload and describe datasets” and then “5. Export”. You then upload our data set. When exporting, please select “Export as JSON” and in “Include datasets” select all datasets."
+    "text": "Image created by ChatGPT"
   },
   {
-    "objectID": "sessions/S8-Open_Data.html#homework-in-groups",
-    "href": "sessions/S8-Open_Data.html#homework-in-groups",
-    "title": "Session 08 - Open Data",
+    "objectID": "slides/AI_teaching/AI_teaching.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-you-last-ai-usage",
+    "href": "slides/AI_teaching/AI_teaching.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-you-last-ai-usage",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": " You last AI usage",
+    "text": "You last AI usage\nThink about the last time you used generative AI. Write down in bullet points:\n\nWhat was the task you gave?\nWhy did you use AI (instead of doing it yourself)?\nDid you personally learn something through the AI usage? If yes, what?"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#two-extreme-positions",
+    "href": "slides/AI_teaching/AI_teaching.html#two-extreme-positions",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Two extreme positions",
+    "text": "Two extreme positions\n\n… and a middle ground\n\n\nFull rejection: “Every AI usage is like plagiarism. AI will first kill your cognitive abilities and down the road kill humanity.”\nFull surrender: “No need to think myself. I have three subscriptions of all major AI providers, they are now doing the work for me.”\nAn intermediate position:\n\nAI will not go away.\nThere are both detrimental misuses and useful applications.\n\n\n\nBut what is a “responsible/functional usage” in the context of university teaching?"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#useful-not-useful",
+    "href": "slides/AI_teaching/AI_teaching.html#useful-not-useful",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Useful / not useful?",
+    "text": "Useful / not useful?\n\n\nQUIZ\n\nYou want to learn Italian for your next holiday. You are using Duolingo, and realize that you can complete the little homework assignments much faster when you paste the task into ChatGPT and copy the result. (And you also get a much better score.)\n\n\nChoose one answer\n\n☐ Useful 👍\n☐ Not useful 🤮"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#a-ai-as-a-crutch",
+    "href": "slides/AI_teaching/AI_teaching.html#a-ai-as-a-crutch",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "(A) “AI as a crutch”",
+    "text": "(A) “AI as a crutch”\nYou delegate tasks which you are not able to do yourself.\nAI improves immediate output and speed, but can reduce learning, transfer, or independent problem-solving.\n➡︎ Performance gains while using the tool, but no personal growth.\n\n\n\n\n\n\nImportant\n\n\n\nMany AI-related studies do not properly distinguish performance while using the tool and learning gains.\n\n\n\nSalomon et al. (1991). Partners in Cognition: Extending Human Intelligence with Intelligent Technologies. Educational Researcher, 20(3), 2–9. https://doi.org/10.3102/0013189X020003002"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#the-ai-crutch",
+    "href": "slides/AI_teaching/AI_teaching.html#the-ai-crutch",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "The AI Crutch",
+    "text": "The AI Crutch\n\nEven detrimental for your cognitive abilities?\n\n\nExcessively offloading cognitive tasks to genAI risks reducing active cognitive engagement, which is crucial for deep encoding (thorough integration of knowledge into memory), effective retention (long-term storage) and meaningful transfer\nAI use for argumentative essay writing can foster “metacognitive laziness”\n\nmeta-cognition = independently judge the quality of work, identify areas that need improvement, actively regulate own learning process\n\nReduces intrinsic motivation: The joy of working through a problem and then solving it yourself\nWhen you take the tool away, performance can be worse than when you never had the tool (Bastani et al., 2024)\n\n\n\nquoted from Yan et al. (2025). Distinguishing performance gains from learning when using generative AI. Nature Reviews Psychology, 4(7), 435–436. https://doi.org/10.1038/s44159-025-00467-5. See also Bastani et al. (2024)"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#zeit-artikel",
+    "href": "slides/AI_teaching/AI_teaching.html#zeit-artikel",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "ZEIT Artikel",
+    "text": "ZEIT Artikel\n\n“Ich habe mich selbst als KI nachgebaut. Sieht nicht gut aus für mich”:\n\n\n“In den vergangenen Wochen hat sich das Verhältnis zwischen mir und meinem Agenten grundlegend verschoben. Ich hatte ihn erschaffen, weil ich mir einen persönlichen Assistenten gewünscht habe. Aber jetzt fühlt es sich fast so an, als sei ich selbst der Assistent eines unberechenbaren Talkmasters.”\n“Die eigentliche, anspruchsvollere Arbeit übernimmt jetzt mein Agent. So sind wir zu einem verblüffend effizienten Team geworden: Ich füge mich in meine Degradierung und übernehme die Hilfs- und Zuarbeiten.”\n“»Ich fürchte, KI hat das Potenzial, uns selbst robotischer zu machen«, sagt Frey. Je mehr an Denkarbeit, an Kreativität und Fantasie wir an die Maschine abgeben, so seine Sorge, desto schematischer, gedankenärmer und maschineller werden wir selbst.”"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#b-ai-as-a-tool-co-worker",
+    "href": "slides/AI_teaching/AI_teaching.html#b-ai-as-a-tool-co-worker",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "(B) “AI as a tool/ co-worker”",
+    "text": "(B) “AI as a tool/ co-worker”\n\nYou delegate subtasks to AI which you could perform yourself.\nAs a supervisor, you are able to evaluate the quality of the outputs and can redirect the tool\nAI use makes you more efficient"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#b-ai-as-a-tool-co-worker-1",
+    "href": "slides/AI_teaching/AI_teaching.html#b-ai-as-a-tool-co-worker-1",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "(B) “AI as a tool/ co-worker”",
+    "text": "(B) “AI as a tool/ co-worker”\n\n“Intellektuelle Souvernänität”\n\nIntellektuelle Souveränität ist die Fähigkeit zum freien und selbstbestimmten Handeln in der Wissensaneignung und Wissensproduktion sowie die Fähigkeit, autonom zu denken und Entscheidungen selbst argumentativ zu begründen.\n\n\nWissenschaftsrat (2026): Intellektuelle Souveränität: Empfehlungen für die Hochschulbildung in Zeiten von generativer KI; Köln. https://doi.org/10.57674/1evx-t906"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#c-ai-as-a-tutor-not-solver",
+    "href": "slides/AI_teaching/AI_teaching.html#c-ai-as-a-tutor-not-solver",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "(C) “AI as a tutor, not solver”",
+    "text": "(C) “AI as a tutor, not solver”\nAI provides explanations, feedback, individualized pacing, and reflective support that can improve durable learning (“scaffolding”).\n➡︎ Lasting cognitive benefit after the tool is gone.\n\nSalomon et al. (1991). TED talk Sarkar (2015): How to stop AI from killing your critical thinking"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#the-roles-of-ai-in-statistik-1-seminar",
+    "href": "slides/AI_teaching/AI_teaching.html#the-roles-of-ai-in-statistik-1-seminar",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "The roles of AI in Statistik 1 seminar",
+    "text": "The roles of AI in Statistik 1 seminar\n\n\nCrutch: You copy and paste the task of the R-Tutorial into 🤖 and paste the answer into your homework sheet. It works, but you have no idea how it works.\nTutor: You first try to complete the task yourself. When you are stuck, you ask 🤖 to help you by guiding you step by step through the process.\nTool: You know how to program in R, and solved the task yourself. Last minute, you want to make the resulting plot very pretty and use 🤖 for styling options."
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-going-back-to-your-own-ai-use",
+    "href": "slides/AI_teaching/AI_teaching.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-going-back-to-your-own-ai-use",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": " Going back to your own AI use",
+    "text": "Going back to your own AI use\nhttps://partici.fi/33173261"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#simple-answers-about-new-technologies",
+    "href": "slides/AI_teaching/AI_teaching.html#simple-answers-about-new-technologies",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Simple Answers about New Technologies",
+    "text": "Simple Answers about New Technologies\n\n\nXKCD 1289 “Simple Answers”. CC-BY NC 2.5"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#theses",
+    "href": "slides/AI_teaching/AI_teaching.html#theses",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n\n(1) Writing is thinking\n\nNew boss: “You’re good at writing notes.”\nMe: “Thank you, it helps me to remember so I have been writing summaries for many years.”\nNew boss: “You should try CoPilot and see what it can do.”\nMe: “Well I enjoy summarizing my notes, and it helps me to learn and remember.”\nNew boss: “Let me show you something I did in CoPilot.”\nUgh. Writing it myself helps me LEARN and REMEMBER. Why are these AI zombies so intent on changing a process that is helpful to me? Feeding notes through CoPilot won’t benefit me when it’s the act of writing that works for me.\n\n\nNeumann, R. (2026). KI in der Wissenschaft — Die Abkürzung des Denkens? https://www.laborjournal.de/blog/?p=15093; Toot from https://zeroes.ca/@VeeRat"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#theses-1",
+    "href": "slides/AI_teaching/AI_teaching.html#theses-1",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n\n(2) AI competence is not “better prompting”\n… but rather:\n\ncritical thinking skills\nemotional competency: How can I trust in my own creativity? How can I keep up my intrinsic motivation?\n“Critical Artificial Intelligence Literacies (CAILs) is the collection of ways of thinking about and relating to so-called artificial intelligence (AI).” (Guest et al., 2025)\n\n\nGuest et al. (2025). Towards Critical Artificial Intelligence Literacies. Zenodo. https://doi.org/10.5281/zenodo.17786243"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#theses-2",
+    "href": "slides/AI_teaching/AI_teaching.html#theses-2",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n\n(3) Using AI as a delegate: Only as a competent supervisor\nYou should be …\n\nable to complete a task yourself and\nhave the knowledge to evaluate someone else’s work.\n\nOnly then you can responsibly use AI to speed up your work. Open question: How much knowledge is enough?"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#theses-3",
+    "href": "slides/AI_teaching/AI_teaching.html#theses-3",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n\n(3) Using AI as a delegate: Only as a competent supervisor\nNote: According to Bloom’s thinking Skill Taxonomy, “Evaluate” is the highest level!"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#theses-4",
+    "href": "slides/AI_teaching/AI_teaching.html#theses-4",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Theses",
+    "text": "Theses\n\n(4) Crutch? Only for one-shot tasks\nUse AI only as a crutch for one-shot tasks - things you know that you will never do again (or not very often)."
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#wrap-up",
+    "href": "slides/AI_teaching/AI_teaching.html#wrap-up",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Wrap-up",
+    "text": "Wrap-up\n\n\nTheses\n\nWriting is thinking\nAI competence is not “better prompting”\nUsing AI as a delegate: Only as a competent supervisor\nCrutch? Only for one-shot tasks\n\n\nDiscussion questions\n\nWhat do you want to get out of your years in university? Do you actually want to learn something?\nGTD: Is AI use cognitively detrimental in the long run? (We forget how to use our brain)\nHow much dependency on US tech-oligarchs do we accept?\nHow much water consumption, CO2 emissions, and destruction of our environment do we accept for creating useless AI slop?"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#i-want-ai-to-do-my-laundry-so-that-i-can-do-arts-and-music",
+    "href": "slides/AI_teaching/AI_teaching.html#i-want-ai-to-do-my-laundry-so-that-i-can-do-arts-and-music",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "I want AI to do my laundry so that I can do arts and music",
+    "text": "I want AI to do my laundry so that I can do arts and music\n\nReality:\n\n\nFound on Mastodon; I could not find the original source (AFAIK a Dutch newspaper)"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#resources",
+    "href": "slides/AI_teaching/AI_teaching.html#resources",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Resources",
+    "text": "Resources\n\n23 TrainingThings for AI-assisted instructional design"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.html#contact",
+    "href": "slides/AI_teaching/AI_teaching.html#contact",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+  },
+  {
+    "objectID": "sessions/S9_Data_analysis.html",
+    "href": "sessions/S9_Data_analysis.html",
+    "title": "Session 09 - Data Analysis & Power Analysis",
     "section": "",
-    "text": "Prepare the folder structure as outlined in the “Good coding practice” slides\nAdd our data dictionaries (both the human-readable xlsx or ods or pdf, and the machine-readable json file) to the /doc folder\nAdd the (preliminary) raw data files to the /raw_data folder\nAdd a README file\nTurn the folder into a git repository and sync to Github (as data are anonymous, it can be public)\nCreate a script 01-preprocessing.R and start cleaning the data set. Things to do:\n\nRemove obvious “zombie rows” (i.e., all-NA rows, or rows where participants dropped out at the second question)\nApply the inclusion/exclusion rules of our preregistration. See sections:\n\n“M4 Participant recruitment, selection, and compensation”\n“M5 How will participant drop-out be handled?”\n“M7 Data cleaning and screening”\n“AP1 Criteria for post-data collection exclusion of participants, if any”\n“AP2 Criteria for post-data collection exclusions on trial level (if applicable)”\n\n\nAt the end of the script, you should have a cleaned data set which is ready for data analysis. Save the cleaned data frames as new .csv data files in /processed_data."
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nDo the preprocessing together\n60\n\n\n\nCreate a codebook for rating strengths and weaknesses\n45\n\n\n\nPower analysis Intro\n45\nSlides\n\n\nHow (not) to report a power analysis\n15\nSlides\n\n\nDo a power analysis in practice\n15"
   },
   {
-    "objectID": "sessions/S6-Good_coding.html",
-    "href": "sessions/S6-Good_coding.html",
-    "title": "Session 06 - Preregistration 2; Good coding practices",
+    "objectID": "sessions/S9_Data_analysis.html#overview",
+    "href": "sessions/S9_Data_analysis.html#overview",
+    "title": "Session 09 - Data Analysis & Power Analysis",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up Homework “Prereg”\n10\nWill discuss in detail with the consensus prereg\n\n\nPrereg Intro\n30\nSlides\n\n\nAdvocatus Diaboli Game\n40\n\n\n\nGood coding practices\n60\nSlides\n\n\nExplain Homework\n20\n\n\n\n\n\n\n\nGroup 1: Create text for SONA and text snippets for social media\nGroup 2: Create visual flyers to share on social media\nGroup 3: Think about channels for recruitment: Social Media, Whatsapp groups, other Empras, friends/family, not just students, how to get more male participants?\n\nDo this in our Google Drive so that you can see the texts/progress of the other groups.\n\n\nSee https://www.oer.psy.lmu.de/R_Tutorial/Teil4_tidyverse.html.\ndplyr is an R package for data manipulation, providing a consistent set of verbs — filter(), select(), mutate(), summarise(), and arrange() — to transform and summarize data frames. It is very convenient to clean and generally preprocess raw data.\n\n\n\n\nSet up the folder structure as explained in the Good Coding Practices presentation (slides 12ff.):\n\n\nCreate all folders, even if they are currently empty. Note: Git does not include empty folders to the repository. If you still want them to show up, add an empty file called .gitkeep to the otherwise empty folder. Files with a name starting with a dot are hidden files that do not show up in the Explorer/Finder (but still are there).\nPlace the raw data file (see Moodle) into the raw_data subfolder (the data files is all you have)\nCreate an R-Studio project in the top level folder\nCreate a file called .gitignore in the root folder, and add a line “*.sav” to it. This tells git to ignore all files with a .sav file extension.\nPut everything under git version control.\nImportant: Really make sure that you do not share the raw data file on GitHub. If you are unsure how to proceed, do not push yet to GitHub; we’ll do it together next session.\n\n\nImport the data in R. Find out from which software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the main analyses of the original paper? What do their values mean?).\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\nThis is an SPSS data file. You can import it as a data frame with:\n# install.packages(\"rio\")\nlibrary(rio)\ndat &lt;- import(\"raw_data/RRBehavioralHumility_Deidentified.sav\")\nIn SPSS data files, meta-data about the variables (i.e., the columns) can be stored in the data file itself. This sometimes functions as an (often incomplete) codebook. When you import the .sav file, these meta-data are stored as so-called attributes of columns in the data frame. You see a preview of them if you print the structure of the data frame with str(dat):\n'data.frame':   104 obs. of  28 variables:\n\n[...]\n\n$ Cond                  : num  0 0 0 0 0 0 1 1 1 1 ...\n  ..- attr(*, \"label\")= chr \"Condition\"\n  ..- attr(*, \"format.spss\")= chr \"F11.0\"\n  ..- attr(*, \"display_width\")= int 11\n  ..- attr(*, \"labels\")= Named num [1:2] 0 1\n  .. ..- attr(*, \"names\")= chr [1:2] \"Control\" \"Awe\"\n\n [...]\n\n $ SelectOut             : num  2 2 2 2 2 2 2 2 2 2 ...\n  ..- attr(*, \"label\")= chr \"1= outlier (&gt;3SD), 2=didn't follow instructions to talk about weaknesses\"\n  ..- attr(*, \"format.spss\")= chr \"F8.2\"\n  ..- attr(*, \"display_width\")= int 15\nSo, the variable $Cond has the label Condition, and the values 0 and 1 are mapped to \"Control\" and \"Awe\".\nYou can directly access the attributes with this R command:\nattr(dat$Cond, which=\"labels\")\n\n\n\n\nGet an overview of the data set with the summarytools package.\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\n# install.packages(\"summarytools\")\nlibrary(summarytools)\nview(dfSummary(dat))\n\n\n\n\nWhen you found out which variables are relevant for us, …\n\n\ncompute some descriptive statistics and compare them to the paper.\nOptionally, try to reproduce the t-test that tested the main hypothesis in the paper\n\nMake a note of any problems and inconsistencies you discover. You can use your new dplyr skills, or stay at base R."
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nDo the preprocessing together\n60\n\n\n\nCreate a codebook for rating strengths and weaknesses\n45\n\n\n\nPower analysis Intro\n45\nSlides\n\n\nHow (not) to report a power analysis\n15\nSlides\n\n\nDo a power analysis in practice\n15"
   },
   {
-    "objectID": "sessions/S6-Good_coding.html#homework-1-in-groups-prepare-participant-recruitment",
-    "href": "sessions/S6-Good_coding.html#homework-1-in-groups-prepare-participant-recruitment",
-    "title": "Session 06 - Preregistration 2; Good coding practices",
+    "objectID": "sessions/S9_Data_analysis.html#general-workflow-of-coding",
+    "href": "sessions/S9_Data_analysis.html#general-workflow-of-coding",
+    "title": "Session 09 - Data Analysis & Power Analysis",
+    "section": "General workflow of coding",
+    "text": "General workflow of coding\n\nGroups (or individuals) do a coding task on their own (as homework or in class)\nIn class, we discuss the approaches and potential problems and agree on a “best practice” version of the coding steps.\n\nThe instructor live-codes a best-practice version and pushes it to a public repository.\nParticipants can keep their own version (if it is functionally equivalent), or pull the joint version into their own script.\nImportantly, at the end all script version should lead to the exactly same result!"
+  },
+  {
+    "objectID": "sessions/S9_Data_analysis.html#coding-instructions-for-counting-the-strengths-and-weaknesses",
+    "href": "sessions/S9_Data_analysis.html#coding-instructions-for-counting-the-strengths-and-weaknesses",
+    "title": "Session 09 - Data Analysis & Power Analysis",
+    "section": "Coding instructions for counting the strengths and weaknesses",
+    "text": "Coding instructions for counting the strengths and weaknesses\nSee Google doc with Coding Instructions.\nTry it out in pairs on the old raw data:\n\nIndependently count strengths and weaknesses, then compare your numbers.\nWhere did you have deviations? What texts are in a grey area?\nMake a suggestion how to improve the codebook so that these ambiguous cases are clearly defined.\n\nWhen finished, convert the Coding Instructions to a PDF, store in the /doc folder, and upload to OSF materials."
+  },
+  {
+    "objectID": "sessions/S9_Data_analysis.html#homework-1-individual-do-the-coding-of-the-so-far-existing-strengths-and-weaknesses",
+    "href": "sessions/S9_Data_analysis.html#homework-1-individual-do-the-coding-of-the-so-far-existing-strengths-and-weaknesses",
+    "title": "Session 09 - Data Analysis & Power Analysis",
+    "section": "Homework 1 (individual): Do the coding of the (so far existing) strengths and weaknesses",
+    "text": "Homework 1 (individual): Do the coding of the (so far existing) strengths and weaknesses\n\nDownload the xlsx file with the strengths and weaknesses data, replace the XX in the file name with your own initials. There is an individual file per rater.\nIn the columns labelled num_strengths_XX and num_weaks_XX, replace XX with your initials (e.g., num_strengths_FS, num_weaks_FS).\nCount the strengths and weaknesses in the texts assigned to you, according to the coding manual. Each text is scored by two coders.\nEnter “0” if no are present.\nDo not communicate with anybody about your ratings! The ratings must be strictly independent in order to compute a valid interrater agreement.\nSend the table back to the instructor via email."
+  },
+  {
+    "objectID": "sessions/S9_Data_analysis.html#homework-2-individual-prepare-your-manuscriptcourse-report",
+    "href": "sessions/S9_Data_analysis.html#homework-2-individual-prepare-your-manuscriptcourse-report",
+    "title": "Session 09 - Data Analysis & Power Analysis",
+    "section": "Homework 2 (individual): Prepare your manuscript/course report",
+    "text": "Homework 2 (individual): Prepare your manuscript/course report\nNote: Most of you work in groups on one project folder. When the course is complete, you will make a personal copy of that folder and continue to work in that (and also submit that at the end).\nAdd your manuscript.qmd file in the top level folder. I suggest directly to use the apaquarto extension and start with their template.\nAs homework, prepare the general structure of a scientific paper. Add all section headings; “Methods”, “Results”, “Discussion” should be Level 1 (with #).\nNext, write the Methods section (see details in next Session Overview).\nWhenever you are tempted to type a specific number, such as …\nThe final sample consisted of 95 participants.\n… don’t do it - you would have to update it with every new data download. Instead use dynamic computations, either with inline computations:\nThe final sample consisted of `r nrow(dat_final)` participants.\nOr use longer R chunks for multiline computations:\n```r\n# This is a longer R chunk\n# The apaquarto extension automatically sets `#| echo: false` \n# so that the code is not shown in the output\n\ndat &lt;- read.csv(\"data.csv\")\n# do some data preprocessing ...\n```\nLook at some of the APA’s sample papers, and read the respective sections in a couple of papers from our literature list.\nSome notes:\n\nThe questionnaire scales were computed as the mean of all items.\nYou do not have to report reliability statistics (you did not learn this yet)."
+  },
+  {
+    "objectID": "sessions/S7-Reproduction.html",
+    "href": "sessions/S7-Reproduction.html",
+    "title": "Session 07 - Reproduction of original results",
     "section": "",
-    "text": "Group 1: Create text for SONA and text snippets for social media\nGroup 2: Create visual flyers to share on social media\nGroup 3: Think about channels for recruitment: Social Media, Whatsapp groups, other Empras, friends/family, not just students, how to get more male participants?\n\nDo this in our Google Drive so that you can see the texts/progress of the other groups.\n\n\nSee https://www.oer.psy.lmu.de/R_Tutorial/Teil4_tidyverse.html.\ndplyr is an R package for data manipulation, providing a consistent set of verbs — filter(), select(), mutate(), summarise(), and arrange() — to transform and summarize data frames. It is very convenient to clean and generally preprocess raw data.\n\n\n\n\nSet up the folder structure as explained in the Good Coding Practices presentation (slides 12ff.):\n\n\nCreate all folders, even if they are currently empty. Note: Git does not include empty folders to the repository. If you still want them to show up, add an empty file called .gitkeep to the otherwise empty folder. Files with a name starting with a dot are hidden files that do not show up in the Explorer/Finder (but still are there).\nPlace the raw data file (see Moodle) into the raw_data subfolder (the data files is all you have)\nCreate an R-Studio project in the top level folder\nCreate a file called .gitignore in the root folder, and add a line “*.sav” to it. This tells git to ignore all files with a .sav file extension.\nPut everything under git version control.\nImportant: Really make sure that you do not share the raw data file on GitHub. If you are unsure how to proceed, do not push yet to GitHub; we’ll do it together next session.\n\n\nImport the data in R. Find out from which software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the main analyses of the original paper? What do their values mean?).\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\nThis is an SPSS data file. You can import it as a data frame with:\n# install.packages(\"rio\")\nlibrary(rio)\ndat &lt;- import(\"raw_data/RRBehavioralHumility_Deidentified.sav\")\nIn SPSS data files, meta-data about the variables (i.e., the columns) can be stored in the data file itself. This sometimes functions as an (often incomplete) codebook. When you import the .sav file, these meta-data are stored as so-called attributes of columns in the data frame. You see a preview of them if you print the structure of the data frame with str(dat):\n'data.frame':   104 obs. of  28 variables:\n\n[...]\n\n$ Cond                  : num  0 0 0 0 0 0 1 1 1 1 ...\n  ..- attr(*, \"label\")= chr \"Condition\"\n  ..- attr(*, \"format.spss\")= chr \"F11.0\"\n  ..- attr(*, \"display_width\")= int 11\n  ..- attr(*, \"labels\")= Named num [1:2] 0 1\n  .. ..- attr(*, \"names\")= chr [1:2] \"Control\" \"Awe\"\n\n [...]\n\n $ SelectOut             : num  2 2 2 2 2 2 2 2 2 2 ...\n  ..- attr(*, \"label\")= chr \"1= outlier (&gt;3SD), 2=didn't follow instructions to talk about weaknesses\"\n  ..- attr(*, \"format.spss\")= chr \"F8.2\"\n  ..- attr(*, \"display_width\")= int 15\nSo, the variable $Cond has the label Condition, and the values 0 and 1 are mapped to \"Control\" and \"Awe\".\nYou can directly access the attributes with this R command:\nattr(dat$Cond, which=\"labels\")\n\n\n\n\nGet an overview of the data set with the summarytools package.\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\n# install.packages(\"summarytools\")\nlibrary(summarytools)\nview(dfSummary(dat))\n\n\n\n\nWhen you found out which variables are relevant for us, …\n\n\ncompute some descriptive statistics and compare them to the paper.\nOptionally, try to reproduce the t-test that tested the main hypothesis in the paper\n\nMake a note of any problems and inconsistencies you discover. You can use your new dplyr skills, or stay at base R."
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nChange the password for formr so that students cannot access raw data before the instructor did an anonymity check."
   },
   {
-    "objectID": "sessions/S4-Finalize_study.html",
-    "href": "sessions/S4-Finalize_study.html",
-    "title": "Session 04 - Finalize study material",
-    "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize formr implementation\n180"
-  },
-  {
-    "objectID": "sessions/S4-Finalize_study.html#overview",
-    "href": "sessions/S4-Finalize_study.html#overview",
-    "title": "Session 04 - Finalize study material",
-    "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize formr implementation\n180"
-  },
-  {
-    "objectID": "sessions/S4-Finalize_study.html#finalize-implementation-parallel-working-groups",
-    "href": "sessions/S4-Finalize_study.html#finalize-implementation-parallel-working-groups",
-    "title": "Session 04 - Finalize study material",
-    "section": "Finalize implementation (parallel working groups)",
-    "text": "Finalize implementation (parallel working groups)\n\nFinalize the material\nCreate the actual formr survey & run. Consider this:\n\nImplement the experimental logic: Randomly show one of the three videos.\n“make sure participants can’t skip past the writing question before the time is up, and then also so that can’t skip past the videos. I also think that the size of the embedded video on the screen could be an important factor in successfully engendering awe, so something to consider.”\nAdvanced wishlist:\n\nCan we trigger a fullscreen view of the video? (The browser probably forbids this)\nDownload the video and store it on the LRZ server (instead of streaming from Youtube).\nCan we measure the actual size of the displayed video (e.g., in pixels), and save it into a formr variable?"
-  },
-  {
-    "objectID": "sessions/S4-Finalize_study.html#homework-1-in-groups",
-    "href": "sessions/S4-Finalize_study.html#homework-1-in-groups",
-    "title": "Session 04 - Finalize study material",
-    "section": "Homework 1 (in groups)",
-    "text": "Homework 1 (in groups)\nFinalize all open tasks for the survey. Write an announcement in the Moodle “Forum”."
-  },
-  {
-    "objectID": "sessions/S4-Finalize_study.html#homework-2-individually",
-    "href": "sessions/S4-Finalize_study.html#homework-2-individually",
-    "title": "Session 04 - Finalize study material",
-    "section": "Homework 2 (individually)",
-    "text": "Homework 2 (individually)\nPlease read “The preregistration revolution” by Nosek et al. (2018). Answer the following questions succintly in Moodle. As always, you can answer in German or English.\n\nQ1: Give a short definition of “prediction” and “postdiction”.\nQ2: What is the problem when pre- and postdiction are not properly distinguished?\nQ3: What is the hindsight bias?\nQ4: Researchers often deviate from their preregistration, losing some of its benefits. Even in case of a major deviation: What advantage does a preregistration still give?\nQ5: Read the challenges and think about which challenge might apply to our own research design. Select one of the challenges, and describe shortly how this applies to our research project, and what might be done about it."
-  },
-  {
-    "objectID": "sessions/S2-Git.html",
-    "href": "sessions/S2-Git.html",
-    "title": "Session 02 - Threats part 2, ethics approval, Git",
-    "section": "",
-    "text": "NoteInstructor notes\n\n\n\n\n\n\nAdd the Moodle task where students submit their p-hacking results."
-  },
-  {
-    "objectID": "sessions/S2-Git.html#overview",
-    "href": "sessions/S2-Git.html#overview",
-    "title": "Session 02 - Threats part 2, ethics approval, Git",
+    "objectID": "sessions/S7-Reproduction.html#overview",
+    "href": "sessions/S7-Reproduction.html#overview",
+    "title": "Session 07 - Reproduction of original results",
     "section": "Overview",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nThreats to credible research lecture, part 2\n100\nSlides\n\n\nBreak\n15\n\n\n\nGit introduction\n60\nSlides"
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nShow FLoRA data base - do you find an existing replication?\n10\n\n\n\nGo through preregistration, submit at OSF; final test of study\n60\n\n\n\nInstructor: Change password in formr\n5\n\n\n\nFinalize advertisement material & SONA; activate at SONA\n30\n\n\n\nDo a reproduction of the original results, combining your skills in Quarto, git, and tidyverse\n60"
   },
   {
-    "objectID": "sessions/S2-Git.html#threats-to-credible-research-lecture---part-2",
-    "href": "sessions/S2-Git.html#threats-to-credible-research-lecture---part-2",
-    "title": "Session 02 - Threats part 2, ethics approval, Git",
-    "section": "Threats to credible research lecture - part 2",
-    "text": "Threats to credible research lecture - part 2\nJoin the live survey: https://partici.fi/33173261"
+    "objectID": "sessions/S7-Reproduction.html#homework-1",
+    "href": "sessions/S7-Reproduction.html#homework-1",
+    "title": "Session 07 - Reproduction of original results",
+    "section": "Homework 1",
+    "text": "Homework 1\n\nFind participants:\n\nTarget: n = 150 analyzable participants.\nStellar et al. had 17% dropout, so we should aim for n=180.\n180/12 = 15 per Empra participant.\n\n(ongoing task for the next weeks): Monitor the email address."
   },
   {
-    "objectID": "sessions/S2-Git.html#homework-for-the-next-two-weeks",
-    "href": "sessions/S2-Git.html#homework-for-the-next-two-weeks",
-    "title": "Session 02 - Threats part 2, ethics approval, Git",
-    "section": "Homework for the next two weeks",
-    "text": "Homework for the next two weeks\n\nHomework 1 (individual): Practice p-hacking\n🔗 P-Hacker App\nTask: Hack at least 5 studies towards significance with \\(\\alpha = .05\\) (keep the true effect at 0). Whenever you achieved a significant result, click on “Save” in the results table to store your result in the study stack on the right side. Once you achieved 5 significant studies, copy and paste the study stack into a text document.\nNext, try the same for \\(\\alpha = .005\\) (if it takes too long, there’s no need to achieve 5 significant studies).\nDeliverable: Copy both sets of significant studies (one for \\(\\alpha = .05\\), one for \\(\\alpha = .005\\)) into the textfield in the Moodle task.\n\n\nHomework 2 (individual): Read our target paper\nRead the target paper: Stellar, J. E., Gordon, A., Anderson, C. L., Piff, P. K., McNeil, G. D., & Keltner, D. (2018). Awe and humility. Journal of Personality and Social Psychology, 114(2), 258–269. https://doi.org/10.1037/pspi0000109\nYou can find the PDF in Moodle.\nFocus on the introduction, our target Study 3, and the discussion. Skim the other studies. Then write short replies to these guiding questions:\n\nIn the literature are several definitions of “Humility”, and they assign it to different classes of psychological constructs (e.g., a trait, a state). List at least 4 different classes.\n\n\n\nHow do the authors treat humility conceptually?\n\n\n\nWhat is the definition of “awe”?\n\n\n\nIn Study 3: Compute the effect size (i.e., the standardized mean difference) between the control and the experimental group concerning strength of elicited awe.\n\n\n\nWhich limitations / contraints on generality (see definition CoG) do the authors discuss in the General Discussion?\n\n\n\nBonus question: There is an objective error concerning the sample size in Study 3. Can you spot it?\n\n\nDeliverable:\n\nPlease write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here).\nYou can answer in English or in German.\nMost questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper.\nIf you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\n\n\n\nHomework 3 (individual): Fill out the CREP survey (3 min)\nSee link in Moodle.\n\n\nHomework 4 (individual): Complete the Git tutorial.\nComplete and/or re-do the Git Tutorial. You should be able to initialize a local repository and commit to it, connect it to a remote repository on Github, and push, pull to it. All of these actions are covered in the tutorial.\nDeliverables: Create a Github repository (you can call it whatever you like), push at least least two local commits to it and copy the link to the repo to the Moodle task."
+    "objectID": "sessions/S7-Reproduction.html#homework-2-individually",
+    "href": "sessions/S7-Reproduction.html#homework-2-individually",
+    "title": "Session 07 - Reproduction of original results",
+    "section": "Homework 2 (individually)",
+    "text": "Homework 2 (individually)\nBitte lesen Sie die DGPs-Empfehlungen “Management und Bereitstellung von Forschungsdaten in der Psychologie” (Gollwitzer et al., 2020) und beantworten Sie die folgenden Leitfragen kurz und präzise in Moodle.\n1. Ein Autor veröffentlicht vollständig Mittelwerte und SDs aller Variablen in einer Tabelle im Ergebnisteil. Sind damit die Primärdaten publiziert und der Dokumentationspflicht entsprochen worden? Wenn nein, warum nicht?\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\nNein - das sind nicht die Primärdaten. Hinter einem Mittelwert und SD können sich verschiedenste Rohdaten verbergen, mit Ausreißern, umplausiblen Werten, etc. Manche Reanalysen sind nur mit den Rohdaten möglich.\n\n\n\n2. Nennen Sie drei Beispiele für Metadaten eines Datensatzes.\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\n\nErhebungsdatum/-zeitraum der Daten\nOrt der Erhebung\nLizenz zur Nachnutzung\nKontaktdaten der Ansprechperson, die Auskunft über die Daten(erhebung) geben kann\nZitationsinformationen: Wie soll man diesen Datensatz korrekt zitieren?\nCodebook / Beschreibung der Variablen\nGeldgeber\n\n\n\n\n3. Was sind “personenbezogene Daten”? Ist das Geschlecht und Alter einer Person ein personenbezogenes Datum?\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\nPersonenbezogene Daten sind „alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen“ (Art 4 Zif. 1 DSGVO)\nOb das Geschlecht und Alter einer Person ein personenbezogenes Datum ist, kommt darauf an: Wenn in dem Datensatz noch hinreichend viele andere (z.B. k &gt;= 5) Personen dieses Geschlecht und Alter haben, dann sind diese Daten nicht auf eine konkrete Person rückführbar. Kann man mit dieser Kombination an Daten jedoch eine konkrete Person identifizieren („der einzige 42-jährige Mann, der gerade Psychologie an der LMU studiert“), dann sind sie personenbeziehbar.\n\n\n\n4. Welche dieser Orte sind geeignet als Repositorium für die langfristige Archivierung und Bereitstellung von Daten? Wenn “Nein”, warum nicht?\n\nDie persönliche Webseite der Forscherin an ihrer Universität\nDas “Online Supplemental Material (OSM)” einer wissenschaftlichen Zeitschrift des Elsevier Verlags\nIn einem öffentlichen Projekt des Open Science Frameworks (https://osf.io)\nBei Figshare (https://figshare.com)\nBei Zenodo (https://zenodo.org)\npsychArchives beim ZPID\n\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\n\nDie persönliche Webseite der Forscherin an ihrer Universität: Nein, da nicht persistent; kein doi.\nDas “Online Supplemental Material (OSM)” einer wissenschaftlichen Zeitschrift des Elsevier Verlags: Nein, da hinter paywall; Verlag kann jederzeit den Service einstellen.\nIn einem öffentlichen Projekt des Open Science Frameworks (https://osf.io): Ja (non-profit; hat eine „long-term preservation strategy“). Aber besser einen europäischen/deutschen Service nutzen.\nBei Figshare (https://figshare.com): Jein -&gt; eher Nein: Die Nutzungsbedingung sind zwar aktuell kompatibel mit „open-science-Anforderungen“, das Repositorium ist jedoch kommerziell; Nutzungsbedingungen können sich jederzeit ändern.\nBei Zenodo (https://zenodo.org): Ja (wird bei CERN betrieben, öffentlich finanziert ohne Gewinnerzielungsabsicht).\nAktuell optimal: psychArchives beim ZPID.\n\n\n\n\n5. Beschreiben Sie in jeweils einem Satz die “Datenbereitstellung Typ 1” und die “Datenbereitstellung Typ 2”.\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\n\nDatenbereitstellung Typ 1: „Mit Erscheinen einer Publikation sollen alle Primärdaten sowie die dazugehörigen Metadaten bereitgestellt werden, die zur Reproduktion der publizierten Ergebnisse notwendig sind (unabhängig davon, in welchem Kontext (bspw. drittmittelfinanziertes Forschungsprojekt oder studentische Abschlussarbeit) diese entstanden sind).\nDatenbereitstellung Typ 2: „Gemäß den Empfehlungen der DFG soll der Gesamtdatensatz eines Projekts „unmittelbar nach Abschluss der Forschungen oder nach wenigen Monaten der Öffentlichkeit frei zur Verfügung gestellt werden“. Das beinhaltet auch alle relevanten Daten des Projekts, die zu diesem Zeitpunkt noch nicht Bestandteil einer Publikation sind, einschließlich der entsprechenden Metadaten.\n\n\n\n\n6. Was bedeutet ein “Nutzungsembargo”? Wie lange sollte es maximal sein?\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\n\nDie Daten liegen bereits dokumentiert in einem Repositorium, können aber noch nicht von anderen Forschenden (für alle Zwecke) nachgenutzt werden. D.h., die Datenbereitstellenden haben noch eine zeitlang das exklusive Nachnutzungsrecht.\nDie Freischaltung hängt nicht am Gutdünken der Datenbereitstellenden, sondern wird automatisch vom Repositorium nach Ablauf des Embargos vorgenommen.\nDas Embargo soll nicht länger als 5 Jahre nach Projektabschluss gelten (und es muss immer begründet werden).\n\n\n\n\n7. Welche Zugriffsklassen gelten als “open data“?\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\nZK 0 und ZK 1. Alle restriktiveren Zugriffsklassen sind nicht mehr „open data“."
+  },
+  {
+    "objectID": "sessions/S5-Prereg1.html",
+    "href": "sessions/S5-Prereg1.html",
+    "title": "Session 05 - Finalize Study & Prereg",
+    "section": "",
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nPrint the “Prereg Advocatus Diaboli game cards”"
+  },
+  {
+    "objectID": "sessions/S5-Prereg1.html#overview",
+    "href": "sessions/S5-Prereg1.html#overview",
+    "title": "Session 05 - Finalize Study & Prereg",
+    "section": "Overview",
+    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLast finetuning of study\n45\n\n\n\nForm 4 groups for homework\n10\nA to D, with funny names\n\n\nHomework Instructions\n5"
+  },
+  {
+    "objectID": "sessions/S5-Prereg1.html#last-finetuning-of-study",
+    "href": "sessions/S5-Prereg1.html#last-finetuning-of-study",
+    "title": "Session 05 - Finalize Study & Prereg",
+    "section": "Last finetuning of study",
+    "text": "Last finetuning of study\n(1) Create Video of Procedure\nSee CREP Step 9: Procedure Video.\n(2) Participant management:\n\nCreate shared email address (e.g. at web.de; use a European provider) as primary contact point for study participants. The group will monitor and administer this email address in a rotating way.\nAdd this email address to the formr study.\n\n(3) OSF upload of files:\n\n“Please make sure to clearly identify and document any deviations from the original study (e.g., new measures, different setting, a different category of participants).” –&gt; Create a document DEVIATIONS.md that summarizes all known deviations from the original study in tabular form.\nMove the final formr Google sheet into our joint Google Drive folder; upload the sheet (exported as ods or xlsx file) into our OSF project\nSee See CREP 10-13 for additional steps\nCheck replicability: Would an external researcher be able to run a direct replication (i.e., with the same procedures and materials) just by looking into this OSF repository?"
+  },
+  {
+    "objectID": "sessions/S5-Prereg1.html#homework",
+    "href": "sessions/S5-Prereg1.html#homework",
+    "title": "Session 05 - Finalize Study & Prereg",
+    "section": "Homework",
+    "text": "Homework\nThis is the homework for the next three weeks - distribute it yourself!\n\nHomework 1 (individually): Test the study\nGo through the study as a participant (see study link in GDrive README). Fill in the items properly (we want to have an estimate of the time it needs to fill in all items). In the open text field, write which video you have seen. In the group some should use smartphones, others tablets, other different browsers on desktop/laptop.\n\n\nHomework 2 (in groups): Fill in the preregistration\nFill in the PRP-QUANT preregistration template. For that purpose, create a copy of the template file “PRP_QUANT_Awe_template” in our Google drive (into the same folder), and name it after your group ID (i.e., PRP_QUANT_Awe_A, PRP_QUANT_Awe_B, etc.).\nSome notes:\n\nRemember: We only focus on Study 3 of the original paper.\nAs we do a direct replication, we aim for the same procedure as in the original study (unless there are good reasons to deviate). Explicitly mention where we have (a) planned deviations and (b) where the original instructions were so unclear that we had to fill in the gaps with reasonable assumptions.\nIn some places you will be unsure what to fill in. Try to come up with reasonable guesses; we will create an improved consensus version in the next step.\nIf you absolutely have no clue, write that into the field; we will discuss it in the next session.\nBe concise, no need to write a novel.\nYou do not need to fill in:\n\nT1 to T8\nThe entire section on “Abstract” (A1 to A4)\nI1\n“M3 Sample size, power and precision”: We do this together later\n“AP4 Reliability analysis (if applicable)”: You have not learned how to do this yet.\n\nIn section I3 Hypothesis (H1, H2, …), …\n\n… fill in the hypotheses on the conceptual/theoretical level. The operationalization is then specified in section M12 Measured variables, manipulated variables, covariates.\n… specify the control group (e.g., “X increases compared to what?”)\n\n\nThe learning goal is that engage with the template and understand its components. You do no need to provide perfect answers to each field.\n\n\nHomework 3 (individually): Do the Quarto tutorial\nDo the LMU OSC Quarto Tutorial. Work through sections 1 (“Welcome to Quarto”) and 2 (“Quarto Tutorials”, up to and including the last section “Tutorial: Authoring”). It certainly makes sense to read the short “3. Tips and Comments” section.\n(Note: If you are interested, you can go on with the Advanced Exercises. But we will do the “APA 7 Manuscripts” chapter later together.)\nDeliverable: Now we combine our git skills and the new Quarto skills.\n\nCreate a new Github project, clone it to your local computer.\nWithin the local project, create a Quarto document (with .qmd extension and format: html) that has at least one R chunk with a computation.\nRender it to PDF.\nCommit and push your changes to the remote repository.\nVerify online: Go to the project website on Github and see if the new files appeared.\n\nThis is a challenging combination of tasks. If you don’t manage to do all steps, don’t panic. After reasonable efforts to solve the problems yourself, you can write an email to the instructor (with a specific explanation of the issues you encountered; e.g. the exact error messages), or we solve remaining issues together in the next session."
+  },
+  {
+    "objectID": "sessions/S3-Study_preparation.html",
+    "href": "sessions/S3-Study_preparation.html",
+    "title": "Session 03 - Preparing the study material",
+    "section": "",
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate a shared login for the online survey system"
+  },
+  {
+    "objectID": "sessions/S3-Study_preparation.html#overview",
+    "href": "sessions/S3-Study_preparation.html#overview",
+    "title": "Session 03 - Preparing the study material",
+    "section": "Overview",
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nGit Troubleshooting\n30\n\n\n\nWrap-up Homework: p-hack, target paper\n30\n\n\n\nGroup work: Preparing the study\n45\n\n\n\nHomework: formr\n5"
+  },
+  {
+    "objectID": "sessions/S3-Study_preparation.html#group-work-prepare-the-study",
+    "href": "sessions/S3-Study_preparation.html#group-work-prepare-the-study",
+    "title": "Session 03 - Preparing the study material",
+    "section": "Group work: Prepare the study",
+    "text": "Group work: Prepare the study\nGroup tasks:\n\nPrepare our OSF project (steps 5-8 of the CREP Guide)\nPrepare our study material (see Step 4 of the CREP guide)\n\nTranslate the study material\nSearch for an alternative awe-inducing video and neutral control video.\nWrite an exact “screenplay”: In which order are the instructions, interventions, items presented?\n\nThink about possible extensions, add them to this document"
+  },
+  {
+    "objectID": "sessions/S3-Study_preparation.html#homework-1-complete-any-remaining-tasks-see-above",
+    "href": "sessions/S3-Study_preparation.html#homework-1-complete-any-remaining-tasks-see-above",
+    "title": "Session 03 - Preparing the study material",
+    "section": "Homework 1: Complete any remaining tasks (see above)",
+    "text": "Homework 1: Complete any remaining tasks (see above)"
+  },
+  {
+    "objectID": "sessions/S3-Study_preparation.html#homework-2-learn-formr",
+    "href": "sessions/S3-Study_preparation.html#homework-2-learn-formr",
+    "title": "Session 03 - Preparing the study material",
+    "section": "Homework 2: Learn formr",
+    "text": "Homework 2: Learn formr\nThere are various resources - choose according to your preference:\n\nThe official formr documentation (written)\nA 46 min. video tutorial by Alan Jern (in English)\nA 2h workshop video by Kai Horstmann (in German)\n7 short videos (36 min. total) by Daniela Feistauer (in German)\n\nDeliverables:\n\nLog into the OSC formr platform (use the credentials provided in Moodle), create a new Survey with your name, link a Google sheet with some questions of your choice. Try out different item types.\nSpecial item types: Try to link a Youtube video. Can you make it fullscreen automatically?\nCreate a Run with your name that contains only this survey and a goodbye screen.\n(Optional) Challenge for pros: Try to implement the visible 2-min. timer\n(Optional) Challenge for pros: Can we record the screen size of the participant?"
+  },
+  {
+    "objectID": "sessions/S11-Final.html",
+    "href": "sessions/S11-Final.html",
+    "title": "Session 11 - The Grand Final",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nConsensus rating new writing assignment\n30\n\n\n\nLook at some exploratory analyses\n20\n\n\n\nWrap-up / Final steps\n10\n\n\n\nOpen Q&A\n15\n\n\n\nFeedback\n15\n\n\n\nFrom shortcut to scaffold: AI use for learning, not just output\n90\nSlides"
+  },
+  {
+    "objectID": "sessions/S11-Final.html#overview",
+    "href": "sessions/S11-Final.html#overview",
+    "title": "Session 11 - The Grand Final",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nConsensus rating new writing assignment\n30\n\n\n\nLook at some exploratory analyses\n20\n\n\n\nWrap-up / Final steps\n10\n\n\n\nOpen Q&A\n15\n\n\n\nFeedback\n15\n\n\n\nFrom shortcut to scaffold: AI use for learning, not just output\n90\nSlides"
+  },
+  {
+    "objectID": "sessions/S11-Final.html#final-steps",
+    "href": "sessions/S11-Final.html#final-steps",
+    "title": "Session 11 - The Grand Final",
+    "section": "Final steps",
+    "text": "Final steps\n\nUpload videos to OSF? –&gt; licence unclear. Define instructor as contact person.\nUpload data & scripts to OSF? When the data set is complete. Instructor will do it."
+  },
+  {
+    "objectID": "sessions/S11-Final.html#wrap-up",
+    "href": "sessions/S11-Final.html#wrap-up",
+    "title": "Session 11 - The Grand Final",
+    "section": "Wrap-up",
+    "text": "Wrap-up\nWhat have we done?\n\nReplication crisis & learned how to p-hack\nDoing a reproducibility check with the original data\nDoing a direct replication, including participant acquisition and creating a coding manual\nActually reading a consent form; enabling open data\nWriting a preregistration with a good template\n\nSkills:\n\nFile versioning in git\nCollaboratively working in Github\nWork in OSF: Projects, open material, preregistration\nDoing a realistic power analysis (divide by 2 approach)\nUsing formr to create an online study\nGood coding practices + file organization\nWriting reproducible, dynamic manuscripts in Quarto\nCreating a state-of-the-art data dictionary (codebook)"
+  },
+  {
+    "objectID": "sessions/S11-Final.html#course-report",
+    "href": "sessions/S11-Final.html#course-report",
+    "title": "Session 11 - The Grand Final",
+    "section": "Course report",
+    "text": "Course report\n\nToday’s data set version, as uploaded in my template repository is defined as the final version for your report. (For submitting our data to CREP, we will probably have a larger data set.)\nCreate your individual Github repository with your data analysis. This can be based on my template.\n\nCan be public or private. If private, invite the instructor as collaborator.\nIt should contain an individualized README with your contact information.\nIt should contain one individual (exploratory) analysis, which also is described in the course report.\nLink to your repository at the beginning of the Methods section."
   },
   {
     "objectID": "sessions/S1-Introduction.html",
@@ -3136,137 +3514,109 @@
     "text": "Homework 2 (individual, optional): Prepare one exploratory analysis\nSee our preregistration for our ideas about exploratory analyses. Pick one and implement it in R (e.g., in file 4-exploratory_analyses.R). We can discuss your approaches next session."
   },
   {
-    "objectID": "sessions/S3-Study_preparation.html",
-    "href": "sessions/S3-Study_preparation.html",
-    "title": "Session 03 - Preparing the study material",
+    "objectID": "sessions/S2-Git.html",
+    "href": "sessions/S2-Git.html",
+    "title": "Session 02 - Threats part 2, ethics approval, Git",
     "section": "",
-    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate a shared login for the online survey system"
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nAdd the Moodle task where students submit their p-hacking results."
   },
   {
-    "objectID": "sessions/S3-Study_preparation.html#overview",
-    "href": "sessions/S3-Study_preparation.html#overview",
-    "title": "Session 03 - Preparing the study material",
+    "objectID": "sessions/S2-Git.html#overview",
+    "href": "sessions/S2-Git.html#overview",
+    "title": "Session 02 - Threats part 2, ethics approval, Git",
     "section": "Overview",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nGit Troubleshooting\n30\n\n\n\nWrap-up Homework: p-hack, target paper\n30\n\n\n\nGroup work: Preparing the study\n45\n\n\n\nHomework: formr\n5"
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nThreats to credible research lecture, part 2\n100\nSlides\n\n\nBreak\n15\n\n\n\nGit introduction\n60\nSlides"
   },
   {
-    "objectID": "sessions/S3-Study_preparation.html#group-work-prepare-the-study",
-    "href": "sessions/S3-Study_preparation.html#group-work-prepare-the-study",
-    "title": "Session 03 - Preparing the study material",
-    "section": "Group work: Prepare the study",
-    "text": "Group work: Prepare the study\nGroup tasks:\n\nPrepare our OSF project (steps 5-8 of the CREP Guide)\nPrepare our study material (see Step 4 of the CREP guide)\n\nTranslate the study material\nSearch for an alternative awe-inducing video and neutral control video.\nWrite an exact “screenplay”: In which order are the instructions, interventions, items presented?\n\nThink about possible extensions, add them to this document"
+    "objectID": "sessions/S2-Git.html#threats-to-credible-research-lecture---part-2",
+    "href": "sessions/S2-Git.html#threats-to-credible-research-lecture---part-2",
+    "title": "Session 02 - Threats part 2, ethics approval, Git",
+    "section": "Threats to credible research lecture - part 2",
+    "text": "Threats to credible research lecture - part 2\nJoin the live survey: https://partici.fi/33173261"
   },
   {
-    "objectID": "sessions/S3-Study_preparation.html#homework-1-complete-any-remaining-tasks-see-above",
-    "href": "sessions/S3-Study_preparation.html#homework-1-complete-any-remaining-tasks-see-above",
-    "title": "Session 03 - Preparing the study material",
-    "section": "Homework 1: Complete any remaining tasks (see above)",
-    "text": "Homework 1: Complete any remaining tasks (see above)"
+    "objectID": "sessions/S2-Git.html#homework-for-the-next-two-weeks",
+    "href": "sessions/S2-Git.html#homework-for-the-next-two-weeks",
+    "title": "Session 02 - Threats part 2, ethics approval, Git",
+    "section": "Homework for the next two weeks",
+    "text": "Homework for the next two weeks\n\nHomework 1 (individual): Practice p-hacking\n🔗 P-Hacker App\nTask: Hack at least 5 studies towards significance with \\(\\alpha = .05\\) (keep the true effect at 0). Whenever you achieved a significant result, click on “Save” in the results table to store your result in the study stack on the right side. Once you achieved 5 significant studies, copy and paste the study stack into a text document.\nNext, try the same for \\(\\alpha = .005\\) (if it takes too long, there’s no need to achieve 5 significant studies).\nDeliverable: Copy both sets of significant studies (one for \\(\\alpha = .05\\), one for \\(\\alpha = .005\\)) into the textfield in the Moodle task.\n\n\nHomework 2 (individual): Read our target paper\nRead the target paper: Stellar, J. E., Gordon, A., Anderson, C. L., Piff, P. K., McNeil, G. D., & Keltner, D. (2018). Awe and humility. Journal of Personality and Social Psychology, 114(2), 258–269. https://doi.org/10.1037/pspi0000109\nYou can find the PDF in Moodle.\nFocus on the introduction, our target Study 3, and the discussion. Skim the other studies. Then write short replies to these guiding questions:\n\nIn the literature are several definitions of “Humility”, and they assign it to different classes of psychological constructs (e.g., a trait, a state). List at least 4 different classes.\n\n\n\nHow do the authors treat humility conceptually?\n\n\n\nWhat is the definition of “awe”?\n\n\n\nIn Study 3: Compute the effect size (i.e., the standardized mean difference) between the control and the experimental group concerning strength of elicited awe.\n\n\n\nWhich limitations / contraints on generality (see definition CoG) do the authors discuss in the General Discussion?\n\n\n\nBonus question: There is an objective error concerning the sample size in Study 3. Can you spot it?\n\n\nDeliverable:\n\nPlease write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here).\nYou can answer in English or in German.\nMost questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper.\nIf you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\n\n\n\nHomework 3 (individual): Fill out the CREP survey (3 min)\nSee link in Moodle.\n\n\nHomework 4 (individual): Complete the Git tutorial.\nComplete and/or re-do the Git Tutorial. You should be able to initialize a local repository and commit to it, connect it to a remote repository on Github, and push, pull to it. All of these actions are covered in the tutorial.\nDeliverables: Create a Github repository (you can call it whatever you like), push at least least two local commits to it and copy the link to the repo to the Moodle task."
   },
   {
-    "objectID": "sessions/S3-Study_preparation.html#homework-2-learn-formr",
-    "href": "sessions/S3-Study_preparation.html#homework-2-learn-formr",
-    "title": "Session 03 - Preparing the study material",
-    "section": "Homework 2: Learn formr",
-    "text": "Homework 2: Learn formr\nThere are various resources - choose according to your preference:\n\nThe official formr documentation (written)\nA 46 min. video tutorial by Alan Jern (in English)\nA 2h workshop video by Kai Horstmann (in German)\n7 short videos (36 min. total) by Daniela Feistauer (in German)\n\nDeliverables:\n\nLog into the OSC formr platform (use the credentials provided in Moodle), create a new Survey with your name, link a Google sheet with some questions of your choice. Try out different item types.\nSpecial item types: Try to link a Youtube video. Can you make it fullscreen automatically?\nCreate a Run with your name that contains only this survey and a goodbye screen.\n(Optional) Challenge for pros: Try to implement the visible 2-min. timer\n(Optional) Challenge for pros: Can we record the screen size of the participant?"
-  },
-  {
-    "objectID": "sessions/S5-Prereg1.html",
-    "href": "sessions/S5-Prereg1.html",
-    "title": "Session 05 - Finalize Study & Prereg",
+    "objectID": "sessions/S4-Finalize_study.html",
+    "href": "sessions/S4-Finalize_study.html",
+    "title": "Session 04 - Finalize study material",
     "section": "",
-    "text": "NoteInstructor notes\n\n\n\n\n\n\nPrint the “Prereg Advocatus Diaboli game cards”"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize formr implementation\n180"
   },
   {
-    "objectID": "sessions/S5-Prereg1.html#overview",
-    "href": "sessions/S5-Prereg1.html#overview",
-    "title": "Session 05 - Finalize Study & Prereg",
-    "section": "Overview",
-    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLast finetuning of study\n45\n\n\n\nForm 4 groups for homework\n10\nA to D, with funny names\n\n\nHomework Instructions\n5"
-  },
-  {
-    "objectID": "sessions/S5-Prereg1.html#last-finetuning-of-study",
-    "href": "sessions/S5-Prereg1.html#last-finetuning-of-study",
-    "title": "Session 05 - Finalize Study & Prereg",
-    "section": "Last finetuning of study",
-    "text": "Last finetuning of study\n(1) Create Video of Procedure\nSee CREP Step 9: Procedure Video.\n(2) Participant management:\n\nCreate shared email address (e.g. at web.de; use a European provider) as primary contact point for study participants. The group will monitor and administer this email address in a rotating way.\nAdd this email address to the formr study.\n\n(3) OSF upload of files:\n\n“Please make sure to clearly identify and document any deviations from the original study (e.g., new measures, different setting, a different category of participants).” –&gt; Create a document DEVIATIONS.md that summarizes all known deviations from the original study in tabular form.\nMove the final formr Google sheet into our joint Google Drive folder; upload the sheet (exported as ods or xlsx file) into our OSF project\nSee See CREP 10-13 for additional steps\nCheck replicability: Would an external researcher be able to run a direct replication (i.e., with the same procedures and materials) just by looking into this OSF repository?"
-  },
-  {
-    "objectID": "sessions/S5-Prereg1.html#homework",
-    "href": "sessions/S5-Prereg1.html#homework",
-    "title": "Session 05 - Finalize Study & Prereg",
-    "section": "Homework",
-    "text": "Homework\nThis is the homework for the next three weeks - distribute it yourself!\n\nHomework 1 (individually): Test the study\nGo through the study as a participant (see study link in GDrive README). Fill in the items properly (we want to have an estimate of the time it needs to fill in all items). In the open text field, write which video you have seen. In the group some should use smartphones, others tablets, other different browsers on desktop/laptop.\n\n\nHomework 2 (in groups): Fill in the preregistration\nFill in the PRP-QUANT preregistration template. For that purpose, create a copy of the template file “PRP_QUANT_Awe_template” in our Google drive (into the same folder), and name it after your group ID (i.e., PRP_QUANT_Awe_A, PRP_QUANT_Awe_B, etc.).\nSome notes:\n\nRemember: We only focus on Study 3 of the original paper.\nAs we do a direct replication, we aim for the same procedure as in the original study (unless there are good reasons to deviate). Explicitly mention where we have (a) planned deviations and (b) where the original instructions were so unclear that we had to fill in the gaps with reasonable assumptions.\nIn some places you will be unsure what to fill in. Try to come up with reasonable guesses; we will create an improved consensus version in the next step.\nIf you absolutely have no clue, write that into the field; we will discuss it in the next session.\nBe concise, no need to write a novel.\nYou do not need to fill in:\n\nT1 to T8\nThe entire section on “Abstract” (A1 to A4)\nI1\n“M3 Sample size, power and precision”: We do this together later\n“AP4 Reliability analysis (if applicable)”: You have not learned how to do this yet.\n\nIn section I3 Hypothesis (H1, H2, …), …\n\n… fill in the hypotheses on the conceptual/theoretical level. The operationalization is then specified in section M12 Measured variables, manipulated variables, covariates.\n… specify the control group (e.g., “X increases compared to what?”)\n\n\nThe learning goal is that engage with the template and understand its components. You do no need to provide perfect answers to each field.\n\n\nHomework 3 (individually): Do the Quarto tutorial\nDo the LMU OSC Quarto Tutorial. Work through sections 1 (“Welcome to Quarto”) and 2 (“Quarto Tutorials”, up to and including the last section “Tutorial: Authoring”). It certainly makes sense to read the short “3. Tips and Comments” section.\n(Note: If you are interested, you can go on with the Advanced Exercises. But we will do the “APA 7 Manuscripts” chapter later together.)\nDeliverable: Now we combine our git skills and the new Quarto skills.\n\nCreate a new Github project, clone it to your local computer.\nWithin the local project, create a Quarto document (with .qmd extension and format: html) that has at least one R chunk with a computation.\nRender it to PDF.\nCommit and push your changes to the remote repository.\nVerify online: Go to the project website on Github and see if the new files appeared.\n\nThis is a challenging combination of tasks. If you don’t manage to do all steps, don’t panic. After reasonable efforts to solve the problems yourself, you can write an email to the instructor (with a specific explanation of the issues you encountered; e.g. the exact error messages), or we solve remaining issues together in the next session."
-  },
-  {
-    "objectID": "sessions/S7-Reproduction.html",
-    "href": "sessions/S7-Reproduction.html",
-    "title": "Session 07 - Reproduction of original results",
+    "objectID": "sessions/S4-Finalize_study.html#overview",
+    "href": "sessions/S4-Finalize_study.html#overview",
+    "title": "Session 04 - Finalize study material",
     "section": "",
-    "text": "NoteInstructor notes\n\n\n\n\n\n\nChange the password for formr so that students cannot access raw data before the instructor did an anonymity check."
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize formr implementation\n180"
   },
   {
-    "objectID": "sessions/S7-Reproduction.html#overview",
-    "href": "sessions/S7-Reproduction.html#overview",
-    "title": "Session 07 - Reproduction of original results",
-    "section": "Overview",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nShow FLoRA data base - do you find an existing replication?\n10\n\n\n\nGo through preregistration, submit at OSF; final test of study\n60\n\n\n\nInstructor: Change password in formr\n5\n\n\n\nFinalize advertisement material & SONA; activate at SONA\n30\n\n\n\nDo a reproduction of the original results, combining your skills in Quarto, git, and tidyverse\n60"
+    "objectID": "sessions/S4-Finalize_study.html#finalize-implementation-parallel-working-groups",
+    "href": "sessions/S4-Finalize_study.html#finalize-implementation-parallel-working-groups",
+    "title": "Session 04 - Finalize study material",
+    "section": "Finalize implementation (parallel working groups)",
+    "text": "Finalize implementation (parallel working groups)\n\nFinalize the material\nCreate the actual formr survey & run. Consider this:\n\nImplement the experimental logic: Randomly show one of the three videos.\n“make sure participants can’t skip past the writing question before the time is up, and then also so that can’t skip past the videos. I also think that the size of the embedded video on the screen could be an important factor in successfully engendering awe, so something to consider.”\nAdvanced wishlist:\n\nCan we trigger a fullscreen view of the video? (The browser probably forbids this)\nDownload the video and store it on the LRZ server (instead of streaming from Youtube).\nCan we measure the actual size of the displayed video (e.g., in pixels), and save it into a formr variable?"
   },
   {
-    "objectID": "sessions/S7-Reproduction.html#homework-1",
-    "href": "sessions/S7-Reproduction.html#homework-1",
-    "title": "Session 07 - Reproduction of original results",
-    "section": "Homework 1",
-    "text": "Homework 1\n\nFind participants:\n\nTarget: n = 150 analyzable participants.\nStellar et al. had 17% dropout, so we should aim for n=180.\n180/12 = 15 per Empra participant.\n\n(ongoing task for the next weeks): Monitor the email address."
+    "objectID": "sessions/S4-Finalize_study.html#homework-1-in-groups",
+    "href": "sessions/S4-Finalize_study.html#homework-1-in-groups",
+    "title": "Session 04 - Finalize study material",
+    "section": "Homework 1 (in groups)",
+    "text": "Homework 1 (in groups)\nFinalize all open tasks for the survey. Write an announcement in the Moodle “Forum”."
   },
   {
-    "objectID": "sessions/S7-Reproduction.html#homework-2-individually",
-    "href": "sessions/S7-Reproduction.html#homework-2-individually",
-    "title": "Session 07 - Reproduction of original results",
+    "objectID": "sessions/S4-Finalize_study.html#homework-2-individually",
+    "href": "sessions/S4-Finalize_study.html#homework-2-individually",
+    "title": "Session 04 - Finalize study material",
     "section": "Homework 2 (individually)",
-    "text": "Homework 2 (individually)\nBitte lesen Sie die DGPs-Empfehlungen “Management und Bereitstellung von Forschungsdaten in der Psychologie” (Gollwitzer et al., 2020) und beantworten Sie die folgenden Leitfragen kurz und präzise in Moodle.\n1. Ein Autor veröffentlicht vollständig Mittelwerte und SDs aller Variablen in einer Tabelle im Ergebnisteil. Sind damit die Primärdaten publiziert und der Dokumentationspflicht entsprochen worden? Wenn nein, warum nicht?\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\nNein - das sind nicht die Primärdaten. Hinter einem Mittelwert und SD können sich verschiedenste Rohdaten verbergen, mit Ausreißern, umplausiblen Werten, etc. Manche Reanalysen sind nur mit den Rohdaten möglich.\n\n\n\n2. Nennen Sie drei Beispiele für Metadaten eines Datensatzes.\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\n\nErhebungsdatum/-zeitraum der Daten\nOrt der Erhebung\nLizenz zur Nachnutzung\nKontaktdaten der Ansprechperson, die Auskunft über die Daten(erhebung) geben kann\nZitationsinformationen: Wie soll man diesen Datensatz korrekt zitieren?\nCodebook / Beschreibung der Variablen\nGeldgeber\n\n\n\n\n3. Was sind “personenbezogene Daten”? Ist das Geschlecht und Alter einer Person ein personenbezogenes Datum?\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\nPersonenbezogene Daten sind „alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen“ (Art 4 Zif. 1 DSGVO)\nOb das Geschlecht und Alter einer Person ein personenbezogenes Datum ist, kommt darauf an: Wenn in dem Datensatz noch hinreichend viele andere (z.B. k &gt;= 5) Personen dieses Geschlecht und Alter haben, dann sind diese Daten nicht auf eine konkrete Person rückführbar. Kann man mit dieser Kombination an Daten jedoch eine konkrete Person identifizieren („der einzige 42-jährige Mann, der gerade Psychologie an der LMU studiert“), dann sind sie personenbeziehbar.\n\n\n\n4. Welche dieser Orte sind geeignet als Repositorium für die langfristige Archivierung und Bereitstellung von Daten? Wenn “Nein”, warum nicht?\n\nDie persönliche Webseite der Forscherin an ihrer Universität\nDas “Online Supplemental Material (OSM)” einer wissenschaftlichen Zeitschrift des Elsevier Verlags\nIn einem öffentlichen Projekt des Open Science Frameworks (https://osf.io)\nBei Figshare (https://figshare.com)\nBei Zenodo (https://zenodo.org)\npsychArchives beim ZPID\n\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\n\nDie persönliche Webseite der Forscherin an ihrer Universität: Nein, da nicht persistent; kein doi.\nDas “Online Supplemental Material (OSM)” einer wissenschaftlichen Zeitschrift des Elsevier Verlags: Nein, da hinter paywall; Verlag kann jederzeit den Service einstellen.\nIn einem öffentlichen Projekt des Open Science Frameworks (https://osf.io): Ja (non-profit; hat eine „long-term preservation strategy“). Aber besser einen europäischen/deutschen Service nutzen.\nBei Figshare (https://figshare.com): Jein -&gt; eher Nein: Die Nutzungsbedingung sind zwar aktuell kompatibel mit „open-science-Anforderungen“, das Repositorium ist jedoch kommerziell; Nutzungsbedingungen können sich jederzeit ändern.\nBei Zenodo (https://zenodo.org): Ja (wird bei CERN betrieben, öffentlich finanziert ohne Gewinnerzielungsabsicht).\nAktuell optimal: psychArchives beim ZPID.\n\n\n\n\n5. Beschreiben Sie in jeweils einem Satz die “Datenbereitstellung Typ 1” und die “Datenbereitstellung Typ 2”.\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\n\nDatenbereitstellung Typ 1: „Mit Erscheinen einer Publikation sollen alle Primärdaten sowie die dazugehörigen Metadaten bereitgestellt werden, die zur Reproduktion der publizierten Ergebnisse notwendig sind (unabhängig davon, in welchem Kontext (bspw. drittmittelfinanziertes Forschungsprojekt oder studentische Abschlussarbeit) diese entstanden sind).\nDatenbereitstellung Typ 2: „Gemäß den Empfehlungen der DFG soll der Gesamtdatensatz eines Projekts „unmittelbar nach Abschluss der Forschungen oder nach wenigen Monaten der Öffentlichkeit frei zur Verfügung gestellt werden“. Das beinhaltet auch alle relevanten Daten des Projekts, die zu diesem Zeitpunkt noch nicht Bestandteil einer Publikation sind, einschließlich der entsprechenden Metadaten.\n\n\n\n\n6. Was bedeutet ein “Nutzungsembargo”? Wie lange sollte es maximal sein?\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\n\nDie Daten liegen bereits dokumentiert in einem Repositorium, können aber noch nicht von anderen Forschenden (für alle Zwecke) nachgenutzt werden. D.h., die Datenbereitstellenden haben noch eine zeitlang das exklusive Nachnutzungsrecht.\nDie Freischaltung hängt nicht am Gutdünken der Datenbereitstellenden, sondern wird automatisch vom Repositorium nach Ablauf des Embargos vorgenommen.\nDas Embargo soll nicht länger als 5 Jahre nach Projektabschluss gelten (und es muss immer begründet werden).\n\n\n\n\n7. Welche Zugriffsklassen gelten als “open data“?\n\n\n\n\n\n\nNoteAntwort anzeigen\n\n\n\n\n\nZK 0 und ZK 1. Alle restriktiveren Zugriffsklassen sind nicht mehr „open data“."
+    "text": "Homework 2 (individually)\nPlease read “The preregistration revolution” by Nosek et al. (2018). Answer the following questions succintly in Moodle. As always, you can answer in German or English.\n\nQ1: Give a short definition of “prediction” and “postdiction”.\nQ2: What is the problem when pre- and postdiction are not properly distinguished?\nQ3: What is the hindsight bias?\nQ4: Researchers often deviate from their preregistration, losing some of its benefits. Even in case of a major deviation: What advantage does a preregistration still give?\nQ5: Read the challenges and think about which challenge might apply to our own research design. Select one of the challenges, and describe shortly how this applies to our research project, and what might be done about it."
   },
   {
-    "objectID": "sessions/S9_Data_analysis.html",
-    "href": "sessions/S9_Data_analysis.html",
-    "title": "Session 09 - Data Analysis & Power Analysis",
+    "objectID": "sessions/S6-Good_coding.html",
+    "href": "sessions/S6-Good_coding.html",
+    "title": "Session 06 - Preregistration 2; Good coding practices",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nDo the preprocessing together\n60\n\n\n\nCreate a codebook for rating strengths and weaknesses\n45\n\n\n\nPower analysis Intro\n45\nSlides\n\n\nHow (not) to report a power analysis\n15\nSlides\n\n\nDo a power analysis in practice\n15"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up Homework “Prereg”\n10\nWill discuss in detail with the consensus prereg\n\n\nPrereg Intro\n30\nSlides\n\n\nAdvocatus Diaboli Game\n40\n\n\n\nGood coding practices\n60\nSlides\n\n\nExplain Homework\n20\n\n\n\n\n\n\n\nGroup 1: Create text for SONA and text snippets for social media\nGroup 2: Create visual flyers to share on social media\nGroup 3: Think about channels for recruitment: Social Media, Whatsapp groups, other Empras, friends/family, not just students, how to get more male participants?\n\nDo this in our Google Drive so that you can see the texts/progress of the other groups.\n\n\nSee https://www.oer.psy.lmu.de/R_Tutorial/Teil4_tidyverse.html.\ndplyr is an R package for data manipulation, providing a consistent set of verbs — filter(), select(), mutate(), summarise(), and arrange() — to transform and summarize data frames. It is very convenient to clean and generally preprocess raw data.\n\n\n\n\nSet up the folder structure as explained in the Good Coding Practices presentation (slides 12ff.):\n\n\nCreate all folders, even if they are currently empty. Note: Git does not include empty folders to the repository. If you still want them to show up, add an empty file called .gitkeep to the otherwise empty folder. Files with a name starting with a dot are hidden files that do not show up in the Explorer/Finder (but still are there).\nPlace the raw data file (see Moodle) into the raw_data subfolder (the data files is all you have)\nCreate an R-Studio project in the top level folder\nCreate a file called .gitignore in the root folder, and add a line “*.sav” to it. This tells git to ignore all files with a .sav file extension.\nPut everything under git version control.\nImportant: Really make sure that you do not share the raw data file on GitHub. If you are unsure how to proceed, do not push yet to GitHub; we’ll do it together next session.\n\n\nImport the data in R. Find out from which software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the main analyses of the original paper? What do their values mean?).\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\nThis is an SPSS data file. You can import it as a data frame with:\n# install.packages(\"rio\")\nlibrary(rio)\ndat &lt;- import(\"raw_data/RRBehavioralHumility_Deidentified.sav\")\nIn SPSS data files, meta-data about the variables (i.e., the columns) can be stored in the data file itself. This sometimes functions as an (often incomplete) codebook. When you import the .sav file, these meta-data are stored as so-called attributes of columns in the data frame. You see a preview of them if you print the structure of the data frame with str(dat):\n'data.frame':   104 obs. of  28 variables:\n\n[...]\n\n$ Cond                  : num  0 0 0 0 0 0 1 1 1 1 ...\n  ..- attr(*, \"label\")= chr \"Condition\"\n  ..- attr(*, \"format.spss\")= chr \"F11.0\"\n  ..- attr(*, \"display_width\")= int 11\n  ..- attr(*, \"labels\")= Named num [1:2] 0 1\n  .. ..- attr(*, \"names\")= chr [1:2] \"Control\" \"Awe\"\n\n [...]\n\n $ SelectOut             : num  2 2 2 2 2 2 2 2 2 2 ...\n  ..- attr(*, \"label\")= chr \"1= outlier (&gt;3SD), 2=didn't follow instructions to talk about weaknesses\"\n  ..- attr(*, \"format.spss\")= chr \"F8.2\"\n  ..- attr(*, \"display_width\")= int 15\nSo, the variable $Cond has the label Condition, and the values 0 and 1 are mapped to \"Control\" and \"Awe\".\nYou can directly access the attributes with this R command:\nattr(dat$Cond, which=\"labels\")\n\n\n\n\nGet an overview of the data set with the summarytools package.\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\n# install.packages(\"summarytools\")\nlibrary(summarytools)\nview(dfSummary(dat))\n\n\n\n\nWhen you found out which variables are relevant for us, …\n\n\ncompute some descriptive statistics and compare them to the paper.\nOptionally, try to reproduce the t-test that tested the main hypothesis in the paper\n\nMake a note of any problems and inconsistencies you discover. You can use your new dplyr skills, or stay at base R."
   },
   {
-    "objectID": "sessions/S9_Data_analysis.html#overview",
-    "href": "sessions/S9_Data_analysis.html#overview",
-    "title": "Session 09 - Data Analysis & Power Analysis",
+    "objectID": "sessions/S6-Good_coding.html#homework-1-in-groups-prepare-participant-recruitment",
+    "href": "sessions/S6-Good_coding.html#homework-1-in-groups-prepare-participant-recruitment",
+    "title": "Session 06 - Preregistration 2; Good coding practices",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nDo the preprocessing together\n60\n\n\n\nCreate a codebook for rating strengths and weaknesses\n45\n\n\n\nPower analysis Intro\n45\nSlides\n\n\nHow (not) to report a power analysis\n15\nSlides\n\n\nDo a power analysis in practice\n15"
+    "text": "Group 1: Create text for SONA and text snippets for social media\nGroup 2: Create visual flyers to share on social media\nGroup 3: Think about channels for recruitment: Social Media, Whatsapp groups, other Empras, friends/family, not just students, how to get more male participants?\n\nDo this in our Google Drive so that you can see the texts/progress of the other groups.\n\n\nSee https://www.oer.psy.lmu.de/R_Tutorial/Teil4_tidyverse.html.\ndplyr is an R package for data manipulation, providing a consistent set of verbs — filter(), select(), mutate(), summarise(), and arrange() — to transform and summarize data frames. It is very convenient to clean and generally preprocess raw data.\n\n\n\n\nSet up the folder structure as explained in the Good Coding Practices presentation (slides 12ff.):\n\n\nCreate all folders, even if they are currently empty. Note: Git does not include empty folders to the repository. If you still want them to show up, add an empty file called .gitkeep to the otherwise empty folder. Files with a name starting with a dot are hidden files that do not show up in the Explorer/Finder (but still are there).\nPlace the raw data file (see Moodle) into the raw_data subfolder (the data files is all you have)\nCreate an R-Studio project in the top level folder\nCreate a file called .gitignore in the root folder, and add a line “*.sav” to it. This tells git to ignore all files with a .sav file extension.\nPut everything under git version control.\nImportant: Really make sure that you do not share the raw data file on GitHub. If you are unsure how to proceed, do not push yet to GitHub; we’ll do it together next session.\n\n\nImport the data in R. Find out from which software this data file comes and how to import it. Try to understand the variables (which ones do we need to reproduce the main analyses of the original paper? What do their values mean?).\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\nThis is an SPSS data file. You can import it as a data frame with:\n# install.packages(\"rio\")\nlibrary(rio)\ndat &lt;- import(\"raw_data/RRBehavioralHumility_Deidentified.sav\")\nIn SPSS data files, meta-data about the variables (i.e., the columns) can be stored in the data file itself. This sometimes functions as an (often incomplete) codebook. When you import the .sav file, these meta-data are stored as so-called attributes of columns in the data frame. You see a preview of them if you print the structure of the data frame with str(dat):\n'data.frame':   104 obs. of  28 variables:\n\n[...]\n\n$ Cond                  : num  0 0 0 0 0 0 1 1 1 1 ...\n  ..- attr(*, \"label\")= chr \"Condition\"\n  ..- attr(*, \"format.spss\")= chr \"F11.0\"\n  ..- attr(*, \"display_width\")= int 11\n  ..- attr(*, \"labels\")= Named num [1:2] 0 1\n  .. ..- attr(*, \"names\")= chr [1:2] \"Control\" \"Awe\"\n\n [...]\n\n $ SelectOut             : num  2 2 2 2 2 2 2 2 2 2 ...\n  ..- attr(*, \"label\")= chr \"1= outlier (&gt;3SD), 2=didn't follow instructions to talk about weaknesses\"\n  ..- attr(*, \"format.spss\")= chr \"F8.2\"\n  ..- attr(*, \"display_width\")= int 15\nSo, the variable $Cond has the label Condition, and the values 0 and 1 are mapped to \"Control\" and \"Awe\".\nYou can directly access the attributes with this R command:\nattr(dat$Cond, which=\"labels\")\n\n\n\n\nGet an overview of the data set with the summarytools package.\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\n# install.packages(\"summarytools\")\nlibrary(summarytools)\nview(dfSummary(dat))\n\n\n\n\nWhen you found out which variables are relevant for us, …\n\n\ncompute some descriptive statistics and compare them to the paper.\nOptionally, try to reproduce the t-test that tested the main hypothesis in the paper\n\nMake a note of any problems and inconsistencies you discover. You can use your new dplyr skills, or stay at base R."
   },
   {
-    "objectID": "sessions/S9_Data_analysis.html#general-workflow-of-coding",
-    "href": "sessions/S9_Data_analysis.html#general-workflow-of-coding",
-    "title": "Session 09 - Data Analysis & Power Analysis",
-    "section": "General workflow of coding",
-    "text": "General workflow of coding\n\nGroups (or individuals) do a coding task on their own (as homework or in class)\nIn class, we discuss the approaches and potential problems and agree on a “best practice” version of the coding steps.\n\nThe instructor live-codes a best-practice version and pushes it to a public repository.\nParticipants can keep their own version (if it is functionally equivalent), or pull the joint version into their own script.\nImportantly, at the end all script version should lead to the exactly same result!"
+    "objectID": "sessions/S8-Open_Data.html",
+    "href": "sessions/S8-Open_Data.html",
+    "title": "Session 08 - Open Data",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nIntroduction Open Data\n60\nSlides\n\n\nWrap up homework 1: Recommendations RDM\n20\n\n\n\nPresentation: How to create a data dictionary\n15\nSlides\n\n\nIn class: Jointly create codebook for our data set\n45\nGoogle doc\n\n\nStart the analysis / prepare the project folder structure\n??\n\n\n\n\n\n\nYou can also use DataWiz2 for this (see the instructions in the video “- PTOS 9: Introduction to Research Data Management with D-Psy_FAIR”, starting at minute 29:27). In DataWiz2, you only need the sections “2. Upload and describe datasets” and then “5. Export”. You then upload our data set. When exporting, please select “Export as JSON” and in “Include datasets” select all datasets.\n\n\n\n\nPrepare the folder structure as outlined in the “Good coding practice” slides\nAdd our data dictionaries (both the human-readable xlsx or ods or pdf, and the machine-readable json file) to the /doc folder\nAdd the (preliminary) raw data files to the /raw_data folder\nAdd a README file\nTurn the folder into a git repository and sync to Github (as data are anonymous, it can be public)\nCreate a script 01-preprocessing.R and start cleaning the data set. Things to do:\n\nRemove obvious “zombie rows” (i.e., all-NA rows, or rows where participants dropped out at the second question)\nApply the inclusion/exclusion rules of our preregistration. See sections:\n\n“M4 Participant recruitment, selection, and compensation”\n“M5 How will participant drop-out be handled?”\n“M7 Data cleaning and screening”\n“AP1 Criteria for post-data collection exclusion of participants, if any”\n“AP2 Criteria for post-data collection exclusions on trial level (if applicable)”\n\n\nAt the end of the script, you should have a cleaned data set which is ready for data analysis. Save the cleaned data frames as new .csv data files in /processed_data."
   },
   {
-    "objectID": "sessions/S9_Data_analysis.html#coding-instructions-for-counting-the-strengths-and-weaknesses",
-    "href": "sessions/S9_Data_analysis.html#coding-instructions-for-counting-the-strengths-and-weaknesses",
-    "title": "Session 09 - Data Analysis & Power Analysis",
-    "section": "Coding instructions for counting the strengths and weaknesses",
-    "text": "Coding instructions for counting the strengths and weaknesses\nSee Google doc with Coding Instructions.\nTry it out in pairs on the old raw data:\n\nIndependently count strengths and weaknesses, then compare your numbers.\nWhere did you have deviations? What texts are in a grey area?\nMake a suggestion how to improve the codebook so that these ambiguous cases are clearly defined.\n\nWhen finished, convert the Coding Instructions to a PDF, store in the /doc folder, and upload to OSF materials."
+    "objectID": "sessions/S8-Open_Data.html#optional-create-the-codebook-in-datawiz2",
+    "href": "sessions/S8-Open_Data.html#optional-create-the-codebook-in-datawiz2",
+    "title": "Session 08 - Open Data",
+    "section": "",
+    "text": "You can also use DataWiz2 for this (see the instructions in the video “- PTOS 9: Introduction to Research Data Management with D-Psy_FAIR”, starting at minute 29:27). In DataWiz2, you only need the sections “2. Upload and describe datasets” and then “5. Export”. You then upload our data set. When exporting, please select “Export as JSON” and in “Include datasets” select all datasets."
   },
   {
-    "objectID": "sessions/S9_Data_analysis.html#homework-1-individual-do-the-coding-of-the-so-far-existing-strengths-and-weaknesses",
-    "href": "sessions/S9_Data_analysis.html#homework-1-individual-do-the-coding-of-the-so-far-existing-strengths-and-weaknesses",
-    "title": "Session 09 - Data Analysis & Power Analysis",
-    "section": "Homework 1 (individual): Do the coding of the (so far existing) strengths and weaknesses",
-    "text": "Homework 1 (individual): Do the coding of the (so far existing) strengths and weaknesses\n\nDownload the xlsx file with the strengths and weaknesses data, replace the XX in the file name with your own initials. There is an individual file per rater.\nIn the columns labelled num_strengths_XX and num_weaks_XX, replace XX with your initials (e.g., num_strengths_FS, num_weaks_FS).\nCount the strengths and weaknesses in the texts assigned to you, according to the coding manual. Each text is scored by two coders.\nEnter “0” if no are present.\nDo not communicate with anybody about your ratings! The ratings must be strictly independent in order to compute a valid interrater agreement.\nSend the table back to the instructor via email."
+    "objectID": "sessions/S8-Open_Data.html#homework-in-groups",
+    "href": "sessions/S8-Open_Data.html#homework-in-groups",
+    "title": "Session 08 - Open Data",
+    "section": "",
+    "text": "Prepare the folder structure as outlined in the “Good coding practice” slides\nAdd our data dictionaries (both the human-readable xlsx or ods or pdf, and the machine-readable json file) to the /doc folder\nAdd the (preliminary) raw data files to the /raw_data folder\nAdd a README file\nTurn the folder into a git repository and sync to Github (as data are anonymous, it can be public)\nCreate a script 01-preprocessing.R and start cleaning the data set. Things to do:\n\nRemove obvious “zombie rows” (i.e., all-NA rows, or rows where participants dropped out at the second question)\nApply the inclusion/exclusion rules of our preregistration. See sections:\n\n“M4 Participant recruitment, selection, and compensation”\n“M5 How will participant drop-out be handled?”\n“M7 Data cleaning and screening”\n“AP1 Criteria for post-data collection exclusion of participants, if any”\n“AP2 Criteria for post-data collection exclusions on trial level (if applicable)”\n\n\nAt the end of the script, you should have a cleaned data set which is ready for data analysis. Save the cleaned data frames as new .csv data files in /processed_data."
   },
   {
-    "objectID": "sessions/S9_Data_analysis.html#homework-2-individual-prepare-your-manuscriptcourse-report",
-    "href": "sessions/S9_Data_analysis.html#homework-2-individual-prepare-your-manuscriptcourse-report",
-    "title": "Session 09 - Data Analysis & Power Analysis",
-    "section": "Homework 2 (individual): Prepare your manuscript/course report",
-    "text": "Homework 2 (individual): Prepare your manuscript/course report\nNote: Most of you work in groups on one project folder. When the course is complete, you will make a personal copy of that folder and continue to work in that (and also submit that at the end).\nAdd your manuscript.qmd file in the top level folder. I suggest directly to use the apaquarto extension and start with their template.\nAs homework, prepare the general structure of a scientific paper. Add all section headings; “Methods”, “Results”, “Discussion” should be Level 1 (with #).\nNext, write the Methods section (see details in next Session Overview).\nWhenever you are tempted to type a specific number, such as …\nThe final sample consisted of 95 participants.\n… don’t do it - you would have to update it with every new data download. Instead use dynamic computations, either with inline computations:\nThe final sample consisted of `r nrow(dat_final)` participants.\nOr use longer R chunks for multiline computations:\n```r\n# This is a longer R chunk\n# The apaquarto extension automatically sets `#| echo: false` \n# so that the code is not shown in the output\n\ndat &lt;- read.csv(\"data.csv\")\n# do some data preprocessing ...\n```\nLook at some of the APA’s sample papers, and read the respective sections in a couple of papers from our literature list.\nSome notes:\n\nThe questionnaire scales were computed as the mean of all items.\nYou do not have to report reliability statistics (you did not learn this yet)."
+    "objectID": "sessions/sessions_overview.html",
+    "href": "sessions/sessions_overview.html",
+    "title": "Overview of sessions",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nThreats to credible research; choice of replication target\n\n\n\n\n\n\nSession 02 - Threats part 2, ethics approval, Git\n\n\nContinuing the discussion on threats to credible research; introducing ethics approval; intro to Git.\n\n\n\n\n\n\nSession 03 - Preparing the study material\n\n\nWe follow the steps of CREP and prepare our study material\n\n\n\n\n\n\nSession 04 - Finalize study material\n\n\nWe finalize all study material\n\n\n\n\n\n\nSession 05 - Finalize Study & Prereg\n\n\nWe do the last finetuning of the study; intro to preregistration\n\n\n\n\n\n\nSession 06 - Preregistration 2; Good coding practices\n\n\nWe learn more about preregistration and how to set up a code repository that facilitates reproducibility\n\n\n\n\n\n\nSession 07 - Reproduction of original results\n\n\nWe try to reproduce the original results with the original data set (no code provided). We finalize and submit the preregistration.\n\n\n\n\n\n\nSession 08 - Open Data\n\n\nWe talk about how to publish open data and how to create a codebook.\n\n\n\n\n\n\nSession 09 - Data Analysis & Power Analysis\n\n\nWe review the data preprocessing and agree on a “best practice” version of it. We create coding instructions for free-text answers. We do a proper power analysis based on the original finding. \n\n\n\n\n\n\nSession 10 - How to Hausarbeit\n\n\nThe structure of the final report; apaquarto; confirmatory analyses\n\n\n\n\n\n\nSession 11 - The Grand Final\n\n\nWrapping it all up. Discussing AI use in university teaching.\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "slides/Causality/Causality.html#from-correlation-to-causality",
