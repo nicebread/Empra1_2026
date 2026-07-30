@@ -6409,7 +6409,7 @@
     "href": "slides/AI_teaching/AI_teaching.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-you-last-ai-usage",
     "title": "From shortcut to scaffold: AI use for learning, not just output",
     "section": " You last AI usage",
-    "text": "You last AI usage\nThink about the last time you used generative AI. Write down in bullet points:\n\nWhat was the task you gave?\nWhy did you use AI (instead of doing it yourself)?\nDid you personally learn something through the AI usage? If yes, what?"
+    "text": "You last AI usage\nThink about the last time you used generative AI in the university context. Write down in bullet points:\n\nWhat was the task you gave?\nWhy did you use AI (instead of doing it yourself)?\nDid you personally learn something through the AI usage? If yes, what?"
   },
   {
     "objectID": "slides/AI_teaching/AI_teaching.slide.html#a-ai-as-a-crutch",
@@ -6508,5 +6508,19 @@
     "title": "From shortcut to scaffold: AI use for learning, not just output",
     "section": "Wrap-up",
     "text": "Wrap-up\n\n\nTheses\n\nWriting is thinking\nAI competence is not “better prompting”\nUsing AI as a delegate: Only as a competent supervisor\nCrutch? Only for one-shot tasks\n\n\nDiscussion questions\n\nWhat do you want to get out of your years in university? Do you actually want to learn something?\nGTD: Is AI use cognitively detrimental in the long run? (We forget how to use our brain)\nHow much dependency on US tech-oligarchs do we accept?\nHow much water consumption, CO2 emissions, and destruction of our environment do we accept for creating useless AI slop?"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#b-ai-as-a-tool-co-worker-1",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#b-ai-as-a-tool-co-worker-1",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "(B) “AI as a tool/ co-worker”",
+    "text": "(B) “AI as a tool/ co-worker”\n“Intellektuelle Souvernänität”\n\nIntellektuelle Souveränität ist die Fähigkeit zum freien und selbstbestimmten Handeln in der Wissensaneignung und Wissensproduktion sowie die Fähigkeit, autonom zu denken und Entscheidungen selbst argumentativ zu begründen.\n\n\nWissenschaftsrat (2026): Intellektuelle Souveränität: Empfehlungen für die Hochschulbildung in Zeiten von generativer KI; Köln. https://doi.org/10.57674/1evx-t906"
+  },
+  {
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#resources",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#resources",
+    "title": "From shortcut to scaffold: AI use for learning, not just output",
+    "section": "Resources",
+    "text": "Resources\n\n23 TrainingThings for AI-assisted instructional design"
   }
 ]

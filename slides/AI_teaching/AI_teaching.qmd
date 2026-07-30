@@ -25,7 +25,7 @@ Image created by ChatGPT
 
 ## {{< fa people-group size=1x >}} You last AI usage
 
-Think about the last time you used generative AI. Write down in bullet points:
+Think about the last time you used generative AI in the university context. Write down in bullet points:
 
 - What was the task you gave?
 - Why did you use AI (instead of doing it yourself)?
@@ -84,7 +84,7 @@ AI improves immediate output and speed, but can reduce learning, transfer, or in
 ➡︎ Performance gains while using the tool, but no personal growth.
 
 ::: {.callout-important}
-Many AI-related studies do not properly distinguish performance *while using the tool* and learning gains.
+Many AI-related studies do not properly distinguish performance *while using the tool* and learning gains *after the tool is gone*.
 :::
 
 ::: footer
@@ -143,7 +143,8 @@ AI provides explanations, feedback, individualized pacing, and reflective suppor
 Salomon et al. ([1991](https://doi.org/10.3102/0013189X020003002)). TED talk Sarkar (2015): [How to stop AI from killing your critical thinking](https://www.ted.com/talks/advait_sarkar_how_to_stop_ai_from_killing_your_critical_thinking)
 :::
 
-## The roles of AI in Statistik 1 seminar
+## Applied to a real example at LMU
+### The roles of AI in the Statistik 1 seminar
 
 ::: {.incremental}
 - **Crutch**: You copy and paste the task of the R-Tutorial into 🤖 and paste the answer into your homework sheet. It works, but you have no idea how it works.
