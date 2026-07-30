@@ -2923,7 +2923,7 @@
     "href": "slides/AI_teaching/AI_teaching.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-you-last-ai-usage",
     "title": "From shortcut to scaffold: AI use for learning, not just output",
     "section": " You last AI usage",
-    "text": "You last AI usage\nThink about the last time you used generative AI. Write down in bullet points:\n\nWhat was the task you gave?\nWhy did you use AI (instead of doing it yourself)?\nDid you personally learn something through the AI usage? If yes, what?"
+    "text": "You last AI usage\nThink about the last time you used generative AI in the university context. Write down in bullet points:\n\nWhat was the task you gave?\nWhy did you use AI (instead of doing it yourself)?\nDid you personally learn something through the AI usage? If yes, what?"
   },
   {
     "objectID": "slides/AI_teaching/AI_teaching.slide.html#two-extreme-positions",
@@ -2944,7 +2944,7 @@
     "href": "slides/AI_teaching/AI_teaching.slide.html#a-ai-as-a-crutch",
     "title": "From shortcut to scaffold: AI use for learning, not just output",
     "section": "(A) “AI as a crutch”",
-    "text": "(A) “AI as a crutch”\nYou delegate tasks which you are not able to do yourself.\nAI improves immediate output and speed, but can reduce learning, transfer, or independent problem-solving.\n➡︎ Performance gains while using the tool, but no personal growth.\n\n\n\n\n\n\nImportant\n\n\nMany AI-related studies do not properly distinguish performance while using the tool and learning gains.\n\n\n\n\nSalomon et al. (1991). Partners in Cognition: Extending Human Intelligence with Intelligent Technologies. Educational Researcher, 20(3), 2–9. https://doi.org/10.3102/0013189X020003002"
+    "text": "(A) “AI as a crutch”\nYou delegate tasks which you are not able to do yourself.\nAI improves immediate output and speed, but can reduce learning, transfer, or independent problem-solving.\n➡︎ Performance gains while using the tool, but no personal growth.\n\n\n\n\n\n\nImportant\n\n\nMany AI-related studies do not properly distinguish performance while using the tool and learning gains after the tool is gone.\n\n\n\n\nSalomon et al. (1991). Partners in Cognition: Extending Human Intelligence with Intelligent Technologies. Educational Researcher, 20(3), 2–9. https://doi.org/10.3102/0013189X020003002"
   },
   {
     "objectID": "slides/AI_teaching/AI_teaching.slide.html#the-ai-crutch",
@@ -2982,11 +2982,11 @@
     "text": "(C) “AI as a tutor, not solver”\nAI provides explanations, feedback, individualized pacing, and reflective support that can improve durable learning (“scaffolding”).\n➡︎ Lasting cognitive benefit after the tool is gone.\n\nSalomon et al. (1991). TED talk Sarkar (2015): How to stop AI from killing your critical thinking"
   },
   {
-    "objectID": "slides/AI_teaching/AI_teaching.slide.html#the-roles-of-ai-in-statistik-1-seminar",
-    "href": "slides/AI_teaching/AI_teaching.slide.html#the-roles-of-ai-in-statistik-1-seminar",
+    "objectID": "slides/AI_teaching/AI_teaching.slide.html#applied-to-a-real-example-at-lmu",
+    "href": "slides/AI_teaching/AI_teaching.slide.html#applied-to-a-real-example-at-lmu",
     "title": "From shortcut to scaffold: AI use for learning, not just output",
-    "section": "The roles of AI in Statistik 1 seminar",
-    "text": "The roles of AI in Statistik 1 seminar\n\nCrutch: You copy and paste the task of the R-Tutorial into 🤖 and paste the answer into your homework sheet. It works, but you have no idea how it works.\nTutor: You first try to complete the task yourself. When you are stuck, you ask 🤖 to help you by guiding you step by step through the process.\nTool: You know how to program in R, and solved the task yourself. Last minute, you want to make the resulting plot very pretty and use 🤖 for styling options."
+    "section": "Applied to a real example at LMU",
+    "text": "Applied to a real example at LMU\nThe roles of AI in the Statistik 1 seminar\n\nCrutch: You copy and paste the task of the R-Tutorial into 🤖 and paste the answer into your homework sheet. It works, but you have no idea how it works.\nTutor: You first try to complete the task yourself. When you are stuck, you ask 🤖 to help you by guiding you step by step through the process.\nTool: You know how to program in R, and solved the task yourself. Last minute, you want to make the resulting plot very pretty and use 🤖 for styling options."
   },
   {
     "objectID": "slides/AI_teaching/AI_teaching.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-going-back-to-your-own-ai-use",
@@ -3084,7 +3084,7 @@
     "href": "slides/AI_teaching/AI_teaching.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-you-last-ai-usage",
     "title": "From shortcut to scaffold: AI use for learning, not just output",
     "section": " You last AI usage",
-    "text": "You last AI usage\nThink about the last time you used generative AI. Write down in bullet points:\n\nWhat was the task you gave?\nWhy did you use AI (instead of doing it yourself)?\nDid you personally learn something through the AI usage? If yes, what?"
+    "text": "You last AI usage\nThink about the last time you used generative AI in the university context. Write down in bullet points:\n\nWhat was the task you gave?\nWhy did you use AI (instead of doing it yourself)?\nDid you personally learn something through the AI usage? If yes, what?"
   },
   {
     "objectID": "slides/AI_teaching/AI_teaching.html#two-extreme-positions",
@@ -3105,7 +3105,7 @@
     "href": "slides/AI_teaching/AI_teaching.html#a-ai-as-a-crutch",
     "title": "From shortcut to scaffold: AI use for learning, not just output",
     "section": "(A) “AI as a crutch”",
-    "text": "(A) “AI as a crutch”\nYou delegate tasks which you are not able to do yourself.\nAI improves immediate output and speed, but can reduce learning, transfer, or independent problem-solving.\n➡︎ Performance gains while using the tool, but no personal growth.\n\n\n\n\n\n\nImportant\n\n\n\nMany AI-related studies do not properly distinguish performance while using the tool and learning gains.\n\n\n\nSalomon et al. (1991). Partners in Cognition: Extending Human Intelligence with Intelligent Technologies. Educational Researcher, 20(3), 2–9. https://doi.org/10.3102/0013189X020003002"
+    "text": "(A) “AI as a crutch”\nYou delegate tasks which you are not able to do yourself.\nAI improves immediate output and speed, but can reduce learning, transfer, or independent problem-solving.\n➡︎ Performance gains while using the tool, but no personal growth.\n\n\n\n\n\n\nImportant\n\n\n\nMany AI-related studies do not properly distinguish performance while using the tool and learning gains after the tool is gone.\n\n\n\nSalomon et al. (1991). Partners in Cognition: Extending Human Intelligence with Intelligent Technologies. Educational Researcher, 20(3), 2–9. https://doi.org/10.3102/0013189X020003002"
   },
   {
     "objectID": "slides/AI_teaching/AI_teaching.html#the-ai-crutch",
@@ -3143,11 +3143,11 @@
     "text": "(C) “AI as a tutor, not solver”\nAI provides explanations, feedback, individualized pacing, and reflective support that can improve durable learning (“scaffolding”).\n➡︎ Lasting cognitive benefit after the tool is gone.\n\nSalomon et al. (1991). TED talk Sarkar (2015): How to stop AI from killing your critical thinking"
   },
   {
-    "objectID": "slides/AI_teaching/AI_teaching.html#the-roles-of-ai-in-statistik-1-seminar",
-    "href": "slides/AI_teaching/AI_teaching.html#the-roles-of-ai-in-statistik-1-seminar",
+    "objectID": "slides/AI_teaching/AI_teaching.html#applied-to-a-real-example-at-lmu",
+    "href": "slides/AI_teaching/AI_teaching.html#applied-to-a-real-example-at-lmu",
     "title": "From shortcut to scaffold: AI use for learning, not just output",
-    "section": "The roles of AI in Statistik 1 seminar",
-    "text": "The roles of AI in Statistik 1 seminar\n\n\nCrutch: You copy and paste the task of the R-Tutorial into 🤖 and paste the answer into your homework sheet. It works, but you have no idea how it works.\nTutor: You first try to complete the task yourself. When you are stuck, you ask 🤖 to help you by guiding you step by step through the process.\nTool: You know how to program in R, and solved the task yourself. Last minute, you want to make the resulting plot very pretty and use 🤖 for styling options."
+    "section": "Applied to a real example at LMU",
+    "text": "Applied to a real example at LMU\n\nThe roles of AI in the Statistik 1 seminar\n\n\nCrutch: You copy and paste the task of the R-Tutorial into 🤖 and paste the answer into your homework sheet. It works, but you have no idea how it works.\nTutor: You first try to complete the task yourself. When you are stuck, you ask 🤖 to help you by guiding you step by step through the process.\nTool: You know how to program in R, and solved the task yourself. Last minute, you want to make the resulting plot very pretty and use 🤖 for styling options."
   },
   {
     "objectID": "slides/AI_teaching/AI_teaching.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-going-back-to-your-own-ai-use",
@@ -3378,21 +3378,21 @@
     "href": "sessions/S11-Final.html#final-steps",
     "title": "Session 11 - The Grand Final",
     "section": "Final steps",
-    "text": "Final steps\n\nUpload videos to OSF? –&gt; licence unclear. Define instructor as contact person.\nUpload data & scripts to OSF? When the data set is complete. Instructor will do it."
+    "text": "Final steps\n\nUpload videos to OSF? –&gt; licence unclear. Define instructor as contact person.\nUpload data, codebook, & scripts to OSF? When the data set is complete and final texts are coded. Instructor will do it."
   },
   {
     "objectID": "sessions/S11-Final.html#wrap-up",
     "href": "sessions/S11-Final.html#wrap-up",
     "title": "Session 11 - The Grand Final",
     "section": "Wrap-up",
-    "text": "Wrap-up\nWhat have we done?\n\nReplication crisis & learned how to p-hack\nDoing a reproducibility check with the original data\nDoing a direct replication, including participant acquisition and creating a coding manual\nActually reading a consent form; enabling open data\nWriting a preregistration with a good template\n\nSkills:\n\nFile versioning in git\nCollaboratively working in Github\nWork in OSF: Projects, open material, preregistration\nDoing a realistic power analysis (divide by 2 approach)\nUsing formr to create an online study\nGood coding practices + file organization\nWriting reproducible, dynamic manuscripts in Quarto\nCreating a state-of-the-art data dictionary (codebook)"
+    "text": "Wrap-up\nWhat have we done?\n\nReplication crisis & learned how to p-hack\nDoing a reproducibility check with the original data\nDoing a direct replication, including participant acquisition and creating a coding manual\nActually reading a consent form; enabling open data\nWriting a preregistration with a good template\n\nSkills:\n\nFile versioning in git\nCollaboratively working in Github\nWork in OSF: Projects, open material, preregistration\nDoing a realistic power analysis (divide by 2 approach)\nUsing formr to create an online study\nGood coding practices + file and folder organization\nWriting reproducible, dynamic manuscripts in Quarto\nCreating a state-of-the-art data dictionary (codebook)\nPositron preview"
   },
   {
     "objectID": "sessions/S11-Final.html#course-report",
     "href": "sessions/S11-Final.html#course-report",
     "title": "Session 11 - The Grand Final",
     "section": "Course report",
-    "text": "Course report\n\nToday’s data set version, as uploaded in my template repository is defined as the final version for your report. (For submitting our data to CREP, we will probably have a larger data set.)\nCreate your individual Github repository with your data analysis. This can be based on my template.\n\nCan be public or private. If private, invite the instructor as collaborator.\nIt should contain an individualized README with your contact information.\nIt should contain one individual (exploratory) analysis, which also is described in the course report.\nLink to your repository at the beginning of the Methods section."
+    "text": "Course report\n\nToday’s data set version, as uploaded in my template repository is defined as the final version for your report. (For submitting our data to CREP, we will probably have a larger data set.)\nCreate your individual Github repository with your data analysis. This can be based on my template.\n\nCan be public or private. If private, invite the instructor as collaborator.\nIt should contain an individualized README with your contact information.\n\nLink to your repository at the beginning of the Methods section.\n\nIt should contain one individual (exploratory) analysis, which also is described in the course report."
   },
   {
     "objectID": "sessions/S1-Introduction.html",
